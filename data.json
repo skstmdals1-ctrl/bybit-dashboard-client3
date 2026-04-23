@@ -1,15 +1,15 @@
 {
-  "ts": "2026-04-24T05:16:36.401676+09:00",
+  "ts": "2026-04-24T05:19:39.548316+09:00",
   "start_date": "2026-04-24",
   "status": "stopped",
-  "equity": 1000.37,
-  "available": 1000.37,
+  "equity": 1000.28,
+  "available": 1000.28,
   "unrealized": 0.0,
   "daily_pnl": 0,
-  "total_pnl": 0.37,
-  "cum_pct": 0.04,
-  "daily_avg_pct": 0.04,
-  "annual_pct": 15.72,
+  "total_pnl": 0.28,
+  "cum_pct": 0.03,
+  "daily_avg_pct": 0.03,
+  "annual_pct": 11.57,
   "mdd": 0.0,
   "current_dd": -100.0,
   "seed_used": 0,
@@ -20,11 +20,11 @@
   "signals": {
     "AAVEUSDT": {
       "dir": "short",
-      "conf": 0.502
+      "conf": 0.544
     },
     "SUIUSDT": {
-      "dir": "short",
-      "conf": 0.506
+      "dir": "long",
+      "conf": 0.505
     },
     "WLDUSDT": {
       "dir": "long",
@@ -35,18 +35,30 @@
       "conf": 0.614
     },
     "ZECUSDT": {
-      "dir": "long",
-      "conf": 0.667
+      "dir": "short",
+      "conf": 0.63
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.51
+      "conf": 0.566
+    },
+    "PENGUUSDT": {
+      "dir": "short",
+      "conf": 0.567
+    },
+    "ARBUSDT": {
+      "dir": "short",
+      "conf": 0.512
+    },
+    "ENAUSDT": {
+      "dir": "long",
+      "conf": 0.517
     }
   },
   "equity_hist": [
     {
       "t": "2026-04-24",
-      "v": 0.37
+      "v": 0.28
     }
   ],
   "trade_history": [],
