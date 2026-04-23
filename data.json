@@ -1,22 +1,33 @@
 {
-  "ts": "2026-04-24T05:25:47.481385+09:00",
+  "ts": "2026-04-24T05:26:48.667880+09:00",
   "start_date": "2026-04-24",
   "status": "running",
-  "equity": 1000.27,
-  "available": 992.0,
+  "equity": 1000.26,
+  "available": 989.57,
   "unrealized": 0.03,
   "daily_pnl": 0,
-  "total_pnl": 0.27,
+  "total_pnl": 0.26,
   "cum_pct": 0.03,
   "daily_avg_pct": 0.03,
   "annual_pct": 11.57,
   "mdd": 0.0,
   "current_dd": 0.0,
-  "seed_used": 8.26,
-  "seed_used_pct": 0.83,
-  "long_count": 1,
+  "seed_used": 10.7,
+  "seed_used_pct": 1.07,
+  "long_count": 2,
   "short_count": 0,
   "positions": [
+    {
+      "symbol": "TRXUSDT",
+      "side": "LONG",
+      "pnl": -0.0,
+      "pnl_pct": -0.0,
+      "margin": 4.64,
+      "leverage": "10",
+      "tier": "1/9",
+      "entry": 0.329,
+      "mark": 0.329
+    },
     {
       "symbol": "BCHUSDT",
       "side": "LONG",
@@ -36,7 +47,7 @@
     },
     "SUIUSDT": {
       "dir": "long",
-      "conf": 0.505
+      "conf": 0.506
     },
     "WLDUSDT": {
       "dir": "long",
@@ -44,7 +55,7 @@
     },
     "1000PEPEUSDT": {
       "dir": "long",
-      "conf": 0.614
+      "conf": 0.625
     },
     "ZECUSDT": {
       "dir": "short",
@@ -52,7 +63,7 @@
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.566
+      "conf": 0.563
     },
     "PENGUUSDT": {
       "dir": "short",
@@ -68,7 +79,7 @@
     },
     "SOLUSDT": {
       "dir": "long",
-      "conf": 0.701
+      "conf": 0.691
     },
     "BCHUSDT": {
       "dir": "long",
@@ -85,12 +96,40 @@
     "TRXUSDT": {
       "dir": "long",
       "conf": 0.745
+    },
+    "BTCUSDT": {
+      "dir": "short",
+      "conf": 0.576
+    },
+    "BNBUSDT": {
+      "dir": "short",
+      "conf": 0.52
+    },
+    "TAOUSDT": {
+      "dir": "short",
+      "conf": 0.53
+    },
+    "ADAUSDT": {
+      "dir": "short",
+      "conf": 0.547
+    },
+    "LINKUSDT": {
+      "dir": "short",
+      "conf": 0.537
+    },
+    "AVAXUSDT": {
+      "dir": "long",
+      "conf": 0.517
+    },
+    "DOGEUSDT": {
+      "dir": "short",
+      "conf": 0.504
     }
   },
   "equity_hist": [
     {
       "t": "2026-04-24",
-      "v": 0.27
+      "v": 0.26
     }
   ],
   "trade_history": [],
