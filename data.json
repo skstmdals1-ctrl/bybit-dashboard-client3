@@ -1,10 +1,10 @@
 {
-  "ts": "2026-04-24T08:32:16.975651+09:00",
+  "ts": "2026-04-24T08:33:18.051814+09:00",
   "start_date": "2026-04-24",
   "status": "running",
   "equity": 1000.38,
   "available": 948.9,
-  "unrealized": 0.14,
+  "unrealized": 0.08,
   "daily_pnl": 0,
   "total_pnl": 0.38,
   "cum_pct": 0.04,
@@ -20,8 +20,8 @@
     {
       "symbol": "1000PEPEUSDT",
       "side": "LONG",
-      "pnl": 0.06,
-      "pnl_pct": 0.12,
+      "pnl": 0.05,
+      "pnl_pct": 0.1,
       "margin": 6.68,
       "leverage": "8",
       "tier": "3/9",
@@ -31,19 +31,19 @@
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": -0.14,
-      "pnl_pct": -0.33,
-      "margin": 5.94,
+      "pnl": -0.16,
+      "pnl_pct": -0.39,
+      "margin": 5.95,
       "leverage": "7",
       "tier": "3/9",
       "entry": 1.2376,
-      "mark": 1.2417
+      "mark": 1.2424
     },
     {
       "symbol": "TRXUSDT",
       "side": "LONG",
       "pnl": -0.03,
-      "pnl_pct": -0.05,
+      "pnl_pct": -0.06,
       "margin": 4.64,
       "leverage": "10",
       "tier": "2/9",
@@ -53,24 +53,24 @@
     {
       "symbol": "BCHUSDT",
       "side": "LONG",
-      "pnl": 0.18,
-      "pnl_pct": 0.55,
+      "pnl": 0.16,
+      "pnl_pct": 0.5,
       "margin": 3.57,
       "leverage": "9",
       "tier": "2/9",
       "entry": 457.1,
-      "mark": 459.61
+      "mark": 459.4
     },
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 0.1,
-      "pnl_pct": 0.56,
+      "pnl": 0.09,
+      "pnl_pct": 0.54,
       "margin": 2.46,
       "leverage": "7",
       "tier": "2/9",
       "entry": 85.48,
-      "mark": 85.96
+      "mark": 85.94
     },
     {
       "symbol": "ENAUSDT",
@@ -87,7 +87,7 @@
   "signals": {
     "AAVEUSDT": {
       "dir": "short",
-      "conf": 0.542
+      "conf": 0.54
     },
     "SUIUSDT": {
       "dir": "short",
@@ -131,7 +131,7 @@
     },
     "DOTUSDT": {
       "dir": "short",
-      "conf": 0.605
+      "conf": 0.604
     },
     "XRPUSDT": {
       "dir": "short",
