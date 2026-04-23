@@ -1,17 +1,17 @@
 {
-  "ts": "2026-04-24T05:47:12.595126+09:00",
+  "ts": "2026-04-24T05:48:13.762555+09:00",
   "start_date": "2026-04-24",
   "status": "running",
-  "equity": 1000.38,
-  "available": 974.95,
-  "unrealized": 0.15,
+  "equity": 1000.27,
+  "available": 974.84,
+  "unrealized": 0.14,
   "daily_pnl": 0,
-  "total_pnl": 0.38,
-  "cum_pct": 0.04,
-  "daily_avg_pct": 0.04,
-  "annual_pct": 15.72,
+  "total_pnl": 0.27,
+  "cum_pct": 0.03,
+  "daily_avg_pct": 0.03,
+  "annual_pct": 11.57,
   "mdd": -0.0,
-  "current_dd": 0.0,
+  "current_dd": -0.0,
   "seed_used": 25.43,
   "seed_used_pct": 2.54,
   "long_count": 3,
@@ -21,7 +21,7 @@
       "symbol": "TRXUSDT",
       "side": "LONG",
       "pnl": -0.01,
-      "pnl_pct": -0.02,
+      "pnl_pct": -0.03,
       "margin": 4.64,
       "leverage": "10",
       "tier": "2/9",
@@ -31,24 +31,24 @@
     {
       "symbol": "BCHUSDT",
       "side": "LONG",
-      "pnl": 0.1,
-      "pnl_pct": 0.31,
+      "pnl": 0.09,
+      "pnl_pct": 0.28,
       "margin": 3.57,
       "leverage": "9",
       "tier": "2/9",
       "entry": 457.1,
-      "mark": 458.5
+      "mark": 458.36
     },
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
       "pnl": 0.06,
-      "pnl_pct": 0.35,
+      "pnl_pct": 0.36,
       "margin": 2.45,
       "leverage": "7",
       "tier": "2/9",
       "entry": 85.48,
-      "mark": 85.781
+      "mark": 85.79
     }
   ],
   "signals": {
@@ -101,16 +101,16 @@
       "conf": 0.524
     },
     "XRPUSDT": {
-      "dir": "short",
-      "conf": 0.502
+      "dir": "long",
+      "conf": 0.574
     },
     "TRXUSDT": {
       "dir": "long",
-      "conf": 0.696
+      "conf": 0.663
     },
     "BTCUSDT": {
       "dir": "short",
-      "conf": 0.575
+      "conf": 0.576
     },
     "BNBUSDT": {
       "dir": "short",
@@ -140,7 +140,7 @@
   "equity_hist": [
     {
       "t": "2026-04-24",
-      "v": 0.38
+      "v": 0.27
     }
   ],
   "trade_history": [],
