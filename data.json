@@ -1,19 +1,19 @@
 {
-  "ts": "2026-04-24T15:59:35.283077+09:00",
+  "ts": "2026-04-24T16:00:36.620108+09:00",
   "start_date": "2026-04-24",
   "status": "running",
-  "equity": 1002.32,
-  "available": 958.36,
-  "unrealized": -0.27,
+  "equity": 1002.34,
+  "available": 958.39,
+  "unrealized": -0.24,
   "daily_pnl": 2.35,
-  "total_pnl": 2.32,
+  "total_pnl": 2.34,
   "cum_pct": 0.23,
   "daily_avg_pct": 0.23,
   "annual_pct": 131.3,
   "mdd": -0.16,
   "current_dd": -0.04,
-  "seed_used": 43.96,
-  "seed_used_pct": 4.39,
+  "seed_used": 43.95,
+  "seed_used_pct": 4.38,
   "long_count": 4,
   "short_count": 2,
   "positions": [
@@ -32,18 +32,18 @@
       "symbol": "DOTUSDT",
       "side": "SHORT",
       "pnl": 0.44,
-      "pnl_pct": 0.61,
+      "pnl_pct": 0.62,
       "margin": 10.1,
       "leverage": "7",
       "tier": "3/9",
       "entry": 1.2419,
-      "mark": 1.2343
+      "mark": 1.2342
     },
     {
       "symbol": "ENAUSDT",
       "side": "LONG",
-      "pnl": -0.31,
-      "pnl_pct": -0.95,
+      "pnl": -0.3,
+      "pnl_pct": -0.92,
       "margin": 4.05,
       "leverage": "8",
       "tier": "2/11",
@@ -54,12 +54,23 @@
       "symbol": "BCHUSDT",
       "side": "LONG",
       "pnl": -0.08,
-      "pnl_pct": -0.25,
+      "pnl_pct": -0.24,
       "margin": 3.55,
       "leverage": "9",
       "tier": "2/9",
       "entry": 457.1,
-      "mark": 455.94
+      "mark": 456.0
+    },
+    {
+      "symbol": "ZECUSDT",
+      "side": "LONG",
+      "pnl": -0.07,
+      "pnl_pct": -0.22,
+      "margin": 3.42,
+      "leverage": "9",
+      "tier": "2/12",
+      "entry": 343.1467,
+      "mark": 342.39
     },
     {
       "symbol": "SOLUSDT",
@@ -70,18 +81,7 @@
       "leverage": "8",
       "tier": "2/9",
       "entry": 85.64,
-      "mark": 85.373
-    },
-    {
-      "symbol": "ZECUSDT",
-      "side": "LONG",
-      "pnl": -0.08,
-      "pnl_pct": -0.57,
-      "margin": 1.52,
-      "leverage": "9",
-      "tier": "2/12",
-      "entry": 344.68,
-      "mark": 342.71
+      "mark": 85.377
     }
   ],
   "signals": {
@@ -185,7 +185,7 @@
   "equity_hist": [
     {
       "t": "2026-04-24",
-      "v": 2.32
+      "v": 2.34
     }
   ],
   "trade_history": [
