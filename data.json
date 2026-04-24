@@ -1,17 +1,17 @@
 {
-  "ts": "2026-04-24T13:13:28.050896+09:00",
+  "ts": "2026-04-24T13:14:29.179881+09:00",
   "start_date": "2026-04-24",
   "status": "running",
-  "equity": 1000.27,
-  "available": 955.11,
-  "unrealized": 0.01,
+  "equity": 1000.31,
+  "available": 955.14,
+  "unrealized": -0.0,
   "daily_pnl": 0.11,
-  "total_pnl": 0.27,
+  "total_pnl": 0.31,
   "cum_pct": 0.03,
   "daily_avg_pct": 0.03,
   "annual_pct": 11.57,
-  "mdd": -0.09,
-  "current_dd": -0.09,
+  "mdd": -0.1,
+  "current_dd": -0.1,
   "seed_used": 45.17,
   "seed_used_pct": 4.52,
   "long_count": 4,
@@ -20,30 +20,30 @@
     {
       "symbol": "TRXUSDT",
       "side": "LONG",
-      "pnl": -0.03,
-      "pnl_pct": -0.03,
+      "pnl": -0.05,
+      "pnl_pct": -0.05,
       "margin": 10.53,
       "leverage": "10",
       "tier": "2/9",
       "entry": 0.3281,
-      "mark": 0.328
+      "mark": 0.3279
     },
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": 0.29,
-      "pnl_pct": 0.4,
-      "margin": 10.12,
+      "pnl": 0.28,
+      "pnl_pct": 0.39,
+      "margin": 10.13,
       "leverage": "7",
       "tier": "3/9",
       "entry": 1.2419,
-      "mark": 1.2369
+      "mark": 1.237
     },
     {
       "symbol": "1000PEPEUSDT",
       "side": "LONG",
-      "pnl": 0.02,
-      "pnl_pct": 0.03,
+      "pnl": 0.03,
+      "pnl_pct": 0.05,
       "margin": 6.68,
       "leverage": "8",
       "tier": "3/9",
@@ -54,7 +54,7 @@
       "symbol": "ENAUSDT",
       "side": "LONG",
       "pnl": -0.18,
-      "pnl_pct": -0.56,
+      "pnl_pct": -0.55,
       "margin": 4.07,
       "leverage": "8",
       "tier": "2/11",
@@ -64,13 +64,13 @@
     {
       "symbol": "BCHUSDT",
       "side": "LONG",
-      "pnl": -0.08,
-      "pnl_pct": -0.24,
+      "pnl": -0.07,
+      "pnl_pct": -0.23,
       "margin": 3.55,
       "leverage": "9",
       "tier": "2/9",
       "entry": 457.1,
-      "mark": 456.0
+      "mark": 456.04
     }
   ],
   "signals": {
@@ -120,7 +120,7 @@
     },
     "DOTUSDT": {
       "dir": "short",
-      "conf": 0.549
+      "conf": 0.547
     },
     "XRPUSDT": {
       "dir": "short",
@@ -128,7 +128,7 @@
     },
     "TRXUSDT": {
       "dir": "short",
-      "conf": 0.601
+      "conf": 0.606
     },
     "BTCUSDT": {
       "dir": "short",
@@ -164,13 +164,13 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.521
+      "conf": 0.523
     }
   },
   "equity_hist": [
     {
       "t": "2026-04-24",
-      "v": 0.27
+      "v": 0.31
     }
   ],
   "trade_history": [
