@@ -1,9 +1,9 @@
 {
-  "ts": "2026-04-24T11:37:42.250304+09:00",
+  "ts": "2026-04-24T11:38:43.396910+09:00",
   "start_date": "2026-04-24",
   "status": "running",
   "equity": 1000.73,
-  "available": 950.41,
+  "available": 950.43,
   "unrealized": 0.47,
   "daily_pnl": 0.06,
   "total_pnl": 0.73,
@@ -12,27 +12,38 @@
   "annual_pct": 29.1,
   "mdd": -0.06,
   "current_dd": -0.06,
-  "seed_used": 50.32,
+  "seed_used": 50.3,
   "seed_used_pct": 5.03,
   "long_count": 5,
   "short_count": 1,
   "positions": [
     {
+      "symbol": "TRXUSDT",
+      "side": "LONG",
+      "pnl": -0.2,
+      "pnl_pct": -0.19,
+      "margin": 10.51,
+      "leverage": "10",
+      "tier": "2/9",
+      "entry": 0.3281,
+      "mark": 0.3274
+    },
+    {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": -0.27,
-      "pnl_pct": -0.38,
-      "margin": 10.2,
+      "pnl": -0.32,
+      "pnl_pct": -0.45,
+      "margin": 10.21,
       "leverage": "7",
       "tier": "3/9",
       "entry": 1.2419,
-      "mark": 1.2466
+      "mark": 1.2475
     },
     {
       "symbol": "1000PEPEUSDT",
       "side": "LONG",
-      "pnl": 0.58,
-      "pnl_pct": 1.09,
+      "pnl": 0.63,
+      "pnl_pct": 1.17,
       "margin": 6.75,
       "leverage": "8",
       "tier": "3/9",
@@ -40,32 +51,21 @@
       "mark": 0.0039
     },
     {
-      "symbol": "TRXUSDT",
-      "side": "LONG",
-      "pnl": -0.21,
-      "pnl_pct": -0.45,
-      "margin": 4.62,
-      "leverage": "10",
-      "tier": "2/9",
-      "entry": 0.329,
-      "mark": 0.3275
-    },
-    {
       "symbol": "BCHUSDT",
       "side": "LONG",
-      "pnl": 0.18,
-      "pnl_pct": 0.56,
+      "pnl": 0.17,
+      "pnl_pct": 0.54,
       "margin": 3.57,
       "leverage": "9",
       "tier": "2/9",
       "entry": 457.1,
-      "mark": 459.64
+      "mark": 459.55
     },
     {
       "symbol": "ENAUSDT",
       "side": "LONG",
       "pnl": 0.14,
-      "pnl_pct": 0.94,
+      "pnl_pct": 0.93,
       "margin": 1.86,
       "leverage": "8",
       "tier": "2/11",
@@ -75,19 +75,19 @@
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 0.05,
-      "pnl_pct": 0.61,
+      "pnl": 0.06,
+      "pnl_pct": 0.64,
       "margin": 1.23,
       "leverage": "7",
       "tier": "2/9",
       "entry": 85.48,
-      "mark": 86.0
+      "mark": 86.03
     }
   ],
   "signals": {
     "AAVEUSDT": {
       "dir": "short",
-      "conf": 0.503
+      "conf": 0.505
     },
     "SUIUSDT": {
       "dir": "short",
@@ -115,7 +115,7 @@
     },
     "ARBUSDT": {
       "dir": "short",
-      "conf": 0.512
+      "conf": 0.513
     },
     "ENAUSDT": {
       "dir": "short",
