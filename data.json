@@ -1,60 +1,60 @@
 {
-  "ts": "2026-04-24T14:34:58.734059+09:00",
+  "ts": "2026-04-24T14:35:59.800604+09:00",
   "start_date": "2026-04-24",
   "status": "running",
-  "equity": 1000.42,
-  "available": 950.59,
-  "unrealized": -0.17,
-  "daily_pnl": 0.46,
-  "total_pnl": 0.42,
+  "equity": 1000.36,
+  "available": 953.89,
+  "unrealized": -0.22,
+  "daily_pnl": 0.45,
+  "total_pnl": 0.36,
   "cum_pct": 0.04,
   "daily_avg_pct": 0.04,
   "annual_pct": 15.72,
   "mdd": -0.16,
   "current_dd": -0.09,
-  "seed_used": 49.83,
-  "seed_used_pct": 4.98,
-  "long_count": 5,
+  "seed_used": 46.47,
+  "seed_used_pct": 4.65,
+  "long_count": 4,
   "short_count": 1,
   "positions": [
     {
       "symbol": "TRXUSDT",
       "side": "LONG",
-      "pnl": -0.13,
-      "pnl_pct": -0.13,
-      "margin": 10.52,
+      "pnl": -0.17,
+      "pnl_pct": -0.17,
+      "margin": 10.51,
       "leverage": "10",
       "tier": "2/9",
       "entry": 0.3281,
-      "mark": 0.3276
+      "mark": 0.3275
     },
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": 0.07,
-      "pnl_pct": 0.1,
-      "margin": 10.16,
+      "pnl": 0.09,
+      "pnl_pct": 0.12,
+      "margin": 10.15,
       "leverage": "7",
       "tier": "3/9",
       "entry": 1.2419,
-      "mark": 1.2406
+      "mark": 1.2404
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": 0.22,
-      "pnl_pct": 0.33,
-      "margin": 7.53,
+      "pnl": 0.2,
+      "pnl_pct": 0.3,
+      "margin": 7.52,
       "leverage": "9",
       "tier": "4/10",
       "entry": 337.59,
-      "mark": 338.69
+      "mark": 338.6
     },
     {
       "symbol": "ENAUSDT",
       "side": "LONG",
       "pnl": -0.31,
-      "pnl_pct": -0.94,
+      "pnl_pct": -0.95,
       "margin": 4.05,
       "leverage": "8",
       "tier": "2/11",
@@ -70,18 +70,7 @@
       "leverage": "9",
       "tier": "2/9",
       "entry": 457.1,
-      "mark": 456.8
-    },
-    {
-      "symbol": "1000PEPEUSDT",
-      "side": "LONG",
-      "pnl": 0.0,
-      "pnl_pct": 0.01,
-      "margin": 3.34,
-      "leverage": "8",
-      "tier": "3/9",
-      "entry": 0.0038,
-      "mark": 0.0038
+      "mark": 456.77
     }
   ],
   "signals": {
@@ -185,10 +174,17 @@
   "equity_hist": [
     {
       "t": "2026-04-24",
-      "v": 0.42
+      "v": 0.36
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-24 14:35",
+      "symbol": "1000PEPEUSDT",
+      "side": "Buy",
+      "pnl": -0.01,
+      "reason": "2/9"
+    },
     {
       "ts": "2026-04-24 14:25",
       "symbol": "STABLEUSDT",
