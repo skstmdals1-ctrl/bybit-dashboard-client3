@@ -1,18 +1,18 @@
 {
-  "ts": "2026-04-24T12:32:43.068380+09:00",
+  "ts": "2026-04-24T12:33:44.215220+09:00",
   "start_date": "2026-04-24",
   "status": "running",
-  "equity": 1000.45,
-  "available": 955.33,
-  "unrealized": 0.11,
+  "equity": 1000.49,
+  "available": 955.36,
+  "unrealized": 0.18,
   "daily_pnl": 0.11,
-  "total_pnl": 0.45,
-  "cum_pct": 0.04,
-  "daily_avg_pct": 0.04,
-  "annual_pct": 15.72,
-  "mdd": -0.07,
-  "current_dd": -0.07,
-  "seed_used": 45.11,
+  "total_pnl": 0.49,
+  "cum_pct": 0.05,
+  "daily_avg_pct": 0.05,
+  "annual_pct": 20.02,
+  "mdd": -0.09,
+  "current_dd": -0.09,
+  "seed_used": 45.13,
   "seed_used_pct": 4.51,
   "long_count": 4,
   "short_count": 1,
@@ -20,30 +20,30 @@
     {
       "symbol": "TRXUSDT",
       "side": "LONG",
-      "pnl": 0.06,
-      "pnl_pct": 0.06,
+      "pnl": 0.09,
+      "pnl_pct": 0.08,
       "margin": 10.54,
       "leverage": "10",
       "tier": "2/9",
       "entry": 0.3281,
-      "mark": 0.3282
+      "mark": 0.3283
     },
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": 0.54,
-      "pnl_pct": 0.76,
-      "margin": 10.09,
+      "pnl": 0.49,
+      "pnl_pct": 0.69,
+      "margin": 10.1,
       "leverage": "7",
       "tier": "3/9",
       "entry": 1.2419,
-      "mark": 1.2325
+      "mark": 1.2333
     },
     {
       "symbol": "1000PEPEUSDT",
       "side": "LONG",
-      "pnl": -0.21,
-      "pnl_pct": -0.39,
+      "pnl": -0.18,
+      "pnl_pct": -0.33,
       "margin": 6.65,
       "leverage": "8",
       "tier": "3/9",
@@ -53,34 +53,34 @@
     {
       "symbol": "ENAUSDT",
       "side": "LONG",
-      "pnl": -0.26,
-      "pnl_pct": -0.8,
+      "pnl": -0.21,
+      "pnl_pct": -0.64,
       "margin": 4.06,
       "leverage": "8",
       "tier": "2/11",
       "entry": 0.1094,
-      "mark": 0.1085
+      "mark": 0.1087
     },
     {
       "symbol": "BCHUSDT",
       "side": "LONG",
-      "pnl": -0.02,
-      "pnl_pct": -0.08,
+      "pnl": -0.01,
+      "pnl_pct": -0.04,
       "margin": 3.55,
       "leverage": "9",
       "tier": "2/9",
       "entry": 457.1,
-      "mark": 456.75
+      "mark": 456.9
     }
   ],
   "signals": {
     "AAVEUSDT": {
       "dir": "short",
-      "conf": 0.504
+      "conf": 0.506
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.508
+      "conf": 0.509
     },
     "WLDUSDT": {
       "dir": "long",
@@ -100,11 +100,11 @@
     },
     "PENGUUSDT": {
       "dir": "short",
-      "conf": 0.58
+      "conf": 0.579
     },
     "ARBUSDT": {
       "dir": "short",
-      "conf": 0.512
+      "conf": 0.511
     },
     "ENAUSDT": {
       "dir": "short",
@@ -120,11 +120,11 @@
     },
     "DOTUSDT": {
       "dir": "short",
-      "conf": 0.555
+      "conf": 0.554
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.648
+      "conf": 0.649
     },
     "TRXUSDT": {
       "dir": "short",
@@ -170,7 +170,7 @@
   "equity_hist": [
     {
       "t": "2026-04-24",
-      "v": 0.45
+      "v": 0.49
     }
   ],
   "trade_history": [
