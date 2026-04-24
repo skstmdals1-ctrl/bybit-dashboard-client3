@@ -1,20 +1,20 @@
 {
-  "ts": "2026-04-24T19:52:54.692712+09:00",
+  "ts": "2026-04-24T19:53:56.032317+09:00",
   "start_date": "2026-04-24",
   "status": "running",
-  "equity": 1002.27,
-  "available": 924.9,
-  "unrealized": -0.57,
+  "equity": 1002.28,
+  "available": 922.71,
+  "unrealized": -0.56,
   "daily_pnl": 2.71,
-  "total_pnl": 2.27,
+  "total_pnl": 2.28,
   "cum_pct": 0.23,
   "daily_avg_pct": 0.23,
   "annual_pct": 131.3,
   "mdd": -0.16,
   "current_dd": -0.04,
-  "seed_used": 77.37,
-  "seed_used_pct": 7.72,
-  "long_count": 4,
+  "seed_used": 79.57,
+  "seed_used_pct": 7.94,
+  "long_count": 5,
   "short_count": 4,
   "positions": [
     {
@@ -31,30 +31,30 @@
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": -0.08,
-      "pnl_pct": -0.11,
+      "pnl": -0.09,
+      "pnl_pct": -0.12,
       "margin": 10.18,
       "leverage": "7",
       "tier": "4/9",
       "entry": 1.2419,
-      "mark": 1.2433
+      "mark": 1.2434
     },
     {
       "symbol": "BCHUSDT",
       "side": "LONG",
       "pnl": -0.13,
-      "pnl_pct": -0.16,
+      "pnl_pct": -0.17,
       "margin": 8.59,
       "leverage": "9",
       "tier": "2/9",
       "entry": 455.7471,
-      "mark": 455.0
+      "mark": 454.97
     },
     {
       "symbol": "PENGUUSDT",
       "side": "LONG",
-      "pnl": 0.1,
-      "pnl_pct": 0.16,
+      "pnl": 0.13,
+      "pnl_pct": 0.21,
       "margin": 7.93,
       "leverage": "8",
       "tier": "4/11",
@@ -76,23 +76,34 @@
       "symbol": "XRPUSDT",
       "side": "SHORT",
       "pnl": -0.05,
-      "pnl_pct": -0.22,
+      "pnl_pct": -0.24,
       "margin": 3.76,
       "leverage": "6",
       "tier": "2/9",
       "entry": 1.4262,
-      "mark": 1.4294
+      "mark": 1.4296
     },
     {
       "symbol": "1000PEPEUSDT",
       "side": "SHORT",
       "pnl": -0.1,
-      "pnl_pct": -0.38,
+      "pnl_pct": -0.4,
       "margin": 3.67,
       "leverage": "7",
       "tier": "2/9",
       "entry": 0.0038,
       "mark": 0.0038
+    },
+    {
+      "symbol": "ZECUSDT",
+      "side": "LONG",
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "margin": 2.19,
+      "leverage": "8",
+      "tier": "1/10",
+      "entry": 349.71,
+      "mark": 349.72
     },
     {
       "symbol": "SOLUSDT",
@@ -125,7 +136,7 @@
     },
     "ZECUSDT": {
       "dir": "long",
-      "conf": 0.686
+      "conf": 0.677
     },
     "HYPEUSDT": {
       "dir": "long",
@@ -211,7 +222,7 @@
   "equity_hist": [
     {
       "t": "2026-04-24",
-      "v": 2.27
+      "v": 2.28
     }
   ],
   "trade_history": [
