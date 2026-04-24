@@ -1,18 +1,18 @@
 {
-  "ts": "2026-04-24T14:43:07.728390+09:00",
+  "ts": "2026-04-24T14:44:08.885512+09:00",
   "start_date": "2026-04-24",
   "status": "running",
-  "equity": 1001.08,
-  "available": 954.5,
-  "unrealized": 0.48,
+  "equity": 1001.15,
+  "available": 954.56,
+  "unrealized": 0.58,
   "daily_pnl": 0.45,
-  "total_pnl": 1.08,
+  "total_pnl": 1.15,
   "cum_pct": 0.11,
   "daily_avg_pct": 0.11,
   "annual_pct": 49.37,
   "mdd": -0.16,
-  "current_dd": -0.09,
-  "seed_used": 46.58,
+  "current_dd": -0.02,
+  "seed_used": 46.59,
   "seed_used_pct": 4.65,
   "long_count": 4,
   "short_count": 1,
@@ -21,7 +21,7 @@
       "symbol": "TRXUSDT",
       "side": "LONG",
       "pnl": -0.07,
-      "pnl_pct": -0.07,
+      "pnl_pct": -0.06,
       "margin": 10.52,
       "leverage": "10",
       "tier": "2/9",
@@ -31,24 +31,24 @@
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": -0.06,
-      "pnl_pct": -0.09,
+      "pnl": -0.05,
+      "pnl_pct": -0.07,
       "margin": 10.17,
       "leverage": "7",
       "tier": "3/9",
       "entry": 1.2419,
-      "mark": 1.243
+      "mark": 1.2428
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": 0.95,
-      "pnl_pct": 1.41,
-      "margin": 7.61,
+      "pnl": 1.02,
+      "pnl_pct": 1.51,
+      "margin": 7.62,
       "leverage": "9",
       "tier": "4/10",
       "entry": 337.59,
-      "mark": 342.36
+      "mark": 342.68
     },
     {
       "symbol": "ENAUSDT",
@@ -64,19 +64,19 @@
     {
       "symbol": "BCHUSDT",
       "side": "LONG",
-      "pnl": -0.02,
-      "pnl_pct": -0.07,
+      "pnl": -0.01,
+      "pnl_pct": -0.02,
       "margin": 3.55,
       "leverage": "9",
       "tier": "2/9",
       "entry": 457.1,
-      "mark": 456.8
+      "mark": 457.0
     }
   ],
   "signals": {
     "AAVEUSDT": {
       "dir": "short",
-      "conf": 0.516
+      "conf": 0.519
     },
     "SUIUSDT": {
       "dir": "short",
@@ -164,7 +164,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.528
+      "conf": 0.531
     },
     "STABLEUSDT": {
       "dir": "long",
@@ -174,7 +174,7 @@
   "equity_hist": [
     {
       "t": "2026-04-24",
-      "v": 1.08
+      "v": 1.15
     }
   ],
   "trade_history": [
