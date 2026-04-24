@@ -1,18 +1,18 @@
 {
-  "ts": "2026-04-24T17:26:48.310662+09:00",
+  "ts": "2026-04-24T17:27:50.270865+09:00",
   "start_date": "2026-04-24",
-  "status": "stopped",
-  "equity": 1002.4,
-  "available": 948.1,
-  "unrealized": -0.18,
+  "status": "running",
+  "equity": 1002.42,
+  "available": 948.11,
+  "unrealized": -0.15,
   "daily_pnl": 2.35,
-  "total_pnl": 2.4,
+  "total_pnl": 2.42,
   "cum_pct": 0.24,
   "daily_avg_pct": 0.24,
   "annual_pct": 139.88,
   "mdd": -0.16,
   "current_dd": -0.04,
-  "seed_used": 54.3,
+  "seed_used": 54.31,
   "seed_used_pct": 5.42,
   "long_count": 5,
   "short_count": 2,
@@ -20,24 +20,24 @@
     {
       "symbol": "TRXUSDT",
       "side": "LONG",
-      "pnl": -0.2,
-      "pnl_pct": -0.19,
+      "pnl": -0.18,
+      "pnl_pct": -0.17,
       "margin": 10.51,
       "leverage": "10",
       "tier": "2/9",
       "entry": 0.3281,
-      "mark": 0.3274
+      "mark": 0.3275
     },
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": 0.08,
-      "pnl_pct": 0.11,
-      "margin": 10.15,
+      "pnl": 0.06,
+      "pnl_pct": 0.08,
+      "margin": 10.16,
       "leverage": "7",
       "tier": "3/9",
       "entry": 1.2419,
-      "mark": 1.2405
+      "mark": 1.2409
     },
     {
       "symbol": "PENGUUSDT",
@@ -54,7 +54,7 @@
       "symbol": "ENAUSDT",
       "side": "LONG",
       "pnl": -0.32,
-      "pnl_pct": -0.98,
+      "pnl_pct": -0.99,
       "margin": 4.05,
       "leverage": "8",
       "tier": "2/11",
@@ -75,24 +75,24 @@
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": 0.07,
-      "pnl_pct": 0.23,
+      "pnl": 0.11,
+      "pnl_pct": 0.34,
       "margin": 3.44,
       "leverage": "9",
       "tier": "3/12",
       "entry": 343.1467,
-      "mark": 343.93
+      "mark": 344.33
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
       "pnl": 0.02,
-      "pnl_pct": 0.12,
+      "pnl_pct": 0.14,
       "margin": 2.14,
       "leverage": "8",
       "tier": "2/9",
       "entry": 85.64,
-      "mark": 85.54
+      "mark": 85.523
     }
   ],
   "signals": {
@@ -154,7 +154,7 @@
     },
     "BTCUSDT": {
       "dir": "short",
-      "conf": 0.552
+      "conf": 0.558
     },
     "BNBUSDT": {
       "dir": "short",
@@ -196,7 +196,7 @@
   "equity_hist": [
     {
       "t": "2026-04-24",
-      "v": 2.4
+      "v": 2.42
     }
   ],
   "trade_history": [
