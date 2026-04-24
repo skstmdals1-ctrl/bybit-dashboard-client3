@@ -1,19 +1,19 @@
 {
-  "ts": "2026-04-24T15:17:46.956954+09:00",
+  "ts": "2026-04-24T15:18:48.055022+09:00",
   "start_date": "2026-04-24",
   "status": "running",
-  "equity": 1002.43,
-  "available": 950.38,
-  "unrealized": 1.76,
-  "daily_pnl": 0.45,
-  "total_pnl": 2.43,
-  "cum_pct": 0.24,
-  "daily_avg_pct": 0.24,
-  "annual_pct": 139.88,
+  "equity": 1002.66,
+  "available": 954.46,
+  "unrealized": 1.02,
+  "daily_pnl": 1.45,
+  "total_pnl": 2.66,
+  "cum_pct": 0.27,
+  "daily_avg_pct": 0.27,
+  "annual_pct": 167.56,
   "mdd": -0.16,
   "current_dd": -0.01,
-  "seed_used": 52.05,
-  "seed_used_pct": 5.19,
+  "seed_used": 48.2,
+  "seed_used_pct": 4.81,
   "long_count": 4,
   "short_count": 2,
   "positions": [
@@ -31,35 +31,35 @@
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": 0.29,
-      "pnl_pct": 0.41,
-      "margin": 10.12,
+      "pnl": 0.28,
+      "pnl_pct": 0.39,
+      "margin": 10.13,
       "leverage": "7",
       "tier": "3/9",
       "entry": 1.2419,
-      "mark": 1.2368
-    },
-    {
-      "symbol": "ZECUSDT",
-      "side": "LONG",
-      "pnl": 1.79,
-      "pnl_pct": 2.66,
-      "margin": 7.7,
-      "leverage": "9",
-      "tier": "4/10",
-      "entry": 337.59,
-      "mark": 346.56
+      "mark": 1.237
     },
     {
       "symbol": "ENAUSDT",
       "side": "LONG",
       "pnl": -0.16,
-      "pnl_pct": -0.48,
+      "pnl_pct": -0.5,
       "margin": 4.07,
       "leverage": "8",
       "tier": "2/11",
       "entry": 0.1094,
       "mark": 0.1089
+    },
+    {
+      "symbol": "ZECUSDT",
+      "side": "LONG",
+      "pnl": 1.07,
+      "pnl_pct": 3.17,
+      "margin": 3.87,
+      "leverage": "9",
+      "tier": "4/10",
+      "entry": 337.59,
+      "mark": 348.29
     },
     {
       "symbol": "BCHUSDT",
@@ -185,10 +185,17 @@
   "equity_hist": [
     {
       "t": "2026-04-24",
-      "v": 2.43
+      "v": 2.66
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-24 15:18",
+      "symbol": "ZECUSDT",
+      "side": "Buy",
+      "pnl": 1.0,
+      "reason": "-"
+    },
     {
       "ts": "2026-04-24 14:35",
       "symbol": "1000PEPEUSDT",
