@@ -1,20 +1,20 @@
 {
-  "ts": "2026-04-24T15:40:12.066315+09:00",
+  "ts": "2026-04-24T15:41:13.394185+09:00",
   "start_date": "2026-04-24",
   "status": "running",
-  "equity": 1002.32,
-  "available": 961.79,
-  "unrealized": -0.24,
+  "equity": 1002.3,
+  "available": 960.24,
+  "unrealized": -0.25,
   "daily_pnl": 2.35,
-  "total_pnl": 2.32,
+  "total_pnl": 2.3,
   "cum_pct": 0.23,
   "daily_avg_pct": 0.23,
   "annual_pct": 131.3,
   "mdd": -0.16,
   "current_dd": -0.04,
-  "seed_used": 40.52,
-  "seed_used_pct": 4.04,
-  "long_count": 3,
+  "seed_used": 42.07,
+  "seed_used_pct": 4.2,
+  "long_count": 4,
   "short_count": 2,
   "positions": [
     {
@@ -31,46 +31,57 @@
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": 0.36,
-      "pnl_pct": 0.5,
+      "pnl": 0.34,
+      "pnl_pct": 0.48,
       "margin": 10.12,
       "leverage": "7",
       "tier": "3/9",
       "entry": 1.2419,
-      "mark": 1.2357
+      "mark": 1.236
     },
     {
       "symbol": "ENAUSDT",
       "side": "LONG",
-      "pnl": -0.33,
-      "pnl_pct": -1.0,
+      "pnl": -0.31,
+      "pnl_pct": -0.96,
       "margin": 4.05,
       "leverage": "8",
       "tier": "2/11",
       "entry": 0.1094,
-      "mark": 0.1083
+      "mark": 0.1084
     },
     {
       "symbol": "BCHUSDT",
       "side": "LONG",
-      "pnl": -0.08,
-      "pnl_pct": -0.24,
+      "pnl": -0.06,
+      "pnl_pct": -0.2,
       "margin": 3.55,
       "leverage": "9",
       "tier": "2/9",
       "entry": 457.1,
-      "mark": 456.01
+      "mark": 456.2
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
       "pnl": 0.05,
-      "pnl_pct": 0.3,
-      "margin": 2.13,
+      "pnl_pct": 0.27,
+      "margin": 2.14,
       "leverage": "8",
       "tier": "2/9",
       "entry": 85.64,
-      "mark": 85.384
+      "mark": 85.412
+    },
+    {
+      "symbol": "ZECUSDT",
+      "side": "LONG",
+      "pnl": -0.01,
+      "pnl_pct": -0.06,
+      "margin": 1.53,
+      "leverage": "9",
+      "tier": "1/12",
+      "entry": 344.68,
+      "mark": 344.48
     }
   ],
   "signals": {
@@ -88,11 +99,11 @@
     },
     "1000PEPEUSDT": {
       "dir": "short",
-      "conf": 0.663
+      "conf": 0.662
     },
     "ZECUSDT": {
       "dir": "long",
-      "conf": 0.688
+      "conf": 0.692
     },
     "HYPEUSDT": {
       "dir": "long",
@@ -148,7 +159,7 @@
     },
     "LINKUSDT": {
       "dir": "short",
-      "conf": 0.539
+      "conf": 0.538
     },
     "AVAXUSDT": {
       "dir": "short",
@@ -174,7 +185,7 @@
   "equity_hist": [
     {
       "t": "2026-04-24",
-      "v": 2.32
+      "v": 2.3
     }
   ],
   "trade_history": [
