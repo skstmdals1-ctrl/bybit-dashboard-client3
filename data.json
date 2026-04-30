@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-01T07:18:52.774603+09:00",
+  "ts": "2026-05-01T07:19:54.222927+09:00",
   "start_date": "2026-04-24",
   "status": "running",
-  "equity": 1034.1,
-  "available": 816.76,
-  "unrealized": -1.5,
+  "equity": 1033.9,
+  "available": 816.58,
+  "unrealized": -1.69,
   "daily_pnl": 0.06,
-  "total_pnl": 34.1,
-  "cum_pct": 3.41,
-  "daily_avg_pct": 0.42,
-  "annual_pct": 361.72,
+  "total_pnl": 33.9,
+  "cum_pct": 3.39,
+  "daily_avg_pct": 0.4176,
+  "annual_pct": 357.71,
   "mdd": -1.92,
-  "current_dd": -0.22,
-  "seed_used": 217.35,
+  "current_dd": -0.16,
+  "seed_used": 217.32,
   "seed_used_pct": 21.02,
   "long_count": 8,
   "short_count": 4,
@@ -20,18 +20,18 @@
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": -2.92,
-      "pnl_pct": -0.57,
-      "margin": 42.13,
+      "pnl": -3.14,
+      "pnl_pct": -0.62,
+      "margin": 42.11,
       "leverage": "12",
       "tier": "7/9",
       "entry": 1.3754,
-      "mark": 1.3675
+      "mark": 1.3669
     },
     {
       "symbol": "TRXUSDT",
       "side": "LONG",
-      "pnl": 0.33,
+      "pnl": 0.34,
       "pnl_pct": 0.19,
       "margin": 18.04,
       "leverage": "10",
@@ -42,13 +42,13 @@
     {
       "symbol": "XMRUSDT",
       "side": "LONG",
-      "pnl": 0.89,
-      "pnl_pct": 0.72,
+      "pnl": 0.92,
+      "pnl_pct": 0.74,
       "margin": 13.89,
       "leverage": "9",
       "tier": "4/9",
       "entry": 376.1433,
-      "mark": 378.84
+      "mark": 378.92
     },
     {
       "symbol": "WLFIUSDT",
@@ -70,18 +70,18 @@
       "leverage": "9",
       "tier": "3/9",
       "entry": 442.3455,
-      "mark": 440.88
+      "mark": 440.9
     },
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 0.31,
-      "pnl_pct": 0.46,
+      "pnl": 0.29,
+      "pnl_pct": 0.44,
       "margin": 9.48,
       "leverage": "7",
       "tier": "3/9",
       "entry": 82.5575,
-      "mark": 82.94
+      "mark": 82.918
     },
     {
       "symbol": "LTCUSDT",
@@ -97,8 +97,8 @@
     {
       "symbol": "1000PEPEUSDT",
       "side": "LONG",
-      "pnl": -1.39,
-      "pnl_pct": -2.57,
+      "pnl": -1.41,
+      "pnl_pct": -2.6,
       "margin": 7.52,
       "leverage": "7",
       "tier": "3/11",
@@ -108,46 +108,46 @@
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": 0.33,
-      "pnl_pct": 0.83,
-      "margin": 6.65,
+      "pnl": 0.37,
+      "pnl_pct": 0.91,
+      "margin": 6.64,
       "leverage": "6",
       "tier": "3/9",
       "entry": 1.2149,
-      "mark": 1.2048
+      "mark": 1.2038
     },
     {
       "symbol": "TAOUSDT",
       "side": "LONG",
-      "pnl": -0.16,
-      "pnl_pct": -0.41,
+      "pnl": -0.18,
+      "pnl_pct": -0.46,
       "margin": 6.42,
       "leverage": "6",
       "tier": "3/9",
       "entry": 249.7052,
-      "mark": 248.67
+      "mark": 248.55
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 0.06,
-      "pnl_pct": 0.28,
+      "pnl": 0.07,
+      "pnl_pct": 0.32,
       "margin": 3.66,
       "leverage": "6",
       "tier": "2/9",
       "entry": 0.2475,
-      "mark": 0.2468
+      "mark": 0.2467
     },
     {
       "symbol": "SUIUSDT",
       "side": "LONG",
-      "pnl": 0.01,
-      "pnl_pct": 0.07,
+      "pnl": 0.0,
+      "pnl_pct": 0.02,
       "margin": 2.59,
       "leverage": "7",
       "tier": "2/9",
       "entry": 0.9058,
-      "mark": 0.9064
+      "mark": 0.906
     }
   ],
   "signals": {
@@ -205,7 +205,7 @@
     },
     "TRXUSDT": {
       "dir": "short",
-      "conf": 0.6
+      "conf": 0.603
     },
     "BTCUSDT": {
       "dir": "short",
@@ -217,7 +217,7 @@
     },
     "TAOUSDT": {
       "dir": "long",
-      "conf": 0.567
+      "conf": 0.589
     },
     "ADAUSDT": {
       "dir": "short",
@@ -269,7 +269,7 @@
     },
     "APTUSDT": {
       "dir": "short",
-      "conf": 0.521
+      "conf": 0.522
     },
     "TONUSDT": {
       "dir": "short",
@@ -311,7 +311,7 @@
     },
     {
       "t": "2026-05-01",
-      "v": 34.1
+      "v": 33.9
     }
   ],
   "trade_history": [
