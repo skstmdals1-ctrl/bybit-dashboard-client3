@@ -1,18 +1,18 @@
 {
-  "ts": "2026-04-30T11:40:19.323474+09:00",
+  "ts": "2026-04-30T11:41:20.635956+09:00",
   "start_date": "2026-04-24",
   "status": "running",
-  "equity": 1027.34,
+  "equity": 1027.33,
   "available": 826.81,
-  "unrealized": -9.3,
+  "unrealized": -9.37,
   "daily_pnl": 7.59,
-  "total_pnl": 27.34,
+  "total_pnl": 27.33,
   "cum_pct": 2.73,
   "daily_avg_pct": 0.3855,
   "annual_pct": 307.3,
   "mdd": -1.92,
-  "current_dd": -0.66,
-  "seed_used": 200.53,
+  "current_dd": -0.85,
+  "seed_used": 200.52,
   "seed_used_pct": 19.52,
   "long_count": 9,
   "short_count": 2,
@@ -20,24 +20,24 @@
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": -2.18,
-      "pnl_pct": -0.43,
+      "pnl": -2.25,
+      "pnl_pct": -0.44,
       "margin": 42.19,
       "leverage": "12",
       "tier": "7/9",
       "entry": 1.3754,
-      "mark": 1.3695
+      "mark": 1.3693
     },
     {
       "symbol": "DOTUSDT",
       "side": "LONG",
-      "pnl": 0.05,
-      "pnl_pct": 0.04,
+      "pnl": 0.02,
+      "pnl_pct": 0.01,
       "margin": 20.93,
       "leverage": "6",
       "tier": "5/9",
       "entry": 1.2082,
-      "mark": 1.2087
+      "mark": 1.2084
     },
     {
       "symbol": "TRXUSDT",
@@ -53,53 +53,53 @@
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 0.15,
-      "pnl_pct": 0.15,
+      "pnl": 0.19,
+      "pnl_pct": 0.19,
       "margin": 12.71,
       "leverage": "8",
       "tier": "4/9",
       "entry": 0.2455,
-      "mark": 0.2451
+      "mark": 0.245
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": -5.05,
-      "pnl_pct": -7.92,
+      "pnl": -5.08,
+      "pnl_pct": -7.97,
       "margin": 9.78,
       "leverage": "6",
       "tier": "3/9",
       "entry": 354.1667,
-      "mark": 326.13
+      "mark": 325.94
     },
     {
       "symbol": "XMRUSDT",
       "side": "LONG",
-      "pnl": 0.06,
-      "pnl_pct": 0.09,
-      "margin": 7.97,
+      "pnl": 0.16,
+      "pnl_pct": 0.22,
+      "margin": 7.99,
       "leverage": "9",
       "tier": "3/9",
       "entry": 377.4058,
-      "mark": 377.74
+      "mark": 378.25
     },
     {
       "symbol": "LTCUSDT",
       "side": "SHORT",
-      "pnl": 0.46,
-      "pnl_pct": 0.82,
+      "pnl": 0.47,
+      "pnl_pct": 0.84,
       "margin": 7.89,
       "leverage": "7",
       "tier": "3/9",
       "entry": 55.676,
-      "mark": 55.22
+      "mark": 55.21
     },
     {
       "symbol": "1000PEPEUSDT",
       "side": "LONG",
-      "pnl": -1.84,
-      "pnl_pct": -3.41,
-      "margin": 7.45,
+      "pnl": -1.92,
+      "pnl_pct": -3.56,
+      "margin": 7.44,
       "leverage": "7",
       "tier": "3/11",
       "entry": 0.004,
@@ -119,24 +119,24 @@
     {
       "symbol": "ARBUSDT",
       "side": "LONG",
-      "pnl": -0.07,
-      "pnl_pct": -0.26,
+      "pnl": -0.08,
+      "pnl_pct": -0.28,
       "margin": 3.11,
       "leverage": "9",
       "tier": "1/10",
       "entry": 0.1259,
-      "mark": 0.1256
+      "mark": 0.1255
     },
     {
       "symbol": "TAOUSDT",
       "side": "LONG",
       "pnl": -0.06,
-      "pnl_pct": -0.38,
+      "pnl_pct": -0.33,
       "margin": 2.75,
       "leverage": "6",
       "tier": "2/9",
       "entry": 251.29,
-      "mark": 250.34
+      "mark": 250.45
     }
   ],
   "signals": {
@@ -154,11 +154,11 @@
     },
     "1000PEPEUSDT": {
       "dir": "short",
-      "conf": 0.503
+      "conf": 0.504
     },
     "ZECUSDT": {
       "dir": "short",
-      "conf": 0.527
+      "conf": 0.528
     },
     "HYPEUSDT": {
       "dir": "long",
@@ -182,11 +182,11 @@
     },
     "BCHUSDT": {
       "dir": "short",
-      "conf": 0.761
+      "conf": 0.762
     },
     "DOTUSDT": {
       "dir": "short",
-      "conf": 0.677
+      "conf": 0.676
     },
     "XRPUSDT": {
       "dir": "long",
@@ -206,7 +206,7 @@
     },
     "TAOUSDT": {
       "dir": "long",
-      "conf": 0.632
+      "conf": 0.641
     },
     "ADAUSDT": {
       "dir": "short",
@@ -292,7 +292,7 @@
     },
     {
       "t": "2026-04-30",
-      "v": 27.34
+      "v": 27.33
     }
   ],
   "trade_history": [
