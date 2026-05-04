@@ -1,65 +1,76 @@
 {
-  "ts": "2026-05-04T15:23:52.802981+09:00",
+  "ts": "2026-05-04T15:24:54.154531+09:00",
   "start_date": "2026-04-24",
   "status": "running",
-  "equity": 1017.72,
-  "available": 797.38,
-  "unrealized": -29.38,
+  "equity": 1016.55,
+  "available": 796.12,
+  "unrealized": -30.5,
   "daily_pnl": 2.36,
-  "total_pnl": 17.72,
-  "cum_pct": 1.77,
-  "daily_avg_pct": 0.1596,
-  "annual_pct": 78.97,
+  "total_pnl": 16.55,
+  "cum_pct": 1.66,
+  "daily_avg_pct": 0.1498,
+  "annual_pct": 72.7,
   "mdd": -4.26,
   "current_dd": -3.54,
-  "seed_used": 220.35,
-  "seed_used_pct": 21.65,
+  "seed_used": 220.43,
+  "seed_used_pct": 21.68,
   "long_count": 6,
   "short_count": 5,
   "positions": [
     {
       "symbol": "ONDOUSDT",
       "side": "SHORT",
-      "pnl": -31.07,
-      "pnl_pct": -4.93,
-      "margin": 94.52,
+      "pnl": -32.36,
+      "pnl_pct": -5.13,
+      "margin": 94.7,
       "leverage": "7",
       "tier": "9/9",
       "entry": 0.2941,
-      "mark": 0.3086
+      "mark": 0.3092
     },
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": 0.13,
-      "pnl_pct": 0.09,
-      "margin": 21.28,
+      "pnl": 0.32,
+      "pnl_pct": 0.22,
+      "margin": 21.25,
       "leverage": "7",
       "tier": "4/9",
       "entry": 1.2453,
-      "mark": 1.2442
+      "mark": 1.2426
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 0.34,
-      "pnl_pct": 0.33,
-      "margin": 14.47,
+      "pnl": 0.42,
+      "pnl_pct": 0.41,
+      "margin": 14.45,
       "leverage": "7",
       "tier": "3/9",
       "entry": 0.2527,
-      "mark": 0.2519
+      "mark": 0.2517
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 0.37,
-      "pnl_pct": 0.49,
-      "margin": 10.92,
+      "pnl": 0.42,
+      "pnl_pct": 0.54,
+      "margin": 10.91,
       "leverage": "7",
       "tier": "4/9",
       "entry": 85.3244,
-      "mark": 84.91
+      "mark": 84.86
+    },
+    {
+      "symbol": "BCHUSDT",
+      "side": "LONG",
+      "pnl": -0.22,
+      "pnl_pct": -0.24,
+      "margin": 8.92,
+      "leverage": "10",
+      "tier": "2/9",
+      "entry": 447.18,
+      "mark": 446.1
     },
     {
       "symbol": "TRXUSDT",
@@ -75,68 +86,57 @@
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 0.88,
-      "pnl_pct": 3.59,
-      "margin": 3.64,
+      "pnl": 0.87,
+      "pnl_pct": 3.53,
+      "margin": 3.63,
       "leverage": "7",
       "tier": "2/9",
       "entry": 1.3353,
-      "mark": 1.3833
-    },
-    {
-      "symbol": "BCHUSDT",
-      "side": "LONG",
-      "pnl": -0.16,
-      "pnl_pct": -0.45,
-      "margin": 3.57,
-      "leverage": "10",
-      "tier": "2/9",
-      "entry": 448.5,
-      "mark": 446.5
+      "mark": 1.3824
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": -0.05,
-      "pnl_pct": -0.25,
-      "margin": 3.05,
+      "pnl": -0.07,
+      "pnl_pct": -0.33,
+      "margin": 3.04,
       "leverage": "7",
       "tier": "1/9",
       "entry": 9.295,
-      "mark": 9.272
+      "mark": 9.264
     },
     {
       "symbol": "ARBUSDT",
       "side": "LONG",
-      "pnl": -0.1,
-      "pnl_pct": -0.53,
-      "margin": 2.65,
+      "pnl": -0.12,
+      "pnl_pct": -0.65,
+      "margin": 2.64,
       "leverage": "7",
       "tier": "1/10",
       "entry": 0.119,
-      "mark": 0.1183
+      "mark": 0.1182
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": 0.45,
-      "pnl_pct": 2.15,
-      "margin": 2.38,
+      "pnl": 0.43,
+      "pnl_pct": 2.08,
+      "margin": 2.37,
       "leverage": "9",
       "tier": "2/9",
       "entry": 9.099,
-      "mark": 9.295
+      "mark": 9.288
     },
     {
       "symbol": "PENGUUSDT",
       "side": "LONG",
-      "pnl": -0.05,
-      "pnl_pct": -0.27,
-      "margin": 2.28,
+      "pnl": -0.07,
+      "pnl_pct": -0.4,
+      "margin": 2.27,
       "leverage": "8",
       "tier": "2/11",
       "entry": 0.0101,
-      "mark": 0.0101
+      "mark": 0.01
     }
   ],
   "signals": {
@@ -316,7 +316,7 @@
     },
     {
       "t": "2026-05-04",
-      "v": 17.72
+      "v": 16.55
     }
   ],
   "trade_history": [
