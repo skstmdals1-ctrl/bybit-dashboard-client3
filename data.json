@@ -1,54 +1,54 @@
 {
-  "ts": "2026-05-07T16:38:36.811291+09:00",
+  "ts": "2026-05-07T16:39:38.343735+09:00",
   "start_date": "2026-04-24",
   "status": "running",
-  "equity": 930.88,
-  "available": 602.09,
-  "unrealized": -54.77,
-  "daily_pnl": -10.1,
-  "total_pnl": -69.12,
-  "cum_pct": -6.91,
-  "daily_avg_pct": -0.5101,
-  "annual_pct": -84.54,
+  "equity": 930.11,
+  "available": 603.38,
+  "unrealized": -56.12,
+  "daily_pnl": -9.53,
+  "total_pnl": -69.89,
+  "cum_pct": -6.99,
+  "daily_avg_pct": -0.5163,
+  "annual_pct": -84.88,
   "mdd": -13.67,
   "current_dd": -11.48,
-  "seed_used": 328.79,
-  "seed_used_pct": 35.32,
-  "long_count": 6,
-  "short_count": 4,
+  "seed_used": 326.72,
+  "seed_used_pct": 35.13,
+  "long_count": 5,
+  "short_count": 5,
   "positions": [
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": -34.47,
-      "pnl_pct": -4.82,
-      "margin": 75.01,
+      "pnl": -34.81,
+      "pnl_pct": -4.86,
+      "margin": 75.04,
       "leverage": "10",
       "tier": "8/9",
       "entry": 1.2614,
-      "mark": 1.3222
+      "mark": 1.3228
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": -8.87,
-      "pnl_pct": -2.11,
-      "margin": 61.26,
+      "pnl": -9.03,
+      "pnl_pct": -2.15,
+      "margin": 61.28,
       "leverage": "7",
       "tier": "8/9",
       "entry": 0.2625,
-      "mark": 0.268
+      "mark": 0.2681
     },
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": -9.12,
-      "pnl_pct": -2.82,
-      "margin": 41.51,
+      "pnl": -9.36,
+      "pnl_pct": -2.9,
+      "margin": 41.54,
       "leverage": "8",
       "tier": "8/10",
       "entry": 9.4151,
-      "mark": 9.681
+      "mark": 9.688
     },
     {
       "symbol": "PENGUUSDT",
@@ -64,52 +64,41 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -1.51,
-      "pnl_pct": -0.93,
-      "margin": 23.01,
+      "pnl": -1.55,
+      "pnl_pct": -0.96,
+      "margin": 23.0,
       "leverage": "7",
       "tier": "5/9",
       "entry": 43.5842,
-      "mark": 43.179
+      "mark": 43.168
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 0.53,
-      "pnl_pct": 0.65,
+      "pnl": 0.54,
+      "pnl_pct": 0.66,
       "margin": 9.06,
       "leverage": "9",
       "tier": "2/4",
       "entry": 81040.0,
-      "mark": 81568.0
+      "mark": 81578.5
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": 1.16,
-      "pnl_pct": 1.86,
-      "margin": 7.06,
+      "pnl": 1.2,
+      "pnl_pct": 1.92,
+      "margin": 7.07,
       "leverage": "9",
       "tier": "4/10",
       "entry": 9.9063,
-      "mark": 10.091
-    },
-    {
-      "symbol": "WLFIUSDT",
-      "side": "LONG",
-      "pnl": 0.59,
-      "pnl_pct": 1.59,
-      "margin": 4.17,
-      "leverage": "9",
-      "tier": "4/10",
-      "entry": 0.067,
-      "mark": 0.0681
+      "mark": 10.097
     },
     {
       "symbol": "1000PEPEUSDT",
       "side": "SHORT",
-      "pnl": -0.4,
-      "pnl_pct": -1.69,
+      "pnl": -0.43,
+      "pnl_pct": -1.79,
       "margin": 3.45,
       "leverage": "7",
       "tier": "2/11",
@@ -126,6 +115,17 @@
       "tier": "2/9",
       "entry": 0.344,
       "mark": 0.3447
+    },
+    {
+      "symbol": "WLFIUSDT",
+      "side": "SHORT",
+      "pnl": 0.0,
+      "pnl_pct": -0.0,
+      "margin": 2.03,
+      "leverage": "8",
+      "tier": "1/10",
+      "entry": 0.0681,
+      "mark": 0.0681
     }
   ],
   "signals": {
@@ -337,10 +337,17 @@
     },
     {
       "t": "2026-05-07",
-      "v": -69.12
+      "v": -69.89
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-07 16:39",
+      "symbol": "WLFIUSDT",
+      "side": "Buy",
+      "pnl": 0.58,
+      "reason": "3/10"
+    },
     {
       "ts": "2026-05-07 16:20",
       "symbol": "WLFIUSDT",
@@ -472,13 +479,6 @@
       "symbol": "ONDOUSDT",
       "side": "Buy",
       "pnl": -0.16,
-      "reason": "1/12"
-    },
-    {
-      "ts": "2026-05-07 01:12",
-      "symbol": "TONUSDT",
-      "side": "Buy",
-      "pnl": 0.0,
       "reason": "1/12"
     }
   ],
