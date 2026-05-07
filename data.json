@@ -1,98 +1,87 @@
 {
-  "ts": "2026-05-08T07:46:15.035299+09:00",
+  "ts": "2026-05-08T07:47:16.299567+09:00",
   "start_date": "2026-04-24",
   "status": "running",
-  "equity": 934.52,
-  "available": 809.14,
-  "unrealized": -5.44,
-  "daily_pnl": -9.54,
-  "total_pnl": -65.48,
-  "cum_pct": -6.55,
-  "daily_avg_pct": -0.4506,
-  "annual_pct": -80.76,
+  "equity": 934.59,
+  "available": 806.29,
+  "unrealized": -5.4,
+  "daily_pnl": -9.53,
+  "total_pnl": -65.41,
+  "cum_pct": -6.54,
+  "daily_avg_pct": -0.4499,
+  "annual_pct": -80.71,
   "mdd": -13.67,
-  "current_dd": -11.07,
-  "seed_used": 125.38,
-  "seed_used_pct": 13.42,
-  "long_count": 5,
+  "current_dd": -11.03,
+  "seed_used": 128.3,
+  "seed_used_pct": 13.73,
+  "long_count": 4,
   "short_count": 2,
   "positions": [
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": -0.75,
-      "pnl_pct": -0.23,
-      "margin": 40.46,
+      "pnl": -0.61,
+      "pnl_pct": -0.19,
+      "margin": 40.44,
       "leverage": "8",
       "tier": "8/10",
       "entry": 9.4151,
-      "mark": 9.437
+      "mark": 9.433
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -4.35,
-      "pnl_pct": -2.67,
-      "margin": 22.6,
+      "pnl": -4.41,
+      "pnl_pct": -2.71,
+      "margin": 22.59,
       "leverage": "7",
       "tier": "5/9",
       "entry": 43.5842,
-      "mark": 42.419
+      "mark": 42.403
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": -1.23,
-      "pnl_pct": -1.52,
+      "pnl": -1.24,
+      "pnl_pct": -1.53,
       "margin": 8.87,
       "leverage": "9",
       "tier": "2/4",
       "entry": 81040.0,
-      "mark": 79807.6
+      "mark": 79796.57
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": -0.53,
-      "pnl_pct": -0.85,
-      "margin": 6.88,
+      "pnl": -0.57,
+      "pnl_pct": -0.91,
+      "margin": 6.87,
       "leverage": "9",
       "tier": "4/10",
       "entry": 9.9063,
-      "mark": 9.822
+      "mark": 9.816
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 1.06,
-      "pnl_pct": 2.28,
+      "pnl": 1.08,
+      "pnl_pct": 2.31,
       "margin": 5.71,
       "leverage": "8",
       "tier": "2/9",
       "entry": 2336.27,
-      "mark": 2283.1
+      "mark": 2282.41
     },
     {
       "symbol": "TRXUSDT",
       "side": "LONG",
-      "pnl": 0.36,
-      "pnl_pct": 1.29,
+      "pnl": 0.35,
+      "pnl_pct": 1.28,
       "margin": 3.48,
       "leverage": "8",
       "tier": "2/9",
       "entry": 0.344,
       "mark": 0.3485
-    },
-    {
-      "symbol": "TONUSDT",
-      "side": "LONG",
-      "pnl": 0.01,
-      "pnl_pct": 2.63,
-      "margin": 0.03,
-      "leverage": "9",
-      "tier": "1/8",
-      "entry": 2.5955,
-      "mark": 2.6637
     }
   ],
   "signals": {
@@ -110,11 +99,11 @@
     },
     "1000PEPEUSDT": {
       "dir": "long",
-      "conf": 0.528
+      "conf": 0.529
     },
     "ZECUSDT": {
       "dir": "short",
-      "conf": 0.518
+      "conf": 0.519
     },
     "HYPEUSDT": {
       "dir": "long",
@@ -134,7 +123,7 @@
     },
     "SOLUSDT": {
       "dir": "long",
-      "conf": 0.507
+      "conf": 0.508
     },
     "BCHUSDT": {
       "dir": "short",
@@ -170,7 +159,7 @@
     },
     "LINKUSDT": {
       "dir": "long",
-      "conf": 0.748
+      "conf": 0.751
     },
     "AVAXUSDT": {
       "dir": "short",
@@ -178,7 +167,7 @@
     },
     "DOGEUSDT": {
       "dir": "long",
-      "conf": 0.592
+      "conf": 0.593
     },
     "NEARUSDT": {
       "dir": "short",
@@ -186,7 +175,7 @@
     },
     "ETHUSDT": {
       "dir": "long",
-      "conf": 0.758
+      "conf": 0.764
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -218,7 +207,7 @@
     },
     "TONUSDT": {
       "dir": "long",
-      "conf": 0.68
+      "conf": 0.682
     },
     "WLFIUSDT": {
       "dir": "short",
@@ -312,10 +301,17 @@
     },
     {
       "t": "2026-05-08",
-      "v": -65.48
+      "v": -65.41
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-08 07:47",
+      "symbol": "TONUSDT",
+      "side": "Buy",
+      "pnl": 0.01,
+      "reason": "L2"
+    },
     {
       "ts": "2026-05-08 07:43",
       "symbol": "TONUSDT",
@@ -447,13 +443,6 @@
       "symbol": "DASHUSDT",
       "side": "Sell",
       "pnl": 0.01,
-      "reason": "6/12"
-    },
-    {
-      "ts": "2026-05-07 15:16",
-      "symbol": "DASHUSDT",
-      "side": "Sell",
-      "pnl": 0.31,
       "reason": "6/12"
     }
   ],
