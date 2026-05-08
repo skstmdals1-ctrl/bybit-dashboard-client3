@@ -1,32 +1,32 @@
 {
-  "ts": "2026-05-08T22:57:41.308479+09:00",
+  "ts": "2026-05-08T22:58:42.720369+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 935.04,
-  "available": 901.93,
-  "unrealized": -0.03,
-  "daily_pnl": -14.48,
-  "total_pnl": 0.04,
+  "equity": 935.01,
+  "available": 915.05,
+  "unrealized": -0.04,
+  "daily_pnl": -14.53,
+  "total_pnl": 0.01,
   "cum_pct": 0.0,
   "daily_avg_pct": 0.0,
   "annual_pct": 0.0,
   "mdd": -0.06,
   "current_dd": -0.06,
-  "seed_used": 33.11,
-  "seed_used_pct": 3.54,
-  "long_count": 0,
-  "short_count": 1,
+  "seed_used": 19.96,
+  "seed_used_pct": 2.13,
+  "long_count": 1,
+  "short_count": 0,
   "positions": [
     {
-      "symbol": "ETHUSDT",
-      "side": "SHORT",
-      "pnl": -0.03,
-      "pnl_pct": -0.04,
-      "margin": 13.0,
-      "leverage": "7",
-      "tier": "1/2",
-      "entry": 2274.09,
-      "mark": 2274.92
+      "symbol": "BTCUSDT",
+      "side": "LONG",
+      "pnl": -0.04,
+      "pnl_pct": -0.02,
+      "margin": 19.89,
+      "leverage": "8",
+      "tier": "1/3",
+      "entry": 79582.0,
+      "mark": 79563.8
     }
   ],
   "signals": {
@@ -246,10 +246,17 @@
     },
     {
       "t": "2026-05-08",
-      "v": 0.04
+      "v": 0.01
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-08 22:58",
+      "symbol": "ETHUSDT",
+      "side": "Sell",
+      "pnl": -0.05,
+      "reason": "T1 진입 | GF=4 | Lv=8x | Seed=$119(12.7%)"
+    },
     {
       "ts": "2026-05-08 22:55",
       "symbol": "ETHUSDT",
@@ -382,13 +389,6 @@
       "side": "Buy",
       "pnl": 1.28,
       "reason": "4/6"
-    },
-    {
-      "ts": "2026-05-08 10:43",
-      "symbol": "TONUSDT",
-      "side": "Buy",
-      "pnl": 0.0,
-      "reason": "L2"
     }
   ],
   "num_days": 1
