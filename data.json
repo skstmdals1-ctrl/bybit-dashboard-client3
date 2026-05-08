@@ -1,19 +1,19 @@
 {
-  "ts": "2026-05-09T05:21:29.274790+09:00",
+  "ts": "2026-05-09T05:22:30.551726+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 936.33,
-  "available": 931.72,
+  "equity": 936.24,
+  "available": 936.24,
   "unrealized": 0.0,
-  "daily_pnl": -0.01,
-  "total_pnl": 1.33,
-  "cum_pct": 0.14,
-  "daily_avg_pct": 0.07,
-  "annual_pct": 29.1,
+  "daily_pnl": -0.02,
+  "total_pnl": 1.24,
+  "cum_pct": 0.13,
+  "daily_avg_pct": 0.065,
+  "annual_pct": 26.77,
   "mdd": -0.02,
   "current_dd": 0.0,
-  "seed_used": 4.62,
-  "seed_used_pct": 0.49,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
   "long_count": 0,
   "short_count": 0,
   "positions": [],
@@ -238,10 +238,17 @@
     },
     {
       "t": "2026-05-09",
-      "v": 1.33
+      "v": 1.24
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-09 05:21",
+      "symbol": "SOLUSDT",
+      "side": "Buy",
+      "pnl": -0.01,
+      "reason": "T1 진입 | GF=5 | Lv=2x | Seed=$50(5.4%)"
+    },
     {
       "ts": "2026-05-09 05:17",
       "symbol": "SOLUSDT",
@@ -374,13 +381,6 @@
       "side": "Buy",
       "pnl": -0.53,
       "reason": "1/8"
-    },
-    {
-      "ts": "2026-05-08 11:45",
-      "symbol": "ONDOUSDT",
-      "side": "Buy",
-      "pnl": 0.34,
-      "reason": "4/6"
     }
   ],
   "num_days": 2
