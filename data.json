@@ -1,34 +1,22 @@
 {
-  "ts": "2026-05-08T23:25:20.565987+09:00",
+  "ts": "2026-05-08T23:39:17.069190+09:00",
   "start_date": "2026-05-08",
-  "status": "running",
-  "equity": 936.32,
-  "available": 816.44,
-  "unrealized": 1.27,
-  "daily_pnl": -14.53,
-  "total_pnl": 1.32,
-  "cum_pct": 0.14,
-  "daily_avg_pct": 0.14,
-  "annual_pct": 66.64,
-  "mdd": -0.06,
+  "status": "stopped",
+  "equity": 936.18,
+  "available": 936.18,
+  "unrealized": 0.0,
+  "daily_pnl": -13.4,
+  "total_pnl": 1.18,
+  "cum_pct": 0.13,
+  "daily_avg_pct": 0.13,
+  "annual_pct": 60.67,
+  "mdd": 0.0,
   "current_dd": 0.0,
-  "seed_used": 119.88,
-  "seed_used_pct": 12.8,
-  "long_count": 1,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
+  "long_count": 0,
   "short_count": 0,
-  "positions": [
-    {
-      "symbol": "BTCUSDT",
-      "side": "LONG",
-      "pnl": 1.27,
-      "pnl_pct": 0.8,
-      "margin": 20.05,
-      "leverage": "8",
-      "tier": "2/3",
-      "entry": 79582.0,
-      "mark": 80217.5
-    }
-  ],
+  "positions": [],
   "signals": {
     "AAVEUSDT": {
       "dir": "short",
@@ -246,10 +234,17 @@
     },
     {
       "t": "2026-05-08",
-      "v": 1.32
+      "v": 1.18
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-08 23:26",
+      "symbol": "BTCUSDT",
+      "side": "Buy",
+      "pnl": 1.14,
+      "reason": "-"
+    },
     {
       "ts": "2026-05-08 22:58",
       "symbol": "ETHUSDT",
@@ -381,13 +376,6 @@
       "symbol": "ONDOUSDT",
       "side": "Buy",
       "pnl": 0.65,
-      "reason": "4/6"
-    },
-    {
-      "ts": "2026-05-08 11:32",
-      "symbol": "ONDOUSDT",
-      "side": "Buy",
-      "pnl": 1.28,
       "reason": "4/6"
     }
   ],
