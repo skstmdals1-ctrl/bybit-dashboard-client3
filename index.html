@@ -852,12 +852,12 @@
 
     // ── 매 분 0초 동기화 갱신 ─────────────────────────────
     function updateProgressBar() {
-      const pct = (Date.now() % 60000) / 60000 * 100;
+      const pct = (Date.now() % 10000) / 10000 * 100;
       document.getElementById('refreshBar').style.width = pct + '%';
     }
 
     function scheduleNextFetch() {
-      const msUntilNext = 60000 - (Date.now() % 60000);
+      const msUntilNext = 10000 - (Date.now() % 10000);
       setTimeout(() => {
         fetchData();
         scheduleNextFetch();
