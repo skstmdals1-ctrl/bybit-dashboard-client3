@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-10T06:35:53.162254+09:00",
+  "ts": "2026-05-10T06:36:24.359716+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 934.99,
-  "available": 818.04,
-  "unrealized": -1.15,
+  "equity": 935.11,
+  "available": 818.14,
+  "unrealized": -1.03,
   "daily_pnl": -0.01,
-  "total_pnl": -0.01,
-  "cum_pct": -0.0,
-  "daily_avg_pct": 0.0,
-  "annual_pct": 0.0,
+  "total_pnl": 0.11,
+  "cum_pct": 0.01,
+  "daily_avg_pct": 0.0033,
+  "annual_pct": 1.21,
   "mdd": -0.58,
   "current_dd": -0.31,
-  "seed_used": 116.95,
+  "seed_used": 116.97,
   "seed_used_pct": 12.51,
   "long_count": 2,
   "short_count": 1,
@@ -31,24 +31,24 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -1.18,
-      "pnl_pct": -0.42,
-      "margin": 55.89,
+      "pnl": -1.06,
+      "pnl_pct": -0.38,
+      "margin": 55.91,
       "leverage": "5",
       "tier": "2/2",
       "entry": 43.1731,
-      "mark": 42.992
+      "mark": 43.01
     },
     {
       "symbol": "ICPUSDT",
       "side": "SHORT",
-      "pnl": 0.07,
-      "pnl_pct": 0.39,
+      "pnl": 0.08,
+      "pnl_pct": 0.42,
       "margin": 4.72,
       "leverage": "4",
       "tier": "1/2",
       "entry": 3.577,
-      "mark": 3.563
+      "mark": 3.562
     }
   ],
   "signals": {
@@ -276,7 +276,7 @@
     },
     {
       "t": "2026-05-10",
-      "v": -0.01
+      "v": 0.11
     }
   ],
   "trade_history": [
