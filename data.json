@@ -1,12 +1,12 @@
 {
-  "ts": "2026-05-09T19:18:34.599103+09:00",
+  "ts": "2026-05-09T19:19:35.832725+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 936.32,
-  "available": 936.32,
+  "equity": 936.27,
+  "available": 936.27,
   "unrealized": 0.0,
   "daily_pnl": -0.02,
-  "total_pnl": 1.32,
+  "total_pnl": 1.27,
   "cum_pct": 0.14,
   "daily_avg_pct": 0.07,
   "annual_pct": 29.1,
@@ -238,7 +238,7 @@
     },
     {
       "t": "2026-05-09",
-      "v": 1.32
+      "v": 1.27
     }
   ],
   "trade_history": [
@@ -330,6 +330,13 @@
       "ts": "2026-05-08 18:23",
       "symbol": "TONUSDT",
       "side": "Buy",
+      "pnl": 0.0,
+      "reason": "1/8"
+    },
+    {
+      "ts": "2026-05-08 18:23",
+      "symbol": "TONUSDT",
+      "side": "Buy",
       "pnl": 0.06,
       "reason": "1/8"
     },
@@ -374,13 +381,6 @@
       "side": "Buy",
       "pnl": -0.0,
       "reason": "L2"
-    },
-    {
-      "ts": "2026-05-08 12:26",
-      "symbol": "TONUSDT",
-      "side": "Buy",
-      "pnl": -0.53,
-      "reason": "1/8"
     }
   ],
   "num_days": 2
