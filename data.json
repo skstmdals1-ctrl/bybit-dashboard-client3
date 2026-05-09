@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-10T05:38:02.360589+09:00",
+  "ts": "2026-05-10T05:38:33.661730+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 935.09,
-  "available": 818.11,
-  "unrealized": -0.99,
+  "equity": 934.96,
+  "available": 818.0,
+  "unrealized": -1.15,
   "daily_pnl": -0.01,
-  "total_pnl": 0.09,
-  "cum_pct": 0.01,
-  "daily_avg_pct": 0.0033,
-  "annual_pct": 1.21,
+  "total_pnl": -0.04,
+  "cum_pct": -0.0,
+  "daily_avg_pct": 0.0,
+  "annual_pct": 0.0,
   "mdd": -0.58,
   "current_dd": -0.26,
-  "seed_used": 116.99,
+  "seed_used": 116.96,
   "seed_used_pct": 12.51,
   "long_count": 2,
   "short_count": 1,
@@ -20,9 +20,9 @@
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": 0.34,
-      "pnl_pct": 0.12,
-      "margin": 56.16,
+      "pnl": 0.31,
+      "pnl_pct": 0.11,
+      "margin": 56.15,
       "leverage": "5",
       "tier": "2/2",
       "entry": 0.1092,
@@ -31,24 +31,24 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -1.37,
-      "pnl_pct": -0.49,
-      "margin": 55.85,
+      "pnl": -1.5,
+      "pnl_pct": -0.53,
+      "margin": 55.83,
       "leverage": "5",
       "tier": "2/2",
       "entry": 43.1731,
-      "mark": 42.962
+      "mark": 42.943
     },
     {
       "symbol": "ICPUSDT",
       "side": "SHORT",
-      "pnl": 0.05,
-      "pnl_pct": 0.25,
+      "pnl": 0.04,
+      "pnl_pct": 0.2,
       "margin": 4.73,
       "leverage": "4",
       "tier": "1/2",
       "entry": 3.577,
-      "mark": 3.568
+      "mark": 3.57
     }
   ],
   "signals": {
@@ -90,7 +90,7 @@
     },
     "SOLUSDT": {
       "dir": "neutral",
-      "conf": 0.465
+      "conf": 0.474
     },
     "BCHUSDT": {
       "dir": "short",
@@ -122,7 +122,7 @@
     },
     "ADAUSDT": {
       "dir": "neutral",
-      "conf": 0.469
+      "conf": 0.473
     },
     "LINKUSDT": {
       "dir": "neutral",
@@ -276,7 +276,7 @@
     },
     {
       "t": "2026-05-10",
-      "v": 0.09
+      "v": -0.04
     }
   ],
   "trade_history": [
