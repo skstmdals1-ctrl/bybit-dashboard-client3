@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-09T23:25:01.933903+09:00",
+  "ts": "2026-05-09T23:26:03.284845+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 934.71,
-  "available": 822.45,
-  "unrealized": -1.47,
+  "equity": 934.5,
+  "available": 822.29,
+  "unrealized": -1.74,
   "daily_pnl": -0.02,
-  "total_pnl": -0.29,
-  "cum_pct": -0.03,
-  "daily_avg_pct": -0.015,
-  "annual_pct": -5.33,
-  "mdd": -0.25,
-  "current_dd": -0.25,
-  "seed_used": 112.26,
+  "total_pnl": -0.5,
+  "cum_pct": -0.05,
+  "daily_avg_pct": -0.025,
+  "annual_pct": -8.72,
+  "mdd": -0.34,
+  "current_dd": -0.34,
+  "seed_used": 112.22,
   "seed_used_pct": 12.01,
   "long_count": 2,
   "short_count": 0,
@@ -20,9 +20,9 @@
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": -1.72,
-      "pnl_pct": -0.61,
-      "margin": 55.75,
+      "pnl": -1.9,
+      "pnl_pct": -0.68,
+      "margin": 55.71,
       "leverage": "5",
       "tier": "2/2",
       "entry": 0.1092,
@@ -31,13 +31,13 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 0.25,
-      "pnl_pct": 0.27,
-      "margin": 18.76,
+      "pnl": 0.16,
+      "pnl_pct": 0.17,
+      "margin": 18.74,
       "leverage": "5",
       "tier": "2/2",
       "entry": 43.318,
-      "mark": 43.434
+      "mark": 43.391
     }
   ],
   "signals": {
@@ -47,7 +47,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.43
+      "conf": 0.431
     },
     "WLDUSDT": {
       "dir": "short",
@@ -62,8 +62,8 @@
       "conf": 0.52
     },
     "HYPEUSDT": {
-      "dir": "short",
-      "conf": 0.436
+      "dir": "long",
+      "conf": 0.437
     },
     "PENGUUSDT": {
       "dir": "long",
@@ -99,7 +99,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.846
+      "conf": 0.847
     },
     "BNBUSDT": {
       "dir": "long",
@@ -123,7 +123,7 @@
     },
     "DOGEUSDT": {
       "dir": "neutral",
-      "conf": 0.392
+      "conf": 0.388
     },
     "NEARUSDT": {
       "dir": "short",
@@ -179,7 +179,7 @@
     },
     "ICPUSDT": {
       "dir": "short",
-      "conf": 0.393
+      "conf": 0.389
     },
     "1000LUNCUSDT": {
       "dir": "long",
@@ -261,7 +261,7 @@
     },
     {
       "t": "2026-05-09",
-      "v": -0.29
+      "v": -0.5
     }
   ],
   "trade_history": [
