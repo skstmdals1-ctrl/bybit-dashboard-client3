@@ -1,20 +1,20 @@
 {
-  "ts": "2026-05-11T02:45:54.957424+09:00",
+  "ts": "2026-05-11T02:46:56.226051+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 963.46,
-  "available": 772.63,
-  "unrealized": 5.27,
-  "daily_pnl": 14.64,
-  "total_pnl": 28.46,
-  "cum_pct": 3.04,
-  "daily_avg_pct": 0.7515,
-  "annual_pct": 1437.46,
+  "equity": 964.25,
+  "available": 792.94,
+  "unrealized": 5.91,
+  "daily_pnl": 14.78,
+  "total_pnl": 29.25,
+  "cum_pct": 3.13,
+  "daily_avg_pct": 0.7735,
+  "annual_pct": 1565.0,
   "mdd": -0.37,
-  "current_dd": -0.08,
-  "seed_used": 190.82,
-  "seed_used_pct": 19.81,
-  "long_count": 3,
+  "current_dd": -0.02,
+  "seed_used": 171.31,
+  "seed_used_pct": 17.77,
+  "long_count": 2,
   "short_count": 1,
   "positions": [
     {
@@ -31,35 +31,24 @@
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": 2.93,
-      "pnl_pct": 1.04,
-      "margin": 56.68,
+      "pnl": 3.29,
+      "pnl_pct": 1.17,
+      "margin": 56.75,
       "leverage": "5",
       "tier": "2/2",
       "entry": 0.1092,
-      "mark": 0.1104
+      "mark": 0.1105
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 2.2,
-      "pnl_pct": 0.78,
-      "margin": 56.57,
+      "pnl": 2.49,
+      "pnl_pct": 0.89,
+      "margin": 56.62,
       "leverage": "5",
       "tier": "2/2",
       "entry": 43.1731,
-      "mark": 43.512
-    },
-    {
-      "symbol": "SUIUSDT",
-      "side": "LONG",
-      "pnl": 0.01,
-      "pnl_pct": 0.03,
-      "margin": 6.58,
-      "leverage": "4",
-      "tier": "2/3",
-      "entry": 1.3155,
-      "mark": 1.3159
+      "mark": 43.556
     }
   ],
   "signals": {
@@ -291,10 +280,17 @@
     },
     {
       "t": "2026-05-11",
-      "v": 28.46
+      "v": 29.25
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-11 02:46",
+      "symbol": "SUIUSDT",
+      "side": "Buy",
+      "pnl": 0.14,
+      "reason": "2/3"
+    },
     {
       "ts": "2026-05-11 02:21",
       "symbol": "SUIUSDT",
@@ -426,13 +422,6 @@
       "symbol": "BTCUSDT",
       "side": "Buy",
       "pnl": -1.58,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-05-08 22:55",
-      "symbol": "AVAXUSDT",
-      "side": "Sell",
-      "pnl": -4.53,
       "reason": "-"
     }
   ],
