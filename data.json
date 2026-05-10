@@ -1,54 +1,43 @@
 {
-  "ts": "2026-05-11T01:36:27.984888+09:00",
+  "ts": "2026-05-11T01:37:29.251284+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 958.23,
-  "available": 824.23,
-  "unrealized": 1.93,
-  "daily_pnl": 12.71,
-  "total_pnl": 23.23,
-  "cum_pct": 2.48,
-  "daily_avg_pct": 0.6143,
-  "annual_pct": 834.96,
+  "equity": 958.34,
+  "available": 830.67,
+  "unrealized": 0.87,
+  "daily_pnl": 13.86,
+  "total_pnl": 23.34,
+  "cum_pct": 2.5,
+  "daily_avg_pct": 0.6192,
+  "annual_pct": 851.73,
   "mdd": -0.37,
   "current_dd": -0.09,
-  "seed_used": 134.0,
-  "seed_used_pct": 13.98,
-  "long_count": 3,
+  "seed_used": 127.66,
+  "seed_used_pct": 13.32,
+  "long_count": 2,
   "short_count": 0,
   "positions": [
     {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": 0.36,
-      "pnl_pct": 0.13,
-      "margin": 56.2,
-      "leverage": "5",
-      "tier": "2/2",
-      "entry": 43.1731,
-      "mark": 43.228
-    },
-    {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": 0.49,
-      "pnl_pct": 0.17,
-      "margin": 56.19,
+      "pnl": 0.54,
+      "pnl_pct": 0.19,
+      "margin": 56.2,
       "leverage": "5",
       "tier": "2/2",
       "entry": 0.1092,
       "mark": 0.1094
     },
     {
-      "symbol": "SUIUSDT",
+      "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 1.09,
-      "pnl_pct": 4.47,
-      "margin": 6.34,
-      "leverage": "4",
-      "tier": "2/3",
-      "entry": 1.2129,
-      "mark": 1.2672
+      "pnl": 0.33,
+      "pnl_pct": 0.12,
+      "margin": 56.19,
+      "leverage": "5",
+      "tier": "2/2",
+      "entry": 43.1731,
+      "mark": 43.224
     }
   ],
   "signals": {
@@ -280,10 +269,17 @@
     },
     {
       "t": "2026-05-11",
-      "v": 23.23
+      "v": 23.34
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-11 01:37",
+      "symbol": "SUIUSDT",
+      "side": "Buy",
+      "pnl": 1.15,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-05-11 00:52",
       "symbol": "SUIUSDT",
@@ -415,13 +411,6 @@
       "symbol": "HYPEUSDT",
       "side": "Buy",
       "pnl": -4.68,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-05-08 22:51",
-      "symbol": "XRPUSDT",
-      "side": "Buy",
-      "pnl": 0.12,
       "reason": "-"
     }
   ],
