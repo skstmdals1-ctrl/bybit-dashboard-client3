@@ -1,22 +1,33 @@
 {
-  "ts": "2026-05-11T22:17:59.703627+09:00",
+  "ts": "2026-05-11T22:19:01.228571+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 952.04,
-  "available": 670.52,
-  "unrealized": 0.5,
+  "equity": 951.85,
+  "available": 670.31,
+  "unrealized": 0.34,
   "daily_pnl": 8.09,
-  "total_pnl": 17.04,
-  "cum_pct": 1.82,
-  "daily_avg_pct": 0.4519,
-  "annual_pct": 418.47,
+  "total_pnl": 16.85,
+  "cum_pct": 1.8,
+  "daily_avg_pct": 0.447,
+  "annual_pct": 409.32,
   "mdd": -1.62,
   "current_dd": -1.55,
-  "seed_used": 281.51,
-  "seed_used_pct": 29.57,
+  "seed_used": 281.54,
+  "seed_used_pct": 29.58,
   "long_count": 1,
   "short_count": 4,
   "positions": [
+    {
+      "symbol": "ONDOUSDT",
+      "side": "SHORT",
+      "pnl": -0.77,
+      "pnl_pct": -0.27,
+      "margin": 57.23,
+      "leverage": "5",
+      "tier": "2/2",
+      "entry": 0.4228,
+      "mark": 0.4239
+    },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
@@ -29,48 +40,37 @@
       "mark": 0.2801
     },
     {
-      "symbol": "ONDOUSDT",
-      "side": "SHORT",
-      "pnl": -0.63,
-      "pnl_pct": -0.22,
-      "margin": 57.2,
-      "leverage": "5",
-      "tier": "2/2",
-      "entry": 0.4228,
-      "mark": 0.4237
-    },
-    {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -0.11,
-      "pnl_pct": -0.11,
+      "pnl": -0.1,
+      "pnl_pct": -0.1,
       "margin": 18.92,
       "leverage": "5",
       "tier": "2/2",
       "entry": 41.363,
-      "mark": 41.317
+      "mark": 41.32
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 1.52,
-      "pnl_pct": 1.61,
+      "pnl": 1.51,
+      "pnl_pct": 1.59,
       "margin": 18.64,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2367.52,
-      "mark": 2329.51
+      "mark": 2329.77
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": -0.03,
-      "pnl_pct": -0.09,
-      "margin": 9.46,
+      "pnl": -0.06,
+      "pnl_pct": -0.15,
+      "margin": 9.47,
       "leverage": "4",
       "tier": "2/2",
       "entry": 2.2786,
-      "mark": 2.2806
+      "mark": 2.2821
     }
   ],
   "signals": {
@@ -302,7 +302,7 @@
     },
     {
       "t": "2026-05-11",
-      "v": 17.04
+      "v": 16.85
     }
   ],
   "trade_history": [
