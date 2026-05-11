@@ -1,10 +1,10 @@
 {
-  "ts": "2026-05-12T08:28:25.339046+09:00",
+  "ts": "2026-05-12T08:29:26.708798+09:00",
   "start_date": "2026-05-08",
   "status": "running",
   "equity": 949.97,
-  "available": 727.98,
-  "unrealized": 6.99,
+  "available": 728.02,
+  "unrealized": 7.02,
   "daily_pnl": -8.75,
   "total_pnl": 14.97,
   "cum_pct": 1.6,
@@ -12,54 +12,54 @@
   "annual_pct": 218.63,
   "mdd": -2.46,
   "current_dd": -1.73,
-  "seed_used": 221.99,
-  "seed_used_pct": 23.37,
+  "seed_used": 221.95,
+  "seed_used_pct": 23.36,
   "long_count": 2,
   "short_count": 2,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 5.38,
-      "pnl_pct": 1.89,
-      "margin": 58.12,
+      "pnl": 5.34,
+      "pnl_pct": 1.87,
+      "margin": 58.11,
       "leverage": "5",
       "tier": "2/2",
       "entry": 41.1574,
-      "mark": 41.934
+      "mark": 41.928
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 0.16,
-      "pnl_pct": 0.07,
-      "margin": 57.11,
+      "pnl": 0.24,
+      "pnl_pct": 0.11,
+      "margin": 57.09,
       "leverage": "4",
       "tier": "2/2",
       "entry": 0.2798,
-      "mark": 0.2796
+      "mark": 0.2795
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 1.27,
+      "pnl": 1.28,
       "pnl_pct": 1.35,
-      "margin": 18.69,
+      "margin": 18.68,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2367.52,
-      "mark": 2335.65
+      "mark": 2335.48
     },
     {
       "symbol": "SUIUSDT",
       "side": "LONG",
-      "pnl": 0.18,
-      "pnl_pct": 0.2,
+      "pnl": 0.16,
+      "pnl_pct": 0.17,
       "margin": 18.08,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.2891,
-      "mark": 1.2916
+      "mark": 1.2913
     }
   ],
   "signals": {
@@ -69,7 +69,7 @@
     },
     "SUIUSDT": {
       "dir": "long",
-      "conf": 0.44
+      "conf": 0.437
     },
     "WLDUSDT": {
       "dir": "short",
@@ -153,7 +153,7 @@
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.557
+      "conf": 0.558
     },
     "STABLEUSDT": {
       "dir": "short",
