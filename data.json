@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-11T22:40:35.698345+09:00",
+  "ts": "2026-05-11T22:41:37.368487+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 954.12,
-  "available": 673.16,
-  "unrealized": 2.61,
+  "equity": 953.95,
+  "available": 672.97,
+  "unrealized": 2.46,
   "daily_pnl": 8.09,
-  "total_pnl": 19.12,
-  "cum_pct": 2.04,
-  "daily_avg_pct": 0.5061,
-  "annual_pct": 531.3,
+  "total_pnl": 18.95,
+  "cum_pct": 2.03,
+  "daily_avg_pct": 0.5037,
+  "annual_pct": 525.82,
   "mdd": -1.68,
   "current_dd": -1.26,
-  "seed_used": 280.96,
+  "seed_used": 280.97,
   "seed_used_pct": 29.45,
   "long_count": 1,
   "short_count": 4,
@@ -31,46 +31,46 @@
     {
       "symbol": "ONDOUSDT",
       "side": "SHORT",
-      "pnl": 1.26,
-      "pnl_pct": 0.44,
-      "margin": 56.82,
+      "pnl": 1.19,
+      "pnl_pct": 0.42,
+      "margin": 56.84,
       "leverage": "5",
       "tier": "2/2",
       "entry": 0.4228,
-      "mark": 0.4209
+      "mark": 0.421
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -0.41,
-      "pnl_pct": -0.43,
+      "pnl": -0.43,
+      "pnl_pct": -0.45,
       "margin": 18.86,
       "leverage": "5",
       "tier": "2/2",
       "entry": 41.363,
-      "mark": 41.186
+      "mark": 41.175
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 1.97,
-      "pnl_pct": 2.08,
+      "pnl": 1.95,
+      "pnl_pct": 2.06,
       "margin": 18.55,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2367.52,
-      "mark": 2318.24
+      "mark": 2318.68
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": -0.21,
-      "pnl_pct": -0.55,
-      "margin": 9.51,
+      "pnl": -0.25,
+      "pnl_pct": -0.65,
+      "margin": 9.52,
       "leverage": "4",
       "tier": "2/2",
       "entry": 2.2786,
-      "mark": 2.2911
+      "mark": 2.2934
     }
   ],
   "signals": {
@@ -96,7 +96,7 @@
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.405
+      "conf": 0.411
     },
     "PENGUUSDT": {
       "dir": "long",
@@ -302,7 +302,7 @@
     },
     {
       "t": "2026-05-11",
-      "v": 19.12
+      "v": 18.95
     }
   ],
   "trade_history": [
