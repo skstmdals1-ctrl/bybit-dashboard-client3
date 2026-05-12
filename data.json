@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-12T19:57:52.538580+09:00",
+  "ts": "2026-05-12T19:58:53.968247+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 941.21,
-  "available": 656.25,
-  "unrealized": -0.25,
+  "equity": 940.63,
+  "available": 655.78,
+  "unrealized": -0.84,
   "daily_pnl": -9.99,
-  "total_pnl": 6.21,
-  "cum_pct": 0.66,
-  "daily_avg_pct": 0.1317,
-  "annual_pct": 61.67,
+  "total_pnl": 5.63,
+  "cum_pct": 0.6,
+  "daily_avg_pct": 0.1197,
+  "annual_pct": 54.75,
   "mdd": -2.84,
   "current_dd": -2.65,
-  "seed_used": 284.97,
+  "seed_used": 284.85,
   "seed_used_pct": 30.28,
   "long_count": 3,
   "short_count": 1,
@@ -20,35 +20,24 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -1.38,
-      "pnl_pct": -0.35,
-      "margin": 78.31,
+      "pnl": -1.6,
+      "pnl_pct": -0.41,
+      "margin": 78.27,
       "leverage": "5",
       "tier": "2/2",
       "entry": 41.1031,
-      "mark": 40.959
+      "mark": 40.936
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": -0.66,
-      "pnl_pct": -0.23,
-      "margin": 56.68,
+      "pnl": -0.72,
+      "pnl_pct": -0.25,
+      "margin": 56.67,
       "leverage": "5",
       "tier": "2/2",
       "entry": 0.1093,
       "mark": 0.109
-    },
-    {
-      "symbol": "TAOUSDT",
-      "side": "LONG",
-      "pnl": -2.79,
-      "pnl_pct": -0.99,
-      "margin": 56.03,
-      "leverage": "5",
-      "tier": "2/2",
-      "entry": 316.1039,
-      "mark": 312.99
     },
     {
       "symbol": "ADAUSDT",
@@ -60,6 +49,17 @@
       "tier": "2/2",
       "entry": 0.2798,
       "mark": 0.2742
+    },
+    {
+      "symbol": "TAOUSDT",
+      "side": "LONG",
+      "pnl": -3.1,
+      "pnl_pct": -1.1,
+      "margin": 55.96,
+      "leverage": "5",
+      "tier": "2/2",
+      "entry": 316.1039,
+      "mark": 312.64
     }
   ],
   "signals": {
@@ -299,7 +299,7 @@
     },
     {
       "t": "2026-05-12",
-      "v": 6.21
+      "v": 5.63
     }
   ],
   "trade_history": [
