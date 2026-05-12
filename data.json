@@ -1,76 +1,76 @@
 {
-  "ts": "2026-05-12T19:02:27.183741+09:00",
+  "ts": "2026-05-12T19:03:28.727277+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 943.3,
-  "available": 650.55,
-  "unrealized": 2.02,
+  "equity": 941.75,
+  "available": 649.34,
+  "unrealized": 0.45,
   "daily_pnl": -10.15,
-  "total_pnl": 8.3,
-  "cum_pct": 0.89,
-  "daily_avg_pct": 0.1774,
-  "annual_pct": 90.97,
+  "total_pnl": 6.75,
+  "cum_pct": 0.72,
+  "daily_avg_pct": 0.1436,
+  "annual_pct": 68.84,
   "mdd": -2.54,
   "current_dd": -2.41,
-  "seed_used": 292.76,
-  "seed_used_pct": 31.04,
+  "seed_used": 292.41,
+  "seed_used_pct": 31.05,
   "long_count": 4,
   "short_count": 1,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 0.01,
-      "pnl_pct": 0.0,
-      "margin": 78.59,
+      "pnl": -0.4,
+      "pnl_pct": -0.1,
+      "margin": 78.51,
       "leverage": "5",
       "tier": "2/2",
       "entry": 41.1031,
-      "mark": 41.104
-    },
-    {
-      "symbol": "TAOUSDT",
-      "side": "LONG",
-      "pnl": -1.74,
-      "pnl_pct": -0.61,
-      "margin": 56.23,
-      "leverage": "5",
-      "tier": "2/2",
-      "entry": 316.1039,
-      "mark": 314.16
+      "mark": 41.061
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 3.67,
-      "pnl_pct": 1.61,
-      "margin": 56.23,
+      "pnl": 3.76,
+      "pnl_pct": 1.64,
+      "margin": 56.21,
       "leverage": "4",
       "tier": "2/2",
       "entry": 0.2798,
-      "mark": 0.2753
+      "mark": 0.2752
+    },
+    {
+      "symbol": "TAOUSDT",
+      "side": "LONG",
+      "pnl": -2.91,
+      "pnl_pct": -1.03,
+      "margin": 56.0,
+      "leverage": "5",
+      "tier": "2/2",
+      "entry": 316.1039,
+      "mark": 312.85
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": -0.26,
-      "pnl_pct": -0.27,
-      "margin": 18.89,
+      "pnl": -0.32,
+      "pnl_pct": -0.34,
+      "margin": 18.88,
       "leverage": "5",
       "tier": "2/2",
       "entry": 0.1099,
-      "mark": 0.1096
+      "mark": 0.1095
     },
     {
       "symbol": "TONUSDT",
       "side": "LONG",
       "pnl": 0.33,
-      "pnl_pct": 1.23,
+      "pnl_pct": 1.21,
       "margin": 6.9,
       "leverage": "4",
       "tier": "1/3",
       "entry": 2.4129,
-      "mark": 2.4425
+      "mark": 2.442
     }
   ],
   "signals": {
@@ -310,7 +310,7 @@
     },
     {
       "t": "2026-05-12",
-      "v": 8.3
+      "v": 6.75
     }
   ],
   "trade_history": [
