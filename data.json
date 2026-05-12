@@ -1,34 +1,22 @@
 {
-  "ts": "2026-05-12T23:33:31.589802+09:00",
+  "ts": "2026-05-12T23:34:32.989507+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 933.84,
-  "available": 877.53,
-  "unrealized": -3.08,
-  "daily_pnl": -14.75,
-  "total_pnl": -1.16,
-  "cum_pct": -0.12,
-  "daily_avg_pct": -0.024,
-  "annual_pct": -8.39,
+  "equity": 933.63,
+  "available": 933.63,
+  "unrealized": 0.0,
+  "daily_pnl": -18.07,
+  "total_pnl": -1.37,
+  "cum_pct": -0.15,
+  "daily_avg_pct": -0.03,
+  "annual_pct": -10.37,
   "mdd": -3.4,
   "current_dd": -3.38,
-  "seed_used": 56.31,
-  "seed_used_pct": 6.03,
-  "long_count": 1,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
+  "long_count": 0,
   "short_count": 0,
-  "positions": [
-    {
-      "symbol": "DOGEUSDT",
-      "side": "LONG",
-      "pnl": -3.08,
-      "pnl_pct": -1.08,
-      "margin": 56.2,
-      "leverage": "5",
-      "tier": "2/2",
-      "entry": 0.1093,
-      "mark": 0.1081
-    }
-  ],
+  "positions": [],
   "signals": {
     "AAVEUSDT": {
       "dir": "long",
@@ -266,10 +254,17 @@
     },
     {
       "t": "2026-05-12",
-      "v": -1.16
+      "v": -1.37
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-12 23:34",
+      "symbol": "DOGEUSDT",
+      "side": "Buy",
+      "pnl": -3.32,
+      "reason": "2/2"
+    },
     {
       "ts": "2026-05-12 23:13",
       "symbol": "ADAUSDT",
@@ -402,13 +397,6 @@
       "side": "Sell",
       "pnl": 1.55,
       "reason": "2/2"
-    },
-    {
-      "ts": "2026-05-12 00:40",
-      "symbol": "TONUSDT",
-      "side": "Sell",
-      "pnl": -4.24,
-      "reason": "External Exit"
     }
   ],
   "num_days": 5
