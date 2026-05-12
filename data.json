@@ -1,43 +1,43 @@
 {
-  "ts": "2026-05-12T22:52:28.723172+09:00",
+  "ts": "2026-05-12T22:53:30.434503+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 934.89,
-  "available": 822.32,
-  "unrealized": 4.69,
+  "equity": 935.01,
+  "available": 822.28,
+  "unrealized": 4.73,
   "daily_pnl": -21.32,
-  "total_pnl": -0.11,
-  "cum_pct": -0.01,
-  "daily_avg_pct": -0.002,
-  "annual_pct": -0.73,
+  "total_pnl": 0.01,
+  "cum_pct": 0.0,
+  "daily_avg_pct": 0.0,
+  "annual_pct": 0.0,
   "mdd": -3.4,
-  "current_dd": -3.33,
-  "seed_used": 112.57,
-  "seed_used_pct": 12.04,
+  "current_dd": -3.31,
+  "seed_used": 112.73,
+  "seed_used_pct": 12.06,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": -1.03,
-      "pnl_pct": -0.36,
-      "margin": 56.61,
+      "pnl": -0.66,
+      "pnl_pct": -0.23,
+      "margin": 56.68,
       "leverage": "5",
       "tier": "2/2",
       "entry": 0.1093,
-      "mark": 0.1089
+      "mark": 0.109
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 5.72,
-      "pnl_pct": 2.5,
-      "margin": 55.72,
+      "pnl": 5.39,
+      "pnl_pct": 2.36,
+      "margin": 55.8,
       "leverage": "4",
       "tier": "2/2",
       "entry": 0.2798,
-      "mark": 0.2728
+      "mark": 0.2732
     }
   ],
   "signals": {
@@ -123,7 +123,7 @@
     },
     "DOGEUSDT": {
       "dir": "neutral",
-      "conf": 0.391
+      "conf": 0.392
     },
     "NEARUSDT": {
       "dir": "short",
@@ -277,7 +277,7 @@
     },
     {
       "t": "2026-05-12",
-      "v": -0.11
+      "v": 0.01
     }
   ],
   "trade_history": [
