@@ -1,32 +1,32 @@
 {
-  "ts": "2026-05-12T17:41:17.120733+09:00",
+  "ts": "2026-05-12T17:42:18.581932+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 946.32,
-  "available": 652.55,
-  "unrealized": 5.0,
+  "equity": 945.94,
+  "available": 652.24,
+  "unrealized": 4.59,
   "daily_pnl": -10.15,
-  "total_pnl": 11.32,
-  "cum_pct": 1.21,
-  "daily_avg_pct": 0.2408,
-  "annual_pct": 140.58,
+  "total_pnl": 10.94,
+  "cum_pct": 1.17,
+  "daily_avg_pct": 0.2329,
+  "annual_pct": 133.75,
   "mdd": -2.49,
   "current_dd": -2.12,
-  "seed_used": 293.77,
-  "seed_used_pct": 31.04,
+  "seed_used": 293.69,
+  "seed_used_pct": 31.05,
   "long_count": 4,
   "short_count": 1,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 1.89,
-      "pnl_pct": 0.48,
-      "margin": 78.97,
+      "pnl": 1.62,
+      "pnl_pct": 0.41,
+      "margin": 78.91,
       "leverage": "5",
       "tier": "2/2",
       "entry": 41.1031,
-      "mark": 41.301
+      "mark": 41.272
     },
     {
       "symbol": "ADAUSDT",
@@ -42,13 +42,13 @@
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": 0.18,
-      "pnl_pct": 0.19,
-      "margin": 18.98,
+      "pnl": 0.07,
+      "pnl_pct": 0.07,
+      "margin": 18.95,
       "leverage": "5",
       "tier": "2/2",
       "entry": 0.1099,
-      "mark": 0.1101
+      "mark": 0.1099
     },
     {
       "symbol": "TAOUSDT",
@@ -64,13 +64,13 @@
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 0.02,
-      "pnl_pct": 0.07,
-      "margin": 6.82,
+      "pnl": -0.01,
+      "pnl_pct": -0.02,
+      "margin": 6.81,
       "leverage": "4",
       "tier": "1/3",
       "entry": 2.4129,
-      "mark": 2.4146
+      "mark": 2.4123
     }
   ],
   "signals": {
@@ -140,7 +140,7 @@
     },
     "TAOUSDT": {
       "dir": "short",
-      "conf": 0.492
+      "conf": 0.489
     },
     "ADAUSDT": {
       "dir": "neutral",
@@ -156,7 +156,7 @@
     },
     "DOGEUSDT": {
       "dir": "long",
-      "conf": 0.517
+      "conf": 0.521
     },
     "NEARUSDT": {
       "dir": "short",
@@ -310,7 +310,7 @@
     },
     {
       "t": "2026-05-12",
-      "v": 11.32
+      "v": 10.94
     }
   ],
   "trade_history": [
