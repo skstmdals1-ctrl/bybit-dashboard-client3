@@ -1,27 +1,27 @@
 {
-  "ts": "2026-05-12T21:07:41.758797+09:00",
+  "ts": "2026-05-12T21:08:43.267472+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 935.65,
-  "available": 767.22,
-  "unrealized": -0.9,
-  "daily_pnl": -15.07,
-  "total_pnl": 0.65,
-  "cum_pct": 0.07,
-  "daily_avg_pct": 0.014,
-  "annual_pct": 5.24,
+  "equity": 934.69,
+  "available": 821.95,
+  "unrealized": 4.33,
+  "daily_pnl": -21.32,
+  "total_pnl": -0.31,
+  "cum_pct": -0.03,
+  "daily_avg_pct": -0.006,
+  "annual_pct": -2.17,
   "mdd": -3.29,
   "current_dd": -3.25,
-  "seed_used": 168.42,
-  "seed_used_pct": 18.0,
-  "long_count": 2,
+  "seed_used": 112.73,
+  "seed_used_pct": 12.06,
+  "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": -0.87,
-      "pnl_pct": -0.31,
+      "pnl": -0.9,
+      "pnl_pct": -0.32,
       "margin": 56.64,
       "leverage": "5",
       "tier": "2/2",
@@ -31,24 +31,13 @@
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 5.15,
-      "pnl_pct": 2.25,
-      "margin": 55.86,
+      "pnl": 5.23,
+      "pnl_pct": 2.29,
+      "margin": 55.84,
       "leverage": "4",
       "tier": "2/2",
       "entry": 0.2798,
-      "mark": 0.2735
-    },
-    {
-      "symbol": "TAOUSDT",
-      "side": "LONG",
-      "pnl": -5.18,
-      "pnl_pct": -1.83,
-      "margin": 55.55,
-      "leverage": "5",
-      "tier": "2/2",
-      "entry": 316.1039,
-      "mark": 310.32
+      "mark": 0.2734
     }
   ],
   "signals": {
@@ -288,10 +277,17 @@
     },
     {
       "t": "2026-05-12",
-      "v": 0.65
+      "v": -0.31
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-12 21:07",
+      "symbol": "TAOUSDT",
+      "side": "Buy",
+      "pnl": -6.24,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-05-12 20:16",
       "symbol": "HYPEUSDT",
@@ -424,13 +420,6 @@
       "side": "Sell",
       "pnl": 0.01,
       "reason": "-"
-    },
-    {
-      "ts": "2026-05-11 09:55",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": 0.31,
-      "reason": "2/2"
     }
   ],
   "num_days": 5
