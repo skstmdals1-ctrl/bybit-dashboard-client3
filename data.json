@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-12T21:22:04.337424+09:00",
+  "ts": "2026-05-12T21:23:05.980523+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 934.78,
-  "available": 821.66,
-  "unrealized": 4.47,
+  "equity": 934.61,
+  "available": 821.55,
+  "unrealized": 4.32,
   "daily_pnl": -21.32,
-  "total_pnl": -0.22,
-  "cum_pct": -0.02,
-  "daily_avg_pct": -0.004,
-  "annual_pct": -1.45,
-  "mdd": -3.31,
-  "current_dd": -3.31,
-  "seed_used": 113.12,
+  "total_pnl": -0.39,
+  "cum_pct": -0.04,
+  "daily_avg_pct": -0.008,
+  "annual_pct": -2.88,
+  "mdd": -3.33,
+  "current_dd": -3.33,
+  "seed_used": 113.05,
   "seed_used_pct": 12.1,
   "long_count": 1,
   "short_count": 1,
@@ -20,24 +20,24 @@
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": 0.06,
-      "pnl_pct": 0.02,
-      "margin": 56.83,
+      "pnl": -0.17,
+      "pnl_pct": -0.06,
+      "margin": 56.78,
       "leverage": "5",
       "tier": "2/2",
       "entry": 0.1093,
-      "mark": 0.1093
+      "mark": 0.1092
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 4.41,
-      "pnl_pct": 1.93,
-      "margin": 56.05,
+      "pnl": 4.49,
+      "pnl_pct": 1.97,
+      "margin": 56.03,
       "leverage": "4",
       "tier": "2/2",
       "entry": 0.2798,
-      "mark": 0.2744
+      "mark": 0.2743
     }
   ],
   "signals": {
@@ -79,7 +79,7 @@
     },
     "SOLUSDT": {
       "dir": "neutral",
-      "conf": 0.493
+      "conf": 0.492
     },
     "BCHUSDT": {
       "dir": "short",
@@ -123,7 +123,7 @@
     },
     "DOGEUSDT": {
       "dir": "neutral",
-      "conf": 0.427
+      "conf": 0.425
     },
     "NEARUSDT": {
       "dir": "short",
@@ -163,7 +163,7 @@
     },
     "TONUSDT": {
       "dir": "neutral",
-      "conf": 0.436
+      "conf": 0.432
     },
     "WLFIUSDT": {
       "dir": "short",
@@ -199,7 +199,7 @@
     },
     "BUSDT": {
       "dir": "short",
-      "conf": 0.438
+      "conf": 0.437
     }
   },
   "equity_hist": [
@@ -277,7 +277,7 @@
     },
     {
       "t": "2026-05-12",
-      "v": -0.22
+      "v": -0.39
     }
   ],
   "trade_history": [
