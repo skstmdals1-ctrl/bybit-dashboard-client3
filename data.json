@@ -1,43 +1,43 @@
 {
-  "ts": "2026-05-13T14:49:24.221980+09:00",
+  "ts": "2026-05-13T14:50:25.758308+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 927.4,
-  "available": 768.96,
-  "unrealized": -3.32,
+  "equity": 927.32,
+  "available": 768.84,
+  "unrealized": -3.34,
   "daily_pnl": -2.88,
-  "total_pnl": -7.6,
-  "cum_pct": -0.81,
-  "daily_avg_pct": -0.1355,
-  "annual_pct": -39.04,
+  "total_pnl": -7.68,
+  "cum_pct": -0.82,
+  "daily_avg_pct": -0.1371,
+  "annual_pct": -39.39,
   "mdd": -1.05,
   "current_dd": -1.0,
-  "seed_used": 158.44,
-  "seed_used_pct": 17.08,
-  "long_count": 1,
+  "seed_used": 158.48,
+  "seed_used_pct": 17.09,
+  "long_count": 2,
   "short_count": 2,
   "positions": [
     {
       "symbol": "SUIUSDT",
       "side": "LONG",
-      "pnl": -4.22,
-      "pnl_pct": -1.36,
-      "margin": 61.48,
+      "pnl": -4.05,
+      "pnl_pct": -1.3,
+      "margin": 61.52,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.2465,
-      "mark": 1.2296
+      "mark": 1.2303
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 0.16,
-      "pnl_pct": 0.07,
-      "margin": 55.99,
+      "pnl": -0.0,
+      "pnl_pct": -0.0,
+      "margin": 56.03,
       "leverage": "4",
       "tier": "2/2",
       "entry": 0.273,
-      "mark": 0.2728
+      "mark": 0.273
     },
     {
       "symbol": "NEARUSDT",
@@ -48,7 +48,18 @@
       "leverage": "5",
       "tier": "2/3",
       "entry": 1.6575,
-      "mark": 1.6409
+      "mark": 1.641
+    },
+    {
+      "symbol": "ZECUSDT",
+      "side": "LONG",
+      "pnl": -0.03,
+      "pnl_pct": -0.07,
+      "margin": 4.94,
+      "leverage": "9",
+      "tier": "1/3",
+      "entry": 556.1,
+      "mark": 555.69
     }
   ],
   "signals": {
@@ -57,8 +68,8 @@
       "conf": 0.44
     },
     "SUIUSDT": {
-      "dir": "long",
-      "conf": 0.382
+      "dir": "short",
+      "conf": 0.423
     },
     "WLDUSDT": {
       "dir": "short",
@@ -292,7 +303,7 @@
     },
     {
       "t": "2026-05-13",
-      "v": -7.6
+      "v": -7.68
     }
   ],
   "trade_history": [
