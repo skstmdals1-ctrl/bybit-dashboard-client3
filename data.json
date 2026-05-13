@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-13T18:07:24.803759+09:00",
+  "ts": "2026-05-13T18:08:26.485967+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 932.19,
-  "available": 717.3,
-  "unrealized": -0.29,
+  "equity": 932.15,
+  "available": 717.32,
+  "unrealized": -0.34,
   "daily_pnl": -0.95,
-  "total_pnl": -2.81,
+  "total_pnl": -2.85,
   "cum_pct": -0.3,
   "daily_avg_pct": -0.0501,
   "annual_pct": -16.72,
   "mdd": -1.05,
   "current_dd": -0.38,
-  "seed_used": 214.89,
+  "seed_used": 214.83,
   "seed_used_pct": 23.05,
   "long_count": 2,
   "short_count": 2,
@@ -20,13 +20,13 @@
     {
       "symbol": "SUIUSDT",
       "side": "LONG",
-      "pnl": 0.18,
-      "pnl_pct": 0.06,
-      "margin": 62.36,
+      "pnl": -0.02,
+      "pnl_pct": -0.01,
+      "margin": 62.32,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.2465,
-      "mark": 1.2472
+      "mark": 1.2464
     },
     {
       "symbol": "ADAUSDT",
@@ -42,24 +42,24 @@
     {
       "symbol": "NEARUSDT",
       "side": "SHORT",
-      "pnl": 0.85,
-      "pnl_pct": 0.79,
-      "margin": 21.51,
+      "pnl": 0.97,
+      "pnl_pct": 0.9,
+      "margin": 21.49,
       "leverage": "5",
       "tier": "1/2",
       "entry": 1.6303,
-      "mark": 1.6175
+      "mark": 1.6157
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": -0.09,
-      "pnl_pct": -0.05,
-      "margin": 18.4,
+      "pnl": -0.06,
+      "pnl_pct": -0.03,
+      "margin": 18.41,
       "leverage": "9",
       "tier": "3/3",
       "entry": 552.338,
-      "mark": 552.04
+      "mark": 552.15
     }
   ],
   "signals": {
@@ -303,7 +303,7 @@
     },
     {
       "t": "2026-05-13",
-      "v": -2.81
+      "v": -2.85
     }
   ],
   "trade_history": [
