@@ -1,54 +1,43 @@
 {
-  "ts": "2026-05-14T03:26:44.717131+09:00",
+  "ts": "2026-05-14T03:27:46.259609+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 936.21,
-  "available": 837.25,
-  "unrealized": 8.83,
-  "daily_pnl": 8.69,
-  "total_pnl": 1.21,
-  "cum_pct": 0.13,
-  "daily_avg_pct": 0.0186,
-  "annual_pct": 7.02,
+  "equity": 935.98,
+  "available": 798.09,
+  "unrealized": 8.63,
+  "daily_pnl": 8.68,
+  "total_pnl": 0.98,
+  "cum_pct": 0.1,
+  "daily_avg_pct": 0.0143,
+  "annual_pct": 5.36,
   "mdd": -1.91,
-  "current_dd": 0.0,
-  "seed_used": 98.96,
-  "seed_used_pct": 10.57,
+  "current_dd": -0.09,
+  "seed_used": 137.9,
+  "seed_used_pct": 14.73,
   "long_count": 1,
-  "short_count": 2,
+  "short_count": 1,
   "positions": [
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": 8.03,
-      "pnl_pct": 3.03,
-      "margin": 38.97,
+      "pnl": 7.8,
+      "pnl_pct": 2.94,
+      "margin": 38.93,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.1109,
-      "mark": 0.1142
+      "mark": 0.1141
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 0.8,
-      "pnl_pct": 0.88,
-      "margin": 18.13,
+      "pnl": 0.83,
+      "pnl_pct": 0.91,
+      "margin": 18.12,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2285.92,
-      "mark": 2265.91
-    },
-    {
-      "symbol": "NEARUSDT",
-      "side": "SHORT",
-      "pnl": -0.0,
-      "pnl_pct": -0.92,
-      "margin": 0.02,
-      "leverage": "7",
-      "tier": "1/2",
-      "entry": 1.5972,
-      "mark": 1.6119
+      "mark": 2265.09
     }
   ],
   "signals": {
@@ -300,10 +289,17 @@
     },
     {
       "t": "2026-05-14",
-      "v": 1.21
+      "v": 0.98
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-14 03:27",
+      "symbol": "NEARUSDT",
+      "side": "Sell",
+      "pnl": -0.0,
+      "reason": "L2"
+    },
     {
       "ts": "2026-05-14 03:23",
       "symbol": "NEARUSDT",
@@ -435,13 +431,6 @@
       "symbol": "HYPEUSDT",
       "side": "Buy",
       "pnl": 0.06,
-      "reason": "2/2"
-    },
-    {
-      "ts": "2026-05-13 10:27",
-      "symbol": "ONDOUSDT",
-      "side": "Sell",
-      "pnl": -2.94,
       "reason": "2/2"
     }
   ],
