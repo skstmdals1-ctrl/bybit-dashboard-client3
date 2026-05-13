@@ -1,54 +1,54 @@
 {
-  "ts": "2026-05-13T22:34:20.709222+09:00",
+  "ts": "2026-05-13T22:35:22.225609+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 927.76,
-  "available": 752.95,
-  "unrealized": 0.92,
+  "equity": 926.65,
+  "available": 751.96,
+  "unrealized": -0.23,
   "daily_pnl": -6.63,
-  "total_pnl": -7.24,
-  "cum_pct": -0.77,
-  "daily_avg_pct": -0.1287,
-  "annual_pct": -37.5,
+  "total_pnl": -8.35,
+  "cum_pct": -0.89,
+  "daily_avg_pct": -0.1489,
+  "annual_pct": -41.95,
   "mdd": -1.15,
   "current_dd": -0.98,
-  "seed_used": 174.8,
-  "seed_used_pct": 18.84,
+  "seed_used": 174.68,
+  "seed_used_pct": 18.85,
   "long_count": 1,
   "short_count": 2,
   "positions": [
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": 0.89,
-      "pnl_pct": 0.21,
-      "margin": 48.16,
+      "pnl": -0.25,
+      "pnl_pct": -0.06,
+      "margin": 48.03,
       "leverage": "9",
       "tier": "3/3",
       "entry": 547.5261,
-      "mark": 548.65
+      "mark": 547.21
     },
     {
       "symbol": "NEARUSDT",
       "side": "SHORT",
-      "pnl": -0.16,
-      "pnl_pct": -0.07,
+      "pnl": -0.21,
+      "pnl_pct": -0.09,
       "margin": 29.76,
       "leverage": "8",
       "tier": "1/2",
       "entry": 1.5902,
-      "mark": 1.5913
+      "mark": 1.5916
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 0.2,
-      "pnl_pct": 0.22,
-      "margin": 18.25,
+      "pnl": 0.23,
+      "pnl_pct": 0.25,
+      "margin": 18.24,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2285.92,
-      "mark": 2280.94
+      "mark": 2280.11
     }
   ],
   "signals": {
@@ -296,7 +296,7 @@
     },
     {
       "t": "2026-05-13",
-      "v": -7.24
+      "v": -8.35
     }
   ],
   "trade_history": [
