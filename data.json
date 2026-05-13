@@ -1,54 +1,54 @@
 {
-  "ts": "2026-05-13T10:02:09.819893+09:00",
+  "ts": "2026-05-13T10:03:11.165613+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 936.81,
-  "available": 768.19,
-  "unrealized": 3.24,
+  "equity": 936.03,
+  "available": 767.14,
+  "unrealized": 2.45,
   "daily_pnl": 0,
-  "total_pnl": 1.81,
-  "cum_pct": 0.19,
-  "daily_avg_pct": 0.0316,
-  "annual_pct": 12.22,
+  "total_pnl": 1.03,
+  "cum_pct": 0.11,
+  "daily_avg_pct": 0.0183,
+  "annual_pct": 6.91,
   "mdd": -3.53,
   "current_dd": -3.13,
-  "seed_used": 168.62,
-  "seed_used_pct": 18.0,
+  "seed_used": 168.89,
+  "seed_used_pct": 18.04,
   "long_count": 1,
   "short_count": 2,
   "positions": [
     {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": 2.03,
-      "pnl_pct": 0.73,
-      "margin": 56.29,
-      "leverage": "5",
-      "tier": "2/2",
-      "entry": 40.0327,
-      "mark": 40.324
-    },
-    {
       "symbol": "ONDOUSDT",
       "side": "SHORT",
-      "pnl": -0.03,
-      "pnl_pct": -0.01,
-      "margin": 56.2,
+      "pnl": -0.59,
+      "pnl_pct": -0.26,
+      "margin": 56.34,
       "leverage": "4",
       "tier": "2/2",
       "entry": 0.3986,
-      "mark": 0.3986
+      "mark": 0.3996
+    },
+    {
+      "symbol": "HYPEUSDT",
+      "side": "LONG",
+      "pnl": 2.2,
+      "pnl_pct": 0.79,
+      "margin": 56.33,
+      "leverage": "5",
+      "tier": "2/2",
+      "entry": 40.0327,
+      "mark": 40.348
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 1.23,
-      "pnl_pct": 0.55,
-      "margin": 55.73,
+      "pnl": 0.9,
+      "pnl_pct": 0.4,
+      "margin": 55.81,
       "leverage": "4",
       "tier": "2/2",
       "entry": 0.273,
-      "mark": 0.2715
+      "mark": 0.2719
     }
   ],
   "signals": {
@@ -292,7 +292,7 @@
     },
     {
       "t": "2026-05-13",
-      "v": 1.81
+      "v": 1.03
     }
   ],
   "trade_history": [
