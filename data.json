@@ -1,54 +1,43 @@
 {
-  "ts": "2026-05-14T14:29:15.874932+09:00",
+  "ts": "2026-05-14T14:30:17.159649+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 937.4,
-  "available": 757.54,
-  "unrealized": 4.4,
-  "daily_pnl": 14.49,
-  "total_pnl": 2.4,
-  "cum_pct": 0.26,
-  "daily_avg_pct": 0.0371,
-  "annual_pct": 14.5,
+  "equity": 937.31,
+  "available": 808.96,
+  "unrealized": 1.51,
+  "daily_pnl": 17.19,
+  "total_pnl": 2.31,
+  "cum_pct": 0.25,
+  "daily_avg_pct": 0.0357,
+  "annual_pct": 13.91,
   "mdd": -1.91,
   "current_dd": -0.76,
-  "seed_used": 179.86,
-  "seed_used_pct": 19.19,
+  "seed_used": 128.34,
+  "seed_used_pct": 13.69,
   "long_count": 1,
-  "short_count": 2,
+  "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 1.04,
-      "pnl_pct": 1.13,
-      "margin": 18.08,
+      "pnl": 1.01,
+      "pnl_pct": 1.1,
+      "margin": 18.09,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2285.92,
-      "mark": 2260.0
+      "mark": 2260.76
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": 0.4,
-      "pnl_pct": 0.5,
-      "margin": 11.39,
+      "pnl": 0.5,
+      "pnl_pct": 0.64,
+      "margin": 11.41,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.1134,
-      "mark": 0.1139
-    },
-    {
-      "symbol": "NEARUSDT",
-      "side": "SHORT",
-      "pnl": 2.97,
-      "pnl_pct": 3.72,
-      "margin": 10.96,
-      "leverage": "7",
-      "tier": "1/2",
-      "entry": 1.6194,
-      "mark": 1.5591
+      "mark": 0.1141
     }
   ],
   "signals": {
@@ -300,10 +289,17 @@
     },
     {
       "t": "2026-05-14",
-      "v": 2.4
+      "v": 2.31
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-14 14:30",
+      "symbol": "NEARUSDT",
+      "side": "Sell",
+      "pnl": 2.7,
+      "reason": "1/2"
+    },
     {
       "ts": "2026-05-14 11:47",
       "symbol": "DOGEUSDT",
@@ -436,13 +432,6 @@
       "side": "Buy",
       "pnl": -6.84,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-05-13 18:56",
-      "symbol": "NEARUSDT",
-      "side": "Sell",
-      "pnl": 0.0,
-      "reason": "L2"
     }
   ],
   "num_days": 7
