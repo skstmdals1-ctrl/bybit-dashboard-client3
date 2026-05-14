@@ -1,65 +1,65 @@
 {
-  "ts": "2026-05-15T01:19:13.694786+09:00",
+  "ts": "2026-05-15T01:20:15.256284+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 935.15,
-  "available": 605.87,
-  "unrealized": -6.68,
+  "equity": 934.43,
+  "available": 605.28,
+  "unrealized": -7.35,
   "daily_pnl": -3.55,
-  "total_pnl": 0.15,
-  "cum_pct": 0.02,
-  "daily_avg_pct": 0.0025,
-  "annual_pct": 0.92,
+  "total_pnl": -0.57,
+  "cum_pct": -0.06,
+  "daily_avg_pct": -0.0075,
+  "annual_pct": -2.7,
   "mdd": -1.91,
   "current_dd": -1.25,
-  "seed_used": 329.28,
-  "seed_used_pct": 35.21,
+  "seed_used": 329.15,
+  "seed_used_pct": 35.22,
   "long_count": 1,
   "short_count": 3,
   "positions": [
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": -12.32,
+      "pnl": -12.36,
       "pnl_pct": -1.71,
       "margin": 91.61,
       "leverage": "8",
       "tier": "2/2",
       "entry": 80060.8333,
-      "mark": 81429.4
+      "mark": 81433.7
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": 6.55,
-      "pnl_pct": 1.38,
-      "margin": 68.8,
+      "pnl": 5.84,
+      "pnl_pct": 1.23,
+      "margin": 68.69,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.1141,
-      "mark": 0.1157
+      "mark": 0.1155
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -1.1,
-      "pnl_pct": -0.37,
-      "margin": 59.94,
+      "pnl": -1.07,
+      "pnl_pct": -0.36,
+      "margin": 59.93,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2296.8238,
-      "mark": 2305.26
+      "mark": 2305.04
     },
     {
       "symbol": "NEARUSDT",
       "side": "SHORT",
-      "pnl": 0.19,
-      "pnl_pct": 0.44,
-      "margin": 10.79,
+      "pnl": 0.23,
+      "pnl_pct": 0.53,
+      "margin": 10.78,
       "leverage": "4",
       "tier": "1/2",
       "entry": 1.6304,
-      "mark": 1.6232
+      "mark": 1.6217
     }
   ],
   "signals": {
@@ -315,7 +315,7 @@
     },
     {
       "t": "2026-05-15",
-      "v": 0.15
+      "v": -0.57
     }
   ],
   "trade_history": [
