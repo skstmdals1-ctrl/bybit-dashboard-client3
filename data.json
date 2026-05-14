@@ -1,65 +1,65 @@
 {
-  "ts": "2026-05-14T19:43:45.374397+09:00",
+  "ts": "2026-05-14T19:44:46.809401+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 934.93,
-  "available": 661.38,
-  "unrealized": 2.55,
+  "equity": 934.79,
+  "available": 661.22,
+  "unrealized": 2.42,
   "daily_pnl": 13.88,
-  "total_pnl": -0.07,
-  "cum_pct": -0.01,
-  "daily_avg_pct": -0.0014,
-  "annual_pct": -0.51,
+  "total_pnl": -0.21,
+  "cum_pct": -0.02,
+  "daily_avg_pct": -0.0029,
+  "annual_pct": -1.05,
   "mdd": -1.91,
   "current_dd": -1.01,
-  "seed_used": 273.55,
-  "seed_used_pct": 29.26,
+  "seed_used": 273.57,
+  "seed_used_pct": 29.27,
   "long_count": 2,
   "short_count": 2,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 0.4,
-      "pnl_pct": 0.16,
+      "pnl": 0.33,
+      "pnl_pct": 0.13,
       "margin": 31.24,
       "leverage": "8",
       "tier": "2/2",
       "entry": 38.872,
-      "mark": 38.934
+      "mark": 38.923
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 1.24,
-      "pnl_pct": 1.35,
-      "margin": 18.04,
+      "pnl": 1.19,
+      "pnl_pct": 1.3,
+      "margin": 18.05,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2285.92,
-      "mark": 2255.04
+      "mark": 2256.25
     },
     {
       "symbol": "NEARUSDT",
       "side": "SHORT",
-      "pnl": 1.25,
-      "pnl_pct": 1.58,
-      "margin": 11.09,
+      "pnl": 1.15,
+      "pnl_pct": 1.46,
+      "margin": 11.11,
       "leverage": "7",
       "tier": "1/2",
       "entry": 1.5844,
-      "mark": 1.5593
+      "mark": 1.5613
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": -0.33,
-      "pnl_pct": -0.42,
-      "margin": 11.09,
+      "pnl": -0.24,
+      "pnl_pct": -0.31,
+      "margin": 11.1,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.1134,
-      "mark": 0.113
+      "mark": 0.1131
     }
   ],
   "signals": {
@@ -185,7 +185,7 @@
     },
     "TONUSDT": {
       "dir": "neutral",
-      "conf": 0.538
+      "conf": 0.497
     },
     "WLFIUSDT": {
       "dir": "short",
@@ -311,7 +311,7 @@
     },
     {
       "t": "2026-05-14",
-      "v": -0.07
+      "v": -0.21
     }
   ],
   "trade_history": [
