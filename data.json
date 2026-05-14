@@ -1,65 +1,65 @@
 {
-  "ts": "2026-05-15T01:47:56.694416+09:00",
+  "ts": "2026-05-15T01:48:58.091162+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 933.39,
-  "available": 604.4,
-  "unrealized": -8.37,
+  "equity": 934.84,
+  "available": 605.76,
+  "unrealized": -6.94,
   "daily_pnl": -3.55,
-  "total_pnl": -1.61,
-  "cum_pct": -0.17,
-  "daily_avg_pct": -0.0213,
-  "annual_pct": -7.48,
+  "total_pnl": -0.16,
+  "cum_pct": -0.02,
+  "daily_avg_pct": -0.0025,
+  "annual_pct": -0.91,
   "mdd": -1.91,
   "current_dd": -1.51,
-  "seed_used": 328.99,
-  "seed_used_pct": 35.25,
+  "seed_used": 329.08,
+  "seed_used_pct": 35.2,
   "long_count": 1,
   "short_count": 3,
   "positions": [
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": -12.25,
-      "pnl_pct": -1.7,
-      "margin": 91.6,
+      "pnl": -11.89,
+      "pnl_pct": -1.65,
+      "margin": 91.55,
       "leverage": "8",
       "tier": "2/2",
       "entry": 80060.8333,
-      "mark": 81422.19
+      "mark": 81381.9
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": 4.84,
-      "pnl_pct": 1.02,
-      "margin": 68.55,
+      "pnl": 5.84,
+      "pnl_pct": 1.23,
+      "margin": 68.69,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.1141,
-      "mark": 0.1152
+      "mark": 0.1155
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -1.59,
+      "pnl": -1.57,
       "pnl_pct": -0.53,
       "margin": 60.03,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2296.8238,
-      "mark": 2309.02
+      "mark": 2308.93
     },
     {
       "symbol": "NEARUSDT",
       "side": "SHORT",
-      "pnl": 0.63,
-      "pnl_pct": 1.45,
-      "margin": 10.69,
+      "pnl": 0.69,
+      "pnl_pct": 1.58,
+      "margin": 10.67,
       "leverage": "4",
       "tier": "1/2",
       "entry": 1.6304,
-      "mark": 1.6068
+      "mark": 1.6046
     }
   ],
   "signals": {
@@ -121,7 +121,7 @@
     },
     "BTCUSDT": {
       "dir": "short",
-      "conf": 0.344
+      "conf": 0.346
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -315,7 +315,7 @@
     },
     {
       "t": "2026-05-15",
-      "v": -1.61
+      "v": -0.16
     }
   ],
   "trade_history": [
