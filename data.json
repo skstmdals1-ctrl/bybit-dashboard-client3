@@ -1,76 +1,65 @@
 {
-  "ts": "2026-05-14T22:31:58.157064+09:00",
+  "ts": "2026-05-14T22:32:59.614410+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 944.47,
-  "available": 630.65,
-  "unrealized": 4.44,
-  "daily_pnl": 21.45,
-  "total_pnl": 9.47,
-  "cum_pct": 1.01,
-  "daily_avg_pct": 0.1437,
-  "annual_pct": 68.9,
+  "equity": 944.37,
+  "available": 697.95,
+  "unrealized": 3.4,
+  "daily_pnl": 22.36,
+  "total_pnl": 9.37,
+  "cum_pct": 1.0,
+  "daily_avg_pct": 0.1422,
+  "annual_pct": 67.98,
   "mdd": -1.91,
   "current_dd": -0.02,
-  "seed_used": 313.81,
-  "seed_used_pct": 33.23,
-  "long_count": 2,
+  "seed_used": 246.42,
+  "seed_used_pct": 26.09,
+  "long_count": 1,
   "short_count": 3,
   "positions": [
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": -0.75,
-      "pnl_pct": -0.32,
-      "margin": 29.98,
+      "pnl": -0.72,
+      "pnl_pct": -0.3,
+      "margin": 29.97,
       "leverage": "8",
       "tier": "2/2",
       "entry": 79685.5,
-      "mark": 79936.69
+      "mark": 79924.3
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "pnl": 1.04,
-      "pnl_pct": 1.13,
+      "pnl_pct": 1.14,
       "margin": 18.08,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2285.92,
-      "mark": 2260.0
+      "mark": 2259.83
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 3.47,
-      "pnl_pct": 2.46,
-      "margin": 18.05,
+      "pnl": 3.39,
+      "pnl_pct": 2.4,
+      "margin": 18.04,
       "leverage": "8",
       "tier": "2/3",
       "entry": 40.268,
-      "mark": 41.26
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "LONG",
-      "pnl": 1.02,
-      "pnl_pct": 1.3,
-      "margin": 11.28,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 0.1134,
-      "mark": 0.1149
+      "mark": 41.236
     },
     {
       "symbol": "NEARUSDT",
       "side": "SHORT",
-      "pnl": -0.33,
-      "pnl_pct": -0.43,
+      "pnl": -0.31,
+      "pnl_pct": -0.4,
       "margin": 11.09,
       "leverage": "7",
       "tier": "1/2",
       "entry": 1.5647,
-      "mark": 1.5714
+      "mark": 1.571
     }
   ],
   "signals": {
@@ -322,10 +311,17 @@
     },
     {
       "t": "2026-05-14",
-      "v": 9.47
+      "v": 9.37
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-14 22:32",
+      "symbol": "DOGEUSDT",
+      "side": "Buy",
+      "pnl": 0.91,
+      "reason": "2/2"
+    },
     {
       "ts": "2026-05-14 21:12",
       "symbol": "HYPEUSDT",
@@ -458,13 +454,6 @@
       "side": "Buy",
       "pnl": 7.83,
       "reason": "-"
-    },
-    {
-      "ts": "2026-05-14 02:12",
-      "symbol": "NEARUSDT",
-      "side": "Sell",
-      "pnl": -0.0,
-      "reason": "L2"
     }
   ],
   "num_days": 7
