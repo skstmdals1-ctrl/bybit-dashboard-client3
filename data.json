@@ -1,54 +1,54 @@
 {
-  "ts": "2026-05-15T14:05:40.427695+09:00",
+  "ts": "2026-05-15T14:06:41.735662+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 962.14,
-  "available": 716.62,
-  "unrealized": 5.93,
+  "equity": 962.18,
+  "available": 716.77,
+  "unrealized": 5.91,
   "daily_pnl": 10.97,
-  "total_pnl": 27.14,
-  "cum_pct": 2.9,
-  "daily_avg_pct": 0.358,
-  "annual_pct": 268.54,
+  "total_pnl": 27.18,
+  "cum_pct": 2.91,
+  "daily_avg_pct": 0.3592,
+  "annual_pct": 270.15,
   "mdd": -0.3,
-  "current_dd": -0.1,
-  "seed_used": 245.52,
-  "seed_used_pct": 25.52,
+  "current_dd": -0.07,
+  "seed_used": 245.42,
+  "seed_used_pct": 25.51,
   "long_count": 1,
   "short_count": 2,
   "positions": [
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 0.61,
-      "pnl_pct": 0.13,
-      "margin": 69.26,
+      "pnl": 0.23,
+      "pnl_pct": 0.05,
+      "margin": 69.21,
       "leverage": "7",
       "tier": "2/2",
       "entry": 80706.1667,
-      "mark": 80808.5
+      "mark": 80745.06
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 4.18,
-      "pnl_pct": 1.4,
-      "margin": 58.88,
+      "pnl": 4.49,
+      "pnl_pct": 1.5,
+      "margin": 58.82,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2296.8238,
-      "mark": 2264.67
+      "mark": 2262.32
     },
     {
       "symbol": "NEARUSDT",
       "side": "SHORT",
-      "pnl": 1.14,
-      "pnl_pct": 1.04,
-      "margin": 21.66,
+      "pnl": 1.19,
+      "pnl_pct": 1.09,
+      "margin": 21.65,
       "leverage": "5",
       "tier": "1/2",
       "entry": 1.5836,
-      "mark": 1.5671
+      "mark": 1.5664
     }
   ],
   "signals": {
@@ -110,7 +110,7 @@
     },
     "BTCUSDT": {
       "dir": "long",
-      "conf": 0.442
+      "conf": 0.443
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -304,7 +304,7 @@
     },
     {
       "t": "2026-05-15",
-      "v": 27.14
+      "v": 27.18
     }
   ],
   "trade_history": [
