@@ -1,17 +1,17 @@
 {
-  "ts": "2026-05-15T13:22:24.295096+09:00",
+  "ts": "2026-05-15T13:23:25.571912+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 960.57,
-  "available": 714.79,
-  "unrealized": 4.24,
+  "equity": 960.45,
+  "available": 714.66,
+  "unrealized": 4.14,
   "daily_pnl": 10.97,
-  "total_pnl": 25.57,
-  "cum_pct": 2.73,
-  "daily_avg_pct": 0.3372,
-  "annual_pct": 241.68,
+  "total_pnl": 25.45,
+  "cum_pct": 2.72,
+  "daily_avg_pct": 0.336,
+  "annual_pct": 240.19,
   "mdd": -0.3,
-  "current_dd": -0.29,
+  "current_dd": -0.22,
   "seed_used": 245.78,
   "seed_used_pct": 25.59,
   "long_count": 1,
@@ -20,35 +20,35 @@
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 3.86,
-      "pnl_pct": 1.29,
-      "margin": 58.94,
+      "pnl": 3.84,
+      "pnl_pct": 1.28,
+      "margin": 58.95,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2296.8238,
-      "mark": 2267.1
+      "mark": 2267.32
     },
     {
       "symbol": "NEARUSDT",
       "side": "SHORT",
-      "pnl": 0.68,
-      "pnl_pct": 0.62,
-      "margin": 21.75,
+      "pnl": 0.64,
+      "pnl_pct": 0.59,
+      "margin": 21.76,
       "leverage": "5",
       "tier": "1/2",
       "entry": 1.5836,
-      "mark": 1.5738
+      "mark": 1.5743
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": -0.3,
-      "pnl_pct": -0.37,
-      "margin": 11.56,
+      "pnl": -0.33,
+      "pnl_pct": -0.41,
+      "margin": 11.55,
       "leverage": "7",
       "tier": "2/2",
       "entry": 81219.5,
-      "mark": 80918.28
+      "mark": 80884.8
     }
   ],
   "signals": {
@@ -110,7 +110,7 @@
     },
     "BTCUSDT": {
       "dir": "long",
-      "conf": 0.44
+      "conf": 0.438
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -134,7 +134,7 @@
     },
     "DOGEUSDT": {
       "dir": "long",
-      "conf": 0.546
+      "conf": 0.547
     },
     "NEARUSDT": {
       "dir": "short",
@@ -142,7 +142,7 @@
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.394
+      "conf": 0.374
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -304,7 +304,7 @@
     },
     {
       "t": "2026-05-15",
-      "v": 25.57
+      "v": 25.45
     }
   ],
   "trade_history": [
