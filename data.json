@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-18T18:15:03.017988+09:00",
+  "ts": "2026-05-18T18:16:05.011616+09:00",
   "start_date": "2026-05-08",
   "status": "running",
   "equity": 986.79,
-  "available": 858.62,
-  "unrealized": 14.68,
+  "available": 858.56,
+  "unrealized": 14.65,
   "daily_pnl": 0,
   "total_pnl": 51.79,
   "cum_pct": 5.54,
   "daily_avg_pct": 0.4914,
   "annual_pct": 498.48,
   "mdd": -0.19,
-  "current_dd": -0.08,
-  "seed_used": 128.18,
+  "current_dd": -0.1,
+  "seed_used": 128.23,
   "seed_used_pct": 12.99,
   "long_count": 1,
   "short_count": 1,
@@ -20,24 +20,24 @@
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 17.56,
-      "pnl_pct": 2.98,
-      "margin": 81.66,
+      "pnl": 17.41,
+      "pnl_pct": 2.95,
+      "margin": 81.69,
       "leverage": "7",
       "tier": "2/2",
       "entry": 2182.2256,
-      "mark": 2117.2
+      "mark": 2117.76
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": -2.87,
-      "pnl_pct": -1.23,
-      "margin": 46.12,
+      "pnl": -2.75,
+      "pnl_pct": -1.18,
+      "margin": 46.15,
       "leverage": "5",
       "tier": "2/2",
       "entry": 77829.3667,
-      "mark": 76873.44
+      "mark": 76913.7
     }
   ],
   "signals": {
@@ -83,7 +83,7 @@
     },
     "BCHUSDT": {
       "dir": "neutral",
-      "conf": 0.467
+      "conf": 0.472
     },
     "DOTUSDT": {
       "dir": "long",
