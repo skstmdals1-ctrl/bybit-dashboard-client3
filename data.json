@@ -1,43 +1,32 @@
 {
-  "ts": "2026-05-18T23:35:07.810805+09:00",
+  "ts": "2026-05-18T23:36:09.316536+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 988.48,
-  "available": 861.08,
-  "unrealized": 16.26,
-  "daily_pnl": 0,
-  "total_pnl": 53.48,
+  "equity": 988.51,
+  "available": 907.05,
+  "unrealized": 21.26,
+  "daily_pnl": -4.97,
+  "total_pnl": 53.51,
   "cum_pct": 5.72,
   "daily_avg_pct": 0.507,
   "annual_pct": 533.36,
   "mdd": -0.87,
   "current_dd": -0.08,
-  "seed_used": 127.4,
-  "seed_used_pct": 12.89,
-  "long_count": 1,
+  "seed_used": 81.45,
+  "seed_used_pct": 8.24,
+  "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 20.79,
-      "pnl_pct": 3.53,
-      "margin": 81.2,
+      "pnl": 21.27,
+      "pnl_pct": 3.61,
+      "margin": 81.13,
       "leverage": "7",
       "tier": "2/2",
       "entry": 2182.2256,
-      "mark": 2105.21
-    },
-    {
-      "symbol": "BTCUSDT",
-      "side": "LONG",
-      "pnl": -4.53,
-      "pnl_pct": -1.94,
-      "margin": 45.79,
-      "leverage": "5",
-      "tier": "2/2",
-      "entry": 77829.3667,
-      "mark": 76320.9
+      "mark": 2103.45
     }
   ],
   "signals": {
@@ -305,10 +294,17 @@
     },
     {
       "t": "2026-05-18",
-      "v": 53.48
+      "v": 53.51
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-18 23:35",
+      "symbol": "BTCUSDT",
+      "side": "Buy",
+      "pnl": -4.97,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-05-16 18:18",
       "symbol": "ETHUSDT",
@@ -342,7 +338,7 @@
       "symbol": "BTCUSDT",
       "side": "Buy",
       "pnl": -9.47,
-      "reason": "External Exit"
+      "reason": "-"
     },
     {
       "ts": "2026-05-15 22:38",
@@ -356,98 +352,91 @@
       "symbol": "NEARUSDT",
       "side": "Sell",
       "pnl": -0.0,
-      "reason": "L2"
+      "reason": "-"
     },
     {
       "ts": "2026-05-15 16:23",
       "symbol": "NEARUSDT",
       "side": "Sell",
       "pnl": 0.31,
-      "reason": "1/2"
+      "reason": "-"
     },
     {
       "ts": "2026-05-15 10:51",
       "symbol": "HYPEUSDT",
       "side": "Buy",
       "pnl": 21.68,
-      "reason": "External Exit"
+      "reason": "-"
     },
     {
       "ts": "2026-05-15 08:47",
       "symbol": "DOGEUSDT",
       "side": "Buy",
       "pnl": -3.57,
-      "reason": "2/2"
+      "reason": "-"
     },
     {
       "ts": "2026-05-15 06:44",
       "symbol": "NEARUSDT",
       "side": "Sell",
       "pnl": 0.0,
-      "reason": "L2"
+      "reason": "-"
     },
     {
       "ts": "2026-05-15 06:39",
       "symbol": "NEARUSDT",
       "side": "Sell",
       "pnl": 1.1,
-      "reason": "1/2"
+      "reason": "-"
     },
     {
       "ts": "2026-05-15 06:14",
       "symbol": "HYPEUSDT",
       "side": "Buy",
       "pnl": -0.0,
-      "reason": "L2"
+      "reason": "-"
     },
     {
       "ts": "2026-05-15 06:12",
       "symbol": "HYPEUSDT",
       "side": "Buy",
       "pnl": -0.06,
-      "reason": "1/2"
+      "reason": "-"
     },
     {
       "ts": "2026-05-15 05:07",
       "symbol": "HYPEUSDT",
       "side": "Buy",
       "pnl": 0.0,
-      "reason": "L2"
+      "reason": "-"
     },
     {
       "ts": "2026-05-15 05:05",
       "symbol": "HYPEUSDT",
       "side": "Buy",
       "pnl": 1.06,
-      "reason": "1/3"
+      "reason": "-"
     },
     {
       "ts": "2026-05-15 04:28",
       "symbol": "DOGEUSDT",
       "side": "Buy",
       "pnl": 9.6,
-      "reason": "2/2"
+      "reason": "-"
     },
     {
       "ts": "2026-05-15 01:59",
       "symbol": "BTCUSDT",
       "side": "Sell",
       "pnl": -15.3,
-      "reason": "External Exit"
+      "reason": "-"
     },
     {
       "ts": "2026-05-15 01:12",
       "symbol": "NEARUSDT",
       "side": "Sell",
       "pnl": -0.0,
-      "reason": "L2"
-    },
-    {
-      "ts": "2026-05-15 01:08",
-      "symbol": "NEARUSDT",
-      "side": "Sell",
-      "pnl": -11.65,
-      "reason": "2/2"
+      "reason": "-"
     }
   ],
   "num_days": 11
