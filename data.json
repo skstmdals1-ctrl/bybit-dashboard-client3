@@ -1,54 +1,54 @@
 {
-  "ts": "2026-05-20T23:26:24.172871+09:00",
+  "ts": "2026-05-20T23:27:25.735390+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 981.82,
-  "available": 836.36,
-  "unrealized": -1.53,
-  "daily_pnl": 16.53,
-  "total_pnl": 46.82,
+  "equity": 981.88,
+  "available": 859.32,
+  "unrealized": 1.34,
+  "daily_pnl": 13.7,
+  "total_pnl": 46.88,
   "cum_pct": 5.01,
   "daily_avg_pct": 0.3767,
   "annual_pct": 294.47,
   "mdd": -0.99,
   "current_dd": -0.6,
-  "seed_used": 145.46,
-  "seed_used_pct": 14.82,
+  "seed_used": 122.55,
+  "seed_used_pct": 12.48,
   "long_count": 2,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
-      "pnl": 1.11,
-      "pnl_pct": 0.35,
-      "margin": 63.88,
+      "pnl": 1.35,
+      "pnl_pct": 0.42,
+      "margin": 63.93,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2122.0167,
-      "mark": 2129.44
-    },
-    {
-      "symbol": "VVVUSDT",
-      "side": "LONG",
-      "pnl": -2.68,
-      "pnl_pct": -1.29,
-      "margin": 22.79,
-      "leverage": "9",
-      "tier": "2/3",
-      "entry": 17.9285,
-      "mark": 17.6972
+      "mark": 2131.0
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 0.04,
-      "pnl_pct": 0.05,
-      "margin": 19.34,
+      "pnl": -0.01,
+      "pnl_pct": -0.01,
+      "margin": 19.35,
       "leverage": "4",
       "tier": "2/2",
       "entry": 77392.5,
-      "mark": 77353.7
+      "mark": 77399.9
+    },
+    {
+      "symbol": "VVVUSDT",
+      "side": "LONG",
+      "pnl": -0.0,
+      "pnl_pct": -1.35,
+      "margin": 0.02,
+      "leverage": "9",
+      "tier": "1/3",
+      "entry": 17.9285,
+      "mark": 17.687
     }
   ],
   "signals": {
@@ -324,10 +324,17 @@
     },
     {
       "t": "2026-05-20",
-      "v": 46.82
+      "v": 46.88
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-20 23:26",
+      "symbol": "VVVUSDT",
+      "side": "Buy",
+      "pnl": -2.83,
+      "reason": "2/3"
+    },
     {
       "ts": "2026-05-20 22:40",
       "symbol": "VVVUSDT",
@@ -459,13 +466,6 @@
       "symbol": "DOGEUSDT",
       "side": "Buy",
       "pnl": -3.57,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-05-15 06:44",
-      "symbol": "NEARUSDT",
-      "side": "Sell",
-      "pnl": 0.0,
       "reason": "-"
     }
   ],
