@@ -1,54 +1,54 @@
 {
-  "ts": "2026-05-21T01:16:24.460634+09:00",
+  "ts": "2026-05-21T01:17:26.063077+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 983.4,
-  "available": 835.92,
-  "unrealized": 2.93,
+  "equity": 983.3,
+  "available": 835.87,
+  "unrealized": 2.79,
   "daily_pnl": 0,
-  "total_pnl": 48.4,
-  "cum_pct": 5.18,
-  "daily_avg_pct": 0.3614,
-  "annual_pct": 273.12,
+  "total_pnl": 48.3,
+  "cum_pct": 5.17,
+  "daily_avg_pct": 0.3607,
+  "annual_pct": 272.17,
   "mdd": -0.99,
-  "current_dd": -0.36,
-  "seed_used": 147.47,
-  "seed_used_pct": 15.0,
+  "current_dd": -0.45,
+  "seed_used": 147.43,
+  "seed_used_pct": 14.99,
   "long_count": 2,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
-      "pnl": 1.89,
-      "pnl_pct": 0.59,
-      "margin": 64.04,
+      "pnl": 1.77,
+      "pnl_pct": 0.56,
+      "margin": 64.01,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2122.0167,
-      "mark": 2134.59
+      "mark": 2133.8
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 0.01,
-      "pnl_pct": 0.01,
-      "margin": 19.35,
+      "pnl": 0.07,
+      "pnl_pct": 0.09,
+      "margin": 19.33,
       "leverage": "4",
       "tier": "2/2",
       "entry": 77392.5,
-      "mark": 77383.3
+      "mark": 77320.36
     },
     {
       "symbol": "VVVUSDT",
       "side": "LONG",
-      "pnl": 1.04,
-      "pnl_pct": 1.52,
-      "margin": 7.67,
+      "pnl": 0.96,
+      "pnl_pct": 1.41,
+      "margin": 7.66,
       "leverage": "9",
       "tier": "2/3",
       "entry": 17.796,
-      "mark": 18.0671
+      "mark": 18.0465
     }
   ],
   "signals": {
@@ -109,8 +109,8 @@
       "conf": 0.557
     },
     "BTCUSDT": {
-      "dir": "long",
-      "conf": 0.386
+      "dir": "neutral",
+      "conf": 0.34
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -142,7 +142,7 @@
     },
     "ETHUSDT": {
       "dir": "long",
-      "conf": 0.35
+      "conf": 0.349
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -206,7 +206,7 @@
     },
     "VVVUSDT": {
       "dir": "long",
-      "conf": 0.499
+      "conf": 0.5
     },
     "BUSDT": {
       "dir": "short",
@@ -328,7 +328,7 @@
     },
     {
       "t": "2026-05-21",
-      "v": 48.4
+      "v": 48.3
     }
   ],
   "trade_history": [
