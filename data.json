@@ -1,76 +1,76 @@
 {
-  "ts": "2026-05-22T12:12:13.116323+09:00",
+  "ts": "2026-05-22T12:13:14.678176+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 982.84,
-  "available": 796.7,
-  "unrealized": 2.49,
+  "equity": 982.89,
+  "available": 678.79,
+  "unrealized": 2.47,
   "daily_pnl": 0,
-  "total_pnl": 47.84,
+  "total_pnl": 47.89,
   "cum_pct": 5.12,
   "daily_avg_pct": 0.3334,
   "annual_pct": 236.99,
   "mdd": -0.03,
   "current_dd": 0.0,
-  "seed_used": 186.13,
-  "seed_used_pct": 18.94,
+  "seed_used": 304.1,
+  "seed_used_pct": 30.94,
   "long_count": 4,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
-      "pnl": 2.26,
-      "pnl_pct": 0.71,
-      "margin": 64.11,
+      "pnl": 2.17,
+      "pnl_pct": 0.68,
+      "margin": 64.09,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2122.0167,
-      "mark": 2137.1
+      "mark": 2136.46
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 0.2,
-      "pnl_pct": 0.09,
-      "margin": 58.27,
+      "pnl": 0.24,
+      "pnl_pct": 0.1,
+      "margin": 58.26,
       "leverage": "4",
       "tier": "2/2",
       "entry": 77765.5667,
-      "mark": 77699.31
+      "mark": 77685.76
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 0.03,
-      "pnl_pct": 0.03,
-      "margin": 22.86,
+      "pnl": -0.07,
+      "pnl_pct": -0.06,
+      "margin": 22.84,
       "leverage": "5",
-      "tier": "1/2",
+      "tier": "2/2",
       "entry": 57.706,
-      "mark": 57.722
+      "mark": 57.672
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": 0.01,
-      "pnl_pct": 0.01,
-      "margin": 22.36,
+      "pnl": -0.06,
+      "pnl_pct": -0.06,
+      "margin": 22.34,
       "leverage": "5",
-      "tier": "1/2",
+      "tier": "2/2",
       "entry": 657.49,
-      "mark": 657.55
+      "mark": 657.12
     },
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": -0.01,
-      "pnl_pct": -0.01,
-      "margin": 18.23,
+      "pnl": 0.2,
+      "pnl_pct": 0.13,
+      "margin": 18.26,
       "leverage": "8",
-      "tier": "1/3",
+      "tier": "2/3",
       "entry": 2.0871,
-      "mark": 2.0869
+      "mark": 2.0899
     }
   ],
   "signals": {
@@ -92,11 +92,11 @@
     },
     "ZECUSDT": {
       "dir": "long",
-      "conf": 0.475
+      "conf": 0.472
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.488
+      "conf": 0.486
     },
     "PENGUUSDT": {
       "dir": "long",
@@ -124,7 +124,7 @@
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.433
+      "conf": 0.434
     },
     "TRXUSDT": {
       "dir": "short",
@@ -132,7 +132,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.541
+      "conf": 0.562
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -160,11 +160,11 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.471
+      "conf": 0.466
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.49
+      "conf": 0.493
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -354,7 +354,7 @@
     },
     {
       "t": "2026-05-22",
-      "v": 47.84
+      "v": 47.89
     }
   ],
   "trade_history": [
