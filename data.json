@@ -1,98 +1,98 @@
 {
-  "ts": "2026-05-23T03:44:48.680584+09:00",
+  "ts": "2026-05-23T03:45:50.207062+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1015.83,
-  "available": 522.99,
-  "unrealized": 34.88,
-  "daily_pnl": -0.63,
-  "total_pnl": 80.83,
-  "cum_pct": 8.64,
-  "daily_avg_pct": 0.5193,
-  "annual_pct": 562.29,
+  "equity": 1022.99,
+  "available": 574.15,
+  "unrealized": 24.82,
+  "daily_pnl": 16.66,
+  "total_pnl": 87.99,
+  "cum_pct": 9.41,
+  "daily_avg_pct": 0.5637,
+  "annual_pct": 678.13,
   "mdd": -2.74,
   "current_dd": 0.0,
-  "seed_used": 492.84,
-  "seed_used_pct": 48.52,
+  "seed_used": 448.83,
+  "seed_used_pct": 43.87,
   "long_count": 2,
   "short_count": 5,
   "positions": [
     {
-      "symbol": "SUIUSDT",
-      "side": "SHORT",
-      "pnl": 27.03,
-      "pnl_pct": 3.83,
-      "margin": 84.76,
-      "leverage": "8",
-      "tier": "2/2",
-      "entry": 1.1192,
-      "mark": 1.0763
+      "symbol": "NEARUSDT",
+      "side": "LONG",
+      "pnl": -5.82,
+      "pnl_pct": -0.95,
+      "margin": 67.64,
+      "leverage": "9",
+      "tier": "3/3",
+      "entry": 2.1594,
+      "mark": 2.139
     },
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
-      "pnl": -2.2,
-      "pnl_pct": -0.69,
-      "margin": 63.22,
+      "pnl": -3.93,
+      "pnl_pct": -1.23,
+      "margin": 62.87,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2122.0167,
-      "mark": 2107.34
+      "mark": 2095.82
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 3.64,
-      "pnl_pct": 1.56,
-      "margin": 57.41,
+      "pnl": 4.43,
+      "pnl_pct": 1.9,
+      "margin": 57.22,
       "leverage": "4",
       "tier": "2/2",
       "entry": 77765.5667,
-      "mark": 76552.1
+      "mark": 76289.51
+    },
+    {
+      "symbol": "SUIUSDT",
+      "side": "SHORT",
+      "pnl": 17.89,
+      "pnl_pct": 4.99,
+      "margin": 42.53,
+      "leverage": "8",
+      "tier": "2/2",
+      "entry": 1.1192,
+      "mark": 1.0633
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 3.52,
-      "pnl_pct": 1.32,
-      "margin": 32.93,
+      "pnl": 5.98,
+      "pnl_pct": 2.24,
+      "margin": 32.63,
       "leverage": "8",
       "tier": "2/2",
       "entry": 0.25,
-      "mark": 0.2467
-    },
-    {
-      "symbol": "NEARUSDT",
-      "side": "LONG",
-      "pnl": -2.31,
-      "pnl_pct": -0.96,
-      "margin": 26.57,
-      "leverage": "9",
-      "tier": "3/3",
-      "entry": 2.185,
-      "mark": 2.1641
+      "mark": 0.2444
     },
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": 3.95,
-      "pnl_pct": 4.14,
-      "margin": 18.33,
+      "pnl": 4.48,
+      "pnl_pct": 4.68,
+      "margin": 18.22,
       "leverage": "5",
       "tier": "3/3",
       "entry": 0.2931,
-      "mark": 0.281
+      "mark": 0.2794
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 1.21,
-      "pnl_pct": 1.54,
-      "margin": 11.02,
+      "pnl": 1.82,
+      "pnl_pct": 2.33,
+      "margin": 10.94,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1.9642,
-      "mark": 1.9339
+      "mark": 1.9185
     }
   ],
   "signals": {
@@ -134,7 +134,7 @@
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.445
+      "conf": 0.447
     },
     "BCHUSDT": {
       "dir": "short",
@@ -146,7 +146,7 @@
     },
     "XRPUSDT": {
       "dir": "long",
-      "conf": 0.358
+      "conf": 0.36
     },
     "TRXUSDT": {
       "dir": "short",
@@ -226,7 +226,7 @@
     },
     "ONDOUSDT": {
       "dir": "long",
-      "conf": 0.506
+      "conf": 0.51
     },
     "DASHUSDT": {
       "dir": "short",
@@ -380,10 +380,17 @@
     },
     {
       "t": "2026-05-23",
-      "v": 80.83
+      "v": 87.99
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-23 03:45",
+      "symbol": "SUIUSDT",
+      "side": "Sell",
+      "pnl": 17.29,
+      "reason": "-"
+    },
     {
       "ts": "2026-05-23 03:28",
       "symbol": "WLDUSDT",
@@ -516,13 +523,6 @@
       "side": "Buy",
       "pnl": 0.0,
       "reason": "L2"
-    },
-    {
-      "ts": "2026-05-22 20:11",
-      "symbol": "NEARUSDT",
-      "side": "Buy",
-      "pnl": 2.58,
-      "reason": "3/3"
     }
   ],
   "num_days": 16
