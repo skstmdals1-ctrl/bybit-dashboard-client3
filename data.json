@@ -1,98 +1,98 @@
 {
-  "ts": "2026-05-22T19:15:08.433891+09:00",
+  "ts": "2026-05-22T19:16:10.122110+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1001.86,
-  "available": 569.42,
-  "unrealized": 22.34,
+  "equity": 1004.22,
+  "available": 530.4,
+  "unrealized": 24.73,
   "daily_pnl": -0.46,
-  "total_pnl": 66.86,
-  "cum_pct": 7.15,
-  "daily_avg_pct": 0.4615,
-  "annual_pct": 436.88,
+  "total_pnl": 69.22,
+  "cum_pct": 7.4,
+  "daily_avg_pct": 0.4771,
+  "annual_pct": 468.18,
   "mdd": -1.13,
-  "current_dd": -0.88,
-  "seed_used": 432.44,
-  "seed_used_pct": 43.16,
+  "current_dd": -1.03,
+  "seed_used": 473.82,
+  "seed_used_pct": 47.18,
   "long_count": 4,
   "short_count": 3,
   "positions": [
     {
       "symbol": "SUIUSDT",
       "side": "SHORT",
-      "pnl": 11.96,
-      "pnl_pct": 1.7,
-      "margin": 86.64,
+      "pnl": 14.11,
+      "pnl_pct": 2.0,
+      "margin": 86.37,
       "leverage": "8",
       "tier": "2/2",
       "entry": 1.1192,
-      "mark": 1.1002
+      "mark": 1.0968
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 10.41,
-      "pnl_pct": 3.03,
+      "pnl": 10.44,
+      "pnl_pct": 3.04,
       "margin": 70.81,
       "leverage": "5",
       "tier": "2/2",
       "entry": 57.3646,
-      "mark": 59.103
+      "mark": 59.108
     },
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
-      "pnl": 0.01,
-      "pnl_pct": 0.0,
-      "margin": 63.66,
+      "pnl": -0.31,
+      "pnl_pct": -0.1,
+      "margin": 63.6,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2122.0167,
-      "mark": 2122.09
+      "mark": 2119.92
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 1.48,
-      "pnl_pct": 0.64,
-      "margin": 57.95,
+      "pnl": 1.59,
+      "pnl_pct": 0.68,
+      "margin": 57.93,
       "leverage": "4",
       "tier": "2/2",
       "entry": 77765.5667,
-      "mark": 77270.6
+      "mark": 77237.0
     },
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": -1.33,
-      "pnl_pct": -0.56,
-      "margin": 26.49,
+      "pnl": -0.88,
+      "pnl_pct": -0.37,
+      "margin": 26.54,
       "leverage": "9",
-      "tier": "2/3",
+      "tier": "3/3",
       "entry": 2.2199,
-      "mark": 2.2075
+      "mark": 2.2117
     },
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": -0.34,
-      "pnl_pct": -0.43,
-      "margin": 15.95,
+      "pnl": -0.14,
+      "pnl_pct": -0.18,
+      "margin": 15.91,
       "leverage": "5",
       "tier": "2/3",
       "entry": 0.2812,
-      "mark": 0.2824
+      "mark": 0.2817
     },
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": 0.16,
-      "pnl_pct": 0.16,
-      "margin": 14.53,
+      "pnl": -0.04,
+      "pnl_pct": -0.04,
+      "margin": 14.5,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.2507,
-      "mark": 0.2511
+      "mark": 0.2506
     }
   ],
   "signals": {
@@ -118,7 +118,7 @@
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.488
+      "conf": 0.489
     },
     "PENGUUSDT": {
       "dir": "long",
@@ -134,7 +134,7 @@
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.44
+      "conf": 0.441
     },
     "BCHUSDT": {
       "dir": "short",
@@ -146,7 +146,7 @@
     },
     "XRPUSDT": {
       "dir": "long",
-      "conf": 0.421
+      "conf": 0.42
     },
     "TRXUSDT": {
       "dir": "short",
@@ -154,7 +154,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.552
+      "conf": 0.54
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -166,7 +166,7 @@
     },
     "ADAUSDT": {
       "dir": "long",
-      "conf": 0.467
+      "conf": 0.464
     },
     "LINKUSDT": {
       "dir": "neutral",
@@ -186,7 +186,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.359
+      "conf": 0.41
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -376,7 +376,7 @@
     },
     {
       "t": "2026-05-22",
-      "v": 66.86
+      "v": 69.22
     }
   ],
   "trade_history": [
