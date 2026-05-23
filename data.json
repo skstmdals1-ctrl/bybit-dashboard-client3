@@ -1,65 +1,54 @@
 {
-  "ts": "2026-05-24T05:45:16.919225+09:00",
+  "ts": "2026-05-24T05:46:18.549086+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1023.1,
-  "available": 629.45,
-  "unrealized": 45.7,
-  "daily_pnl": -12.21,
-  "total_pnl": 88.1,
-  "cum_pct": 9.42,
-  "daily_avg_pct": 0.531,
-  "annual_pct": 591.04,
+  "equity": 1022.85,
+  "available": 663.67,
+  "unrealized": 49.24,
+  "daily_pnl": -16.2,
+  "total_pnl": 87.85,
+  "cum_pct": 9.4,
+  "daily_avg_pct": 0.5299,
+  "annual_pct": 588.28,
   "mdd": -4.24,
   "current_dd": -3.21,
-  "seed_used": 393.66,
-  "seed_used_pct": 38.48,
-  "long_count": 3,
+  "seed_used": 359.17,
+  "seed_used_pct": 35.11,
+  "long_count": 4,
   "short_count": 2,
   "positions": [
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": 32.86,
-      "pnl_pct": 3.89,
-      "margin": 87.72,
+      "pnl": 30.76,
+      "pnl_pct": 3.64,
+      "margin": 87.51,
       "leverage": "10",
       "tier": "2/2",
       "entry": 603.1069,
-      "mark": 626.58
-    },
-    {
-      "symbol": "TONUSDT",
-      "side": "SHORT",
-      "pnl": -4.15,
-      "pnl_pct": -0.94,
-      "margin": 63.55,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 1.8203,
-      "mark": 1.8375
+      "mark": 625.08
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 2.86,
-      "pnl_pct": 1.23,
-      "margin": 57.61,
+      "pnl": 2.94,
+      "pnl_pct": 1.26,
+      "margin": 57.59,
       "leverage": "4",
       "tier": "2/2",
       "entry": 77765.5667,
-      "mark": 76811.9
+      "mark": 76784.9
     },
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": 4.93,
-      "pnl_pct": 1.13,
-      "margin": 43.96,
+      "pnl": 6.24,
+      "pnl_pct": 1.44,
+      "margin": 44.09,
       "leverage": "10",
       "tier": "3/3",
       "entry": 2.3819,
-      "mark": 2.4089
+      "mark": 2.4161
     },
     {
       "symbol": "ADAUSDT",
@@ -71,6 +60,28 @@
       "tier": "2/2",
       "entry": 0.2406,
       "mark": 0.2488
+    },
+    {
+      "symbol": "TONUSDT",
+      "side": "LONG",
+      "pnl": 0.09,
+      "pnl_pct": 0.04,
+      "margin": 29.24,
+      "leverage": "8",
+      "tier": "1/2",
+      "entry": 1.8352,
+      "mark": 1.8359
+    },
+    {
+      "symbol": "TONUSDT",
+      "side": "SHORT",
+      "pnl": -0.0,
+      "pnl_pct": -0.85,
+      "margin": 0.02,
+      "leverage": "8",
+      "tier": "1/2",
+      "entry": 1.8203,
+      "mark": 1.8359
     }
   ],
   "signals": {
@@ -362,10 +373,17 @@
     },
     {
       "t": "2026-05-24",
-      "v": 88.1
+      "v": 87.85
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-24 05:45",
+      "symbol": "TONUSDT",
+      "side": "Sell",
+      "pnl": -3.99,
+      "reason": "1/2"
+    },
     {
       "ts": "2026-05-24 05:39",
       "symbol": "SOLUSDT",
@@ -498,13 +516,6 @@
       "side": "Sell",
       "pnl": 3.7,
       "reason": "2/2"
-    },
-    {
-      "ts": "2026-05-23 10:04",
-      "symbol": "TONUSDT",
-      "side": "Sell",
-      "pnl": 0.0,
-      "reason": "마진 0.0USDT < 1"
     }
   ],
   "num_days": 17
