@@ -1,87 +1,87 @@
 {
-  "ts": "2026-05-24T11:29:20.050790+09:00",
+  "ts": "2026-05-24T11:30:21.622661+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1053.93,
-  "available": 648.99,
-  "unrealized": 3.23,
-  "daily_pnl": 61.15,
-  "total_pnl": 118.93,
-  "cum_pct": 12.72,
-  "daily_avg_pct": 0.7068,
-  "annual_pct": 1207.56,
+  "equity": 1055.32,
+  "available": 711.73,
+  "unrealized": 4.96,
+  "daily_pnl": 60.75,
+  "total_pnl": 120.32,
+  "cum_pct": 12.87,
+  "daily_avg_pct": 0.7147,
+  "annual_pct": 1245.54,
   "mdd": -4.24,
   "current_dd": -1.4,
-  "seed_used": 404.95,
-  "seed_used_pct": 38.42,
+  "seed_used": 343.59,
+  "seed_used_pct": 32.56,
   "long_count": 4,
   "short_count": 2,
   "positions": [
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": -5.0,
-      "pnl_pct": -0.75,
-      "margin": 83.23,
+      "pnl": -3.54,
+      "pnl_pct": -0.53,
+      "margin": 83.42,
       "leverage": "8",
       "tier": "3/3",
       "entry": 632.885,
-      "mark": 628.17
+      "mark": 629.55
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 3.17,
-      "pnl_pct": 1.36,
-      "margin": 57.53,
+      "pnl": 3.09,
+      "pnl_pct": 1.32,
+      "margin": 57.55,
       "leverage": "4",
       "tier": "2/2",
       "entry": 77765.5667,
-      "mark": 76710.5
+      "mark": 76736.4
     },
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": 4.85,
-      "pnl_pct": 1.79,
-      "margin": 34.56,
+      "pnl": 5.08,
+      "pnl_pct": 1.87,
+      "margin": 34.59,
       "leverage": "8",
       "tier": "2/2",
       "entry": 0.2406,
-      "mark": 0.2449
+      "mark": 0.2451
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": -0.03,
-      "pnl_pct": -0.02,
-      "margin": 24.63,
+      "pnl": -0.1,
+      "pnl_pct": -0.08,
+      "margin": 24.64,
       "leverage": "5",
       "tier": "1/2",
       "entry": 1.8,
-      "mark": 1.8004
-    },
-    {
-      "symbol": "NEARUSDT",
-      "side": "LONG",
-      "pnl": -0.28,
-      "pnl_pct": -0.17,
-      "margin": 24.07,
-      "leverage": "7",
-      "tier": "3/3",
-      "entry": 2.3738,
-      "mark": 2.3698
+      "mark": 1.8014
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 0.52,
-      "pnl_pct": 0.61,
-      "margin": 12.36,
+      "pnl": 0.43,
+      "pnl_pct": 0.5,
+      "margin": 12.34,
       "leverage": "7",
       "tier": "2/2",
       "entry": 59.7075,
-      "mark": 60.07
+      "mark": 60.005
+    },
+    {
+      "symbol": "NEARUSDT",
+      "side": "LONG",
+      "pnl": -0.0,
+      "pnl_pct": -0.03,
+      "margin": 0.03,
+      "leverage": "7",
+      "tier": "1/3",
+      "entry": 2.3738,
+      "mark": 2.3731
     }
   ],
   "signals": {
@@ -373,10 +373,17 @@
     },
     {
       "t": "2026-05-24",
-      "v": 118.93
+      "v": 120.32
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-24 11:29",
+      "symbol": "NEARUSDT",
+      "side": "Buy",
+      "pnl": -0.41,
+      "reason": "3/3"
+    },
     {
       "ts": "2026-05-24 11:26",
       "symbol": "TONUSDT",
@@ -509,13 +516,6 @@
       "side": "Buy",
       "pnl": 7.77,
       "reason": "2/2"
-    },
-    {
-      "ts": "2026-05-24 01:18",
-      "symbol": "ZECUSDT",
-      "side": "Buy",
-      "pnl": 8.62,
-      "reason": "-"
     }
   ],
   "num_days": 17
