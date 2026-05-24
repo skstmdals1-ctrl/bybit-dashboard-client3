@@ -1,87 +1,76 @@
 {
-  "ts": "2026-05-25T05:03:22.926766+09:00",
+  "ts": "2026-05-25T05:04:25.914480+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1156.59,
-  "available": 834.4,
-  "unrealized": 3.32,
+  "equity": 1158.56,
+  "available": 836.19,
+  "unrealized": 5.26,
   "daily_pnl": 18.48,
-  "total_pnl": 221.59,
-  "cum_pct": 23.7,
-  "daily_avg_pct": 1.1886,
-  "annual_pct": 7364.99,
+  "total_pnl": 223.56,
+  "cum_pct": 23.91,
+  "daily_avg_pct": 1.1982,
+  "annual_pct": 7628.01,
   "mdd": -4.24,
-  "current_dd": -0.63,
-  "seed_used": 322.18,
-  "seed_used_pct": 27.86,
-  "long_count": 3,
+  "current_dd": -0.51,
+  "seed_used": 322.37,
+  "seed_used_pct": 27.83,
+  "long_count": 2,
   "short_count": 3,
   "positions": [
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": -0.8,
-      "pnl_pct": -0.19,
-      "margin": 52.36,
+      "pnl": 1.05,
+      "pnl_pct": 0.25,
+      "margin": 52.59,
       "leverage": "8",
       "tier": "3/3",
       "entry": 2.426,
-      "mark": 2.4214
+      "mark": 2.4321
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 1.67,
-      "pnl_pct": 1.34,
-      "margin": 24.56,
+      "pnl": 1.72,
+      "pnl_pct": 1.38,
+      "margin": 24.55,
       "leverage": "5",
       "tier": "2/2",
       "entry": 0.2455,
-      "mark": 0.2422
+      "mark": 0.2421
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 1.56,
-      "pnl_pct": 1.39,
+      "pnl": 1.57,
+      "pnl_pct": 1.4,
       "margin": 22.13,
       "leverage": "5",
       "tier": "2/2",
       "entry": 86.33,
-      "mark": 85.13
+      "mark": 85.12
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": 0.04,
-      "pnl_pct": 0.07,
-      "margin": 7.63,
+      "pnl": 0.12,
+      "pnl_pct": 0.22,
+      "margin": 7.64,
       "leverage": "7",
       "tier": "2/3",
       "entry": 667.34,
-      "mark": 667.78
+      "mark": 668.83
     },
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": 0.85,
-      "pnl_pct": 2.97,
-      "margin": 6.97,
+      "pnl": 0.8,
+      "pnl_pct": 2.77,
+      "margin": 6.99,
       "leverage": "4",
       "tier": "3/3",
       "entry": 0.3,
-      "mark": 0.2911
-    },
-    {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": -0.0,
-      "pnl_pct": -0.25,
-      "margin": 0.07,
-      "leverage": "9",
-      "tier": "1/3",
-      "entry": 62.943,
-      "mark": 62.785
+      "mark": 0.2917
     }
   ],
   "signals": {
@@ -91,11 +80,11 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.654
+      "conf": 0.655
     },
     "WLDUSDT": {
       "dir": "short",
-      "conf": 0.506
+      "conf": 0.507
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -107,7 +96,7 @@
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.489
+      "conf": 0.488
     },
     "PENGUUSDT": {
       "dir": "long",
@@ -135,7 +124,7 @@
     },
     "XRPUSDT": {
       "dir": "neutral",
-      "conf": 0.658
+      "conf": 0.656
     },
     "TRXUSDT": {
       "dir": "short",
@@ -143,7 +132,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.528
+      "conf": 0.527
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -175,7 +164,7 @@
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.343
+      "conf": 0.346
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -215,7 +204,7 @@
     },
     "ONDOUSDT": {
       "dir": "long",
-      "conf": 0.51
+      "conf": 0.509
     },
     "DASHUSDT": {
       "dir": "short",
@@ -373,10 +362,17 @@
     },
     {
       "t": "2026-05-25",
-      "v": 221.59
+      "v": 223.56
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-25 05:04",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
+      "pnl": -0.0,
+      "reason": "L2"
+    },
     {
       "ts": "2026-05-25 04:59",
       "symbol": "HYPEUSDT",
@@ -509,13 +505,6 @@
       "side": "Sell",
       "pnl": 2.54,
       "reason": "2/2"
-    },
-    {
-      "ts": "2026-05-24 17:38",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": 0.03,
-      "reason": "L2"
     }
   ],
   "num_days": 18
