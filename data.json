@@ -1,22 +1,33 @@
 {
-  "ts": "2026-05-25T08:57:37.336985+09:00",
+  "ts": "2026-05-25T08:58:38.966119+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1160.36,
-  "available": 689.73,
-  "unrealized": 4.44,
+  "equity": 1161.99,
+  "available": 691.87,
+  "unrealized": 6.15,
   "daily_pnl": 21.07,
-  "total_pnl": 225.36,
-  "cum_pct": 24.1,
-  "daily_avg_pct": 1.2068,
-  "annual_pct": 7871.46,
+  "total_pnl": 226.99,
+  "cum_pct": 24.28,
+  "daily_avg_pct": 1.2149,
+  "annual_pct": 8107.75,
   "mdd": -4.24,
   "current_dd": -0.65,
-  "seed_used": 470.62,
-  "seed_used_pct": 40.56,
+  "seed_used": 470.11,
+  "seed_used_pct": 40.46,
   "long_count": 3,
   "short_count": 3,
   "positions": [
+    {
+      "symbol": "WLDUSDT",
+      "side": "SHORT",
+      "pnl": 1.16,
+      "pnl_pct": 0.2,
+      "margin": 81.05,
+      "leverage": "7",
+      "tier": "2/2",
+      "entry": 0.2935,
+      "mark": 0.2929
+    },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
@@ -31,57 +42,46 @@
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 1.35,
-      "pnl_pct": 1.2,
-      "margin": 22.18,
+      "pnl": 1.38,
+      "pnl_pct": 1.23,
+      "margin": 22.17,
       "leverage": "5",
       "tier": "2/2",
       "entry": 86.33,
-      "mark": 85.29
+      "mark": 85.266
     },
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
-      "pnl": 0.41,
-      "pnl_pct": 0.39,
+      "pnl": 0.37,
+      "pnl_pct": 0.36,
       "margin": 21.0,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2092.07,
-      "mark": 2100.17
+      "mark": 2099.56
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 1.49,
-      "pnl_pct": 1.16,
+      "pnl": 1.46,
+      "pnl_pct": 1.14,
       "margin": 14.4,
       "leverage": "9",
       "tier": "2/2",
       "entry": 62.194,
-      "mark": 62.915
-    },
-    {
-      "symbol": "WLDUSDT",
-      "side": "SHORT",
-      "pnl": -0.52,
-      "pnl_pct": -0.55,
-      "margin": 13.61,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 0.292,
-      "mark": 0.2936
+      "mark": 62.904
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": 0.1,
-      "pnl_pct": 0.1,
+      "pnl": 0.11,
+      "pnl_pct": 0.12,
       "margin": 13.25,
       "leverage": "7",
       "tier": "2/2",
       "entry": 661.72,
-      "mark": 662.41
+      "mark": 662.5
     }
   ],
   "signals": {
@@ -373,7 +373,7 @@
     },
     {
       "t": "2026-05-25",
-      "v": 225.36
+      "v": 226.99
     }
   ],
   "trade_history": [
