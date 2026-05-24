@@ -1,54 +1,54 @@
 {
-  "ts": "2026-05-24T09:10:42.027649+09:00",
+  "ts": "2026-05-24T09:11:43.600738+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1053.87,
-  "available": 645.92,
-  "unrealized": 1.34,
+  "equity": 1054.69,
+  "available": 646.61,
+  "unrealized": 2.11,
   "daily_pnl": 63.03,
-  "total_pnl": 118.87,
-  "cum_pct": 12.71,
-  "daily_avg_pct": 0.7063,
-  "annual_pct": 1205.19,
+  "total_pnl": 119.69,
+  "cum_pct": 12.8,
+  "daily_avg_pct": 0.711,
+  "annual_pct": 1227.61,
   "mdd": -4.24,
-  "current_dd": -0.95,
-  "seed_used": 407.95,
-  "seed_used_pct": 38.71,
+  "current_dd": -0.98,
+  "seed_used": 408.08,
+  "seed_used_pct": 38.69,
   "long_count": 4,
   "short_count": 1,
   "positions": [
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": -5.24,
-      "pnl_pct": -0.75,
-      "margin": 87.09,
+      "pnl": -4.78,
+      "pnl_pct": -0.68,
+      "margin": 87.15,
       "leverage": "8",
       "tier": "2/2",
       "entry": 1.827,
-      "mark": 1.8134
+      "mark": 1.8146
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 3.41,
-      "pnl_pct": 1.46,
-      "margin": 57.47,
+      "pnl": 3.37,
+      "pnl_pct": 1.44,
+      "margin": 57.48,
       "leverage": "4",
       "tier": "2/2",
       "entry": 77765.5667,
-      "mark": 76627.5
+      "mark": 76643.7
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": -5.75,
-      "pnl_pct": -1.58,
-      "margin": 44.81,
+      "pnl": -5.53,
+      "pnl_pct": -1.52,
+      "margin": 44.84,
       "leverage": "8",
       "tier": "3/3",
       "entry": 639.053,
-      "mark": 628.97
+      "mark": 629.35
     },
     {
       "symbol": "ADAUSDT",
@@ -64,13 +64,13 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 3.05,
-      "pnl_pct": 1.14,
-      "margin": 29.95,
+      "pnl": 3.12,
+      "pnl_pct": 1.17,
+      "margin": 29.96,
       "leverage": "9",
       "tier": "3/3",
       "entry": 58.0682,
-      "mark": 58.732
+      "mark": 58.747
     }
   ],
   "signals": {
@@ -132,7 +132,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.432
+      "conf": 0.456
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -362,7 +362,7 @@
     },
     {
       "t": "2026-05-24",
-      "v": 118.87
+      "v": 119.69
     }
   ],
   "trade_history": [
