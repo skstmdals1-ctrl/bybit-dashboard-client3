@@ -1,43 +1,43 @@
 {
-  "ts": "2026-05-24T18:33:36.053142+09:00",
+  "ts": "2026-05-24T18:34:37.558473+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1079.01,
-  "available": 748.14,
-  "unrealized": 15.47,
+  "equity": 1079.65,
+  "available": 748.55,
+  "unrealized": 16.02,
   "daily_pnl": 74.11,
-  "total_pnl": 144.01,
-  "cum_pct": 15.4,
-  "daily_avg_pct": 0.8461,
-  "annual_pct": 2065.58,
+  "total_pnl": 144.65,
+  "cum_pct": 15.47,
+  "daily_avg_pct": 0.8497,
+  "annual_pct": 2093.98,
   "mdd": -4.24,
-  "current_dd": -0.21,
-  "seed_used": 330.87,
-  "seed_used_pct": 30.66,
+  "current_dd": 0.0,
+  "seed_used": 331.1,
+  "seed_used_pct": 30.67,
   "long_count": 3,
   "short_count": 2,
   "positions": [
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": 7.97,
-      "pnl_pct": 1.19,
-      "margin": 84.85,
+      "pnl": 8.72,
+      "pnl_pct": 1.3,
+      "margin": 84.95,
       "leverage": "8",
       "tier": "3/3",
       "entry": 632.885,
-      "mark": 640.4
+      "mark": 641.11
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 7.21,
-      "pnl_pct": 1.95,
-      "margin": 72.52,
+      "pnl": 6.8,
+      "pnl_pct": 1.84,
+      "margin": 72.6,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.8102,
-      "mark": 1.7749
+      "mark": 1.7769
     },
     {
       "symbol": "ADAUSDT",
@@ -53,24 +53,24 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 0.32,
-      "pnl_pct": 0.31,
-      "margin": 11.64,
+      "pnl": 0.47,
+      "pnl_pct": 0.45,
+      "margin": 11.65,
       "leverage": "9",
       "tier": "2/2",
       "entry": 63.28,
-      "mark": 63.474
+      "mark": 63.567
     },
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": 0.1,
-      "pnl_pct": 0.17,
-      "margin": 8.44,
+      "pnl": 0.14,
+      "pnl_pct": 0.24,
+      "margin": 8.45,
       "leverage": "7",
       "tier": "2/3",
       "entry": 2.3689,
-      "mark": 2.3729
+      "mark": 2.3747
     }
   ],
   "signals": {
@@ -124,7 +124,7 @@
     },
     "XRPUSDT": {
       "dir": "neutral",
-      "conf": 0.599
+      "conf": 0.595
     },
     "TRXUSDT": {
       "dir": "short",
@@ -362,7 +362,7 @@
     },
     {
       "t": "2026-05-24",
-      "v": 144.01
+      "v": 144.65
     }
   ],
   "trade_history": [
