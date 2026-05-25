@@ -1,19 +1,19 @@
 {
-  "ts": "2026-05-25T10:12:37.806398+09:00",
+  "ts": "2026-05-25T10:13:39.425697+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1159.78,
-  "available": 782.65,
-  "unrealized": 5.04,
+  "equity": 1160.36,
+  "available": 783.39,
+  "unrealized": 5.65,
   "daily_pnl": 19.99,
-  "total_pnl": 224.78,
-  "cum_pct": 24.04,
-  "daily_avg_pct": 1.204,
-  "annual_pct": 7791.37,
+  "total_pnl": 225.36,
+  "cum_pct": 24.1,
+  "daily_avg_pct": 1.2068,
+  "annual_pct": 7871.46,
   "mdd": -4.24,
   "current_dd": -0.74,
-  "seed_used": 377.12,
-  "seed_used_pct": 32.52,
+  "seed_used": 376.97,
+  "seed_used_pct": 32.49,
   "long_count": 2,
   "short_count": 3,
   "positions": [
@@ -29,48 +29,48 @@
       "mark": 0.2926
     },
     {
+      "symbol": "HYPEUSDT",
+      "side": "LONG",
+      "pnl": 0.3,
+      "pnl_pct": 0.06,
+      "margin": 72.74,
+      "leverage": "7",
+      "tier": "2/2",
+      "entry": 61.8336,
+      "mark": 61.87
+    },
+    {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 1.72,
-      "pnl_pct": 1.38,
-      "margin": 24.55,
+      "pnl": 1.77,
+      "pnl_pct": 1.43,
+      "margin": 24.54,
       "leverage": "5",
       "tier": "2/2",
       "entry": 0.2455,
-      "mark": 0.2421
+      "mark": 0.242
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 1.24,
-      "pnl_pct": 1.1,
+      "pnl": 1.25,
+      "pnl_pct": 1.11,
       "margin": 22.2,
       "leverage": "5",
       "tier": "2/2",
       "entry": 86.33,
-      "mark": 85.38
+      "mark": 85.37
     },
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
-      "pnl": 0.59,
+      "pnl": 0.6,
       "pnl_pct": 0.57,
       "margin": 21.04,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2092.07,
-      "mark": 2103.96
-    },
-    {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": -0.24,
-      "pnl_pct": -0.29,
-      "margin": 12.03,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 62.079,
-      "mark": 61.899
+      "mark": 2104.02
     }
   ],
   "signals": {
@@ -362,7 +362,7 @@
     },
     {
       "t": "2026-05-25",
-      "v": 224.78
+      "v": 225.36
     }
   ],
   "trade_history": [
