@@ -1,54 +1,43 @@
 {
-  "ts": "2026-05-25T17:45:49.898856+09:00",
+  "ts": "2026-05-25T17:46:51.656811+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1139.38,
-  "available": 705.98,
-  "unrealized": -4.17,
-  "daily_pnl": 8.89,
-  "total_pnl": 204.38,
-  "cum_pct": 21.86,
-  "daily_avg_pct": 1.1044,
-  "annual_pct": 5408.97,
+  "equity": 1138.14,
+  "available": 793.26,
+  "unrealized": 6.03,
+  "daily_pnl": -2.62,
+  "total_pnl": 203.14,
+  "cum_pct": 21.73,
+  "daily_avg_pct": 1.0984,
+  "annual_pct": 5290.92,
   "mdd": -4.24,
   "current_dd": -2.35,
-  "seed_used": 433.4,
-  "seed_used_pct": 38.04,
+  "seed_used": 344.88,
+  "seed_used_pct": 30.3,
   "long_count": 3,
-  "short_count": 2,
+  "short_count": 1,
   "positions": [
-    {
-      "symbol": "WLDUSDT",
-      "side": "SHORT",
-      "pnl": -10.0,
-      "pnl_pct": -1.65,
-      "margin": 88.26,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 0.2965,
-      "mark": 0.3014
-    },
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": 3.58,
-      "pnl_pct": 0.88,
-      "margin": 81.78,
+      "pnl": 3.94,
+      "pnl_pct": 0.97,
+      "margin": 81.85,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2.3771,
-      "mark": 2.3981
+      "mark": 2.4002
     },
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": 0.62,
-      "pnl_pct": 0.2,
-      "margin": 38.02,
+      "pnl": 0.5,
+      "pnl_pct": 0.16,
+      "margin": 38.01,
       "leverage": "8",
       "tier": "2/2",
       "entry": 0.2446,
-      "mark": 0.2451
+      "mark": 0.245
     },
     {
       "symbol": "SOLUSDT",
@@ -59,18 +48,18 @@
       "leverage": "5",
       "tier": "2/2",
       "entry": 86.33,
-      "mark": 85.939
+      "mark": 85.94
     },
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
-      "pnl": 1.12,
-      "pnl_pct": 1.08,
-      "margin": 21.15,
+      "pnl": 1.1,
+      "pnl_pct": 1.05,
+      "margin": 21.14,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2092.07,
-      "mark": 2114.56
+      "mark": 2114.07
     }
   ],
   "signals": {
@@ -88,7 +77,7 @@
     },
     "1000PEPEUSDT": {
       "dir": "long",
-      "conf": 0.435
+      "conf": 0.436
     },
     "ZECUSDT": {
       "dir": "long",
@@ -362,10 +351,17 @@
     },
     {
       "t": "2026-05-25",
-      "v": 204.38
+      "v": 203.14
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-25 17:46",
+      "symbol": "WLDUSDT",
+      "side": "Sell",
+      "pnl": -11.51,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-05-25 17:35",
       "symbol": "ADAUSDT",
@@ -498,13 +494,6 @@
       "side": "Buy",
       "pnl": 2.48,
       "reason": "3/3"
-    },
-    {
-      "ts": "2026-05-25 06:04",
-      "symbol": "NEARUSDT",
-      "side": "Buy",
-      "pnl": 2.58,
-      "reason": "-"
     }
   ],
   "num_days": 18
