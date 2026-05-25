@@ -1,87 +1,87 @@
 {
-  "ts": "2026-05-26T05:42:40.116470+09:00",
+  "ts": "2026-05-26T05:43:41.806734+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1124.7,
-  "available": 631.66,
-  "unrealized": 0.49,
-  "daily_pnl": -13.11,
-  "total_pnl": 189.7,
-  "cum_pct": 20.29,
-  "daily_avg_pct": 0.977,
-  "annual_pct": 3376.96,
+  "equity": 1125.13,
+  "available": 650.98,
+  "unrealized": 1.22,
+  "daily_pnl": -13.43,
+  "total_pnl": 190.13,
+  "cum_pct": 20.33,
+  "daily_avg_pct": 0.9788,
+  "annual_pct": 3399.65,
   "mdd": -4.24,
   "current_dd": -3.62,
-  "seed_used": 493.04,
-  "seed_used_pct": 43.84,
+  "seed_used": 474.15,
+  "seed_used_pct": 42.14,
   "long_count": 5,
   "short_count": 1,
   "positions": [
     {
-      "symbol": "ADAUSDT",
-      "side": "LONG",
-      "pnl": -0.62,
-      "pnl_pct": -0.2,
-      "margin": 37.87,
-      "leverage": "8",
-      "tier": "2/2",
-      "entry": 0.2446,
-      "mark": 0.2441
-    },
-    {
       "symbol": "INJUSDT",
       "side": "LONG",
-      "pnl": -1.59,
-      "pnl_pct": -0.81,
-      "margin": 27.72,
+      "pnl": -1.35,
+      "pnl_pct": -0.69,
+      "margin": 27.76,
       "leverage": "7",
       "tier": "3/3",
       "entry": 5.6712,
-      "mark": 5.625
+      "mark": 5.632
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 1.35,
-      "pnl_pct": 1.2,
-      "margin": 22.18,
+      "pnl": 1.27,
+      "pnl_pct": 1.14,
+      "margin": 22.19,
       "leverage": "5",
       "tier": "2/2",
       "entry": 86.33,
-      "mark": 85.29
+      "mark": 85.35
     },
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
-      "pnl": 0.9,
-      "pnl_pct": 0.86,
-      "margin": 21.1,
+      "pnl": 0.96,
+      "pnl_pct": 0.92,
+      "margin": 21.11,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2092.07,
-      "mark": 2110.11
+      "mark": 2111.33
+    },
+    {
+      "symbol": "ADAUSDT",
+      "side": "LONG",
+      "pnl": -0.19,
+      "pnl_pct": -0.12,
+      "margin": 18.96,
+      "leverage": "8",
+      "tier": "2/2",
+      "entry": 0.2446,
+      "mark": 0.2443
     },
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": -0.24,
-      "pnl_pct": -0.45,
-      "margin": 13.45,
+      "pnl": -0.21,
+      "pnl_pct": -0.4,
+      "margin": 13.46,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1.3579,
-      "mark": 1.3518
+      "mark": 1.3525
     },
     {
       "symbol": "ONDOUSDT",
       "side": "LONG",
-      "pnl": 0.69,
-      "pnl_pct": 1.35,
-      "margin": 12.98,
+      "pnl": 0.74,
+      "pnl_pct": 1.44,
+      "margin": 12.99,
       "leverage": "4",
       "tier": "2/2",
       "entry": 0.4304,
-      "mark": 0.4362
+      "mark": 0.4366
     }
   ],
   "signals": {
@@ -123,7 +123,7 @@
     },
     "SOLUSDT": {
       "dir": "neutral",
-      "conf": 0.527
+      "conf": 0.525
     },
     "BCHUSDT": {
       "dir": "short",
@@ -135,7 +135,7 @@
     },
     "XRPUSDT": {
       "dir": "neutral",
-      "conf": 0.664
+      "conf": 0.662
     },
     "TRXUSDT": {
       "dir": "short",
@@ -175,7 +175,7 @@
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.389
+      "conf": 0.386
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -215,7 +215,7 @@
     },
     "ONDOUSDT": {
       "dir": "short",
-      "conf": 0.468
+      "conf": 0.467
     },
     "DASHUSDT": {
       "dir": "short",
@@ -247,7 +247,7 @@
     },
     "INJUSDT": {
       "dir": "long",
-      "conf": 0.525
+      "conf": 0.524
     }
   },
   "equity_hist": [
@@ -373,10 +373,17 @@
     },
     {
       "t": "2026-05-26",
-      "v": 189.7
+      "v": 190.13
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-26 05:43",
+      "symbol": "ADAUSDT",
+      "side": "Buy",
+      "pnl": -0.32,
+      "reason": "2/2"
+    },
     {
       "ts": "2026-05-26 02:41",
       "symbol": "WLDUSDT",
@@ -509,13 +516,6 @@
       "side": "Sell",
       "pnl": 0.0,
       "reason": "L2"
-    },
-    {
-      "ts": "2026-05-25 07:02",
-      "symbol": "WLDUSDT",
-      "side": "Sell",
-      "pnl": 1.09,
-      "reason": "T1 진입 | GF=5 | Lv=9x | Seed=$86(7.4%)"
     }
   ],
   "num_days": 19
