@@ -1,19 +1,19 @@
 {
-  "ts": "2026-05-26T03:59:53.538014+09:00",
+  "ts": "2026-05-26T04:00:55.139747+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1128.44,
-  "available": 678.19,
-  "unrealized": 4.14,
+  "equity": 1128.33,
+  "available": 634.47,
+  "unrealized": 4.0,
   "daily_pnl": -13.11,
-  "total_pnl": 193.44,
-  "cum_pct": 20.69,
-  "daily_avg_pct": 0.9947,
-  "annual_pct": 3606.66,
+  "total_pnl": 193.33,
+  "cum_pct": 20.68,
+  "daily_avg_pct": 0.9942,
+  "annual_pct": 3599.97,
   "mdd": -4.24,
   "current_dd": -3.5,
-  "seed_used": 450.25,
-  "seed_used_pct": 39.9,
+  "seed_used": 493.85,
+  "seed_used_pct": 43.77,
   "long_count": 5,
   "short_count": 1,
   "positions": [
@@ -31,13 +31,13 @@
     {
       "symbol": "INJUSDT",
       "side": "LONG",
-      "pnl": -0.8,
-      "pnl_pct": -0.41,
-      "margin": 27.84,
+      "pnl": -0.92,
+      "pnl_pct": -0.47,
+      "margin": 27.82,
       "leverage": "7",
-      "tier": "2/3",
+      "tier": "3/3",
       "entry": 5.6712,
-      "mark": 5.648
+      "mark": 5.6444
     },
     {
       "symbol": "SOLUSDT",
@@ -48,40 +48,40 @@
       "leverage": "5",
       "tier": "2/2",
       "entry": 86.33,
-      "mark": 85.873
+      "mark": 85.874
     },
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
       "pnl": 1.7,
-      "pnl_pct": 1.62,
+      "pnl_pct": 1.63,
       "margin": 21.26,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2092.07,
-      "mark": 2126.05
+      "mark": 2126.07
     },
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": 0.01,
-      "pnl_pct": 0.01,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
       "margin": 13.51,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1.3579,
-      "mark": 1.3581
+      "mark": 1.3579
     },
     {
       "symbol": "ONDOUSDT",
       "side": "LONG",
-      "pnl": 0.54,
-      "pnl_pct": 1.05,
+      "pnl": 0.52,
+      "pnl_pct": 1.02,
       "margin": 12.94,
       "leverage": "4",
       "tier": "2/2",
       "entry": 0.4304,
-      "mark": 0.4349
+      "mark": 0.4348
     }
   ],
   "signals": {
@@ -175,7 +175,7 @@
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.339
+      "conf": 0.341
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -373,7 +373,7 @@
     },
     {
       "t": "2026-05-26",
-      "v": 193.44
+      "v": 193.33
     }
   ],
   "trade_history": [
