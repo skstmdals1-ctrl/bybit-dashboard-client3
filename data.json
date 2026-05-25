@@ -1,76 +1,76 @@
 {
-  "ts": "2026-05-25T16:54:17.633160+09:00",
+  "ts": "2026-05-25T16:55:20.426462+09:00",
   "start_date": "2026-05-08",
-  "status": "stopped",
-  "equity": 1149.39,
-  "available": 770.31,
-  "unrealized": 5.98,
+  "status": "running",
+  "equity": 1149.38,
+  "available": 770.0,
+  "unrealized": 5.97,
   "daily_pnl": 8.71,
-  "total_pnl": 214.39,
+  "total_pnl": 214.38,
   "cum_pct": 22.93,
   "daily_avg_pct": 1.1535,
   "annual_pct": 6477.09,
   "mdd": -4.24,
-  "current_dd": -1.64,
-  "seed_used": 379.08,
-  "seed_used_pct": 32.98,
+  "current_dd": -1.61,
+  "seed_used": 379.38,
+  "seed_used_pct": 33.01,
   "long_count": 2,
   "short_count": 3,
   "positions": [
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": 2.5,
-      "pnl_pct": 0.41,
-      "margin": 86.48,
+      "pnl": 1.68,
+      "pnl_pct": 0.28,
+      "margin": 86.59,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.2965,
-      "mark": 0.2953
+      "mark": 0.2957
     },
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": 1.57,
-      "pnl_pct": 0.39,
-      "margin": 81.37,
+      "pnl": 2.38,
+      "pnl_pct": 0.59,
+      "margin": 81.54,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2.3771,
-      "mark": 2.3863
+      "mark": 2.3911
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 0.66,
-      "pnl_pct": 0.59,
-      "margin": 22.31,
+      "pnl": 0.63,
+      "pnl_pct": 0.56,
+      "margin": 22.32,
       "leverage": "5",
       "tier": "2/2",
       "entry": 86.33,
-      "mark": 85.82
+      "mark": 85.847
     },
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
-      "pnl": 0.97,
-      "pnl_pct": 0.93,
-      "margin": 21.12,
+      "pnl": 1.02,
+      "pnl_pct": 0.98,
+      "margin": 21.13,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2092.07,
-      "mark": 2111.53
+      "mark": 2112.53
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 0.28,
-      "pnl_pct": 0.45,
+      "pnl": 0.25,
+      "pnl_pct": 0.41,
       "margin": 12.42,
       "leverage": "5",
       "tier": "2/2",
       "entry": 0.2455,
-      "mark": 0.2444
+      "mark": 0.2445
     }
   ],
   "signals": {
@@ -132,7 +132,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.476
+      "conf": 0.477
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -362,7 +362,7 @@
     },
     {
       "t": "2026-05-25",
-      "v": 214.39
+      "v": 214.38
     }
   ],
   "trade_history": [
