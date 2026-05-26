@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-26T18:32:30.577789+09:00",
+  "ts": "2026-05-26T18:33:32.271443+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1094.51,
-  "available": 688.83,
-  "unrealized": 2.07,
+  "equity": 1093.92,
+  "available": 688.38,
+  "unrealized": 1.51,
   "daily_pnl": -44.79,
-  "total_pnl": 159.51,
-  "cum_pct": 17.06,
-  "daily_avg_pct": 0.8325,
-  "annual_pct": 1961.56,
+  "total_pnl": 158.92,
+  "cum_pct": 17.0,
+  "daily_avg_pct": 0.8298,
+  "annual_pct": 1941.51,
   "mdd": -6.05,
   "current_dd": -6.05,
-  "seed_used": 405.69,
+  "seed_used": 405.55,
   "seed_used_pct": 37.07,
   "long_count": 4,
   "short_count": 2,
@@ -31,13 +31,13 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -0.65,
-      "pnl_pct": -0.17,
-      "margin": 76.42,
+      "pnl": -1.33,
+      "pnl_pct": -0.35,
+      "margin": 76.29,
       "leverage": "5",
       "tier": "2/2",
       "entry": 59.6221,
-      "mark": 59.521
+      "mark": 59.415
     },
     {
       "symbol": "ADAUSDT",
@@ -53,35 +53,35 @@
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 2.3,
-      "pnl_pct": 2.05,
-      "margin": 21.99,
+      "pnl": 2.32,
+      "pnl_pct": 2.07,
+      "margin": 21.98,
       "leverage": "5",
       "tier": "2/2",
       "entry": 86.33,
-      "mark": 84.56
+      "mark": 84.545
     },
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
-      "pnl": 0.23,
-      "pnl_pct": 0.22,
+      "pnl": 0.22,
+      "pnl_pct": 0.21,
       "margin": 20.97,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2092.07,
-      "mark": 2096.72
+      "mark": 2096.52
     },
     {
       "symbol": "RENDERUSDT",
       "side": "LONG",
-      "pnl": 0.89,
-      "pnl_pct": 2.53,
-      "margin": 4.01,
+      "pnl": 1.0,
+      "pnl_pct": 2.85,
+      "margin": 4.02,
       "leverage": "9",
       "tier": "2/3",
       "entry": 2.2865,
-      "mark": 2.3443
+      "mark": 2.3516
     }
   ],
   "signals": {
@@ -143,7 +143,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.584
+      "conf": 0.58
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -247,7 +247,7 @@
     },
     "INJUSDT": {
       "dir": "long",
-      "conf": 0.52
+      "conf": 0.521
     },
     "RENDERUSDT": {
       "dir": "long",
@@ -377,7 +377,7 @@
     },
     {
       "t": "2026-05-26",
-      "v": 159.51
+      "v": 158.92
     }
   ],
   "trade_history": [
