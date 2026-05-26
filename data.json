@@ -1,98 +1,87 @@
 {
-  "ts": "2026-05-26T20:20:35.628662+09:00",
+  "ts": "2026-05-26T20:21:37.414126+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1111.87,
-  "available": 718.06,
-  "unrealized": 14.01,
-  "daily_pnl": -39.3,
-  "total_pnl": 176.87,
-  "cum_pct": 18.92,
-  "daily_avg_pct": 0.9162,
-  "annual_pct": 2690.77,
+  "equity": 1113.17,
+  "available": 729.06,
+  "unrealized": 13.9,
+  "daily_pnl": -37.86,
+  "total_pnl": 178.17,
+  "cum_pct": 19.06,
+  "daily_avg_pct": 0.9224,
+  "annual_pct": 2754.06,
   "mdd": -6.54,
-  "current_dd": -4.79,
-  "seed_used": 393.81,
-  "seed_used_pct": 35.42,
-  "long_count": 6,
+  "current_dd": -4.85,
+  "seed_used": 384.11,
+  "seed_used_pct": 34.51,
+  "long_count": 5,
   "short_count": 1,
   "positions": [
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": 0.49,
-      "pnl_pct": 0.15,
-      "margin": 81.39,
+      "pnl": 0.71,
+      "pnl_pct": 0.22,
+      "margin": 81.44,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1.35,
-      "mark": 1.352
+      "mark": 1.3529
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 9.71,
-      "pnl_pct": 2.54,
-      "margin": 78.5,
+      "pnl": 10.77,
+      "pnl_pct": 2.81,
+      "margin": 78.71,
       "leverage": "5",
       "tier": "2/2",
       "entry": 59.6221,
-      "mark": 61.135
+      "mark": 61.3
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 1.3,
-      "pnl_pct": 1.16,
-      "margin": 22.19,
+      "pnl": 1.24,
+      "pnl_pct": 1.11,
+      "margin": 22.2,
       "leverage": "5",
       "tier": "2/2",
       "entry": 86.33,
-      "mark": 85.332
+      "mark": 85.373
     },
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
-      "pnl": 1.35,
-      "pnl_pct": 1.29,
-      "margin": 21.19,
+      "pnl": 1.42,
+      "pnl_pct": 1.36,
+      "margin": 21.2,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2092.07,
-      "mark": 2119.08
+      "mark": 2120.42
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": -0.11,
-      "pnl_pct": -0.08,
+      "pnl": -0.14,
+      "pnl_pct": -0.1,
       "margin": 17.73,
       "leverage": "8",
-      "tier": "1/3",
+      "tier": "2/3",
       "entry": 617.13,
-      "mark": 616.64
+      "mark": 616.53
     },
     {
       "symbol": "RENDERUSDT",
       "side": "LONG",
-      "pnl": -0.2,
-      "pnl_pct": -0.3,
-      "margin": 9.64,
+      "pnl": -0.08,
+      "pnl_pct": -0.12,
+      "margin": 9.66,
       "leverage": "7",
-      "tier": "1/3",
+      "tier": "2/3",
       "entry": 2.3595,
-      "mark": 2.3524
-    },
-    {
-      "symbol": "INJUSDT",
-      "side": "LONG",
-      "pnl": 1.49,
-      "pnl_pct": 4.6,
-      "margin": 6.77,
-      "leverage": "5",
-      "tier": "2/2",
-      "entry": 5.485,
-      "mark": 5.7375
+      "mark": 2.3566
     }
   ],
   "signals": {
@@ -154,7 +143,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.377
+      "conf": 0.371
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -182,11 +171,11 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.38
+      "conf": 0.381
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.358
+      "conf": 0.357
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -258,7 +247,7 @@
     },
     "INJUSDT": {
       "dir": "long",
-      "conf": 0.523
+      "conf": 0.524
     },
     "RENDERUSDT": {
       "dir": "long",
@@ -388,10 +377,17 @@
     },
     {
       "t": "2026-05-26",
-      "v": 176.87
+      "v": 178.17
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-26 20:21",
+      "symbol": "INJUSDT",
+      "side": "Buy",
+      "pnl": 1.44,
+      "reason": "L2"
+    },
     {
       "ts": "2026-05-26 20:19",
       "symbol": "INJUSDT",
@@ -523,13 +519,6 @@
       "symbol": "WLDUSDT",
       "side": "Sell",
       "pnl": -13.11,
-      "reason": "External Exit"
-    },
-    {
-      "ts": "2026-05-25 23:58",
-      "symbol": "TONUSDT",
-      "side": "Sell",
-      "pnl": -8.56,
       "reason": "External Exit"
     }
   ],
