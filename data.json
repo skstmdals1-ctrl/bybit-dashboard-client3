@@ -1,65 +1,54 @@
 {
-  "ts": "2026-05-28T07:54:58.736006+09:00",
+  "ts": "2026-05-28T07:56:00.295672+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1103.35,
-  "available": 771.69,
-  "unrealized": 19.99,
-  "daily_pnl": -6.66,
-  "total_pnl": 168.35,
-  "cum_pct": 18.01,
-  "daily_avg_pct": 0.7917,
-  "annual_pct": 1678.45,
+  "equity": 1102.92,
+  "available": 846.55,
+  "unrealized": 27.57,
+  "daily_pnl": -14.76,
+  "total_pnl": 167.92,
+  "cum_pct": 17.96,
+  "daily_avg_pct": 0.7897,
+  "annual_pct": 1665.61,
   "mdd": -1.76,
   "current_dd": -1.01,
-  "seed_used": 331.66,
-  "seed_used_pct": 30.06,
-  "long_count": 1,
+  "seed_used": 256.37,
+  "seed_used_pct": 23.24,
+  "long_count": 0,
   "short_count": 3,
   "positions": [
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 12.45,
-      "pnl_pct": 1.41,
-      "margin": 108.55,
+      "pnl": 13.18,
+      "pnl_pct": 1.5,
+      "margin": 108.45,
       "leverage": "8",
       "tier": "2/2",
       "entry": 0.2404,
-      "mark": 0.237
+      "mark": 0.2368
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 11.21,
-      "pnl_pct": 1.85,
-      "margin": 85.12,
+      "pnl": 11.73,
+      "pnl_pct": 1.93,
+      "margin": 85.05,
       "leverage": "7",
       "tier": "2/2",
       "entry": 75881.65,
-      "mark": 74480.0
-    },
-    {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": -6.28,
-      "pnl_pct": -1.65,
-      "margin": 75.05,
-      "leverage": "5",
-      "tier": "2/2",
-      "entry": 59.6147,
-      "mark": 58.633
+      "mark": 74415.64
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 2.64,
-      "pnl_pct": 4.37,
-      "margin": 11.56,
+      "pnl": 2.7,
+      "pnl_pct": 4.47,
+      "margin": 11.55,
       "leverage": "5",
       "tier": "2/2",
       "entry": 86.33,
-      "mark": 82.559
+      "mark": 82.47
     }
   ],
   "signals": {
@@ -355,10 +344,17 @@
     },
     {
       "t": "2026-05-28",
-      "v": 168.35
+      "v": 167.92
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-28 07:55",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
+      "pnl": -8.1,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-05-28 06:47",
       "symbol": "SOLUSDT",
@@ -490,13 +486,6 @@
       "symbol": "WLDUSDT",
       "side": "Sell",
       "pnl": 4.34,
-      "reason": "3/3"
-    },
-    {
-      "ts": "2026-05-27 03:41",
-      "symbol": "WLDUSDT",
-      "side": "Sell",
-      "pnl": 3.21,
       "reason": "3/3"
     }
   ],
