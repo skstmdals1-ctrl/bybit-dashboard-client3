@@ -1,65 +1,65 @@
 {
-  "ts": "2026-05-28T06:47:03.413898+09:00",
+  "ts": "2026-05-28T06:48:05.124850+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1111.01,
-  "available": 768.69,
-  "unrealized": 30.25,
-  "daily_pnl": -9.24,
-  "total_pnl": 176.01,
-  "cum_pct": 18.82,
-  "daily_avg_pct": 0.8245,
-  "annual_pct": 1902.71,
+  "equity": 1110.48,
+  "available": 777.76,
+  "unrealized": 27.18,
+  "daily_pnl": -6.66,
+  "total_pnl": 175.48,
+  "cum_pct": 18.77,
+  "daily_avg_pct": 0.8225,
+  "annual_pct": 1888.26,
   "mdd": -1.76,
   "current_dd": -0.13,
-  "seed_used": 342.31,
-  "seed_used_pct": 30.81,
+  "seed_used": 332.72,
+  "seed_used_pct": 29.96,
   "long_count": 1,
   "short_count": 3,
   "positions": [
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 13.91,
-      "pnl_pct": 1.58,
-      "margin": 108.36,
+      "pnl": 13.18,
+      "pnl_pct": 1.5,
+      "margin": 108.45,
       "leverage": "8",
       "tier": "2/2",
       "entry": 0.2404,
-      "mark": 0.2366
+      "mark": 0.2368
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 11.9,
-      "pnl_pct": 1.96,
-      "margin": 85.02,
+      "pnl": 11.34,
+      "pnl_pct": 1.87,
+      "margin": 85.1,
       "leverage": "7",
       "tier": "2/2",
       "entry": 75881.65,
-      "mark": 74394.54
+      "mark": 74463.8
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -0.8,
-      "pnl_pct": -0.21,
-      "margin": 76.15,
+      "pnl": -0.13,
+      "pnl_pct": -0.03,
+      "margin": 76.28,
       "leverage": "5",
       "tier": "2/2",
       "entry": 59.6147,
-      "mark": 59.489
+      "mark": 59.594
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 5.29,
-      "pnl_pct": 4.71,
-      "margin": 21.39,
+      "pnl": 2.83,
+      "pnl_pct": 4.68,
+      "margin": 11.52,
       "leverage": "5",
       "tier": "2/2",
       "entry": 86.33,
-      "mark": 82.262
+      "mark": 82.29
     }
   ],
   "signals": {
@@ -355,10 +355,17 @@
     },
     {
       "t": "2026-05-28",
-      "v": 176.01
+      "v": 175.48
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-28 06:47",
+      "symbol": "SOLUSDT",
+      "side": "Sell",
+      "pnl": 2.58,
+      "reason": "-"
+    },
     {
       "ts": "2026-05-28 06:40",
       "symbol": "ETHUSDT",
@@ -491,13 +498,6 @@
       "side": "Sell",
       "pnl": 3.21,
       "reason": "3/3"
-    },
-    {
-      "ts": "2026-05-27 03:29",
-      "symbol": "TONUSDT",
-      "side": "Buy",
-      "pnl": 0.01,
-      "reason": "마진 0.0USDT < 1"
     }
   ],
   "num_days": 21
