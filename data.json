@@ -1,65 +1,54 @@
 {
-  "ts": "2026-05-29T07:29:13.462403+09:00",
+  "ts": "2026-05-29T07:30:15.091620+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1165.53,
-  "available": 871.25,
-  "unrealized": 17.69,
-  "daily_pnl": 7.32,
-  "total_pnl": 230.53,
-  "cum_pct": 24.66,
-  "daily_avg_pct": 1.0069,
-  "annual_pct": 3773.74,
+  "equity": 1160.5,
+  "available": 946.71,
+  "unrealized": 24.29,
+  "daily_pnl": -4.4,
+  "total_pnl": 225.5,
+  "cum_pct": 24.12,
+  "daily_avg_pct": 0.987,
+  "annual_pct": 3504.93,
   "mdd": -0.89,
   "current_dd": -0.55,
-  "seed_used": 294.28,
-  "seed_used_pct": 25.25,
-  "long_count": 1,
+  "seed_used": 213.79,
+  "seed_used_pct": 18.42,
+  "long_count": 0,
   "short_count": 3,
   "positions": [
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "pnl": 18.3,
-      "pnl_pct": 3.01,
+      "pnl_pct": 3.02,
       "margin": 84.11,
       "leverage": "7",
       "tier": "2/2",
       "entry": 75881.65,
-      "mark": 73594.68
-    },
-    {
-      "symbol": "WLDUSDT",
-      "side": "LONG",
-      "pnl": -6.23,
-      "pnl_pct": -1.53,
-      "margin": 80.37,
-      "leverage": "5",
-      "tier": "3/3",
-      "entry": 0.283,
-      "mark": 0.2787
+      "mark": 73593.7
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 4.09,
-      "pnl_pct": 1.45,
-      "margin": 39.77,
+      "pnl": 4.39,
+      "pnl_pct": 1.55,
+      "margin": 39.73,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1.789,
-      "mark": 1.7631
+      "mark": 1.7612
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": 1.56,
-      "pnl_pct": 1.51,
-      "margin": 14.56,
+      "pnl": 1.63,
+      "pnl_pct": 1.58,
+      "margin": 14.55,
       "leverage": "7",
       "tier": "2/2",
       "entry": 304.4,
-      "mark": 299.8
+      "mark": 299.6
     }
   ],
   "signals": {
@@ -355,10 +344,17 @@
     },
     {
       "t": "2026-05-29",
-      "v": 230.53
+      "v": 225.5
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-29 07:29",
+      "symbol": "WLDUSDT",
+      "side": "Buy",
+      "pnl": -11.72,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-05-29 07:11",
       "symbol": "TONUSDT",
@@ -491,13 +487,6 @@
       "side": "Buy",
       "pnl": -6.53,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-05-27 12:57",
-      "symbol": "TONUSDT",
-      "side": "Sell",
-      "pnl": 0.01,
-      "reason": "L2"
     }
   ],
   "num_days": 22
