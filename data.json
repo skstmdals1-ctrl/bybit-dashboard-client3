@@ -1,54 +1,54 @@
 {
-  "ts": "2026-05-28T14:13:10.824088+09:00",
+  "ts": "2026-05-28T14:14:12.337547+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1156.78,
-  "available": 933.65,
-  "unrealized": 65.24,
-  "daily_pnl": 1.53,
-  "total_pnl": 221.78,
-  "cum_pct": 23.72,
-  "daily_avg_pct": 1.0187,
-  "annual_pct": 3942.48,
+  "equity": 1160.51,
+  "available": 990.35,
+  "unrealized": 47.11,
+  "daily_pnl": 23.34,
+  "total_pnl": 225.51,
+  "cum_pct": 24.12,
+  "daily_avg_pct": 1.0343,
+  "annual_pct": 4176.86,
   "mdd": -0.89,
   "current_dd": -0.09,
-  "seed_used": 223.13,
-  "seed_used_pct": 19.29,
+  "seed_used": 170.15,
+  "seed_used_pct": 14.66,
   "long_count": 0,
   "short_count": 3,
   "positions": [
     {
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "pnl": 39.56,
-      "pnl_pct": 4.49,
-      "margin": 105.16,
-      "leverage": "8",
-      "tier": "2/2",
-      "entry": 0.2404,
-      "mark": 0.2296
-    },
-    {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 22.88,
-      "pnl_pct": 3.77,
-      "margin": 83.45,
+      "pnl": 23.18,
+      "pnl_pct": 3.82,
+      "margin": 83.41,
       "leverage": "7",
       "tier": "2/2",
       "entry": 75881.65,
-      "mark": 73021.5
+      "mark": 72984.29
+    },
+    {
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "pnl": 21.06,
+      "pnl_pct": 4.78,
+      "margin": 52.42,
+      "leverage": "8",
+      "tier": "2/2",
+      "entry": 0.2404,
+      "mark": 0.2289
     },
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": 2.88,
-      "pnl_pct": 3.9,
-      "margin": 10.13,
+      "pnl": 2.95,
+      "pnl_pct": 3.99,
+      "margin": 10.12,
       "leverage": "7",
       "tier": "2/3",
       "entry": 0.323,
-      "mark": 0.3104
+      "mark": 0.3101
     }
   ],
   "signals": {
@@ -344,10 +344,17 @@
     },
     {
       "t": "2026-05-28",
-      "v": 221.78
+      "v": 225.51
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-28 14:13",
+      "symbol": "ADAUSDT",
+      "side": "Sell",
+      "pnl": 21.81,
+      "reason": "-"
+    },
     {
       "ts": "2026-05-28 13:03",
       "symbol": "WLDUSDT",
@@ -479,13 +486,6 @@
       "symbol": "WLDUSDT",
       "side": "Sell",
       "pnl": 0.0,
-      "reason": "1/3"
-    },
-    {
-      "ts": "2026-05-27 06:12",
-      "symbol": "WLDUSDT",
-      "side": "Sell",
-      "pnl": 2.26,
       "reason": "1/3"
     }
   ],
