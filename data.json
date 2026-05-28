@@ -1,54 +1,54 @@
 {
-  "ts": "2026-05-29T07:38:27.510683+09:00",
+  "ts": "2026-05-29T07:39:28.915686+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1160.72,
-  "available": 949.14,
-  "unrealized": 20.24,
+  "equity": 1160.6,
+  "available": 949.18,
+  "unrealized": 20.16,
   "daily_pnl": -0.18,
-  "total_pnl": 225.72,
-  "cum_pct": 24.14,
-  "daily_avg_pct": 0.9878,
-  "annual_pct": 3515.37,
+  "total_pnl": 225.6,
+  "cum_pct": 24.13,
+  "daily_avg_pct": 0.9874,
+  "annual_pct": 3510.15,
   "mdd": -1.04,
   "current_dd": -1.02,
-  "seed_used": 211.58,
-  "seed_used_pct": 18.23,
-  "long_count": 0,
-  "short_count": 3,
+  "seed_used": 211.42,
+  "seed_used_pct": 18.22,
+  "long_count": 1,
+  "short_count": 2,
   "positions": [
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 18.7,
+      "pnl": 18.69,
       "pnl_pct": 3.08,
       "margin": 84.05,
       "leverage": "7",
       "tier": "2/2",
       "entry": 75881.65,
-      "mark": 73544.14
+      "mark": 73545.43
+    },
+    {
+      "symbol": "TONUSDT",
+      "side": "LONG",
+      "pnl": -0.03,
+      "pnl_pct": -0.01,
+      "margin": 37.43,
+      "leverage": "8",
+      "tier": "1/2",
+      "entry": 1.7626,
+      "mark": 1.7624
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": 1.56,
-      "pnl_pct": 1.51,
-      "margin": 14.56,
+      "pnl": 1.54,
+      "pnl_pct": 1.48,
+      "margin": 14.57,
       "leverage": "7",
       "tier": "2/2",
       "entry": 304.4,
-      "mark": 299.8
-    },
-    {
-      "symbol": "TONUSDT",
-      "side": "SHORT",
-      "pnl": 0.0,
-      "pnl_pct": 1.52,
-      "margin": 0.02,
-      "leverage": "8",
-      "tier": "1/2",
-      "entry": 1.789,
-      "mark": 1.7618
+      "mark": 299.88
     }
   ],
   "signals": {
@@ -110,7 +110,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.581
+      "conf": 0.584
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -344,10 +344,17 @@
     },
     {
       "t": "2026-05-29",
-      "v": 225.72
+      "v": 225.6
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-29 07:39",
+      "symbol": "TONUSDT",
+      "side": "Sell",
+      "pnl": 0.0,
+      "reason": "T1 진입 | GF=2 | Lv=8x | Seed=$112(9.7%)"
+    },
     {
       "ts": "2026-05-29 07:37",
       "symbol": "TONUSDT",
@@ -479,13 +486,6 @@
       "symbol": "WLDUSDT",
       "side": "Buy",
       "pnl": 9.98,
-      "reason": "3/3"
-    },
-    {
-      "ts": "2026-05-27 14:33",
-      "symbol": "WLDUSDT",
-      "side": "Buy",
-      "pnl": 4.67,
       "reason": "3/3"
     }
   ],
