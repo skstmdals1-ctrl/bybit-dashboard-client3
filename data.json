@@ -1,54 +1,54 @@
 {
-  "ts": "2026-05-29T03:55:02.157388+09:00",
+  "ts": "2026-05-29T03:56:03.675099+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1166.34,
-  "available": 911.73,
-  "unrealized": 21.44,
+  "equity": 1165.91,
+  "available": 911.21,
+  "unrealized": 20.94,
   "daily_pnl": 4.53,
-  "total_pnl": 231.34,
-  "cum_pct": 24.74,
-  "daily_avg_pct": 1.0099,
-  "annual_pct": 3815.96,
+  "total_pnl": 230.91,
+  "cum_pct": 24.7,
+  "daily_avg_pct": 1.0084,
+  "annual_pct": 3794.79,
   "mdd": -0.89,
-  "current_dd": -0.37,
-  "seed_used": 254.61,
-  "seed_used_pct": 21.83,
+  "current_dd": -0.44,
+  "seed_used": 254.69,
+  "seed_used_pct": 21.84,
   "long_count": 0,
   "short_count": 3,
   "positions": [
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 17.9,
-      "pnl_pct": 2.95,
-      "margin": 84.17,
+      "pnl": 17.57,
+      "pnl_pct": 2.89,
+      "margin": 84.21,
       "leverage": "7",
       "tier": "2/2",
       "entry": 75881.65,
-      "mark": 73644.72
+      "mark": 73685.6
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 3.0,
+      "pnl": 2.97,
       "pnl_pct": 0.53,
       "margin": 80.26,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1.789,
-      "mark": 1.7795
+      "mark": 1.7796
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": 0.58,
-      "pnl_pct": 0.56,
-      "margin": 14.7,
+      "pnl": 0.44,
+      "pnl_pct": 0.43,
+      "margin": 14.72,
       "leverage": "7",
       "tier": "2/2",
       "entry": 304.4,
-      "mark": 302.7
+      "mark": 303.1
     }
   ],
   "signals": {
@@ -58,11 +58,11 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.539
+      "conf": 0.537
     },
     "WLDUSDT": {
-      "dir": "short",
-      "conf": 0.523
+      "dir": "long",
+      "conf": 0.488
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -102,7 +102,7 @@
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.34
+      "conf": 0.339
     },
     "TRXUSDT": {
       "dir": "short",
@@ -344,7 +344,7 @@
     },
     {
       "t": "2026-05-29",
-      "v": 231.34
+      "v": 230.91
     }
   ],
   "trade_history": [
