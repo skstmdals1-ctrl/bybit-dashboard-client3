@@ -1,65 +1,65 @@
 {
-  "ts": "2026-05-30T00:40:43.689142+09:00",
+  "ts": "2026-05-30T00:41:45.444481+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1206.69,
-  "available": 903.51,
-  "unrealized": 11.75,
+  "equity": 1207.19,
+  "available": 904.34,
+  "unrealized": 12.35,
   "daily_pnl": 34.29,
-  "total_pnl": 271.69,
-  "cum_pct": 29.06,
-  "daily_avg_pct": 1.1153,
-  "annual_pct": 5630.06,
+  "total_pnl": 272.19,
+  "cum_pct": 29.11,
+  "daily_avg_pct": 1.117,
+  "annual_pct": 5665.33,
   "mdd": -1.98,
   "current_dd": -1.98,
-  "seed_used": 303.18,
-  "seed_used_pct": 25.12,
+  "seed_used": 302.85,
+  "seed_used_pct": 25.09,
   "long_count": 1,
   "short_count": 3,
   "positions": [
     {
+      "symbol": "TONUSDT",
+      "side": "SHORT",
+      "pnl": -0.39,
+      "pnl_pct": -0.06,
+      "margin": 94.81,
+      "leverage": "7",
+      "tier": "2/2",
+      "entry": 1.7965,
+      "mark": 1.7976
+    },
+    {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": -2.18,
-      "pnl_pct": -0.35,
-      "margin": 89.56,
+      "pnl": -2.42,
+      "pnl_pct": -0.39,
+      "margin": 89.59,
       "leverage": "7",
       "tier": "2/2",
       "entry": 306.2333,
-      "mark": 307.3
+      "mark": 307.42
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 14.31,
-      "pnl_pct": 2.36,
-      "margin": 84.68,
+      "pnl": 14.51,
+      "pnl_pct": 2.39,
+      "margin": 84.65,
       "leverage": "7",
       "tier": "2/2",
       "entry": 75881.65,
-      "mark": 74092.33
-    },
-    {
-      "symbol": "TONUSDT",
-      "side": "SHORT",
-      "pnl": -0.8,
-      "pnl_pct": -0.72,
-      "margin": 15.87,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 1.7843,
-      "mark": 1.7972
+      "mark": 74068.4
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 0.43,
-      "pnl_pct": 0.61,
-      "margin": 10.15,
+      "pnl": 0.64,
+      "pnl_pct": 0.91,
+      "margin": 10.18,
       "leverage": "7",
       "tier": "2/3",
       "entry": 65.399,
-      "mark": 65.801
+      "mark": 65.994
     }
   ],
   "signals": {
@@ -359,7 +359,7 @@
     },
     {
       "t": "2026-05-30",
-      "v": 271.69
+      "v": 272.19
     }
   ],
   "trade_history": [
