@@ -1,43 +1,43 @@
 {
-  "ts": "2026-05-29T19:30:56.968758+09:00",
+  "ts": "2026-05-29T19:31:58.663291+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1226.57,
-  "available": 815.9,
-  "unrealized": 46.09,
+  "equity": 1225.79,
+  "available": 815.01,
+  "unrealized": 45.28,
   "daily_pnl": 40.47,
-  "total_pnl": 291.57,
-  "cum_pct": 31.18,
-  "daily_avg_pct": 1.2413,
-  "annual_pct": 8927.45,
+  "total_pnl": 290.79,
+  "cum_pct": 31.1,
+  "daily_avg_pct": 1.2385,
+  "annual_pct": 8836.78,
   "mdd": -1.73,
-  "current_dd": -0.37,
-  "seed_used": 410.67,
-  "seed_used_pct": 33.48,
+  "current_dd": -0.34,
+  "seed_used": 410.78,
+  "seed_used_pct": 33.51,
   "long_count": 2,
   "short_count": 3,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 10.95,
-      "pnl_pct": 1.48,
-      "margin": 93.82,
+      "pnl": 10.81,
+      "pnl_pct": 1.46,
+      "margin": 93.81,
       "leverage": "8",
       "tier": "2/2",
       "entry": 61.484,
-      "mark": 62.394
+      "mark": 62.383
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": 13.53,
-      "pnl_pct": 2.17,
-      "margin": 87.31,
+      "pnl": 12.92,
+      "pnl_pct": 2.07,
+      "margin": 87.4,
       "leverage": "7",
       "tier": "2/2",
       "entry": 306.2333,
-      "mark": 299.6
+      "mark": 299.9
     },
     {
       "symbol": "BTCUSDT",
@@ -48,29 +48,29 @@
       "leverage": "7",
       "tier": "2/2",
       "entry": 75881.65,
-      "mark": 73578.0
+      "mark": 73577.3
     },
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 3.11,
-      "pnl_pct": 1.04,
+      "pnl": 3.09,
+      "pnl_pct": 1.03,
       "margin": 37.82,
       "leverage": "8",
       "tier": "2/2",
       "entry": 1.7626,
-      "mark": 1.7809
+      "mark": 1.7808
     },
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": 0.19,
-      "pnl_pct": 0.5,
-      "margin": 9.64,
+      "pnl": 0.08,
+      "pnl_pct": 0.2,
+      "margin": 9.67,
       "leverage": "4",
       "tier": "2/3",
       "entry": 0.3017,
-      "mark": 0.3002
+      "mark": 0.3011
     }
   ],
   "signals": {
@@ -132,7 +132,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.56
+      "conf": 0.532
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -235,8 +235,8 @@
       "conf": 0.452
     },
     "INJUSDT": {
-      "dir": "long",
-      "conf": 0.527
+      "dir": "short",
+      "conf": 0.496
     },
     "RENDERUSDT": {
       "dir": "long",
@@ -366,7 +366,7 @@
     },
     {
       "t": "2026-05-29",
-      "v": 291.57
+      "v": 290.79
     }
   ],
   "trade_history": [
