@@ -1,65 +1,54 @@
 {
-  "ts": "2026-05-29T15:10:38.354777+09:00",
+  "ts": "2026-05-29T15:11:39.992868+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1178.37,
-  "available": 755.69,
-  "unrealized": 27.94,
-  "daily_pnl": 9.89,
-  "total_pnl": 243.37,
-  "cum_pct": 26.03,
-  "daily_avg_pct": 1.0571,
-  "annual_pct": 4544.01,
+  "equity": 1183.64,
+  "available": 803.75,
+  "unrealized": 18.14,
+  "daily_pnl": 24.97,
+  "total_pnl": 248.64,
+  "cum_pct": 26.59,
+  "daily_avg_pct": 1.0775,
+  "annual_pct": 4899.07,
   "mdd": -1.73,
   "current_dd": -0.64,
-  "seed_used": 422.68,
-  "seed_used_pct": 35.87,
-  "long_count": 3,
+  "seed_used": 379.89,
+  "seed_used_pct": 32.1,
+  "long_count": 2,
   "short_count": 2,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -1.94,
-      "pnl_pct": -0.26,
-      "margin": 92.21,
+      "pnl": -1.37,
+      "pnl_pct": -0.19,
+      "margin": 92.29,
       "leverage": "8",
       "tier": "2/2",
       "entry": 61.484,
-      "mark": 61.323
+      "mark": 61.37
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 17.99,
-      "pnl_pct": 2.96,
-      "margin": 84.15,
+      "pnl": 17.89,
+      "pnl_pct": 2.95,
+      "margin": 84.17,
       "leverage": "7",
       "tier": "2/2",
       "entry": 75881.65,
-      "mark": 73633.1
-    },
-    {
-      "symbol": "WLDUSDT",
-      "side": "LONG",
-      "pnl": 10.37,
-      "pnl_pct": 5.09,
-      "margin": 42.84,
-      "leverage": "5",
-      "tier": "2/2",
-      "entry": 0.2843,
-      "mark": 0.2988
+      "mark": 73645.35
     },
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 1.61,
-      "pnl_pct": 0.54,
-      "margin": 37.63,
+      "pnl": 1.72,
+      "pnl_pct": 0.57,
+      "margin": 37.65,
       "leverage": "8",
       "tier": "2/2",
       "entry": 1.7626,
-      "mark": 1.7721
+      "mark": 1.7727
     },
     {
       "symbol": "BCHUSDT",
@@ -366,10 +355,17 @@
     },
     {
       "t": "2026-05-29",
-      "v": 243.37
+      "v": 248.64
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-29 15:10",
+      "symbol": "WLDUSDT",
+      "side": "Buy",
+      "pnl": 15.08,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-05-29 15:09",
       "symbol": "WLDUSDT",
@@ -502,13 +498,6 @@
       "side": "Buy",
       "pnl": -9.24,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-05-27 14:57",
-      "symbol": "WLDUSDT",
-      "side": "Buy",
-      "pnl": 0.0,
-      "reason": "마진 0.0USDT < 1"
     }
   ],
   "num_days": 22
