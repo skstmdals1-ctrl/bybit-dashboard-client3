@@ -1,65 +1,65 @@
 {
-  "ts": "2026-05-29T23:59:31.451992+09:00",
+  "ts": "2026-05-30T00:00:33.274383+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1216.0,
-  "available": 862.95,
-  "unrealized": 55.68,
-  "daily_pnl": 20.45,
-  "total_pnl": 281.0,
-  "cum_pct": 30.05,
-  "daily_avg_pct": 1.2015,
-  "annual_pct": 7720.54,
+  "equity": 1218.23,
+  "available": 865.37,
+  "unrealized": 57.85,
+  "daily_pnl": 0,
+  "total_pnl": 283.23,
+  "cum_pct": 30.29,
+  "daily_avg_pct": 1.157,
+  "annual_pct": 6560.68,
   "mdd": -1.92,
   "current_dd": -1.6,
-  "seed_used": 353.05,
-  "seed_used_pct": 29.03,
+  "seed_used": 352.86,
+  "seed_used_pct": 28.96,
   "long_count": 1,
   "short_count": 3,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 24.85,
-      "pnl_pct": 3.36,
-      "margin": 95.56,
+      "pnl": 25.47,
+      "pnl_pct": 3.44,
+      "margin": 95.64,
       "leverage": "8",
       "tier": "2/2",
       "entry": 61.484,
-      "mark": 63.55
+      "mark": 63.601
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": 14.16,
-      "pnl_pct": 2.27,
-      "margin": 87.22,
+      "pnl": 14.35,
+      "pnl_pct": 2.3,
+      "margin": 87.2,
       "leverage": "7",
       "tier": "2/2",
       "entry": 306.2333,
-      "mark": 299.29
+      "mark": 299.2
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": -5.64,
-      "pnl_pct": -1.33,
-      "margin": 85.85,
+      "pnl": -4.46,
+      "pnl_pct": -1.05,
+      "margin": 85.62,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.7284,
-      "mark": 1.7514
+      "mark": 1.7466
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 22.39,
-      "pnl_pct": 3.69,
-      "margin": 83.52,
+      "pnl": 22.58,
+      "pnl_pct": 3.72,
+      "margin": 83.5,
       "leverage": "7",
       "tier": "2/2",
       "entry": 75881.65,
-      "mark": 73083.5
+      "mark": 73059.35
     }
   ],
   "signals": {
@@ -356,6 +356,10 @@
     {
       "t": "2026-05-29",
       "v": 281.0
+    },
+    {
+      "t": "2026-05-30",
+      "v": 283.23
     }
   ],
   "trade_history": [
@@ -500,5 +504,5 @@
       "reason": "2/2"
     }
   ],
-  "num_days": 22
+  "num_days": 23
 }
