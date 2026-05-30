@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-31T00:34:40.599692+09:00",
+  "ts": "2026-05-31T00:35:42.941372+09:00",
   "start_date": "2026-05-08",
   "status": "running",
   "equity": 1224.61,
-  "available": 853.22,
-  "unrealized": 23.29,
+  "available": 853.14,
+  "unrealized": 23.28,
   "daily_pnl": 0,
   "total_pnl": 289.61,
   "cum_pct": 30.97,
   "daily_avg_pct": 1.1305,
   "annual_pct": 5953.22,
   "mdd": -4.17,
-  "current_dd": -4.17,
-  "seed_used": 371.4,
+  "current_dd": -3.89,
+  "seed_used": 371.47,
   "seed_used_pct": 30.33,
   "long_count": 1,
   "short_count": 3,
@@ -20,46 +20,46 @@
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 5.85,
-      "pnl_pct": 0.88,
-      "margin": 93.92,
+      "pnl": 5.77,
+      "pnl_pct": 0.87,
+      "margin": 93.93,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1.7965,
-      "mark": 1.7807
+      "mark": 1.7809
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": 0.48,
-      "pnl_pct": 0.08,
-      "margin": 89.18,
+      "pnl": 0.33,
+      "pnl_pct": 0.05,
+      "margin": 89.2,
       "leverage": "7",
       "tier": "2/2",
       "entry": 306.2333,
-      "mark": 306.0
+      "mark": 306.07
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 15.96,
+      "pnl": 15.95,
       "pnl_pct": 2.63,
       "margin": 84.44,
       "leverage": "7",
       "tier": "2/2",
       "entry": 75881.65,
-      "mark": 73887.12
+      "mark": 73887.98
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 0.97,
-      "pnl_pct": 0.35,
-      "margin": 34.25,
+      "pnl": 1.25,
+      "pnl_pct": 0.46,
+      "margin": 34.29,
       "leverage": "8",
       "tier": "2/2",
       "entry": 67.758,
-      "mark": 67.998
+      "mark": 68.069
     }
   ],
   "signals": {
@@ -69,7 +69,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.446
+      "conf": 0.453
     },
     "WLDUSDT": {
       "dir": "long",
@@ -121,7 +121,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.388
+      "conf": 0.386
     },
     "BNBUSDT": {
       "dir": "neutral",
