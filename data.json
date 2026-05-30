@@ -1,54 +1,65 @@
 {
-  "ts": "2026-05-30T20:15:02.459149+09:00",
+  "ts": "2026-05-30T20:16:04.032868+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1234.4,
-  "available": 954.72,
-  "unrealized": 41.06,
+  "equity": 1233.99,
+  "available": 954.26,
+  "unrealized": 40.63,
   "daily_pnl": 32.89,
-  "total_pnl": 299.4,
-  "cum_pct": 32.02,
-  "daily_avg_pct": 1.2151,
-  "annual_pct": 8113.68,
+  "total_pnl": 298.99,
+  "cum_pct": 31.98,
+  "daily_avg_pct": 1.2137,
+  "annual_pct": 8072.31,
   "mdd": -3.17,
   "current_dd": -3.17,
-  "seed_used": 279.68,
-  "seed_used_pct": 22.66,
+  "seed_used": 279.73,
+  "seed_used_pct": 22.67,
   "long_count": 0,
-  "short_count": 3,
+  "short_count": 4,
   "positions": [
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 16.15,
-      "pnl_pct": 2.43,
-      "margin": 92.45,
+      "pnl": 16.07,
+      "pnl_pct": 2.42,
+      "margin": 92.46,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1.7965,
-      "mark": 1.7528
+      "mark": 1.753
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": 6.6,
-      "pnl_pct": 1.06,
-      "margin": 88.3,
+      "pnl": 6.47,
+      "pnl_pct": 1.04,
+      "margin": 88.32,
       "leverage": "7",
       "tier": "2/2",
       "entry": 306.2333,
-      "mark": 303.0
+      "mark": 303.06
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 18.37,
-      "pnl_pct": 3.03,
-      "margin": 84.1,
+      "pnl": 18.27,
+      "pnl_pct": 3.01,
+      "margin": 84.11,
       "leverage": "7",
       "tier": "2/2",
       "entry": 75881.65,
-      "mark": 73585.0
+      "mark": 73598.3
+    },
+    {
+      "symbol": "WLDUSDT",
+      "side": "SHORT",
+      "pnl": -0.13,
+      "pnl_pct": -0.23,
+      "margin": 13.99,
+      "leverage": "4",
+      "tier": "1/2",
+      "entry": 0.3005,
+      "mark": 0.3012
     }
   ],
   "signals": {
@@ -344,7 +355,7 @@
     },
     {
       "t": "2026-05-30",
-      "v": 299.4
+      "v": 298.99
     }
   ],
   "trade_history": [
