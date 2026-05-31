@@ -1,54 +1,54 @@
 {
-  "ts": "2026-05-31T23:30:11.915297+09:00",
+  "ts": "2026-05-31T23:31:13.375730+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1211.56,
-  "available": 974.56,
-  "unrealized": 21.36,
+  "equity": 1211.83,
+  "available": 974.53,
+  "unrealized": 21.62,
   "daily_pnl": -10.89,
-  "total_pnl": 276.56,
-  "cum_pct": 29.58,
-  "daily_avg_pct": 1.0856,
-  "annual_pct": 5047.45,
+  "total_pnl": 276.83,
+  "cum_pct": 29.61,
+  "daily_avg_pct": 1.0865,
+  "annual_pct": 5064.2,
   "mdd": -6.68,
   "current_dd": -4.88,
-  "seed_used": 237.0,
-  "seed_used_pct": 19.56,
+  "seed_used": 237.3,
+  "seed_used_pct": 19.58,
   "long_count": 2,
   "short_count": 1,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 5.98,
-      "pnl_pct": 0.73,
-      "margin": 103.1,
+      "pnl": 7.4,
+      "pnl_pct": 0.9,
+      "margin": 103.28,
       "leverage": "8",
       "tier": "2/2",
       "entry": 67.3958,
-      "mark": 67.888
+      "mark": 68.005
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": 15.37,
-      "pnl_pct": 2.46,
-      "margin": 87.05,
+      "pnl": 14.31,
+      "pnl_pct": 2.29,
+      "margin": 87.2,
       "leverage": "7",
       "tier": "2/2",
       "entry": 306.2333,
-      "mark": 298.7
+      "mark": 299.22
     },
     {
       "symbol": "WLDUSDT",
       "side": "LONG",
-      "pnl": 0.04,
-      "pnl_pct": 0.02,
-      "margin": 46.3,
+      "pnl": -0.18,
+      "pnl_pct": -0.08,
+      "margin": 46.26,
       "leverage": "5",
       "tier": "2/3",
       "entry": 0.3209,
-      "mark": 0.321
+      "mark": 0.3207
     }
   ],
   "signals": {
@@ -138,11 +138,11 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.429
+      "conf": 0.428
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.344
+      "conf": 0.346
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -182,7 +182,7 @@
     },
     "ONDOUSDT": {
       "dir": "short",
-      "conf": 0.482
+      "conf": 0.48
     },
     "DASHUSDT": {
       "dir": "short",
@@ -344,7 +344,7 @@
     },
     {
       "t": "2026-05-31",
-      "v": 276.56
+      "v": 276.83
     }
   ],
   "trade_history": [
