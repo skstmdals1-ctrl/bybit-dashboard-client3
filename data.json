@@ -1,65 +1,54 @@
 {
-  "ts": "2026-05-31T13:46:57.611993+09:00",
+  "ts": "2026-05-31T13:47:59.114542+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1236.61,
-  "available": 875.81,
-  "unrealized": 43.6,
-  "daily_pnl": -8.46,
-  "total_pnl": 301.61,
-  "cum_pct": 32.26,
-  "daily_avg_pct": 1.1718,
-  "annual_pct": 6926.01,
+  "equity": 1236.55,
+  "available": 960.68,
+  "unrealized": 29.79,
+  "daily_pnl": 5.39,
+  "total_pnl": 301.55,
+  "cum_pct": 32.25,
+  "daily_avg_pct": 1.1715,
+  "annual_pct": 6918.41,
   "mdd": -6.68,
   "current_dd": -2.73,
-  "seed_used": 360.81,
-  "seed_used_pct": 29.18,
+  "seed_used": 275.87,
+  "seed_used_pct": 22.31,
   "long_count": 2,
-  "short_count": 2,
+  "short_count": 1,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 23.66,
-      "pnl_pct": 2.89,
-      "margin": 105.31,
+      "pnl": 23.94,
+      "pnl_pct": 2.92,
+      "margin": 105.35,
       "leverage": "8",
       "tier": "2/2",
       "entry": 67.3958,
-      "mark": 69.343
+      "mark": 69.366
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": 5.15,
-      "pnl_pct": 0.82,
+      "pnl": 5.17,
+      "pnl_pct": 0.83,
       "margin": 88.51,
       "leverage": "7",
       "tier": "2/2",
       "entry": 306.2333,
-      "mark": 303.71
-    },
-    {
-      "symbol": "BTCUSDT",
-      "side": "SHORT",
-      "pnl": 14.07,
-      "pnl_pct": 2.32,
-      "margin": 84.71,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 75881.65,
-      "mark": 74123.27
+      "mark": 303.7
     },
     {
       "symbol": "WLDUSDT",
       "side": "LONG",
-      "pnl": 0.79,
-      "pnl_pct": 0.35,
+      "pnl": 0.72,
+      "pnl_pct": 0.32,
       "margin": 31.93,
       "leverage": "7",
       "tier": "3/3",
       "entry": 0.3425,
-      "mark": 0.3437
+      "mark": 0.3436
     }
   ],
   "signals": {
@@ -355,10 +344,17 @@
     },
     {
       "t": "2026-05-31",
-      "v": 301.61
+      "v": 301.55
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-31 13:47",
+      "symbol": "BTCUSDT",
+      "side": "Sell",
+      "pnl": 13.86,
+      "reason": "2/2"
+    },
     {
       "ts": "2026-05-31 10:09",
       "symbol": "WLDUSDT",
@@ -491,13 +487,6 @@
       "side": "Sell",
       "pnl": -3.21,
       "reason": "2/2"
-    },
-    {
-      "ts": "2026-05-30 05:10",
-      "symbol": "WLDUSDT",
-      "side": "Sell",
-      "pnl": -0.0,
-      "reason": "L2"
     }
   ],
   "num_days": 24
