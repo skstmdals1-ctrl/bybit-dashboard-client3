@@ -1,54 +1,54 @@
 {
-  "ts": "2026-05-31T17:59:17.539951+09:00",
+  "ts": "2026-05-31T18:00:18.915414+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1226.8,
-  "available": 946.16,
-  "unrealized": 19.37,
+  "equity": 1227.24,
+  "available": 946.57,
+  "unrealized": 19.84,
   "daily_pnl": 6.35,
-  "total_pnl": 291.8,
-  "cum_pct": 31.21,
-  "daily_avg_pct": 1.1382,
-  "annual_pct": 6123.8,
+  "total_pnl": 292.24,
+  "cum_pct": 31.26,
+  "daily_avg_pct": 1.1398,
+  "annual_pct": 6159.84,
   "mdd": -6.68,
   "current_dd": -3.7,
-  "seed_used": 280.65,
-  "seed_used_pct": 22.88,
+  "seed_used": 280.67,
+  "seed_used_pct": 22.87,
   "long_count": 2,
   "short_count": 1,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 18.79,
+      "pnl": 18.74,
       "pnl_pct": 2.29,
-      "margin": 104.71,
+      "margin": 104.7,
       "leverage": "8",
       "tier": "2/2",
       "entry": 67.3958,
-      "mark": 68.942
+      "mark": 68.938
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": 0.27,
-      "pnl_pct": 0.04,
-      "margin": 89.21,
+      "pnl": 0.46,
+      "pnl_pct": 0.07,
+      "margin": 89.18,
       "leverage": "7",
       "tier": "2/2",
       "entry": 306.2333,
-      "mark": 306.1
+      "mark": 306.01
     },
     {
       "symbol": "WLDUSDT",
       "side": "LONG",
-      "pnl": 0.34,
-      "pnl_pct": 0.24,
-      "margin": 28.69,
+      "pnl": 0.68,
+      "pnl_pct": 0.48,
+      "margin": 28.76,
       "leverage": "5",
       "tier": "2/2",
       "entry": 0.3367,
-      "mark": 0.3375
+      "mark": 0.3383
     }
   ],
   "signals": {
@@ -74,7 +74,7 @@
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.536
+      "conf": 0.534
     },
     "PENGUUSDT": {
       "dir": "long",
@@ -344,7 +344,7 @@
     },
     {
       "t": "2026-05-31",
-      "v": 291.8
+      "v": 292.24
     }
   ],
   "trade_history": [
