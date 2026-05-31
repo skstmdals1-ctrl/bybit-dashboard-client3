@@ -1,54 +1,54 @@
 {
-  "ts": "2026-05-31T12:07:55.663769+09:00",
+  "ts": "2026-05-31T12:08:58.163951+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1225.05,
-  "available": 947.15,
-  "unrealized": 31.95,
+  "equity": 1225.22,
+  "available": 947.21,
+  "unrealized": 32.08,
   "daily_pnl": -8.46,
-  "total_pnl": 290.05,
-  "cum_pct": 31.02,
-  "daily_avg_pct": 1.1321,
-  "annual_pct": 5988.28,
+  "total_pnl": 290.22,
+  "cum_pct": 31.04,
+  "daily_avg_pct": 1.1328,
+  "annual_pct": 6003.68,
   "mdd": -6.68,
-  "current_dd": -3.88,
-  "seed_used": 277.9,
-  "seed_used_pct": 22.68,
+  "current_dd": -3.83,
+  "seed_used": 278.01,
+  "seed_used_pct": 22.69,
   "long_count": 1,
   "short_count": 2,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 12.51,
-      "pnl_pct": 1.53,
-      "margin": 103.92,
+      "pnl": 13.02,
+      "pnl_pct": 1.59,
+      "margin": 103.98,
       "leverage": "8",
       "tier": "2/2",
       "entry": 67.3958,
-      "mark": 68.425
+      "mark": 68.467
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": 4.76,
-      "pnl_pct": 0.76,
-      "margin": 88.57,
+      "pnl": 4.56,
+      "pnl_pct": 0.73,
+      "margin": 88.59,
       "leverage": "7",
       "tier": "2/2",
       "entry": 306.2333,
-      "mark": 303.9
+      "mark": 304.0
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 14.67,
-      "pnl_pct": 2.42,
-      "margin": 84.63,
+      "pnl": 14.55,
+      "pnl_pct": 2.4,
+      "margin": 84.64,
       "leverage": "7",
       "tier": "2/2",
       "entry": 75881.65,
-      "mark": 74048.5
+      "mark": 74063.2
     }
   ],
   "signals": {
@@ -74,7 +74,7 @@
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.548
+      "conf": 0.541
     },
     "PENGUUSDT": {
       "dir": "long",
@@ -110,7 +110,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.576
+      "conf": 0.578
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -344,7 +344,7 @@
     },
     {
       "t": "2026-05-31",
-      "v": 290.05
+      "v": 290.22
     }
   ],
   "trade_history": [
