@@ -1,54 +1,65 @@
 {
-  "ts": "2026-06-01T01:44:30.958735+09:00",
+  "ts": "2026-06-01T01:45:32.383928+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1222.07,
-  "available": 967.87,
-  "unrealized": 23.69,
+  "equity": 1222.55,
+  "available": 968.43,
+  "unrealized": 24.09,
   "daily_pnl": 8.09,
-  "total_pnl": 287.07,
-  "cum_pct": 30.7,
-  "daily_avg_pct": 1.0767,
-  "annual_pct": 4884.65,
+  "total_pnl": 287.55,
+  "cum_pct": 30.75,
+  "daily_avg_pct": 1.0782,
+  "annual_pct": 4911.73,
   "mdd": -6.68,
   "current_dd": -4.09,
-  "seed_used": 254.2,
-  "seed_used_pct": 20.8,
+  "seed_used": 254.13,
+  "seed_used_pct": 20.79,
   "long_count": 2,
-  "short_count": 1,
+  "short_count": 2,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 6.6,
-      "pnl_pct": 0.81,
+      "pnl": 6.55,
+      "pnl_pct": 0.8,
       "margin": 103.18,
       "leverage": "8",
       "tier": "2/2",
       "entry": 67.3958,
-      "mark": 67.939
+      "mark": 67.935
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": 15.76,
-      "pnl_pct": 2.52,
-      "margin": 86.99,
+      "pnl": 16.18,
+      "pnl_pct": 2.59,
+      "margin": 86.93,
       "leverage": "7",
       "tier": "2/2",
       "entry": 306.2333,
-      "mark": 298.51
+      "mark": 298.3
     },
     {
       "symbol": "WLDUSDT",
       "side": "LONG",
-      "pnl": 1.43,
-      "pnl_pct": 1.47,
-      "margin": 19.71,
+      "pnl": 1.4,
+      "pnl_pct": 1.44,
+      "margin": 19.7,
       "leverage": "5",
       "tier": "2/3",
       "entry": 0.326,
-      "mark": 0.3308
+      "mark": 0.3307
+    },
+    {
+      "symbol": "TONUSDT",
+      "side": "SHORT",
+      "pnl": -0.01,
+      "pnl_pct": -0.03,
+      "margin": 16.14,
+      "leverage": "3",
+      "tier": "1/2",
+      "entry": 1.8549,
+      "mark": 1.8554
     }
   ],
   "signals": {
@@ -344,7 +355,7 @@
     },
     {
       "t": "2026-06-01",
-      "v": 287.07
+      "v": 287.55
     }
   ],
   "trade_history": [
