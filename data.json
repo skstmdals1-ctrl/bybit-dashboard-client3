@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-01T02:23:37.495478+09:00",
+  "ts": "2026-06-01T02:24:39.066734+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1225.22,
-  "available": 938.27,
-  "unrealized": 26.81,
+  "equity": 1225.57,
+  "available": 938.55,
+  "unrealized": 27.25,
   "daily_pnl": 8.09,
-  "total_pnl": 290.22,
-  "cum_pct": 31.04,
-  "daily_avg_pct": 1.0872,
-  "annual_pct": 5077.27,
+  "total_pnl": 290.57,
+  "cum_pct": 31.08,
+  "daily_avg_pct": 1.0884,
+  "annual_pct": 5099.75,
   "mdd": -6.68,
-  "current_dd": -3.81,
-  "seed_used": 286.95,
+  "current_dd": -3.83,
+  "seed_used": 287.01,
   "seed_used_pct": 23.42,
   "long_count": 2,
   "short_count": 2,
@@ -20,13 +20,13 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 10.8,
-      "pnl_pct": 1.32,
-      "margin": 103.71,
+      "pnl": 11.28,
+      "pnl_pct": 1.38,
+      "margin": 103.77,
       "leverage": "8",
       "tier": "2/2",
       "entry": 67.3958,
-      "mark": 68.285
+      "mark": 68.324
     },
     {
       "symbol": "BCHUSDT",
@@ -42,24 +42,24 @@
     {
       "symbol": "WLDUSDT",
       "side": "LONG",
-      "pnl": -0.27,
-      "pnl_pct": -0.28,
-      "margin": 19.37,
+      "pnl": -0.24,
+      "pnl_pct": -0.25,
+      "margin": 19.38,
       "leverage": "5",
       "tier": "2/3",
       "entry": 0.326,
-      "mark": 0.3251
+      "mark": 0.3252
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": -0.08,
-      "pnl_pct": -0.17,
-      "margin": 16.16,
+      "pnl": -0.14,
+      "pnl_pct": -0.3,
+      "margin": 16.19,
       "leverage": "3",
       "tier": "2/2",
       "entry": 1.8549,
-      "mark": 1.858
+      "mark": 1.8604
     }
   ],
   "signals": {
@@ -85,7 +85,7 @@
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.549
+      "conf": 0.546
     },
     "PENGUUSDT": {
       "dir": "long",
@@ -105,7 +105,7 @@
     },
     "BCHUSDT": {
       "dir": "neutral",
-      "conf": 0.366
+      "conf": 0.367
     },
     "DOTUSDT": {
       "dir": "long",
@@ -355,7 +355,7 @@
     },
     {
       "t": "2026-06-01",
-      "v": 290.22
+      "v": 290.57
     }
   ],
   "trade_history": [
