@@ -1,19 +1,19 @@
 {
-  "ts": "2026-06-01T06:24:08.381406+09:00",
+  "ts": "2026-06-01T06:25:09.793808+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1257.16,
-  "available": 1072.52,
-  "unrealized": 16.11,
-  "daily_pnl": 50.79,
-  "total_pnl": 322.16,
-  "cum_pct": 34.46,
-  "daily_avg_pct": 1.1914,
-  "annual_pct": 7440.77,
+  "equity": 1257.52,
+  "available": 1082.98,
+  "unrealized": 14.13,
+  "daily_pnl": 53.2,
+  "total_pnl": 322.52,
+  "cum_pct": 34.49,
+  "daily_avg_pct": 1.1923,
+  "annual_pct": 7465.29,
   "mdd": -6.68,
   "current_dd": -1.34,
-  "seed_used": 184.64,
-  "seed_used_pct": 14.69,
+  "seed_used": 174.54,
+  "seed_used_pct": 13.88,
   "long_count": 1,
   "short_count": 2,
   "positions": [
@@ -31,24 +31,24 @@
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": -0.65,
-      "pnl_pct": -0.44,
-      "margin": 48.91,
+      "pnl": -0.7,
+      "pnl_pct": -0.48,
+      "margin": 48.93,
       "leverage": "3",
       "tier": "2/2",
       "entry": 1.8705,
-      "mark": 1.8788
+      "mark": 1.8795
     },
     {
       "symbol": "WLDUSDT",
       "side": "LONG",
-      "pnl": 4.47,
-      "pnl_pct": 4.6,
-      "margin": 20.32,
+      "pnl": 2.55,
+      "pnl_pct": 5.25,
+      "margin": 10.22,
       "leverage": "5",
       "tier": "2/3",
       "entry": 0.326,
-      "mark": 0.341
+      "mark": 0.3431
     }
   ],
   "signals": {
@@ -344,10 +344,17 @@
     },
     {
       "t": "2026-06-01",
-      "v": 322.16
+      "v": 322.52
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-01 06:24",
+      "symbol": "WLDUSDT",
+      "side": "Buy",
+      "pnl": 2.41,
+      "reason": "마진 0.1USDT < 1"
+    },
     {
       "ts": "2026-06-01 06:23",
       "symbol": "HYPEUSDT",
@@ -480,13 +487,6 @@
       "side": "Buy",
       "pnl": 2.94,
       "reason": "2/2"
-    },
-    {
-      "ts": "2026-05-30 23:03",
-      "symbol": "WLDUSDT",
-      "side": "Buy",
-      "pnl": 3.29,
-      "reason": "-"
     }
   ],
   "num_days": 25
