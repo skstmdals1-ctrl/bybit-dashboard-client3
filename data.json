@@ -1,32 +1,32 @@
 {
-  "ts": "2026-05-31T23:03:34.091822+09:00",
+  "ts": "2026-05-31T23:04:35.765283+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1207.7,
-  "available": 970.54,
-  "unrealized": 12.67,
-  "daily_pnl": -6.05,
-  "total_pnl": 272.7,
-  "cum_pct": 29.17,
-  "daily_avg_pct": 1.0722,
-  "annual_pct": 4804.3,
+  "equity": 1204.63,
+  "available": 1013.03,
+  "unrealized": 14.33,
+  "daily_pnl": -10.89,
+  "total_pnl": 269.63,
+  "cum_pct": 28.84,
+  "daily_avg_pct": 1.0614,
+  "annual_pct": 4616.7,
   "mdd": -6.68,
   "current_dd": -5.26,
-  "seed_used": 237.17,
-  "seed_used_pct": 19.64,
-  "long_count": 2,
+  "seed_used": 191.6,
+  "seed_used_pct": 15.91,
+  "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 8.37,
-      "pnl_pct": 1.02,
-      "margin": 103.4,
+      "pnl": 5.71,
+      "pnl_pct": 0.7,
+      "margin": 103.07,
       "leverage": "8",
       "tier": "2/2",
       "entry": 67.3958,
-      "mark": 68.085
+      "mark": 67.866
     },
     {
       "symbol": "BCHUSDT",
@@ -38,17 +38,6 @@
       "tier": "2/2",
       "entry": 306.2333,
       "mark": 302.0
-    },
-    {
-      "symbol": "WLDUSDT",
-      "side": "LONG",
-      "pnl": -4.32,
-      "pnl_pct": -1.88,
-      "margin": 45.21,
-      "leverage": "5",
-      "tier": "2/3",
-      "entry": 0.3312,
-      "mark": 0.325
     }
   ],
   "signals": {
@@ -344,10 +333,17 @@
     },
     {
       "t": "2026-05-31",
-      "v": 272.7
+      "v": 269.63
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-31 23:03",
+      "symbol": "WLDUSDT",
+      "side": "Buy",
+      "pnl": -4.84,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-05-31 19:35",
       "symbol": "WLDUSDT",
@@ -480,13 +476,6 @@
       "side": "Buy",
       "pnl": 0.02,
       "reason": "L2"
-    },
-    {
-      "ts": "2026-05-30 18:34",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": 5.15,
-      "reason": "3/3"
     }
   ],
   "num_days": 24
