@@ -1,22 +1,34 @@
 {
-  "ts": "2026-06-01T21:53:00.720804+09:00",
+  "ts": "2026-06-01T21:54:03.194247+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1275.16,
-  "available": 1275.16,
+  "equity": 1275.11,
+  "available": 1263.74,
   "unrealized": 0.0,
   "daily_pnl": 83.71,
-  "total_pnl": 340.16,
+  "total_pnl": 340.11,
   "cum_pct": 36.38,
   "daily_avg_pct": 1.2488,
   "annual_pct": 9174.87,
   "mdd": -6.68,
   "current_dd": -0.99,
-  "seed_used": 0,
-  "seed_used_pct": 0.0,
-  "long_count": 0,
+  "seed_used": 11.38,
+  "seed_used_pct": 0.89,
+  "long_count": 1,
   "short_count": 0,
-  "positions": [],
+  "positions": [
+    {
+      "symbol": "HYPEUSDT",
+      "side": "LONG",
+      "pnl": 0.02,
+      "pnl_pct": 0.03,
+      "margin": 11.31,
+      "leverage": "7",
+      "tier": "1/3",
+      "entry": 73.974,
+      "mark": 73.996
+    }
+  ],
   "signals": {
     "AAVEUSDT": {
       "dir": "long",
@@ -76,11 +88,11 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.391
+      "conf": 0.388
     },
     "BNBUSDT": {
       "dir": "long",
-      "conf": 0.344
+      "conf": 0.343
     },
     "TAOUSDT": {
       "dir": "short",
@@ -108,7 +120,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.353
+      "conf": 0.352
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -310,7 +322,7 @@
     },
     {
       "t": "2026-06-01",
-      "v": 340.16
+      "v": 340.11
     }
   ],
   "trade_history": [
