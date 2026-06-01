@@ -1,32 +1,43 @@
 {
-  "ts": "2026-06-02T07:17:09.457004+09:00",
+  "ts": "2026-06-02T07:18:11.023407+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1272.4,
-  "available": 1185.47,
-  "unrealized": -0.4,
+  "equity": 1272.45,
+  "available": 1163.5,
+  "unrealized": -0.37,
   "daily_pnl": 0,
-  "total_pnl": 337.4,
+  "total_pnl": 337.45,
   "cum_pct": 36.09,
   "daily_avg_pct": 1.1922,
   "annual_pct": 7462.56,
   "mdd": -6.68,
   "current_dd": -1.21,
-  "seed_used": 86.93,
-  "seed_used_pct": 6.83,
-  "long_count": 1,
+  "seed_used": 108.96,
+  "seed_used_pct": 8.56,
+  "long_count": 2,
   "short_count": 0,
   "positions": [
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": -0.4,
-      "pnl_pct": -0.29,
+      "pnl": -0.42,
+      "pnl_pct": -0.3,
       "margin": 27.63,
       "leverage": "5",
       "tier": "2/2",
       "entry": 692.8,
-      "mark": 690.8
+      "mark": 690.7
+    },
+    {
+      "symbol": "TONUSDT",
+      "side": "LONG",
+      "pnl": 0.05,
+      "pnl_pct": 0.03,
+      "margin": 21.97,
+      "leverage": "8",
+      "tier": "1/3",
+      "entry": 2.1044,
+      "mark": 2.105
     }
   ],
   "signals": {
@@ -36,7 +47,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.467
+      "conf": 0.465
     },
     "WLDUSDT": {
       "dir": "long",
@@ -80,7 +91,7 @@
     },
     "XRPUSDT": {
       "dir": "neutral",
-      "conf": 0.351
+      "conf": 0.353
     },
     "TRXUSDT": {
       "dir": "short",
@@ -88,7 +99,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.567
+      "conf": 0.558
     },
     "BNBUSDT": {
       "dir": "long",
@@ -120,7 +131,7 @@
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.412
+      "conf": 0.4
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -152,7 +163,7 @@
     },
     "TONUSDT": {
       "dir": "long",
-      "conf": 0.496
+      "conf": 0.491
     },
     "WLFIUSDT": {
       "dir": "short",
@@ -160,7 +171,7 @@
     },
     "ONDOUSDT": {
       "dir": "short",
-      "conf": 0.489
+      "conf": 0.488
     },
     "DASHUSDT": {
       "dir": "short",
@@ -322,7 +333,7 @@
     },
     {
       "t": "2026-06-02",
-      "v": 337.4
+      "v": 337.45
     }
   ],
   "trade_history": [
