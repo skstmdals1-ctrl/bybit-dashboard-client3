@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-01T17:01:58.557666+09:00",
+  "ts": "2026-06-01T17:03:00.001409+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1284.76,
-  "available": 1147.0,
-  "unrealized": 21.56,
+  "equity": 1284.29,
+  "available": 1146.24,
+  "unrealized": 21.1,
   "daily_pnl": 72.58,
-  "total_pnl": 349.76,
-  "cum_pct": 37.41,
-  "daily_avg_pct": 1.2793,
-  "annual_pct": 10252.67,
+  "total_pnl": 349.29,
+  "cum_pct": 37.36,
+  "daily_avg_pct": 1.2778,
+  "annual_pct": 10196.85,
   "mdd": -6.68,
-  "current_dd": -0.13,
-  "seed_used": 137.75,
-  "seed_used_pct": 10.72,
+  "current_dd": 0.0,
+  "seed_used": 138.05,
+  "seed_used_pct": 10.75,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 1.57,
-      "pnl_pct": 0.24,
-      "margin": 95.2,
+      "pnl": 2.37,
+      "pnl_pct": 0.36,
+      "margin": 95.31,
       "leverage": "7",
       "tier": "2/2",
       "entry": 72.4219,
-      "mark": 72.593
+      "mark": 72.68
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": 20.02,
-      "pnl_pct": 6.35,
-      "margin": 42.2,
+      "pnl": 18.76,
+      "pnl_pct": 5.95,
+      "margin": 42.38,
       "leverage": "7",
       "tier": "2/2",
       "entry": 306.2333,
-      "mark": 286.8
+      "mark": 288.02
     }
   ],
   "signals": {
@@ -47,7 +47,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.518
+      "conf": 0.517
     },
     "WLDUSDT": {
       "dir": "long",
@@ -63,7 +63,7 @@
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.539
+      "conf": 0.541
     },
     "PENGUUSDT": {
       "dir": "long",
@@ -99,11 +99,11 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.532
+      "conf": 0.526
     },
     "BNBUSDT": {
       "dir": "neutral",
-      "conf": 0.392
+      "conf": 0.394
     },
     "TAOUSDT": {
       "dir": "short",
@@ -111,7 +111,7 @@
     },
     "ADAUSDT": {
       "dir": "long",
-      "conf": 0.42
+      "conf": 0.419
     },
     "LINKUSDT": {
       "dir": "long",
@@ -333,7 +333,7 @@
     },
     {
       "t": "2026-06-01",
-      "v": 349.76
+      "v": 349.29
     }
   ],
   "trade_history": [
