@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-01T18:47:48.774660+09:00",
+  "ts": "2026-06-01T18:48:51.039565+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1275.03,
-  "available": 1274.93,
-  "unrealized": -0.01,
+  "equity": 1275.05,
+  "available": 1275.05,
+  "unrealized": 0.0,
   "daily_pnl": 83.71,
-  "total_pnl": 340.03,
+  "total_pnl": 340.05,
   "cum_pct": 36.37,
   "daily_avg_pct": 1.2485,
   "annual_pct": 9164.85,
   "mdd": -6.68,
-  "current_dd": -0.89,
-  "seed_used": 0.1,
-  "seed_used_pct": 0.01,
-  "long_count": 1,
+  "current_dd": -1.0,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
+  "long_count": 0,
   "short_count": 0,
-  "positions": [
-    {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": -0.01,
-      "pnl_pct": -0.82,
-      "margin": 0.1,
-      "leverage": "7",
-      "tier": "1/2",
-      "entry": 72.4219,
-      "mark": 71.829
-    }
-  ],
+  "positions": [],
   "signals": {
     "AAVEUSDT": {
       "dir": "long",
@@ -52,7 +40,7 @@
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.535
+      "conf": 0.533
     },
     "PENGUUSDT": {
       "dir": "long",
@@ -92,7 +80,7 @@
     },
     "BNBUSDT": {
       "dir": "neutral",
-      "conf": 0.396
+      "conf": 0.401
     },
     "TAOUSDT": {
       "dir": "short",
@@ -116,11 +104,11 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.451
+      "conf": 0.45
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.354
+      "conf": 0.351
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -322,10 +310,17 @@
     },
     {
       "t": "2026-06-01",
-      "v": 340.03
+      "v": 340.05
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-01 18:48",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
+      "pnl": -0.01,
+      "reason": "L2"
+    },
     {
       "ts": "2026-06-01 18:44",
       "symbol": "HYPEUSDT",
@@ -458,13 +453,6 @@
       "side": "Buy",
       "pnl": 20.34,
       "reason": "-"
-    },
-    {
-      "ts": "2026-06-01 00:37",
-      "symbol": "WLDUSDT",
-      "side": "Buy",
-      "pnl": 4.77,
-      "reason": "3/3"
     }
   ],
   "num_days": 25
