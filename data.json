@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-02T12:40:09.622654+09:00",
+  "ts": "2026-06-02T12:41:11.085900+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1293.01,
-  "available": 1106.29,
-  "unrealized": 20.57,
-  "daily_pnl": 0,
-  "total_pnl": 358.01,
-  "cum_pct": 38.29,
-  "daily_avg_pct": 1.2547,
-  "annual_pct": 9374.25,
+  "equity": 1293.56,
+  "available": 1156.48,
+  "unrealized": 11.55,
+  "daily_pnl": 9.51,
+  "total_pnl": 358.56,
+  "cum_pct": 38.35,
+  "daily_avg_pct": 1.2564,
+  "annual_pct": 9432.49,
   "mdd": -6.68,
   "current_dd": -0.08,
-  "seed_used": 186.71,
-  "seed_used_pct": 14.44,
+  "seed_used": 137.08,
+  "seed_used_pct": 10.6,
   "long_count": 2,
   "short_count": 0,
   "positions": [
     {
-      "symbol": "TONUSDT",
-      "side": "LONG",
-      "pnl": 17.22,
-      "pnl_pct": 2.22,
-      "margin": 98.97,
-      "leverage": "8",
-      "tier": "3/3",
-      "entry": 2.066,
-      "mark": 2.1119
-    },
-    {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": 3.38,
-      "pnl_pct": 0.78,
-      "margin": 87.44,
+      "pnl": 3.5,
+      "pnl_pct": 0.81,
+      "margin": 87.47,
       "leverage": "5",
       "tier": "2/2",
       "entry": 688.6365,
-      "mark": 694.0
+      "mark": 694.2
+    },
+    {
+      "symbol": "TONUSDT",
+      "side": "LONG",
+      "pnl": 8.07,
+      "pnl_pct": 2.08,
+      "margin": 49.43,
+      "leverage": "8",
+      "tier": "3/3",
+      "entry": 2.066,
+      "mark": 2.109
     }
   ],
   "signals": {
@@ -333,10 +333,17 @@
     },
     {
       "t": "2026-06-02",
-      "v": 358.01
+      "v": 358.56
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-02 12:40",
+      "symbol": "TONUSDT",
+      "side": "Buy",
+      "pnl": 9.51,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-01 22:30",
       "symbol": "HYPEUSDT",
@@ -469,13 +476,6 @@
       "side": "Buy",
       "pnl": 2.41,
       "reason": "마진 0.1USDT < 1"
-    },
-    {
-      "ts": "2026-06-01 06:23",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": 0.04,
-      "reason": "L2"
     }
   ],
   "num_days": 26
