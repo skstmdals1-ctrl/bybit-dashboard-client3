@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-02T13:31:24.429179+09:00",
+  "ts": "2026-06-02T13:32:25.901367+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1290.06,
-  "available": 1203.29,
-  "unrealized": -0.27,
+  "equity": 1290.48,
+  "available": 1203.63,
+  "unrealized": 0.1,
   "daily_pnl": 17.82,
-  "total_pnl": 355.06,
-  "cum_pct": 37.97,
-  "daily_avg_pct": 1.2456,
-  "annual_pct": 9068.49,
+  "total_pnl": 355.48,
+  "cum_pct": 38.02,
+  "daily_avg_pct": 1.2471,
+  "annual_pct": 9118.2,
   "mdd": -6.68,
-  "current_dd": -0.44,
-  "seed_used": 86.78,
+  "current_dd": -0.39,
+  "seed_used": 86.86,
   "seed_used_pct": 6.73,
   "long_count": 1,
   "short_count": 0,
@@ -20,13 +20,13 @@
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": -0.28,
-      "pnl_pct": -0.06,
-      "margin": 86.71,
+      "pnl": 0.1,
+      "pnl_pct": 0.02,
+      "margin": 86.79,
       "leverage": "5",
       "tier": "2/2",
       "entry": 688.6365,
-      "mark": 688.2
+      "mark": 688.8
     }
   ],
   "signals": {
@@ -88,11 +88,11 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.583
+      "conf": 0.575
     },
     "BNBUSDT": {
       "dir": "neutral",
-      "conf": 0.345
+      "conf": 0.343
     },
     "TAOUSDT": {
       "dir": "short",
@@ -100,7 +100,7 @@
     },
     "ADAUSDT": {
       "dir": "long",
-      "conf": 0.418
+      "conf": 0.419
     },
     "LINKUSDT": {
       "dir": "long",
@@ -120,7 +120,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.343
+      "conf": 0.344
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -160,7 +160,7 @@
     },
     "ONDOUSDT": {
       "dir": "short",
-      "conf": 0.516
+      "conf": 0.517
     },
     "DASHUSDT": {
       "dir": "short",
@@ -322,7 +322,7 @@
     },
     {
       "t": "2026-06-02",
-      "v": 355.06
+      "v": 355.48
     }
   ],
   "trade_history": [
