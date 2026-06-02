@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-02T19:42:46.009437+09:00",
+  "ts": "2026-06-02T19:43:47.516441+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1260.56,
-  "available": 1082.23,
-  "unrealized": -1.26,
+  "equity": 1261.14,
+  "available": 1083.16,
+  "unrealized": -0.66,
   "daily_pnl": -10.63,
-  "total_pnl": 325.56,
-  "cum_pct": 34.82,
-  "daily_avg_pct": 1.1557,
-  "annual_pct": 6529.51,
+  "total_pnl": 326.14,
+  "cum_pct": 34.88,
+  "daily_avg_pct": 1.1575,
+  "annual_pct": 6572.71,
   "mdd": -6.68,
-  "current_dd": -2.76,
-  "seed_used": 178.32,
-  "seed_used_pct": 14.15,
+  "current_dd": -2.6,
+  "seed_used": 177.98,
+  "seed_used_pct": 14.11,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
-      "symbol": "WLDUSDT",
-      "side": "SHORT",
-      "pnl": -3.08,
-      "pnl_pct": -0.7,
-      "margin": 89.1,
-      "leverage": "5",
-      "tier": "3/3",
-      "entry": 0.4212,
-      "mark": 0.4241
-    },
-    {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 1.81,
-      "pnl_pct": 0.41,
-      "margin": 89.0,
+      "pnl": 1.26,
+      "pnl_pct": 0.28,
+      "margin": 88.89,
       "leverage": "5",
       "tier": "2/2",
       "entry": 2.0071,
-      "mark": 2.0153
+      "mark": 2.0128
+    },
+    {
+      "symbol": "WLDUSDT",
+      "side": "SHORT",
+      "pnl": -1.92,
+      "pnl_pct": -0.43,
+      "margin": 88.87,
+      "leverage": "5",
+      "tier": "3/3",
+      "entry": 0.4212,
+      "mark": 0.423
     }
   ],
   "signals": {
@@ -91,7 +91,7 @@
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.343
+      "conf": 0.342
     },
     "TRXUSDT": {
       "dir": "short",
@@ -99,11 +99,11 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.559
+      "conf": 0.558
     },
     "BNBUSDT": {
       "dir": "neutral",
-      "conf": 0.365
+      "conf": 0.364
     },
     "TAOUSDT": {
       "dir": "short",
@@ -333,7 +333,7 @@
     },
     {
       "t": "2026-06-02",
-      "v": 325.56
+      "v": 326.14
     }
   ],
   "trade_history": [
