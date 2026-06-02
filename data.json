@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-02T15:01:35.579263+09:00",
+  "ts": "2026-06-02T15:02:36.992925+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1287.48,
-  "available": 1201.22,
-  "unrealized": -2.87,
+  "equity": 1287.29,
+  "available": 1201.07,
+  "unrealized": -3.04,
   "daily_pnl": 17.82,
-  "total_pnl": 352.48,
-  "cum_pct": 37.7,
-  "daily_avg_pct": 1.238,
-  "annual_pct": 8820.69,
+  "total_pnl": 352.29,
+  "cum_pct": 37.68,
+  "daily_avg_pct": 1.2374,
+  "annual_pct": 8801.41,
   "mdd": -6.68,
   "current_dd": -0.67,
-  "seed_used": 86.26,
+  "seed_used": 86.22,
   "seed_used_pct": 6.7,
   "long_count": 1,
   "short_count": 0,
@@ -20,13 +20,13 @@
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": -2.87,
-      "pnl_pct": -0.66,
-      "margin": 86.19,
+      "pnl": -3.05,
+      "pnl_pct": -0.7,
+      "margin": 86.16,
       "leverage": "5",
       "tier": "2/2",
       "entry": 688.6365,
-      "mark": 684.08
+      "mark": 683.8
     }
   ],
   "signals": {
@@ -119,8 +119,8 @@
       "conf": 0.448
     },
     "ETHUSDT": {
-      "dir": "short",
-      "conf": 0.34
+      "dir": "neutral",
+      "conf": 0.351
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -322,7 +322,7 @@
     },
     {
       "t": "2026-06-02",
-      "v": 352.48
+      "v": 352.29
     }
   ],
   "trade_history": [
