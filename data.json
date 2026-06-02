@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-03T08:45:14.803926+09:00",
+  "ts": "2026-06-03T08:46:16.378176+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1376.87,
-  "available": 1226.07,
-  "unrealized": 39.52,
-  "daily_pnl": 66.18,
-  "total_pnl": 441.87,
-  "cum_pct": 47.26,
-  "daily_avg_pct": 1.4438,
-  "annual_pct": 18620.22,
+  "equity": 1377.01,
+  "available": 1257.45,
+  "unrealized": 35.3,
+  "daily_pnl": 70.44,
+  "total_pnl": 442.01,
+  "cum_pct": 47.27,
+  "daily_avg_pct": 1.444,
+  "annual_pct": 18633.69,
   "mdd": -6.68,
   "current_dd": -0.44,
-  "seed_used": 150.79,
-  "seed_used_pct": 10.95,
+  "seed_used": 119.56,
+  "seed_used_pct": 8.68,
   "long_count": 0,
   "short_count": 2,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 35.1,
-      "pnl_pct": 4.04,
-      "margin": 119.18,
+      "pnl": 35.34,
+      "pnl_pct": 4.06,
+      "margin": 119.14,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1931.8693,
-      "mark": 1853.86
+      "mark": 1853.34
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 4.3,
-      "pnl_pct": 1.93,
-      "margin": 31.16,
+      "pnl": 0.0,
+      "pnl_pct": 2.08,
+      "margin": 0.03,
       "leverage": "7",
-      "tier": "3/3",
+      "tier": "1/3",
       "entry": 1.9967,
-      "mark": 1.9581
+      "mark": 1.9551
     }
   ],
   "signals": {
@@ -341,10 +341,17 @@
     },
     {
       "t": "2026-06-03",
-      "v": 441.87
+      "v": 442.01
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-03 08:45",
+      "symbol": "TONUSDT",
+      "side": "Sell",
+      "pnl": 4.26,
+      "reason": "3/3"
+    },
     {
       "ts": "2026-06-03 08:35",
       "symbol": "ENAUSDT",
@@ -477,13 +484,6 @@
       "side": "Buy",
       "pnl": 2.56,
       "reason": "3/3"
-    },
-    {
-      "ts": "2026-06-03 02:30",
-      "symbol": "TONUSDT",
-      "side": "Buy",
-      "pnl": 5.39,
-      "reason": "-"
     }
   ],
   "num_days": 27
