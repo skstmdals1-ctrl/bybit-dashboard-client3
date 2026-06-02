@@ -1,22 +1,34 @@
 {
-  "ts": "2026-06-03T00:11:22.296894+09:00",
+  "ts": "2026-06-03T00:12:24.048241+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1259.84,
-  "available": 1259.84,
-  "unrealized": 0.0,
+  "equity": 1259.76,
+  "available": 1239.93,
+  "unrealized": -0.06,
   "daily_pnl": -10.92,
-  "total_pnl": 324.84,
-  "cum_pct": 34.74,
-  "daily_avg_pct": 1.1105,
-  "annual_pct": 5531.63,
+  "total_pnl": 324.76,
+  "cum_pct": 34.73,
+  "daily_avg_pct": 1.1102,
+  "annual_pct": 5525.54,
   "mdd": -6.68,
-  "current_dd": -2.33,
-  "seed_used": 0,
-  "seed_used_pct": 0.0,
-  "long_count": 0,
+  "current_dd": -2.75,
+  "seed_used": 19.82,
+  "seed_used_pct": 1.57,
+  "long_count": 1,
   "short_count": 0,
-  "positions": [],
+  "positions": [
+    {
+      "symbol": "TONUSDT",
+      "side": "LONG",
+      "pnl": -0.06,
+      "pnl_pct": -0.06,
+      "margin": 19.82,
+      "leverage": "5",
+      "tier": "1/3",
+      "entry": 1.9634,
+      "mark": 1.9623
+    }
+  ],
   "signals": {
     "AAVEUSDT": {
       "dir": "long",
@@ -76,7 +88,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.46
+      "conf": 0.464
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -314,7 +326,7 @@
     },
     {
       "t": "2026-06-03",
-      "v": 324.84
+      "v": 324.76
     }
   ],
   "trade_history": [
