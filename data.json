@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-02T09:26:24.493951+09:00",
+  "ts": "2026-06-02T09:27:26.156527+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1270.36,
-  "available": 1086.42,
-  "unrealized": -2.39,
+  "equity": 1269.27,
+  "available": 1085.46,
+  "unrealized": -3.47,
   "daily_pnl": 0,
-  "total_pnl": 335.36,
-  "cum_pct": 35.87,
-  "daily_avg_pct": 1.1859,
-  "annual_pct": 7292.64,
+  "total_pnl": 334.27,
+  "cum_pct": 35.75,
+  "daily_avg_pct": 1.1825,
+  "annual_pct": 7202.53,
   "mdd": -6.68,
-  "current_dd": -1.31,
-  "seed_used": 183.95,
+  "current_dd": -1.4,
+  "seed_used": 183.81,
   "seed_used_pct": 14.48,
   "long_count": 2,
   "short_count": 0,
@@ -20,24 +20,24 @@
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": -2.14,
-      "pnl_pct": -0.5,
-      "margin": 52.7,
+      "pnl": -3.13,
+      "pnl_pct": -0.74,
+      "margin": 52.58,
       "leverage": "8",
       "tier": "3/3",
       "entry": 2.0853,
-      "mark": 2.0748
+      "mark": 2.0699
     },
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": -0.36,
-      "pnl_pct": -0.26,
+      "pnl": -0.34,
+      "pnl_pct": -0.25,
       "margin": 27.64,
       "leverage": "5",
       "tier": "2/2",
       "entry": 692.8,
-      "mark": 691.0
+      "mark": 691.1
     }
   ],
   "signals": {
@@ -47,7 +47,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.5
+      "conf": 0.498
     },
     "WLDUSDT": {
       "dir": "long",
@@ -99,11 +99,11 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.58
+      "conf": 0.578
     },
     "BNBUSDT": {
       "dir": "neutral",
-      "conf": 0.343
+      "conf": 0.344
     },
     "TAOUSDT": {
       "dir": "short",
@@ -333,7 +333,7 @@
     },
     {
       "t": "2026-06-02",
-      "v": 335.36
+      "v": 334.27
     }
   ],
   "trade_history": [
