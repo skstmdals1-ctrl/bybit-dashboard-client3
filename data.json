@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-02T12:44:15.524469+09:00",
+  "ts": "2026-06-02T12:45:17.013458+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1295.45,
-  "available": 1158.11,
-  "unrealized": 13.45,
-  "daily_pnl": 9.51,
-  "total_pnl": 360.45,
-  "cum_pct": 38.55,
-  "daily_avg_pct": 1.262,
-  "annual_pct": 9626.86,
+  "equity": 1295.36,
+  "available": 1182.88,
+  "unrealized": 8.62,
+  "daily_pnl": 14.27,
+  "total_pnl": 360.36,
+  "cum_pct": 38.54,
+  "daily_avg_pct": 1.2617,
+  "annual_pct": 9616.35,
   "mdd": -6.68,
-  "current_dd": -0.08,
-  "seed_used": 137.33,
-  "seed_used_pct": 10.6,
+  "current_dd": 0.0,
+  "seed_used": 112.48,
+  "seed_used_pct": 8.68,
   "long_count": 2,
   "short_count": 0,
   "positions": [
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": 3.69,
-      "pnl_pct": 0.85,
-      "margin": 87.51,
+      "pnl": 3.9,
+      "pnl_pct": 0.9,
+      "margin": 87.55,
       "leverage": "5",
       "tier": "2/2",
       "entry": 688.6365,
-      "mark": 694.5
+      "mark": 694.82
     },
     {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 9.77,
-      "pnl_pct": 2.52,
-      "margin": 49.64,
+      "pnl": 4.74,
+      "pnl_pct": 2.45,
+      "margin": 24.82,
       "leverage": "8",
       "tier": "3/3",
       "entry": 2.066,
-      "mark": 2.1181
+      "mark": 2.1165
     }
   ],
   "signals": {
@@ -47,7 +47,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.531
+      "conf": 0.532
     },
     "WLDUSDT": {
       "dir": "long",
@@ -99,7 +99,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.577
+      "conf": 0.57
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -127,7 +127,7 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.455
+      "conf": 0.456
     },
     "ETHUSDT": {
       "dir": "neutral",
@@ -333,10 +333,17 @@
     },
     {
       "t": "2026-06-02",
-      "v": 360.45
+      "v": 360.36
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-02 12:44",
+      "symbol": "TONUSDT",
+      "side": "Buy",
+      "pnl": 4.76,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-02 12:40",
       "symbol": "TONUSDT",
@@ -469,13 +476,6 @@
       "side": "Buy",
       "pnl": 2.76,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-01 06:24",
-      "symbol": "WLDUSDT",
-      "side": "Buy",
-      "pnl": 2.41,
-      "reason": "마진 0.1USDT < 1"
     }
   ],
   "num_days": 26
