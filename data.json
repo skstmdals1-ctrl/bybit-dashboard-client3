@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-03T20:11:37.210337+09:00",
+  "ts": "2026-06-03T20:12:39.000605+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1362.31,
-  "available": 1362.31,
-  "unrealized": -0.0,
+  "equity": 1362.28,
+  "available": 1362.28,
+  "unrealized": 0.0,
   "daily_pnl": 90.89,
-  "total_pnl": 427.31,
+  "total_pnl": 427.28,
   "cum_pct": 45.7,
   "daily_avg_pct": 1.4038,
   "annual_pct": 16110.41,
   "mdd": -6.68,
-  "current_dd": -2.17,
+  "current_dd": -2.26,
   "seed_used": 0,
   "seed_used_pct": 0.0,
   "long_count": 0,
-  "short_count": 1,
-  "positions": [
-    {
-      "symbol": "WLDUSDT",
-      "side": "SHORT",
-      "pnl": -0.0,
-      "pnl_pct": -0.4,
-      "margin": 0.01,
-      "leverage": "7",
-      "tier": "1/3",
-      "entry": 0.514,
-      "mark": 0.516
-    }
-  ],
+  "short_count": 0,
+  "positions": [],
   "signals": {
     "AAVEUSDT": {
       "dir": "long",
@@ -36,7 +24,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.545
+      "conf": 0.55
     },
     "WLDUSDT": {
       "dir": "short",
@@ -88,7 +76,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.514
+      "conf": 0.506
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -116,11 +104,11 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.554
+      "conf": 0.556
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.432
+      "conf": 0.433
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -330,10 +318,17 @@
     },
     {
       "t": "2026-06-03",
-      "v": 427.31
+      "v": 427.28
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-03 20:12",
+      "symbol": "WLDUSDT",
+      "side": "Sell",
+      "pnl": -0.0,
+      "reason": "L2"
+    },
     {
       "ts": "2026-06-03 20:07",
       "symbol": "WLDUSDT",
@@ -466,13 +461,6 @@
       "side": "Sell",
       "pnl": 1.57,
       "reason": "3/3"
-    },
-    {
-      "ts": "2026-06-03 08:19",
-      "symbol": "TONUSDT",
-      "side": "Sell",
-      "pnl": 5.47,
-      "reason": "-"
     }
   ],
   "num_days": 27
