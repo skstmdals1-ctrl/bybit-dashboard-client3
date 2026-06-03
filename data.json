@@ -1,65 +1,54 @@
 {
-  "ts": "2026-06-04T05:05:27.595121+09:00",
+  "ts": "2026-06-04T05:06:29.372674+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1342.46,
-  "available": 950.89,
-  "unrealized": 12.83,
-  "daily_pnl": -0.51,
-  "total_pnl": 407.46,
-  "cum_pct": 43.58,
-  "daily_avg_pct": 1.3002,
-  "annual_pct": 11062.48,
+  "equity": 1335.28,
+  "available": 972.55,
+  "unrealized": 18.38,
+  "daily_pnl": -13.49,
+  "total_pnl": 400.28,
+  "cum_pct": 42.81,
+  "daily_avg_pct": 1.2808,
+  "annual_pct": 10308.78,
   "mdd": -6.68,
-  "current_dd": -3.32,
-  "seed_used": 391.58,
-  "seed_used_pct": 29.17,
-  "long_count": 2,
+  "current_dd": -3.78,
+  "seed_used": 362.73,
+  "seed_used_pct": 27.17,
+  "long_count": 1,
   "short_count": 2,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 8.04,
-      "pnl_pct": 1.73,
-      "margin": 94.72,
+      "pnl": 7.07,
+      "pnl_pct": 1.52,
+      "margin": 94.52,
       "leverage": "5",
       "tier": "2/2",
       "entry": 72.1777,
-      "mark": 73.425
-    },
-    {
-      "symbol": "LABUSDT",
-      "side": "LONG",
-      "pnl": -6.57,
-      "pnl_pct": -2.81,
-      "margin": 28.46,
-      "leverage": "8",
-      "tier": "1/3",
-      "entry": 16.7337,
-      "mark": 16.2643
+      "mark": 73.274
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": 5.04,
-      "pnl_pct": 3.24,
-      "margin": 21.51,
+      "pnl": 5.01,
+      "pnl_pct": 3.22,
+      "margin": 21.52,
       "leverage": "7",
       "tier": "2/2",
       "entry": 251.0,
-      "mark": 242.87
+      "mark": 242.92
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 6.33,
+      "pnl": 6.32,
       "pnl_pct": 4.21,
       "margin": 20.57,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1879.29,
-      "mark": 1800.15
+      "mark": 1800.25
     }
   ],
   "signals": {
@@ -69,7 +58,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.522
+      "conf": 0.517
     },
     "WLDUSDT": {
       "dir": "short",
@@ -85,7 +74,7 @@
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.496
+      "conf": 0.5
     },
     "PENGUUSDT": {
       "dir": "long",
@@ -105,7 +94,7 @@
     },
     "BCHUSDT": {
       "dir": "short",
-      "conf": 0.377
+      "conf": 0.378
     },
     "DOTUSDT": {
       "dir": "long",
@@ -121,7 +110,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.506
+      "conf": 0.515
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -149,11 +138,11 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.512
+      "conf": 0.511
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.369
+      "conf": 0.373
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -363,10 +352,17 @@
     },
     {
       "t": "2026-06-04",
-      "v": 407.46
+      "v": 400.28
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-04 05:06",
+      "symbol": "LABUSDT",
+      "side": "Buy",
+      "pnl": -12.98,
+      "reason": "L2"
+    },
     {
       "ts": "2026-06-04 04:40",
       "symbol": "LABUSDT",
@@ -499,13 +495,6 @@
       "side": "Sell",
       "pnl": -3.25,
       "reason": "3/3"
-    },
-    {
-      "ts": "2026-06-03 16:17",
-      "symbol": "ENAUSDT",
-      "side": "Sell",
-      "pnl": -8.45,
-      "reason": "External Exit"
     }
   ],
   "num_days": 28
