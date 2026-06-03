@@ -1,22 +1,34 @@
 {
-  "ts": "2026-06-03T15:00:39.588052+09:00",
+  "ts": "2026-06-03T15:01:41.103977+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1381.2,
-  "available": 1381.2,
-  "unrealized": 0.0,
+  "equity": 1381.0,
+  "available": 1369.21,
+  "unrealized": -0.19,
   "daily_pnl": 109.86,
-  "total_pnl": 446.2,
-  "cum_pct": 47.72,
-  "daily_avg_pct": 1.4555,
-  "annual_pct": 19425.06,
+  "total_pnl": 446.0,
+  "cum_pct": 47.7,
+  "daily_avg_pct": 1.455,
+  "annual_pct": 19389.97,
   "mdd": -6.68,
   "current_dd": -0.9,
-  "seed_used": 0,
-  "seed_used_pct": 0.0,
+  "seed_used": 11.79,
+  "seed_used_pct": 0.85,
   "long_count": 0,
-  "short_count": 0,
-  "positions": [],
+  "short_count": 1,
+  "positions": [
+    {
+      "symbol": "ENAUSDT",
+      "side": "SHORT",
+      "pnl": -0.19,
+      "pnl_pct": -0.4,
+      "margin": 11.78,
+      "leverage": "4",
+      "tier": "1/3",
+      "entry": 0.0973,
+      "mark": 0.0977
+    }
+  ],
   "signals": {
     "AAVEUSDT": {
       "dir": "long",
@@ -24,7 +36,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.581
+      "conf": 0.58
     },
     "WLDUSDT": {
       "dir": "short",
@@ -108,7 +120,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.429
+      "conf": 0.43
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -318,7 +330,7 @@
     },
     {
       "t": "2026-06-03",
-      "v": 446.2
+      "v": 446.0
     }
   ],
   "trade_history": [
