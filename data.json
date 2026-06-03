@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-03T14:06:20.722944+09:00",
+  "ts": "2026-06-03T14:07:22.253327+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1382.21,
-  "available": 1284.14,
-  "unrealized": -3.62,
-  "daily_pnl": 114.41,
-  "total_pnl": 447.21,
-  "cum_pct": 47.83,
-  "daily_avg_pct": 1.4583,
-  "annual_pct": 19622.73,
+  "equity": 1381.33,
+  "available": 1381.33,
+  "unrealized": 0.0,
+  "daily_pnl": 109.86,
+  "total_pnl": 446.33,
+  "cum_pct": 47.74,
+  "daily_avg_pct": 1.456,
+  "annual_pct": 19460.21,
   "mdd": -6.68,
   "current_dd": -0.86,
-  "seed_used": 98.07,
-  "seed_used_pct": 7.1,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
   "long_count": 0,
-  "short_count": 1,
-  "positions": [
-    {
-      "symbol": "ENAUSDT",
-      "side": "SHORT",
-      "pnl": -3.63,
-      "pnl_pct": -1.37,
-      "margin": 53.79,
-      "leverage": "5",
-      "tier": "3/3",
-      "entry": 0.0943,
-      "mark": 0.0956
-    }
-  ],
+  "short_count": 0,
+  "positions": [],
   "signals": {
     "AAVEUSDT": {
       "dir": "long",
@@ -330,10 +318,17 @@
     },
     {
       "t": "2026-06-03",
-      "v": 447.21
+      "v": 446.33
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-03 14:06",
+      "symbol": "ENAUSDT",
+      "side": "Sell",
+      "pnl": -4.55,
+      "reason": "3/3"
+    },
     {
       "ts": "2026-06-03 13:14",
       "symbol": "WLDUSDT",
@@ -466,13 +461,6 @@
       "side": "Sell",
       "pnl": 4.46,
       "reason": "3/3"
-    },
-    {
-      "ts": "2026-06-03 07:04",
-      "symbol": "WLDUSDT",
-      "side": "Sell",
-      "pnl": 11.05,
-      "reason": "-"
     }
   ],
   "num_days": 27
