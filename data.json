@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-03T09:59:01.932467+09:00",
+  "ts": "2026-06-03T10:00:03.609509+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1370.47,
-  "available": 1228.26,
-  "unrealized": 28.7,
+  "equity": 1371.17,
+  "available": 1198.23,
+  "unrealized": 29.45,
   "daily_pnl": 70.44,
-  "total_pnl": 435.47,
-  "cum_pct": 46.57,
-  "daily_avg_pct": 1.4261,
-  "annual_pct": 17465.08,
+  "total_pnl": 436.17,
+  "cum_pct": 46.65,
+  "daily_avg_pct": 1.4282,
+  "annual_pct": 17598.33,
   "mdd": -6.68,
-  "current_dd": -1.09,
-  "seed_used": 142.21,
-  "seed_used_pct": 10.38,
+  "current_dd": -1.0,
+  "seed_used": 172.95,
+  "seed_used_pct": 12.61,
   "long_count": 0,
   "short_count": 2,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 28.64,
-      "pnl_pct": 3.29,
-      "margin": 120.1,
+      "pnl": 29.25,
+      "pnl_pct": 3.37,
+      "margin": 120.01,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1931.8693,
-      "mark": 1868.22
+      "mark": 1866.86
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": 0.09,
-      "pnl_pct": 0.09,
-      "margin": 21.67,
+      "pnl": 0.23,
+      "pnl_pct": 0.22,
+      "margin": 21.64,
       "leverage": "5",
-      "tier": "1/3",
+      "tier": "2/3",
       "entry": 0.0925,
-      "mark": 0.0925
+      "mark": 0.0923
     }
   ],
   "signals": {
@@ -47,7 +47,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.562
+      "conf": 0.561
     },
     "WLDUSDT": {
       "dir": "short",
@@ -75,7 +75,7 @@
     },
     "ENAUSDT": {
       "dir": "short",
-      "conf": 0.519
+      "conf": 0.518
     },
     "SOLUSDT": {
       "dir": "neutral",
@@ -99,7 +99,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.503
+      "conf": 0.502
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -131,7 +131,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.431
+      "conf": 0.429
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -341,7 +341,7 @@
     },
     {
       "t": "2026-06-03",
-      "v": 435.47
+      "v": 436.17
     }
   ],
   "trade_history": [
