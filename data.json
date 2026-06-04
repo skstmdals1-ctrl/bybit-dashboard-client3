@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-04T11:21:28.920046+09:00",
+  "ts": "2026-06-04T11:22:30.281594+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1369.51,
-  "available": 1160.82,
-  "unrealized": -0.48,
+  "equity": 1364.38,
+  "available": 1156.96,
+  "unrealized": -5.46,
   "daily_pnl": 38.21,
-  "total_pnl": 434.51,
-  "cum_pct": 46.47,
-  "daily_avg_pct": 1.3724,
-  "annual_pct": 14377.75,
+  "total_pnl": 429.38,
+  "cum_pct": 45.92,
+  "daily_avg_pct": 1.3587,
+  "annual_pct": 13680.87,
   "mdd": -6.68,
   "current_dd": -1.74,
-  "seed_used": 208.69,
-  "seed_used_pct": 15.24,
+  "seed_used": 207.42,
+  "seed_used_pct": 15.2,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
+      "symbol": "ETHUSDT",
+      "side": "SHORT",
+      "pnl": -0.89,
+      "pnl_pct": -0.1,
+      "margin": 132.95,
+      "leverage": "7",
+      "tier": "2/2",
+      "entry": 1754.3091,
+      "mark": 1755.99
+    },
+    {
       "symbol": "LABUSDT",
       "side": "LONG",
-      "pnl": 2.38,
-      "pnl_pct": 0.4,
-      "margin": 74.38,
+      "pnl": -4.58,
+      "pnl_pct": -0.77,
+      "margin": 73.51,
       "leverage": "8",
       "tier": "2/3",
       "entry": 16.9334,
-      "mark": 17.0015
-    },
-    {
-      "symbol": "ETHUSDT",
-      "side": "SHORT",
-      "pnl": -0.73,
-      "pnl_pct": -0.52,
-      "margin": 20.05,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 1745.36,
-      "mark": 1754.47
+      "mark": 16.8026
     }
   ],
   "signals": {
@@ -131,7 +131,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.435
+      "conf": 0.434
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -341,7 +341,7 @@
     },
     {
       "t": "2026-06-04",
-      "v": 434.51
+      "v": 429.38
     }
   ],
   "trade_history": [
