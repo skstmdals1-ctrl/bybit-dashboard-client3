@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-04T21:33:18.325950+09:00",
+  "ts": "2026-06-04T21:34:20.050464+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1350.23,
-  "available": 1296.79,
-  "unrealized": 0.8,
-  "daily_pnl": 18.22,
-  "total_pnl": 415.23,
-  "cum_pct": 44.41,
-  "daily_avg_pct": 1.3211,
-  "annual_pct": 11935.44,
+  "equity": 1350.12,
+  "available": 1350.12,
+  "unrealized": 0.0,
+  "daily_pnl": 19.12,
+  "total_pnl": 415.12,
+  "cum_pct": 44.4,
+  "daily_avg_pct": 1.3209,
+  "annual_pct": 11926.77,
   "mdd": -6.68,
   "current_dd": -3.03,
-  "seed_used": 53.44,
-  "seed_used_pct": 3.96,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
   "long_count": 0,
-  "short_count": 1,
-  "positions": [
-    {
-      "symbol": "ENAUSDT",
-      "side": "SHORT",
-      "pnl": 0.8,
-      "pnl_pct": 0.69,
-      "margin": 16.34,
-      "leverage": "7",
-      "tier": "2/3",
-      "entry": 0.0968,
-      "mark": 0.0961
-    }
-  ],
+  "short_count": 0,
+  "positions": [],
   "signals": {
     "AAVEUSDT": {
       "dir": "long",
@@ -330,10 +318,17 @@
     },
     {
       "t": "2026-06-04",
-      "v": 415.23
+      "v": 415.12
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-04 21:34",
+      "symbol": "ENAUSDT",
+      "side": "Sell",
+      "pnl": 0.9,
+      "reason": "2/3"
+    },
     {
       "ts": "2026-06-04 21:11",
       "symbol": "LABUSDT",
@@ -466,13 +461,6 @@
       "side": "Sell",
       "pnl": -19.24,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-04 11:23",
-      "symbol": "LABUSDT",
-      "side": "Buy",
-      "pnl": -2.88,
-      "reason": "2/3"
     }
   ],
   "num_days": 28
