@@ -1,76 +1,76 @@
 {
-  "ts": "2026-06-04T23:36:40.145494+09:00",
+  "ts": "2026-06-04T23:37:41.869537+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1367.36,
-  "available": 1082.59,
-  "unrealized": 13.11,
+  "equity": 1365.9,
+  "available": 1082.25,
+  "unrealized": 11.43,
   "daily_pnl": 23.83,
-  "total_pnl": 432.36,
-  "cum_pct": 46.24,
-  "daily_avg_pct": 1.3667,
-  "annual_pct": 14083.63,
+  "total_pnl": 430.9,
+  "cum_pct": 46.09,
+  "daily_avg_pct": 1.363,
+  "annual_pct": 13895.92,
   "mdd": -6.68,
   "current_dd": -2.32,
-  "seed_used": 284.77,
-  "seed_used_pct": 20.83,
+  "seed_used": 283.65,
+  "seed_used_pct": 20.77,
   "long_count": 1,
   "short_count": 4,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 5.73,
-      "pnl_pct": 0.62,
-      "margin": 131.77,
+      "pnl": 7.56,
+      "pnl_pct": 0.81,
+      "margin": 131.51,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1784.89,
-      "mark": 1773.87
+      "mark": 1770.36
     },
     {
       "symbol": "LABUSDT",
       "side": "LONG",
-      "pnl": 4.49,
-      "pnl_pct": 1.94,
-      "margin": 29.54,
+      "pnl": -0.8,
+      "pnl_pct": -0.34,
+      "margin": 28.88,
       "leverage": "8",
       "tier": "1/3",
       "entry": 16.5591,
-      "mark": 16.8796
+      "mark": 16.502
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 0.31,
-      "pnl_pct": 0.27,
-      "margin": 16.37,
+      "pnl": 0.69,
+      "pnl_pct": 0.6,
+      "margin": 16.31,
       "leverage": "7",
       "tier": "2/3",
       "entry": 1.7703,
-      "mark": 1.7656
+      "mark": 1.7596
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": 2.6,
-      "pnl_pct": 2.26,
-      "margin": 16.07,
+      "pnl": 2.96,
+      "pnl_pct": 2.57,
+      "margin": 16.02,
       "leverage": "7",
       "tier": "2/3",
       "entry": 0.0946,
-      "mark": 0.0924
+      "mark": 0.0921
     },
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": 0.0,
-      "pnl_pct": -0.0,
-      "margin": 16.0,
+      "pnl": 1.03,
+      "pnl_pct": 0.92,
+      "margin": 15.85,
       "leverage": "7",
       "tier": "1/3",
       "entry": 0.5205,
-      "mark": 0.5205
+      "mark": 0.5157
     }
   ],
   "signals": {
@@ -80,7 +80,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.573
+      "conf": 0.57
     },
     "WLDUSDT": {
       "dir": "short",
@@ -374,7 +374,7 @@
     },
     {
       "t": "2026-06-04",
-      "v": 432.36
+      "v": 430.9
     }
   ],
   "trade_history": [
