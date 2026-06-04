@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-04T18:36:47.609331+09:00",
+  "ts": "2026-06-04T18:37:49.424266+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1376.53,
-  "available": 1146.03,
-  "unrealized": 16.13,
-  "daily_pnl": 29.21,
-  "total_pnl": 441.53,
-  "cum_pct": 47.22,
-  "daily_avg_pct": 1.3909,
-  "annual_pct": 15374.87,
+  "equity": 1355.27,
+  "available": 1174.31,
+  "unrealized": 14.14,
+  "daily_pnl": 10.44,
+  "total_pnl": 420.27,
+  "cum_pct": 44.95,
+  "daily_avg_pct": 1.3346,
+  "annual_pct": 12535.18,
   "mdd": -6.68,
   "current_dd": -1.11,
-  "seed_used": 230.51,
-  "seed_used_pct": 16.75,
-  "long_count": 1,
+  "seed_used": 180.97,
+  "seed_used_pct": 13.35,
+  "long_count": 0,
   "short_count": 2,
   "positions": [
     {
-      "symbol": "LABUSDT",
-      "side": "LONG",
-      "pnl": 0.84,
-      "pnl_pct": 0.34,
-      "margin": 49.55,
-      "leverage": "5",
-      "tier": "2/3",
-      "entry": 17.6359,
-      "mark": 17.696
-    },
-    {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 10.47,
-      "pnl_pct": 3.06,
-      "margin": 47.45,
+      "pnl": 9.96,
+      "pnl_pct": 2.91,
+      "margin": 47.52,
       "leverage": "7",
       "tier": "3/3",
       "entry": 1803.1605,
-      "mark": 1748.07
+      "mark": 1750.76
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": 4.84,
-      "pnl_pct": 4.31,
-      "margin": 15.37,
+      "pnl": 4.2,
+      "pnl_pct": 3.74,
+      "margin": 15.46,
       "leverage": "7",
       "tier": "2/3",
       "entry": 0.1035,
-      "mark": 0.099
+      "mark": 0.0996
     }
   ],
   "signals": {
@@ -352,10 +341,17 @@
     },
     {
       "t": "2026-06-04",
-      "v": 441.53
+      "v": 420.27
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-04 18:37",
+      "symbol": "LABUSDT",
+      "side": "Buy",
+      "pnl": -18.77,
+      "reason": "2/3"
+    },
     {
       "ts": "2026-06-04 17:17",
       "symbol": "LABUSDT",
@@ -488,13 +484,6 @@
       "side": "Buy",
       "pnl": 0.04,
       "reason": "L3"
-    },
-    {
-      "ts": "2026-06-04 07:48",
-      "symbol": "LABUSDT",
-      "side": "Buy",
-      "pnl": -6.78,
-      "reason": "External Exit"
     }
   ],
   "num_days": 28
