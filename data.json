@@ -1,43 +1,54 @@
 {
-  "ts": "2026-06-05T06:42:04.095158+09:00",
+  "ts": "2026-06-05T06:43:05.462276+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1362.49,
-  "available": 1179.19,
-  "unrealized": 19.58,
+  "equity": 1362.1,
+  "available": 1156.53,
+  "unrealized": 19.49,
   "daily_pnl": 1.62,
-  "total_pnl": 427.49,
-  "cum_pct": 45.72,
-  "daily_avg_pct": 1.3068,
-  "annual_pct": 11331.1,
+  "total_pnl": 427.1,
+  "cum_pct": 45.68,
+  "daily_avg_pct": 1.3058,
+  "annual_pct": 11289.99,
   "mdd": -6.68,
-  "current_dd": -2.35,
-  "seed_used": 183.3,
-  "seed_used_pct": 13.45,
+  "current_dd": -2.21,
+  "seed_used": 205.57,
+  "seed_used_pct": 15.09,
   "long_count": 0,
-  "short_count": 2,
+  "short_count": 3,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 12.89,
-      "pnl_pct": 1.39,
-      "margin": 130.75,
+      "pnl": 12.99,
+      "pnl_pct": 1.4,
+      "margin": 130.74,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1784.89,
-      "mark": 1760.11
+      "mark": 1759.91
+    },
+    {
+      "symbol": "TONUSDT",
+      "side": "SHORT",
+      "pnl": -0.04,
+      "pnl_pct": -0.02,
+      "margin": 22.23,
+      "leverage": "7",
+      "tier": "1/2",
+      "entry": 1.6477,
+      "mark": 1.6481
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": 6.71,
-      "pnl_pct": 5.87,
-      "margin": 15.36,
+      "pnl": 6.56,
+      "pnl_pct": 5.74,
+      "margin": 15.38,
       "leverage": "7",
       "tier": "2/3",
       "entry": 0.0989,
-      "mark": 0.0931
+      "mark": 0.0932
     }
   ],
   "signals": {
@@ -99,7 +110,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.506
+      "conf": 0.516
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -111,7 +122,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.441
+      "conf": 0.442
     },
     "LINKUSDT": {
       "dir": "long",
@@ -131,7 +142,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.434
+      "conf": 0.433
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -163,7 +174,7 @@
     },
     "TONUSDT": {
       "dir": "short",
-      "conf": 0.467
+      "conf": 0.469
     },
     "WLFIUSDT": {
       "dir": "short",
@@ -341,7 +352,7 @@
     },
     {
       "t": "2026-06-05",
-      "v": 427.49
+      "v": 427.1
     }
   ],
   "trade_history": [
