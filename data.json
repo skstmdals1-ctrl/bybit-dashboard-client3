@@ -1,54 +1,76 @@
 {
-  "ts": "2026-06-04T23:35:38.520649+09:00",
+  "ts": "2026-06-04T23:36:40.145494+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1361.18,
-  "available": 1121.86,
-  "unrealized": 6.51,
+  "equity": 1367.36,
+  "available": 1082.59,
+  "unrealized": 13.11,
   "daily_pnl": 23.83,
-  "total_pnl": 426.18,
-  "cum_pct": 45.58,
-  "daily_avg_pct": 1.3503,
-  "annual_pct": 13270.24,
+  "total_pnl": 432.36,
+  "cum_pct": 46.24,
+  "daily_avg_pct": 1.3667,
+  "annual_pct": 14083.63,
   "mdd": -6.68,
   "current_dd": -2.32,
-  "seed_used": 239.31,
-  "seed_used_pct": 17.58,
-  "long_count": 0,
-  "short_count": 3,
+  "seed_used": 284.77,
+  "seed_used_pct": 20.83,
+  "long_count": 1,
+  "short_count": 4,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 4.41,
-      "pnl_pct": 0.48,
-      "margin": 131.96,
+      "pnl": 5.73,
+      "pnl_pct": 0.62,
+      "margin": 131.77,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1784.89,
-      "mark": 1776.41
+      "mark": 1773.87
+    },
+    {
+      "symbol": "LABUSDT",
+      "side": "LONG",
+      "pnl": 4.49,
+      "pnl_pct": 1.94,
+      "margin": 29.54,
+      "leverage": "8",
+      "tier": "1/3",
+      "entry": 16.5591,
+      "mark": 16.8796
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 0.22,
-      "pnl_pct": 0.19,
-      "margin": 16.38,
+      "pnl": 0.31,
+      "pnl_pct": 0.27,
+      "margin": 16.37,
       "leverage": "7",
       "tier": "2/3",
       "entry": 1.7703,
-      "mark": 1.7669
+      "mark": 1.7656
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": 1.89,
-      "pnl_pct": 1.64,
-      "margin": 16.17,
+      "pnl": 2.6,
+      "pnl_pct": 2.26,
+      "margin": 16.07,
       "leverage": "7",
       "tier": "2/3",
       "entry": 0.0946,
-      "mark": 0.093
+      "mark": 0.0924
+    },
+    {
+      "symbol": "WLDUSDT",
+      "side": "SHORT",
+      "pnl": 0.0,
+      "pnl_pct": -0.0,
+      "margin": 16.0,
+      "leverage": "7",
+      "tier": "1/3",
+      "entry": 0.5205,
+      "mark": 0.5205
     }
   ],
   "signals": {
@@ -86,7 +108,7 @@
     },
     "ENAUSDT": {
       "dir": "short",
-      "conf": 0.509
+      "conf": 0.508
     },
     "SOLUSDT": {
       "dir": "neutral",
@@ -110,7 +132,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.487
+      "conf": 0.497
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -142,7 +164,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.435
+      "conf": 0.433
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -352,7 +374,7 @@
     },
     {
       "t": "2026-06-04",
-      "v": 426.18
+      "v": 432.36
     }
   ],
   "trade_history": [
