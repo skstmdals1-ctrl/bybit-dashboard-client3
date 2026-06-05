@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-05T23:06:08.611885+09:00",
+  "ts": "2026-06-05T23:07:10.094352+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1481.96,
-  "available": 1336.67,
-  "unrealized": 4.35,
-  "daily_pnl": 135.88,
-  "total_pnl": 546.96,
-  "cum_pct": 58.5,
-  "daily_avg_pct": 1.6009,
-  "annual_pct": 32831.2,
+  "equity": 1481.29,
+  "available": 1380.58,
+  "unrealized": 2.78,
+  "daily_pnl": 137.2,
+  "total_pnl": 546.29,
+  "cum_pct": 58.43,
+  "daily_avg_pct": 1.5994,
+  "annual_pct": 32654.22,
   "mdd": -6.68,
   "current_dd": -1.28,
-  "seed_used": 145.29,
-  "seed_used_pct": 9.8,
+  "seed_used": 100.7,
+  "seed_used_pct": 6.8,
   "long_count": 0,
-  "short_count": 2,
+  "short_count": 1,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 2.81,
-      "pnl_pct": 4.19,
+      "pnl": 2.79,
+      "pnl_pct": 4.16,
       "margin": 16.04,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1673.83,
-      "mark": 1603.68
-    },
-    {
-      "symbol": "ENAUSDT",
-      "side": "SHORT",
-      "pnl": 1.55,
-      "pnl_pct": 4.93,
-      "margin": 4.26,
-      "leverage": "7",
-      "tier": "2/3",
-      "entry": 0.0905,
-      "mark": 0.086
+      "mark": 1604.19
     }
   ],
   "signals": {
@@ -341,7 +330,7 @@
     },
     {
       "t": "2026-06-05",
-      "v": 546.96
+      "v": 546.29
     }
   ],
   "trade_history": [
@@ -349,8 +338,15 @@
       "ts": "2026-06-05 23:06",
       "symbol": "ENAUSDT",
       "side": "Sell",
+      "pnl": 1.32,
+      "reason": "2/3"
+    },
+    {
+      "ts": "2026-06-05 23:06",
+      "symbol": "ENAUSDT",
+      "side": "Sell",
       "pnl": 1.56,
-      "reason": "-"
+      "reason": "2/3"
     },
     {
       "ts": "2026-06-05 23:04",
@@ -477,13 +473,6 @@
       "side": "Sell",
       "pnl": 16.76,
       "reason": "3/3"
-    },
-    {
-      "ts": "2026-06-05 12:41",
-      "symbol": "ENAUSDT",
-      "side": "Sell",
-      "pnl": 7.17,
-      "reason": "External Exit"
     }
   ],
   "num_days": 29
