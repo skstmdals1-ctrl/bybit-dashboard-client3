@@ -1,54 +1,54 @@
 {
-  "ts": "2026-06-06T08:29:02.562153+09:00",
+  "ts": "2026-06-06T08:30:04.063362+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1473.06,
-  "available": 1177.18,
-  "unrealized": 15.34,
+  "equity": 1473.55,
+  "available": 1177.74,
+  "unrealized": 15.74,
   "daily_pnl": -21.4,
-  "total_pnl": 538.06,
-  "cum_pct": 57.55,
-  "daily_avg_pct": 1.5268,
-  "annual_pct": 25132.18,
+  "total_pnl": 538.55,
+  "cum_pct": 57.6,
+  "daily_avg_pct": 1.5279,
+  "annual_pct": 25232.16,
   "mdd": -6.68,
-  "current_dd": -1.87,
-  "seed_used": 295.88,
-  "seed_used_pct": 20.09,
+  "current_dd": -1.86,
+  "seed_used": 295.81,
+  "seed_used_pct": 20.07,
   "long_count": 0,
   "short_count": 3,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 8.02,
-      "pnl_pct": 2.08,
-      "margin": 53.96,
+      "pnl": 8.14,
+      "pnl_pct": 2.11,
+      "margin": 53.94,
       "leverage": "7",
       "tier": "3/3",
       "entry": 1607.2538,
-      "mark": 1573.84
+      "mark": 1573.33
     },
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": 4.74,
-      "pnl_pct": 2.98,
-      "margin": 38.61,
+      "pnl": 5.04,
+      "pnl_pct": 3.17,
+      "margin": 38.54,
       "leverage": "4",
       "tier": "3/3",
       "entry": 6.9212,
-      "mark": 6.715
+      "mark": 6.702
     },
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": 2.59,
-      "pnl_pct": 2.23,
+      "pnl": 2.56,
+      "pnl_pct": 2.21,
       "margin": 16.22,
       "leverage": "7",
       "tier": "2/3",
       "entry": 0.5434,
-      "mark": 0.5313
+      "mark": 0.5314
     }
   ],
   "signals": {
@@ -58,7 +58,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.54
+      "conf": 0.534
     },
     "WLDUSDT": {
       "dir": "short",
@@ -110,7 +110,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.501
+      "conf": 0.513
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -137,8 +137,8 @@
       "conf": 0.44
     },
     "NEARUSDT": {
-      "dir": "long",
-      "conf": 0.343
+      "dir": "short",
+      "conf": 0.344
     },
     "ETHUSDT": {
       "dir": "short",
@@ -352,7 +352,7 @@
     },
     {
       "t": "2026-06-06",
-      "v": 538.06
+      "v": 538.55
     }
   ],
   "trade_history": [
