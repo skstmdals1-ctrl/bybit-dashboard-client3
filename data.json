@@ -1,54 +1,65 @@
 {
-  "ts": "2026-06-05T23:56:28.069915+09:00",
+  "ts": "2026-06-05T23:57:29.788783+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1482.79,
-  "available": 1310.78,
-  "unrealized": 3.97,
+  "equity": 1481.27,
+  "available": 1290.88,
+  "unrealized": 2.45,
   "daily_pnl": 137.2,
-  "total_pnl": 547.79,
-  "cum_pct": 58.59,
-  "daily_avg_pct": 1.6029,
-  "annual_pct": 33068.66,
+  "total_pnl": 546.27,
+  "cum_pct": 58.42,
+  "daily_avg_pct": 1.5991,
+  "annual_pct": 32618.94,
   "mdd": -6.68,
   "current_dd": -1.19,
-  "seed_used": 172.01,
-  "seed_used_pct": 11.6,
+  "seed_used": 190.39,
+  "seed_used_pct": 12.85,
   "long_count": 0,
-  "short_count": 3,
+  "short_count": 4,
   "positions": [
+    {
+      "symbol": "TONUSDT",
+      "side": "SHORT",
+      "pnl": -0.31,
+      "pnl_pct": -0.24,
+      "margin": 18.05,
+      "leverage": "7",
+      "tier": "1/3",
+      "entry": 1.5208,
+      "mark": 1.5245
+    },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": 1.01,
-      "pnl_pct": 0.8,
-      "margin": 17.84,
+      "pnl": 0.62,
+      "pnl_pct": 0.49,
+      "margin": 17.9,
       "leverage": "7",
       "tier": "2/3",
       "entry": 0.0877,
-      "mark": 0.087
+      "mark": 0.0872
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 2.99,
-      "pnl_pct": 4.47,
-      "margin": 15.99,
+      "pnl": 2.91,
+      "pnl_pct": 4.34,
+      "margin": 16.01,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1673.83,
-      "mark": 1599.01
+      "mark": 1601.2
     },
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": -0.03,
-      "pnl_pct": -0.06,
-      "margin": 12.56,
+      "pnl": -0.77,
+      "pnl_pct": -1.53,
+      "margin": 12.74,
       "leverage": "4",
       "tier": "1/3",
       "entry": 0.4966,
-      "mark": 0.4969
+      "mark": 0.5042
     }
   ],
   "signals": {
@@ -352,7 +363,7 @@
     },
     {
       "t": "2026-06-05",
-      "v": 547.79
+      "v": 546.27
     }
   ],
   "trade_history": [
