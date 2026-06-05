@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-05T23:04:04.988143+09:00",
+  "ts": "2026-06-05T23:05:06.967974+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1481.18,
-  "available": 1322.98,
-  "unrealized": 8.49,
-  "daily_pnl": 131.22,
-  "total_pnl": 546.18,
-  "cum_pct": 58.41,
-  "daily_avg_pct": 1.5989,
-  "annual_pct": 32595.44,
+  "equity": 1481.54,
+  "available": 1331.9,
+  "unrealized": 5.53,
+  "daily_pnl": 134.33,
+  "total_pnl": 546.54,
+  "cum_pct": 58.45,
+  "daily_avg_pct": 1.5998,
+  "annual_pct": 32701.32,
   "mdd": -6.68,
   "current_dd": -1.47,
-  "seed_used": 158.2,
-  "seed_used_pct": 10.68,
+  "seed_used": 149.64,
+  "seed_used_pct": 10.1,
   "long_count": 0,
   "short_count": 2,
   "positions": [
     {
-      "symbol": "ENAUSDT",
-      "side": "SHORT",
-      "pnl": 5.98,
-      "pnl_pct": 4.76,
-      "margin": 17.08,
-      "leverage": "7",
-      "tier": "2/3",
-      "entry": 0.0905,
-      "mark": 0.0862
-    },
-    {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 2.51,
-      "pnl_pct": 3.75,
-      "margin": 16.11,
+      "pnl": 2.66,
+      "pnl_pct": 3.97,
+      "margin": 16.07,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1673.83,
-      "mark": 1610.98
+      "mark": 1607.34
+    },
+    {
+      "symbol": "ENAUSDT",
+      "side": "SHORT",
+      "pnl": 2.87,
+      "pnl_pct": 4.58,
+      "margin": 8.56,
+      "leverage": "7",
+      "tier": "2/3",
+      "entry": 0.0905,
+      "mark": 0.0863
     }
   ],
   "signals": {
@@ -341,10 +341,17 @@
     },
     {
       "t": "2026-06-05",
-      "v": 546.18
+      "v": 546.54
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-05 23:04",
+      "symbol": "ENAUSDT",
+      "side": "Sell",
+      "pnl": 3.11,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-05 22:20",
       "symbol": "ENAUSDT",
@@ -477,13 +484,6 @@
       "side": "Buy",
       "pnl": -8.71,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-05 10:30",
-      "symbol": "ENAUSDT",
-      "side": "Sell",
-      "pnl": 0.1,
-      "reason": "2/3"
     }
   ],
   "num_days": 29
