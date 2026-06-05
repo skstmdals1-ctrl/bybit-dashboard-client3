@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-06T04:36:06.641985+09:00",
+  "ts": "2026-06-06T04:37:08.070477+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1475.96,
-  "available": 1361.8,
-  "unrealized": 3.97,
-  "daily_pnl": -6.99,
-  "total_pnl": 540.96,
-  "cum_pct": 57.86,
-  "daily_avg_pct": 1.5334,
-  "annual_pct": 25738.02,
+  "equity": 1476.27,
+  "available": 1418.72,
+  "unrealized": 5.12,
+  "daily_pnl": -7.83,
+  "total_pnl": 541.27,
+  "cum_pct": 57.89,
+  "daily_avg_pct": 1.5341,
+  "annual_pct": 25803.12,
   "mdd": -6.68,
   "current_dd": -1.47,
-  "seed_used": 114.15,
-  "seed_used_pct": 7.73,
+  "seed_used": 57.55,
+  "seed_used_pct": 3.9,
   "long_count": 0,
-  "short_count": 2,
+  "short_count": 1,
   "positions": [
-    {
-      "symbol": "ENAUSDT",
-      "side": "SHORT",
-      "pnl": -1.13,
-      "pnl_pct": -0.29,
-      "margin": 56.38,
-      "leverage": "7",
-      "tier": "2/3",
-      "entry": 0.0855,
-      "mark": 0.0857
-    },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 5.1,
-      "pnl_pct": 4.08,
+      "pnl": 5.13,
+      "pnl_pct": 4.1,
       "margin": 17.14,
       "leverage": "7",
       "tier": "2/3",
       "entry": 1.5275,
-      "mark": 1.4652
+      "mark": 1.4649
     }
   ],
   "signals": {
@@ -341,16 +330,23 @@
     },
     {
       "t": "2026-06-06",
-      "v": 540.96
+      "v": 541.27
     }
   ],
   "trade_history": [
     {
-      "ts": "2026-06-06 04:35",
+      "ts": "2026-06-06 04:36",
       "symbol": "ENAUSDT",
       "side": "Sell",
-      "pnl": -0.04,
-      "reason": "-"
+      "pnl": -0.62,
+      "reason": "2/3"
+    },
+    {
+      "ts": "2026-06-06 04:36",
+      "symbol": "ENAUSDT",
+      "side": "Sell",
+      "pnl": -0.27,
+      "reason": "2/3"
     },
     {
       "ts": "2026-06-06 04:27",
@@ -476,13 +472,6 @@
       "symbol": "ENAUSDT",
       "side": "Sell",
       "pnl": 1.32,
-      "reason": "2/3"
-    },
-    {
-      "ts": "2026-06-05 23:06",
-      "symbol": "ENAUSDT",
-      "side": "Sell",
-      "pnl": 1.56,
       "reason": "2/3"
     }
   ],
