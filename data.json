@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-06T00:30:27.335540+09:00",
+  "ts": "2026-06-06T00:31:29.061112+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1489.47,
-  "available": 1317.66,
-  "unrealized": 6.68,
+  "equity": 1488.85,
+  "available": 1316.94,
+  "unrealized": 6.03,
   "daily_pnl": 4.07,
-  "total_pnl": 554.47,
-  "cum_pct": 59.3,
-  "daily_avg_pct": 1.5642,
-  "annual_pct": 28762.77,
+  "total_pnl": 553.85,
+  "cum_pct": 59.24,
+  "daily_avg_pct": 1.5629,
+  "annual_pct": 28628.24,
   "mdd": -6.68,
-  "current_dd": -0.95,
-  "seed_used": 171.81,
-  "seed_used_pct": 11.53,
+  "current_dd": -0.82,
+  "seed_used": 171.91,
+  "seed_used_pct": 11.55,
   "long_count": 0,
   "short_count": 3,
   "positions": [
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 2.9,
-      "pnl_pct": 2.3,
-      "margin": 17.6,
+      "pnl": 2.36,
+      "pnl_pct": 1.87,
+      "margin": 17.67,
       "leverage": "7",
       "tier": "2/3",
       "entry": 1.5208,
-      "mark": 1.4858
+      "mark": 1.4923
     },
     {
       "symbol": "ENAUSDT",
@@ -42,13 +42,13 @@
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -0.71,
-      "pnl_pct": -0.64,
-      "margin": 15.92,
+      "pnl": -0.95,
+      "pnl_pct": -0.86,
+      "margin": 15.95,
       "leverage": "7",
       "tier": "2/3",
       "entry": 1581.91,
-      "mark": 1592.05
+      "mark": 1595.46
     }
   ],
   "signals": {
@@ -58,7 +58,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.557
+      "conf": 0.552
     },
     "WLDUSDT": {
       "dir": "short",
@@ -110,7 +110,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.477
+      "conf": 0.47
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -138,7 +138,7 @@
     },
     "NEARUSDT": {
       "dir": "short",
-      "conf": 0.346
+      "conf": 0.345
     },
     "ETHUSDT": {
       "dir": "short",
@@ -174,7 +174,7 @@
     },
     "TONUSDT": {
       "dir": "short",
-      "conf": 0.467
+      "conf": 0.468
     },
     "WLFIUSDT": {
       "dir": "short",
@@ -356,7 +356,7 @@
     },
     {
       "t": "2026-06-06",
-      "v": 554.47
+      "v": 553.85
     }
   ],
   "trade_history": [
