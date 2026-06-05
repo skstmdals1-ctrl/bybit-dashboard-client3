@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-05T17:06:46.112946+09:00",
+  "ts": "2026-06-05T17:07:47.617755+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1441.86,
-  "available": 1237.55,
-  "unrealized": -3.14,
+  "equity": 1446.94,
+  "available": 1243.32,
+  "unrealized": 1.86,
   "daily_pnl": 104.24,
-  "total_pnl": 506.86,
-  "cum_pct": 54.21,
-  "daily_avg_pct": 1.5048,
-  "annual_pct": 23213.19,
+  "total_pnl": 511.94,
+  "cum_pct": 54.75,
+  "daily_avg_pct": 1.517,
+  "annual_pct": 24258.63,
   "mdd": -6.68,
-  "current_dd": -2.03,
-  "seed_used": 204.32,
-  "seed_used_pct": 14.17,
+  "current_dd": -2.08,
+  "seed_used": 203.61,
+  "seed_used_pct": 14.07,
   "long_count": 0,
   "short_count": 2,
   "positions": [
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": -3.88,
-      "pnl_pct": -0.38,
-      "margin": 146.84,
+      "pnl": 0.23,
+      "pnl_pct": 0.02,
+      "margin": 146.26,
       "leverage": "7",
       "tier": "3/3",
       "entry": 1.5675,
-      "mark": 1.5734
+      "mark": 1.5671
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": 0.74,
-      "pnl_pct": 0.6,
-      "margin": 17.45,
+      "pnl": 1.62,
+      "pnl_pct": 1.32,
+      "margin": 17.33,
       "leverage": "7",
       "tier": "2/3",
       "entry": 0.0886,
-      "mark": 0.0881
+      "mark": 0.0874
     }
   ],
   "signals": {
@@ -47,7 +47,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.588
+      "conf": 0.593
     },
     "WLDUSDT": {
       "dir": "short",
@@ -75,7 +75,7 @@
     },
     "ENAUSDT": {
       "dir": "short",
-      "conf": 0.511
+      "conf": 0.51
     },
     "SOLUSDT": {
       "dir": "neutral",
@@ -99,7 +99,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.478
+      "conf": 0.473
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -127,11 +127,11 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.346
+      "conf": 0.347
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.434
+      "conf": 0.432
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -341,7 +341,7 @@
     },
     {
       "t": "2026-06-05",
-      "v": 506.86
+      "v": 511.94
     }
   ],
   "trade_history": [
