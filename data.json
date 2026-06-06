@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-06T22:36:00.647334+09:00",
+  "ts": "2026-06-06T22:37:02.029344+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1480.34,
-  "available": 1277.13,
-  "unrealized": 2.27,
+  "equity": 1478.89,
+  "available": 1275.99,
+  "unrealized": 0.9,
   "daily_pnl": -1.0,
-  "total_pnl": 545.34,
-  "cum_pct": 58.33,
-  "daily_avg_pct": 1.5435,
-  "annual_pct": 26693.34,
+  "total_pnl": 543.89,
+  "cum_pct": 58.17,
+  "daily_avg_pct": 1.5401,
+  "annual_pct": 26367.88,
   "mdd": -6.68,
   "current_dd": -1.53,
-  "seed_used": 203.21,
-  "seed_used_pct": 13.73,
+  "seed_used": 202.9,
+  "seed_used_pct": 13.72,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 1.5,
-      "pnl_pct": 0.29,
-      "margin": 103.54,
+      "pnl": 0.06,
+      "pnl_pct": 0.01,
+      "margin": 103.26,
       "leverage": "5",
       "tier": "3/3",
       "entry": 58.7277,
-      "mark": 58.898
+      "mark": 58.735
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 0.77,
-      "pnl_pct": 1.22,
-      "margin": 15.6,
+      "pnl": 0.83,
+      "pnl_pct": 1.32,
+      "margin": 15.59,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1579.39,
-      "mark": 1560.13
+      "mark": 1558.6
     }
   ],
   "signals": {
@@ -47,7 +47,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.595
+      "conf": 0.592
     },
     "WLDUSDT": {
       "dir": "short",
@@ -341,7 +341,7 @@
     },
     {
       "t": "2026-06-06",
-      "v": 545.34
+      "v": 543.89
     }
   ],
   "trade_history": [
