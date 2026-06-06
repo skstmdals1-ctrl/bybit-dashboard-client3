@@ -1,43 +1,54 @@
 {
-  "ts": "2026-06-06T19:56:20.713067+09:00",
+  "ts": "2026-06-06T19:57:22.070352+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1480.86,
-  "available": 1278.64,
-  "unrealized": -1.24,
+  "equity": 1479.98,
+  "available": 1260.3,
+  "unrealized": -2.01,
   "daily_pnl": 2.96,
-  "total_pnl": 545.86,
-  "cum_pct": 58.38,
-  "daily_avg_pct": 1.5446,
-  "annual_pct": 26799.49,
+  "total_pnl": 544.98,
+  "cum_pct": 58.29,
+  "daily_avg_pct": 1.5426,
+  "annual_pct": 26606.81,
   "mdd": -6.68,
   "current_dd": -1.32,
-  "seed_used": 202.23,
-  "seed_used_pct": 13.66,
+  "seed_used": 219.68,
+  "seed_used_pct": 14.84,
   "long_count": 1,
-  "short_count": 1,
+  "short_count": 2,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -2.66,
-      "pnl_pct": -0.52,
-      "margin": 102.71,
+      "pnl": -2.45,
+      "pnl_pct": -0.47,
+      "margin": 102.75,
       "leverage": "5",
       "tier": "3/3",
       "entry": 58.7277,
-      "mark": 58.425
+      "mark": 58.449
+    },
+    {
+      "symbol": "WLDUSDT",
+      "side": "SHORT",
+      "pnl": -0.94,
+      "pnl_pct": -0.78,
+      "margin": 17.33,
+      "leverage": "7",
+      "tier": "1/3",
+      "entry": 0.4106,
+      "mark": 0.4138
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 1.42,
-      "pnl_pct": 2.25,
-      "margin": 15.44,
+      "pnl": 1.31,
+      "pnl_pct": 2.08,
+      "margin": 15.47,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1579.39,
-      "mark": 1543.79
+      "mark": 1546.57
     }
   ],
   "signals": {
@@ -47,7 +58,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.511
+      "conf": 0.513
     },
     "WLDUSDT": {
       "dir": "short",
@@ -127,7 +138,7 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.51
+      "conf": 0.511
     },
     "ETHUSDT": {
       "dir": "short",
@@ -341,7 +352,7 @@
     },
     {
       "t": "2026-06-06",
-      "v": 545.86
+      "v": 544.98
     }
   ],
   "trade_history": [
