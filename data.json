@@ -1,43 +1,54 @@
 {
-  "ts": "2026-06-07T00:27:40.095726+09:00",
+  "ts": "2026-06-07T00:28:41.532185+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1457.81,
-  "available": 1268.58,
-  "unrealized": 1.41,
+  "equity": 1456.76,
+  "available": 1267.99,
+  "unrealized": 0.5,
   "daily_pnl": -14.54,
-  "total_pnl": 522.81,
-  "cum_pct": 55.92,
-  "daily_avg_pct": 1.4431,
-  "annual_pct": 18573.13,
+  "total_pnl": 521.76,
+  "cum_pct": 55.8,
+  "daily_avg_pct": 1.4406,
+  "annual_pct": 18405.91,
   "mdd": -6.68,
   "current_dd": -2.86,
-  "seed_used": 189.23,
-  "seed_used_pct": 12.98,
-  "long_count": 1,
+  "seed_used": 188.77,
+  "seed_used_pct": 12.96,
+  "long_count": 2,
   "short_count": 1,
   "positions": [
     {
+      "symbol": "LABUSDT",
+      "side": "LONG",
+      "pnl": -0.89,
+      "pnl_pct": -0.28,
+      "margin": 31.4,
+      "leverage": "10",
+      "tier": "1/3",
+      "entry": 9.543,
+      "mark": 9.5159
+    },
+    {
       "symbol": "TONUSDT",
       "side": "LONG",
-      "pnl": 0.42,
-      "pnl_pct": 0.34,
-      "margin": 17.75,
+      "pnl": 0.35,
+      "pnl_pct": 0.28,
+      "margin": 17.74,
       "leverage": "7",
       "tier": "2/3",
       "entry": 1.5798,
-      "mark": 1.5851
+      "mark": 1.5843
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 1.0,
-      "pnl_pct": 1.58,
-      "margin": 15.54,
+      "pnl": 1.04,
+      "pnl_pct": 1.65,
+      "margin": 15.53,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1579.39,
-      "mark": 1554.41
+      "mark": 1553.38
     }
   ],
   "signals": {
@@ -345,7 +356,7 @@
     },
     {
       "t": "2026-06-07",
-      "v": 522.81
+      "v": 521.76
     }
   ],
   "trade_history": [
