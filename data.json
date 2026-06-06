@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-06T14:21:40.887795+09:00",
+  "ts": "2026-06-06T14:22:42.235634+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1481.78,
-  "available": 1339.32,
-  "unrealized": 6.07,
-  "daily_pnl": -3.26,
-  "total_pnl": 546.78,
-  "cum_pct": 58.48,
-  "daily_avg_pct": 1.5467,
-  "annual_pct": 27003.31,
+  "equity": 1481.09,
+  "available": 1481.09,
+  "unrealized": 0.0,
+  "daily_pnl": 1.79,
+  "total_pnl": 546.09,
+  "cum_pct": 58.41,
+  "daily_avg_pct": 1.5452,
+  "annual_pct": 26857.57,
   "mdd": -6.68,
   "current_dd": -1.18,
-  "seed_used": 142.46,
-  "seed_used_pct": 9.61,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
   "long_count": 0,
-  "short_count": 1,
-  "positions": [
-    {
-      "symbol": "ETHUSDT",
-      "side": "SHORT",
-      "pnl": 6.08,
-      "pnl_pct": 3.81,
-      "margin": 21.95,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 1597.07,
-      "mark": 1536.29
-    }
-  ],
+  "short_count": 0,
+  "positions": [],
   "signals": {
     "AAVEUSDT": {
       "dir": "long",
@@ -330,10 +318,17 @@
     },
     {
       "t": "2026-06-06",
-      "v": 546.78
+      "v": 546.09
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-06 14:22",
+      "symbol": "ETHUSDT",
+      "side": "Sell",
+      "pnl": 5.05,
+      "reason": "2/2"
+    },
     {
       "ts": "2026-06-06 12:24",
       "symbol": "WLDUSDT",
@@ -466,13 +461,6 @@
       "side": "Buy",
       "pnl": 4.6,
       "reason": "3/3"
-    },
-    {
-      "ts": "2026-06-06 03:48",
-      "symbol": "LABUSDT",
-      "side": "Buy",
-      "pnl": -9.66,
-      "reason": "External Exit"
     }
   ],
   "num_days": 30
