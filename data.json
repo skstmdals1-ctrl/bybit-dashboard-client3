@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-09T08:24:01.035519+09:00",
+  "ts": "2026-06-09T08:25:02.616650+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1501.67,
-  "available": 1220.27,
-  "unrealized": 6.56,
+  "equity": 1500.83,
+  "available": 1219.33,
+  "unrealized": 5.87,
   "daily_pnl": -1.6,
-  "total_pnl": 566.67,
-  "cum_pct": 60.61,
-  "daily_avg_pct": 1.4461,
-  "annual_pct": 18775.78,
+  "total_pnl": 565.83,
+  "cum_pct": 60.52,
+  "daily_avg_pct": 1.4444,
+  "annual_pct": 18660.67,
   "mdd": -3.21,
-  "current_dd": -0.92,
-  "seed_used": 281.39,
-  "seed_used_pct": 18.74,
+  "current_dd": -1.0,
+  "seed_used": 281.5,
+  "seed_used_pct": 18.76,
   "long_count": 0,
   "short_count": 2,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 4.15,
-      "pnl_pct": 0.47,
-      "margin": 176.48,
+      "pnl": 3.44,
+      "pnl_pct": 0.39,
+      "margin": 176.62,
       "leverage": "5",
       "tier": "3/3",
       "entry": 1704.864,
-      "mark": 1696.88
+      "mark": 1698.25
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 2.41,
-      "pnl_pct": 1.39,
-      "margin": 34.31,
+      "pnl": 2.43,
+      "pnl_pct": 1.4,
+      "margin": 34.3,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.7464,
-      "mark": 1.7222
+      "mark": 1.722
     }
   ],
   "signals": {
@@ -47,7 +47,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.502
+      "conf": 0.503
     },
     "WLDUSDT": {
       "dir": "short",
@@ -98,8 +98,8 @@
       "conf": 0.557
     },
     "BTCUSDT": {
-      "dir": "neutral",
-      "conf": 0.385
+      "dir": "short",
+      "conf": 0.363
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -123,7 +123,7 @@
     },
     "DOGEUSDT": {
       "dir": "long",
-      "conf": 0.411
+      "conf": 0.41
     },
     "NEARUSDT": {
       "dir": "long",
@@ -131,7 +131,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.467
+      "conf": 0.479
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -353,7 +353,7 @@
     },
     {
       "t": "2026-06-09",
-      "v": 566.67
+      "v": 565.83
     }
   ],
   "trade_history": [
