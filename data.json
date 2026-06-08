@@ -1,54 +1,54 @@
 {
-  "ts": "2026-06-08T19:46:26.253999+09:00",
+  "ts": "2026-06-08T19:47:27.825720+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1484.45,
-  "available": 1178.3,
-  "unrealized": -1.39,
+  "equity": 1481.68,
+  "available": 1175.43,
+  "unrealized": -3.91,
   "daily_pnl": -15.96,
-  "total_pnl": 549.45,
-  "cum_pct": 58.76,
-  "daily_avg_pct": 1.4549,
-  "annual_pct": 19382.96,
+  "total_pnl": 546.68,
+  "cum_pct": 58.47,
+  "daily_avg_pct": 1.4491,
+  "annual_pct": 18980.62,
   "mdd": -3.21,
   "current_dd": -2.13,
-  "seed_used": 306.15,
-  "seed_used_pct": 20.62,
+  "seed_used": 306.24,
+  "seed_used_pct": 20.67,
   "long_count": 0,
   "short_count": 3,
   "positions": [
     {
+      "symbol": "SIRENUSDT",
+      "side": "SHORT",
+      "pnl": -2.08,
+      "pnl_pct": -0.33,
+      "margin": 125.49,
+      "leverage": "5",
+      "tier": "2/3",
+      "entry": 1.1957,
+      "mark": 1.1997
+    },
+    {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": -1.83,
-      "pnl_pct": -0.44,
-      "margin": 104.66,
+      "pnl": -2.05,
+      "pnl_pct": -0.49,
+      "margin": 104.71,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1.711,
-      "mark": 1.7185
-    },
-    {
-      "symbol": "SIRENUSDT",
-      "side": "SHORT",
-      "pnl": 0.23,
-      "pnl_pct": 0.09,
-      "margin": 51.89,
-      "leverage": "5",
-      "tier": "2/3",
-      "entry": 1.1912,
-      "mark": 1.1902
+      "mark": 1.7194
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "pnl": 0.21,
-      "pnl_pct": 1.26,
+      "pnl_pct": 1.27,
       "margin": 3.34,
       "leverage": "5",
       "tier": "2/3",
       "entry": 1690.9388,
-      "mark": 1669.66
+      "mark": 1669.49
     }
   ],
   "signals": {
@@ -360,7 +360,7 @@
     },
     {
       "t": "2026-06-08",
-      "v": 549.45
+      "v": 546.68
     }
   ],
   "trade_history": [
