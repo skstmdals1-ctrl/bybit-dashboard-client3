@@ -1,54 +1,54 @@
 {
-  "ts": "2026-06-08T16:59:51.041995+09:00",
+  "ts": "2026-06-08T17:00:52.645379+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1476.9,
-  "available": 1168.44,
-  "unrealized": 7.12,
-  "daily_pnl": -31.96,
-  "total_pnl": 541.9,
-  "cum_pct": 57.96,
-  "daily_avg_pct": 1.4389,
-  "annual_pct": 18293.05,
+  "equity": 1481.61,
+  "available": 1199.85,
+  "unrealized": 4.99,
+  "daily_pnl": -25.32,
+  "total_pnl": 546.61,
+  "cum_pct": 58.46,
+  "daily_avg_pct": 1.4489,
+  "annual_pct": 18966.89,
   "mdd": -3.21,
   "current_dd": -2.61,
-  "seed_used": 308.46,
-  "seed_used_pct": 20.89,
+  "seed_used": 281.76,
+  "seed_used_pct": 19.02,
   "long_count": 0,
   "short_count": 3,
   "positions": [
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": -3.51,
-      "pnl_pct": -0.84,
-      "margin": 105.08,
+      "pnl": -2.61,
+      "pnl_pct": -0.63,
+      "margin": 104.85,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1.711,
-      "mark": 1.7254
+      "mark": 1.7217
     },
     {
       "symbol": "SIRENUSDT",
       "side": "SHORT",
-      "pnl": 10.45,
-      "pnl_pct": 3.88,
-      "margin": 51.79,
+      "pnl": 7.4,
+      "pnl_pct": 5.49,
+      "margin": 25.46,
       "leverage": "5",
       "tier": "2/3",
       "entry": 1.2708,
-      "mark": 1.2215
+      "mark": 1.201
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 0.19,
-      "pnl_pct": 1.11,
+      "pnl": 0.2,
+      "pnl_pct": 1.21,
       "margin": 3.34,
       "leverage": "5",
       "tier": "2/3",
       "entry": 1690.9388,
-      "mark": 1672.11
+      "mark": 1670.56
     }
   ],
   "signals": {
@@ -360,10 +360,17 @@
     },
     {
       "t": "2026-06-08",
-      "v": 541.9
+      "v": 546.61
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-08 17:00",
+      "symbol": "SIRENUSDT",
+      "side": "Sell",
+      "pnl": 6.64,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-08 16:53",
       "symbol": "SIRENUSDT",
@@ -496,13 +503,6 @@
       "side": "Buy",
       "pnl": 3.85,
       "reason": "-"
-    },
-    {
-      "ts": "2026-06-08 08:21",
-      "symbol": "BEATUSDT",
-      "side": "Buy",
-      "pnl": -19.08,
-      "reason": "External Exit"
     }
   ],
   "num_days": 32
