@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-08T17:33:46.020388+09:00",
+  "ts": "2026-06-08T17:34:47.678335+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1484.13,
-  "available": 1304.68,
-  "unrealized": 0.46,
+  "equity": 1485.03,
+  "available": 1305.76,
+  "unrealized": 1.24,
   "daily_pnl": -18.08,
-  "total_pnl": 549.13,
-  "cum_pct": 58.73,
-  "daily_avg_pct": 1.4543,
-  "annual_pct": 19340.95,
+  "total_pnl": 550.03,
+  "cum_pct": 58.83,
+  "daily_avg_pct": 1.4563,
+  "annual_pct": 19481.34,
   "mdd": -3.21,
-  "current_dd": -2.05,
-  "seed_used": 179.44,
-  "seed_used_pct": 12.09,
+  "current_dd": -2.04,
+  "seed_used": 179.26,
+  "seed_used_pct": 12.07,
   "long_count": 0,
   "short_count": 2,
   "positions": [
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 0.22,
-      "pnl_pct": 0.05,
-      "margin": 104.15,
+      "pnl": 1.02,
+      "pnl_pct": 0.25,
+      "margin": 103.94,
       "leverage": "4",
       "tier": "2/2",
       "entry": 1.711,
-      "mark": 1.7101
+      "mark": 1.7068
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 0.24,
-      "pnl_pct": 1.44,
-      "margin": 3.33,
+      "pnl": 0.22,
+      "pnl_pct": 1.31,
+      "margin": 3.34,
       "leverage": "5",
       "tier": "2/3",
       "entry": 1690.9388,
-      "mark": 1666.6
+      "mark": 1668.84
     }
   ],
   "signals": {
@@ -47,7 +47,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.59
+      "conf": 0.578
     },
     "WLDUSDT": {
       "dir": "short",
@@ -123,15 +123,15 @@
     },
     "DOGEUSDT": {
       "dir": "neutral",
-      "conf": 0.584
+      "conf": 0.583
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.554
+      "conf": 0.555
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.497
+      "conf": 0.496
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -349,7 +349,7 @@
     },
     {
       "t": "2026-06-08",
-      "v": 549.13
+      "v": 550.03
     }
   ],
   "trade_history": [
