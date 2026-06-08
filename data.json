@@ -1,65 +1,65 @@
 {
-  "ts": "2026-06-08T09:37:01.528122+09:00",
+  "ts": "2026-06-08T09:38:03.072357+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1496.66,
-  "available": 1164.32,
-  "unrealized": -0.77,
+  "equity": 1495.24,
+  "available": 1163.47,
+  "unrealized": -2.12,
   "daily_pnl": -4.68,
-  "total_pnl": 561.66,
-  "cum_pct": 60.07,
-  "daily_avg_pct": 1.481,
-  "annual_pct": 21300.77,
+  "total_pnl": 560.24,
+  "cum_pct": 59.92,
+  "daily_avg_pct": 1.478,
+  "annual_pct": 21071.09,
   "mdd": -6.68,
   "current_dd": -4.59,
-  "seed_used": 332.34,
-  "seed_used_pct": 22.21,
+  "seed_used": 331.78,
+  "seed_used_pct": 22.19,
   "long_count": 1,
   "short_count": 3,
   "positions": [
     {
+      "symbol": "TONUSDT",
+      "side": "SHORT",
+      "pnl": -1.35,
+      "pnl_pct": -0.25,
+      "margin": 109.5,
+      "leverage": "5",
+      "tier": "2/2",
+      "entry": 1.7046,
+      "mark": 1.7088
+    },
+    {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": -3.99,
-      "pnl_pct": -1.33,
-      "margin": 60.86,
+      "pnl": -2.94,
+      "pnl_pct": -0.98,
+      "margin": 60.65,
       "leverage": "5",
       "tier": "2/3",
       "entry": 0.4828,
-      "mark": 0.4892
+      "mark": 0.4875
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -2.44,
-      "pnl_pct": -0.85,
-      "margin": 57.98,
+      "pnl": -2.74,
+      "pnl_pct": -0.95,
+      "margin": 58.04,
       "leverage": "5",
       "tier": "3/3",
       "entry": 1690.9388,
-      "mark": 1705.28
-    },
-    {
-      "symbol": "TONUSDT",
-      "side": "SHORT",
-      "pnl": -1.28,
-      "pnl_pct": -0.7,
-      "margin": 36.62,
-      "leverage": "5",
-      "tier": "2/2",
-      "entry": 1.6962,
-      "mark": 1.7081
+      "mark": 1707.05
     },
     {
       "symbol": "BEATUSDT",
       "side": "LONG",
-      "pnl": 6.94,
-      "pnl_pct": 4.66,
-      "margin": 17.3,
+      "pnl": 4.91,
+      "pnl_pct": 3.3,
+      "margin": 17.08,
       "leverage": "9",
       "tier": "2/3",
       "entry": 3.46,
-      "mark": 3.6214
+      "mark": 3.5741
     }
   ],
   "signals": {
@@ -367,7 +367,7 @@
     },
     {
       "t": "2026-06-08",
-      "v": 561.66
+      "v": 560.24
     }
   ],
   "trade_history": [
