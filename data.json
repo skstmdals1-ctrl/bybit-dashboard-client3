@@ -1,54 +1,65 @@
 {
-  "ts": "2026-06-09T14:35:53.515986+09:00",
+  "ts": "2026-06-09T14:36:55.154298+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1478.23,
-  "available": 1181.63,
-  "unrealized": -10.87,
+  "equity": 1477.01,
+  "available": 1118.68,
+  "unrealized": -11.88,
   "daily_pnl": -7.03,
-  "total_pnl": 543.23,
-  "cum_pct": 58.1,
-  "daily_avg_pct": 1.3977,
-  "annual_pct": 15758.35,
+  "total_pnl": 542.01,
+  "cum_pct": 57.97,
+  "daily_avg_pct": 1.3952,
+  "annual_pct": 15616.27,
   "mdd": -0.62,
   "current_dd": -0.62,
-  "seed_used": 296.6,
-  "seed_used_pct": 20.06,
+  "seed_used": 358.34,
+  "seed_used_pct": 24.26,
   "long_count": 0,
-  "short_count": 3,
+  "short_count": 4,
   "positions": [
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": -6.98,
-      "pnl_pct": -1.65,
+      "pnl": -7.0,
+      "pnl_pct": -1.66,
       "margin": 107.4,
       "leverage": "4",
       "tier": "2/2",
       "entry": 205.1524,
-      "mark": 208.54
+      "mark": 208.55
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": -1.6,
-      "pnl_pct": -0.31,
-      "margin": 104.65,
+      "pnl": -1.54,
+      "pnl_pct": -0.3,
+      "margin": 104.64,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.7529,
-      "mark": 1.7583
+      "mark": 1.7581
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "SHORT",
+      "pnl": -0.21,
+      "pnl_pct": -0.04,
+      "margin": 61.39,
+      "leverage": "8",
+      "tier": "1/2",
+      "entry": 1692.82,
+      "mark": 1693.54
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": -2.29,
-      "pnl_pct": -0.83,
-      "margin": 34.69,
+      "pnl": -3.14,
+      "pnl_pct": -1.14,
+      "margin": 34.8,
       "leverage": "8",
       "tier": "2/3",
       "entry": 0.0816,
-      "mark": 0.0823
+      "mark": 0.0825
     }
   ],
   "signals": {
@@ -110,7 +121,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.499
+      "conf": 0.43
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -360,7 +371,7 @@
     },
     {
       "t": "2026-06-09",
-      "v": 543.23
+      "v": 542.01
     }
   ],
   "trade_history": [
