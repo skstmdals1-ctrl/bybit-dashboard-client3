@@ -1,65 +1,76 @@
 {
-  "ts": "2026-06-09T11:27:40.736932+09:00",
+  "ts": "2026-06-09T11:28:42.370304+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1524.84,
-  "available": 1153.76,
-  "unrealized": 13.63,
+  "equity": 1523.41,
+  "available": 1152.67,
+  "unrealized": 12.36,
   "daily_pnl": 14.81,
-  "total_pnl": 589.84,
-  "cum_pct": 63.08,
-  "daily_avg_pct": 1.4931,
-  "annual_pct": 22252.65,
+  "total_pnl": 588.41,
+  "cum_pct": 62.93,
+  "daily_avg_pct": 1.4902,
+  "annual_pct": 22020.73,
   "mdd": -3.21,
   "current_dd": -0.15,
-  "seed_used": 371.08,
+  "seed_used": 370.74,
   "seed_used_pct": 24.34,
-  "long_count": 0,
+  "long_count": 1,
   "short_count": 4,
   "positions": [
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": -0.92,
-      "pnl_pct": -0.22,
-      "margin": 105.88,
+      "pnl": -0.72,
+      "pnl_pct": -0.17,
+      "margin": 105.83,
       "leverage": "4",
       "tier": "2/2",
       "entry": 205.1524,
-      "mark": 205.6
+      "mark": 205.5
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 5.49,
-      "pnl_pct": 2.48,
-      "margin": 43.23,
+      "pnl": 5.41,
+      "pnl_pct": 2.44,
+      "margin": 43.24,
       "leverage": "5",
       "tier": "3/3",
       "entry": 1704.864,
-      "mark": 1662.61
+      "mark": 1663.24
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": 3.41,
-      "pnl_pct": 1.24,
-      "margin": 33.98,
+      "pnl": 2.97,
+      "pnl_pct": 1.08,
+      "margin": 34.04,
       "leverage": "8",
       "tier": "2/3",
       "entry": 0.0816,
-      "mark": 0.0806
+      "mark": 0.0807
+    },
+    {
+      "symbol": "BEATUSDT",
+      "side": "LONG",
+      "pnl": -0.73,
+      "pnl_pct": -0.27,
+      "margin": 33.92,
+      "leverage": "8",
+      "tier": "1/3",
+      "entry": 4.3189,
+      "mark": 4.3073
     },
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": 5.66,
-      "pnl_pct": 3.25,
-      "margin": 33.66,
+      "pnl": 5.43,
+      "pnl_pct": 3.12,
+      "margin": 33.7,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.7464,
-      "mark": 1.6896
+      "mark": 1.6919
     }
   ],
   "signals": {
@@ -371,7 +382,7 @@
     },
     {
       "t": "2026-06-09",
-      "v": 589.84
+      "v": 588.41
     }
   ],
   "trade_history": [
