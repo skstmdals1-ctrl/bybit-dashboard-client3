@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-09T15:59:06.267010+09:00",
+  "ts": "2026-06-09T16:00:07.903897+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1471.88,
-  "available": 1089.96,
-  "unrealized": -5.42,
-  "daily_pnl": -18.88,
-  "total_pnl": 536.88,
-  "cum_pct": 57.42,
-  "daily_avg_pct": 1.3845,
-  "annual_pct": 15022.4,
+  "equity": 1469.14,
+  "available": 1194.78,
+  "unrealized": 0.63,
+  "daily_pnl": -27.74,
+  "total_pnl": 534.14,
+  "cum_pct": 57.13,
+  "daily_avg_pct": 1.3788,
+  "annual_pct": 14715.23,
   "mdd": -1.27,
   "current_dd": -1.02,
-  "seed_used": 381.92,
-  "seed_used_pct": 25.95,
+  "seed_used": 274.36,
+  "seed_used_pct": 18.67,
   "long_count": 0,
-  "short_count": 3,
+  "short_count": 2,
   "positions": [
-    {
-      "symbol": "BCHUSDT",
-      "side": "SHORT",
-      "pnl": -7.31,
-      "pnl_pct": -1.73,
-      "margin": 107.48,
-      "leverage": "4",
-      "tier": "2/2",
-      "entry": 205.1524,
-      "mark": 208.7
-    },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 2.12,
-      "pnl_pct": 0.43,
-      "margin": 61.1,
+      "pnl": 1.81,
+      "pnl_pct": 0.37,
+      "margin": 61.14,
       "leverage": "8",
       "tier": "2/2",
       "entry": 1692.82,
-      "mark": 1685.51
+      "mark": 1686.59
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": -0.24,
-      "pnl_pct": -0.09,
-      "margin": 34.44,
+      "pnl": -1.18,
+      "pnl_pct": -0.43,
+      "margin": 34.55,
       "leverage": "8",
       "tier": "2/3",
       "entry": 0.0816,
-      "mark": 0.0817
+      "mark": 0.0819
     }
   ],
   "signals": {
@@ -360,10 +349,17 @@
     },
     {
       "t": "2026-06-09",
-      "v": 536.88
+      "v": 534.14
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-09 16:00",
+      "symbol": "BCHUSDT",
+      "side": "Sell",
+      "pnl": -8.87,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-09 15:13",
       "symbol": "TONUSDT",
@@ -496,13 +492,6 @@
       "side": "Sell",
       "pnl": -43.9,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-08 16:05",
-      "symbol": "SIRENUSDT",
-      "side": "Sell",
-      "pnl": 16.23,
-      "reason": "3/3"
     }
   ],
   "num_days": 33
