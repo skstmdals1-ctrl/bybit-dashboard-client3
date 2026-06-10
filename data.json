@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-10T21:33:06.786564+09:00",
+  "ts": "2026-06-10T21:34:09.723437+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1437.79,
-  "available": 1052.59,
-  "unrealized": -1.33,
-  "daily_pnl": -14.47,
-  "total_pnl": 502.79,
-  "cum_pct": 53.77,
-  "daily_avg_pct": 1.2736,
-  "annual_pct": 10042.16,
+  "equity": 1431.68,
+  "available": 1214.38,
+  "unrealized": -9.04,
+  "daily_pnl": -12.92,
+  "total_pnl": 496.68,
+  "cum_pct": 53.12,
+  "daily_avg_pct": 1.261,
+  "annual_pct": 9591.86,
   "mdd": -2.06,
   "current_dd": -1.53,
-  "seed_used": 385.2,
-  "seed_used_pct": 26.79,
+  "seed_used": 217.3,
+  "seed_used_pct": 15.18,
   "long_count": 0,
-  "short_count": 2,
+  "short_count": 1,
   "positions": [
     {
       "symbol": "TONUSDT",
       "side": "SHORT",
-      "pnl": -3.43,
-      "pnl_pct": -0.23,
-      "margin": 215.68,
+      "pnl": -8.86,
+      "pnl_pct": -0.59,
+      "margin": 216.46,
       "leverage": "7",
       "tier": "2/2",
       "entry": 1.6641,
-      "mark": 1.6679
-    },
-    {
-      "symbol": "SOLUSDT",
-      "side": "SHORT",
-      "pnl": 1.64,
-      "pnl_pct": 3.09,
-      "margin": 7.35,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 66.39,
-      "mark": 64.34
+      "mark": 1.6739
     }
   ],
   "signals": {
@@ -353,10 +342,17 @@
     },
     {
       "t": "2026-06-10",
-      "v": 502.79
+      "v": 496.68
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-10 21:33",
+      "symbol": "SOLUSDT",
+      "side": "Sell",
+      "pnl": 1.54,
+      "reason": "2/2"
+    },
     {
       "ts": "2026-06-10 20:04",
       "symbol": "SOLUSDT",
@@ -489,13 +485,6 @@
       "side": "Sell",
       "pnl": -2.27,
       "reason": "L3"
-    },
-    {
-      "ts": "2026-06-08 21:20",
-      "symbol": "SIRENUSDT",
-      "side": "Sell",
-      "pnl": 7.2,
-      "reason": "External Exit"
     }
   ],
   "num_days": 34
