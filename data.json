@@ -1,43 +1,54 @@
 {
-  "ts": "2026-06-10T15:28:01.806898+09:00",
+  "ts": "2026-06-10T15:29:04.583934+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1434.83,
-  "available": 1019.55,
-  "unrealized": 26.14,
+  "equity": 1435.0,
+  "available": 1019.89,
+  "unrealized": 26.41,
   "daily_pnl": -45.43,
-  "total_pnl": 499.83,
-  "cum_pct": 53.46,
-  "daily_avg_pct": 1.2676,
-  "annual_pct": 9825.19,
+  "total_pnl": 500.0,
+  "cum_pct": 53.48,
+  "daily_avg_pct": 1.268,
+  "annual_pct": 9839.51,
   "mdd": -0.05,
   "current_dd": -0.02,
-  "seed_used": 415.27,
-  "seed_used_pct": 28.94,
+  "seed_used": 415.11,
+  "seed_used_pct": 28.93,
   "long_count": 0,
-  "short_count": 2,
+  "short_count": 3,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 18.87,
-      "pnl_pct": 3.84,
-      "margin": 59.01,
+      "pnl": 19.05,
+      "pnl_pct": 3.88,
+      "margin": 58.98,
       "leverage": "8",
       "tier": "2/2",
       "entry": 1692.82,
-      "mark": 1627.76
+      "mark": 1627.14
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 7.3,
-      "pnl_pct": 3.43,
-      "margin": 29.31,
+      "pnl": 7.35,
+      "pnl_pct": 3.46,
+      "margin": 29.3,
       "leverage": "7",
       "tier": "2/2",
       "entry": 66.39,
-      "mark": 64.11
+      "mark": 64.093
+    },
+    {
+      "symbol": "TONUSDT",
+      "side": "SHORT",
+      "pnl": 0.05,
+      "pnl_pct": 0.03,
+      "margin": 25.18,
+      "leverage": "7",
+      "tier": "1/2",
+      "entry": 1.6557,
+      "mark": 1.6552
     }
   ],
   "signals": {
@@ -353,7 +364,7 @@
     },
     {
       "t": "2026-06-10",
-      "v": 499.83
+      "v": 500.0
     }
   ],
   "trade_history": [
