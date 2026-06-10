@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-10T13:18:30.476545+09:00",
+  "ts": "2026-06-10T13:19:33.308019+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1440.83,
-  "available": 844.06,
-  "unrealized": -0.61,
-  "daily_pnl": -12.05,
-  "total_pnl": 505.83,
-  "cum_pct": 54.1,
-  "daily_avg_pct": 1.28,
-  "annual_pct": 10278.82,
+  "equity": 1432.43,
+  "available": 1052.99,
+  "unrealized": 23.74,
+  "daily_pnl": -45.43,
+  "total_pnl": 497.43,
+  "cum_pct": 53.2,
+  "daily_avg_pct": 1.2625,
+  "annual_pct": 9644.41,
   "mdd": -3.37,
   "current_dd": -3.37,
-  "seed_used": 596.78,
-  "seed_used_pct": 41.42,
+  "seed_used": 379.44,
+  "seed_used_pct": 26.49,
   "long_count": 0,
   "short_count": 2,
   "positions": [
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": 18.29,
-      "pnl_pct": 3.73,
-      "margin": 59.08,
+      "pnl": 17.87,
+      "pnl_pct": 3.64,
+      "margin": 59.13,
       "leverage": "8",
       "tier": "2/2",
       "entry": 1692.82,
-      "mark": 1629.74
+      "mark": 1631.2
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 6.14,
-      "pnl_pct": 2.89,
-      "margin": 29.47,
+      "pnl": 5.88,
+      "pnl_pct": 2.77,
+      "margin": 29.51,
       "leverage": "7",
       "tier": "2/2",
       "entry": 66.39,
-      "mark": 64.47
+      "mark": 64.551
     }
   ],
   "signals": {
@@ -353,10 +353,17 @@
     },
     {
       "t": "2026-06-10",
-      "v": 505.83
+      "v": 497.43
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-10 13:18",
+      "symbol": "BEATUSDT",
+      "side": "Buy",
+      "pnl": -33.38,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-10 02:40",
       "symbol": "WLDUSDT",
@@ -488,13 +495,6 @@
       "symbol": "WLDUSDT",
       "side": "Sell",
       "pnl": 2.12,
-      "reason": "2/3"
-    },
-    {
-      "ts": "2026-06-08 17:01",
-      "symbol": "SIRENUSDT",
-      "side": "Sell",
-      "pnl": 7.24,
       "reason": "2/3"
     }
   ],
