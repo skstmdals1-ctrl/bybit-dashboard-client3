@@ -1,32 +1,43 @@
 {
-  "ts": "2026-06-12T07:25:42.466806+09:00",
+  "ts": "2026-06-12T07:26:45.612320+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1513.29,
-  "available": 1298.93,
-  "unrealized": 5.34,
+  "equity": 1512.43,
+  "available": 1189.79,
+  "unrealized": 4.69,
   "daily_pnl": -21.16,
-  "total_pnl": 578.29,
-  "cum_pct": 61.85,
-  "daily_avg_pct": 1.3465,
-  "annual_pct": 13088.5,
+  "total_pnl": 577.43,
+  "cum_pct": 61.76,
+  "daily_avg_pct": 1.3449,
+  "annual_pct": 13012.72,
   "mdd": -12.3,
-  "current_dd": -6.97,
-  "seed_used": 214.36,
-  "seed_used_pct": 14.17,
-  "long_count": 1,
+  "current_dd": -7.15,
+  "seed_used": 322.64,
+  "seed_used_pct": 21.33,
+  "long_count": 2,
   "short_count": 0,
   "positions": [
     {
+      "symbol": "BEATUSDT",
+      "side": "LONG",
+      "pnl": 0.35,
+      "pnl_pct": 0.05,
+      "margin": 107.79,
+      "leverage": "7",
+      "tier": "1/2",
+      "entry": 9.9235,
+      "mark": 9.9281
+    },
+    {
       "symbol": "LABUSDT",
       "side": "LONG",
-      "pnl": 5.3,
-      "pnl_pct": 1.71,
-      "margin": 35.05,
+      "pnl": 5.19,
+      "pnl_pct": 1.67,
+      "margin": 35.04,
       "leverage": "9",
       "tier": "2/2",
       "entry": 8.615,
-      "mark": 8.7622
+      "mark": 8.7591
     }
   ],
   "signals": {
@@ -48,11 +59,11 @@
     },
     "ZECUSDT": {
       "dir": "short",
-      "conf": 0.496
+      "conf": 0.497
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.505
+      "conf": 0.512
     },
     "PENGUUSDT": {
       "dir": "long",
@@ -120,7 +131,7 @@
     },
     "ETHUSDT": {
       "dir": "neutral",
-      "conf": 0.618
+      "conf": 0.656
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -346,7 +357,7 @@
     },
     {
       "t": "2026-06-12",
-      "v": 578.29
+      "v": 577.43
     }
   ],
   "trade_history": [
