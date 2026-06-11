@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-11T18:26:33.299071+09:00",
+  "ts": "2026-06-11T18:27:36.279144+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1492.18,
-  "available": 940.69,
-  "unrealized": -14.29,
-  "daily_pnl": 66.37,
-  "total_pnl": 557.18,
-  "cum_pct": 59.59,
-  "daily_avg_pct": 1.3445,
-  "annual_pct": 12993.85,
+  "equity": 1491.44,
+  "available": 1128.69,
+  "unrealized": -17.72,
+  "daily_pnl": 69.07,
+  "total_pnl": 556.44,
+  "cum_pct": 59.51,
+  "daily_avg_pct": 1.343,
+  "annual_pct": 12923.3,
   "mdd": -4.19,
   "current_dd": -4.19,
-  "seed_used": 551.49,
-  "seed_used_pct": 36.96,
-  "long_count": 2,
+  "seed_used": 362.75,
+  "seed_used_pct": 24.32,
+  "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": -18.17,
-      "pnl_pct": -1.18,
-      "margin": 222.27,
+      "pnl": -19.13,
+      "pnl_pct": -1.24,
+      "margin": 222.41,
       "leverage": "7",
       "tier": "2/2",
       "entry": 64.3397,
-      "mark": 65.1
+      "mark": 65.14
     },
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": 0.09,
-      "pnl_pct": 0.01,
-      "margin": 139.26,
+      "pnl": 1.39,
+      "pnl_pct": 0.2,
+      "margin": 139.52,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.9869,
-      "mark": 1.9872
-    },
-    {
-      "symbol": "BEATUSDT",
-      "side": "LONG",
-      "pnl": 3.77,
-      "pnl_pct": 3.2,
-      "margin": 17.37,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 8.417,
-      "mark": 8.6866
+      "mark": 1.9909
     }
   ],
   "signals": {
@@ -364,10 +353,17 @@
     },
     {
       "t": "2026-06-11",
-      "v": 557.18
+      "v": 556.44
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-11 18:27",
+      "symbol": "BEATUSDT",
+      "side": "Buy",
+      "pnl": 2.7,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-11 17:38",
       "symbol": "BEATUSDT",
@@ -500,13 +496,6 @@
       "side": "Sell",
       "pnl": 2.63,
       "reason": "-"
-    },
-    {
-      "ts": "2026-06-10 18:28",
-      "symbol": "ETHUSDT",
-      "side": "Sell",
-      "pnl": 11.32,
-      "reason": "2/2"
     }
   ],
   "num_days": 35
