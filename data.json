@@ -1,32 +1,43 @@
 {
-  "ts": "2026-06-11T19:56:38.748325+09:00",
+  "ts": "2026-06-11T19:57:41.514721+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1496.85,
-  "available": 1355.15,
-  "unrealized": 11.5,
+  "equity": 1495.38,
+  "available": 1319.76,
+  "unrealized": 10.14,
   "daily_pnl": 44.77,
-  "total_pnl": 561.85,
-  "cum_pct": 60.09,
-  "daily_avg_pct": 1.3536,
-  "annual_pct": 13430.08,
+  "total_pnl": 560.38,
+  "cum_pct": 59.93,
+  "daily_avg_pct": 1.3507,
+  "annual_pct": 13289.51,
   "mdd": -4.89,
   "current_dd": -3.98,
-  "seed_used": 141.71,
-  "seed_used_pct": 9.47,
-  "long_count": 1,
+  "seed_used": 175.61,
+  "seed_used_pct": 11.74,
+  "long_count": 2,
   "short_count": 0,
   "positions": [
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": 11.48,
-      "pnl_pct": 1.65,
-      "margin": 141.54,
+      "pnl": 10.32,
+      "pnl_pct": 1.48,
+      "margin": 141.31,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.9869,
-      "mark": 2.0197
+      "mark": 2.0164
+    },
+    {
+      "symbol": "BEATUSDT",
+      "side": "LONG",
+      "pnl": -0.18,
+      "pnl_pct": -0.07,
+      "margin": 33.96,
+      "leverage": "7",
+      "tier": "1/2",
+      "entry": 8.496,
+      "mark": 8.4897
     }
   ],
   "signals": {
@@ -116,7 +127,7 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.523
+      "conf": 0.522
     },
     "ETHUSDT": {
       "dir": "neutral",
@@ -342,7 +353,7 @@
     },
     {
       "t": "2026-06-11",
-      "v": 561.85
+      "v": 560.38
     }
   ],
   "trade_history": [
