@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-11T19:23:09.708473+09:00",
+  "ts": "2026-06-11T19:24:12.509893+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1496.5,
-  "available": 1139.51,
-  "unrealized": 16.89,
-  "daily_pnl": 39.34,
-  "total_pnl": 561.5,
-  "cum_pct": 60.05,
-  "daily_avg_pct": 1.3528,
-  "annual_pct": 13391.16,
+  "equity": 1497.06,
+  "available": 1355.29,
+  "unrealized": 11.89,
+  "daily_pnl": 44.77,
+  "total_pnl": 562.06,
+  "cum_pct": 60.11,
+  "daily_avg_pct": 1.3539,
+  "annual_pct": 13444.71,
   "mdd": -4.89,
   "current_dd": -3.61,
-  "seed_used": 356.99,
-  "seed_used_pct": 23.85,
-  "long_count": 2,
+  "seed_used": 141.77,
+  "seed_used_pct": 9.47,
+  "long_count": 1,
   "short_count": 0,
   "positions": [
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": 10.53,
-      "pnl_pct": 1.51,
-      "margin": 141.35,
+      "pnl": 11.9,
+      "pnl_pct": 1.71,
+      "margin": 141.62,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.9869,
-      "mark": 2.017
-    },
-    {
-      "symbol": "BEATUSDT",
-      "side": "LONG",
-      "pnl": 6.51,
-      "pnl_pct": 2.7,
-      "margin": 35.41,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 8.324,
-      "mark": 8.5484
+      "mark": 2.0209
     }
   ],
   "signals": {
@@ -219,7 +208,7 @@
     },
     "BEATUSDT": {
       "dir": "long",
-      "conf": 0.673
+      "conf": 0.676
     },
     "SIRENUSDT": {
       "dir": "short",
@@ -353,10 +342,17 @@
     },
     {
       "t": "2026-06-11",
-      "v": 561.5
+      "v": 562.06
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-11 19:23",
+      "symbol": "BEATUSDT",
+      "side": "Buy",
+      "pnl": 5.42,
+      "reason": "2/2"
+    },
     {
       "ts": "2026-06-11 18:52",
       "symbol": "SOLUSDT",
@@ -489,13 +485,6 @@
       "side": "Sell",
       "pnl": 18.56,
       "reason": "-"
-    },
-    {
-      "ts": "2026-06-10 21:33",
-      "symbol": "SOLUSDT",
-      "side": "Sell",
-      "pnl": 1.54,
-      "reason": "2/2"
     }
   ],
   "num_days": 35
