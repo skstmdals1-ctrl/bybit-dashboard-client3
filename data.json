@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-11T18:52:46.392639+09:00",
+  "ts": "2026-06-11T18:53:49.123275+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1483.59,
-  "available": 1343.44,
-  "unrealized": 3.8,
+  "equity": 1482.34,
+  "available": 1342.42,
+  "unrealized": 2.72,
   "daily_pnl": 39.34,
-  "total_pnl": 548.59,
-  "cum_pct": 58.67,
-  "daily_avg_pct": 1.3278,
-  "annual_pct": 12229.46,
+  "total_pnl": 547.34,
+  "cum_pct": 58.54,
+  "daily_avg_pct": 1.3254,
+  "annual_pct": 12123.32,
   "mdd": -4.75,
   "current_dd": -4.75,
-  "seed_used": 140.15,
-  "seed_used_pct": 9.45,
+  "seed_used": 139.92,
+  "seed_used_pct": 9.44,
   "long_count": 1,
   "short_count": 0,
   "positions": [
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": 3.81,
-      "pnl_pct": 0.55,
-      "margin": 140.01,
+      "pnl": 2.72,
+      "pnl_pct": 0.39,
+      "margin": 139.79,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.9869,
-      "mark": 1.9978
+      "mark": 1.9947
     }
   ],
   "signals": {
@@ -116,7 +116,7 @@
     },
     "NEARUSDT": {
       "dir": "long",
-      "conf": 0.525
+      "conf": 0.524
     },
     "ETHUSDT": {
       "dir": "short",
@@ -342,7 +342,7 @@
     },
     {
       "t": "2026-06-11",
-      "v": 548.59
+      "v": 547.34
     }
   ],
   "trade_history": [
@@ -351,7 +351,7 @@
       "symbol": "SOLUSDT",
       "side": "Sell",
       "pnl": -29.73,
-      "reason": "-"
+      "reason": "External Exit"
     },
     {
       "ts": "2026-06-11 18:27",
