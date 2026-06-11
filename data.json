@@ -1,54 +1,54 @@
 {
-  "ts": "2026-06-11T17:37:10.726515+09:00",
+  "ts": "2026-06-11T17:38:13.602729+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1506.26,
-  "available": 941.3,
-  "unrealized": 2.22,
-  "daily_pnl": 63.89,
-  "total_pnl": 571.26,
-  "cum_pct": 61.1,
-  "daily_avg_pct": 1.3718,
-  "annual_pct": 14346.5,
+  "equity": 1507.98,
+  "available": 950.13,
+  "unrealized": 1.47,
+  "daily_pnl": 66.37,
+  "total_pnl": 572.98,
+  "cum_pct": 61.28,
+  "daily_avg_pct": 1.375,
+  "annual_pct": 14513.91,
   "mdd": -3.96,
-  "current_dd": -3.36,
-  "seed_used": 564.96,
-  "seed_used_pct": 37.51,
+  "current_dd": -3.3,
+  "seed_used": 557.85,
+  "seed_used_pct": 36.99,
   "long_count": 2,
   "short_count": 1,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": -27.25,
-      "pnl_pct": -1.77,
-      "margin": 223.57,
+      "pnl": -27.73,
+      "pnl_pct": -1.8,
+      "margin": 223.64,
       "leverage": "7",
       "tier": "2/2",
       "entry": 64.3397,
-      "mark": 65.48
+      "mark": 65.5
     },
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": 23.25,
-      "pnl_pct": 3.34,
-      "margin": 143.9,
+      "pnl": 24.16,
+      "pnl_pct": 3.47,
+      "margin": 144.08,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.9869,
-      "mark": 2.0533
+      "mark": 2.0559
     },
     {
       "symbol": "BEATUSDT",
       "side": "LONG",
-      "pnl": 6.89,
-      "pnl_pct": 4.09,
-      "margin": 25.03,
+      "pnl": 5.23,
+      "pnl_pct": 4.44,
+      "margin": 17.58,
       "leverage": "7",
       "tier": "2/2",
       "entry": 8.417,
-      "mark": 8.7616
+      "mark": 8.7906
     }
   ],
   "signals": {
@@ -74,7 +74,7 @@
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.508
+      "conf": 0.496
     },
     "PENGUUSDT": {
       "dir": "long",
@@ -102,7 +102,7 @@
     },
     "XRPUSDT": {
       "dir": "neutral",
-      "conf": 0.448
+      "conf": 0.37
     },
     "TRXUSDT": {
       "dir": "short",
@@ -142,7 +142,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.407
+      "conf": 0.409
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -364,10 +364,17 @@
     },
     {
       "t": "2026-06-11",
-      "v": 571.26
+      "v": 572.98
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-11 17:38",
+      "symbol": "BEATUSDT",
+      "side": "Buy",
+      "pnl": 2.48,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-11 17:28",
       "symbol": "BEATUSDT",
@@ -500,13 +507,6 @@
       "side": "Sell",
       "pnl": 11.32,
       "reason": "2/2"
-    },
-    {
-      "ts": "2026-06-10 18:21",
-      "symbol": "ETHUSDT",
-      "side": "Sell",
-      "pnl": 11.75,
-      "reason": "-"
     }
   ],
   "num_days": 35
