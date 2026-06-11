@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-12T06:12:31.895661+09:00",
+  "ts": "2026-06-12T06:13:34.813955+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1531.34,
-  "available": 1224.04,
-  "unrealized": 80.35,
-  "daily_pnl": -73.97,
-  "total_pnl": 596.34,
-  "cum_pct": 63.78,
-  "daily_avg_pct": 1.3799,
-  "annual_pct": 14774.02,
+  "equity": 1536.68,
+  "available": 1331.63,
+  "unrealized": 58.93,
+  "daily_pnl": -47.4,
+  "total_pnl": 601.68,
+  "cum_pct": 64.35,
+  "daily_avg_pct": 1.3896,
+  "annual_pct": 15302.62,
   "mdd": -12.3,
   "current_dd": -6.36,
-  "seed_used": 307.3,
-  "seed_used_pct": 20.07,
-  "long_count": 2,
+  "seed_used": 205.05,
+  "seed_used_pct": 13.34,
+  "long_count": 1,
   "short_count": 0,
   "positions": [
     {
       "symbol": "BEATUSDT",
       "side": "LONG",
-      "pnl": 54.85,
-      "pnl_pct": 3.09,
-      "margin": 203.05,
+      "pnl": 58.82,
+      "pnl_pct": 3.32,
+      "margin": 203.49,
       "leverage": "9",
       "tier": "2/2",
       "entry": 9.5302,
-      "mark": 9.8251
-    },
-    {
-      "symbol": "NEARUSDT",
-      "side": "LONG",
-      "pnl": 25.58,
-      "pnl_pct": 5.25,
-      "margin": 102.59,
-      "leverage": "5",
-      "tier": "2/2",
-      "entry": 1.9869,
-      "mark": 2.0912
+      "mark": 9.8464
     }
   ],
   "signals": {
@@ -357,10 +346,17 @@
     },
     {
       "t": "2026-06-12",
-      "v": 596.34
+      "v": 601.68
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-12 06:12",
+      "symbol": "NEARUSDT",
+      "side": "Buy",
+      "pnl": 26.57,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-12 06:11",
       "symbol": "NEARUSDT",
@@ -492,13 +488,6 @@
       "symbol": "ENAUSDT",
       "side": "Sell",
       "pnl": -29.94,
-      "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-11 08:20",
-      "symbol": "WLDUSDT",
-      "side": "Sell",
-      "pnl": -7.06,
       "reason": "External Exit"
     }
   ],
