@@ -1,65 +1,54 @@
 {
-  "ts": "2026-06-11T14:58:34.062377+09:00",
+  "ts": "2026-06-11T14:59:36.876878+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1512.16,
-  "available": 923.04,
-  "unrealized": -33.41,
-  "daily_pnl": 106.13,
-  "total_pnl": 577.16,
-  "cum_pct": 61.73,
-  "daily_avg_pct": 1.3831,
-  "annual_pct": 14946.37,
-  "mdd": -0.27,
-  "current_dd": -0.11,
-  "seed_used": 589.11,
-  "seed_used_pct": 38.96,
-  "long_count": 3,
+  "equity": 1501.94,
+  "available": 1057.06,
+  "unrealized": 10.85,
+  "daily_pnl": 50.99,
+  "total_pnl": 566.94,
+  "cum_pct": 60.64,
+  "daily_avg_pct": 1.3635,
+  "annual_pct": 13921.14,
+  "mdd": -3.5,
+  "current_dd": -3.5,
+  "seed_used": 444.87,
+  "seed_used_pct": 29.62,
+  "long_count": 2,
   "short_count": 1,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": -15.54,
-      "pnl_pct": -1.01,
-      "margin": 221.89,
+      "pnl": -14.2,
+      "pnl_pct": -0.92,
+      "margin": 221.7,
       "leverage": "7",
       "tier": "2/2",
       "entry": 64.3397,
-      "mark": 64.99
+      "mark": 64.934
     },
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": 20.35,
-      "pnl_pct": 2.92,
-      "margin": 143.31,
+      "pnl": 18.24,
+      "pnl_pct": 2.62,
+      "margin": 142.89,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.9869,
-      "mark": 2.045
-    },
-    {
-      "symbol": "BEATUSDT",
-      "side": "LONG",
-      "pnl": -44.85,
-      "pnl_pct": -3.38,
-      "margin": 142.6,
-      "leverage": "9",
-      "tier": "1/2",
-      "entry": 8.7965,
-      "mark": 8.4995
+      "mark": 2.039
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 6.89,
-      "pnl_pct": 2.98,
-      "margin": 79.39,
+      "pnl": 6.98,
+      "pnl_pct": 3.02,
+      "margin": 79.41,
       "leverage": "3",
       "tier": "2/2",
       "entry": 53.907,
-      "mark": 55.514
+      "mark": 55.533
     }
   ],
   "signals": {
@@ -85,7 +74,7 @@
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.504
+      "conf": 0.499
     },
     "PENGUUSDT": {
       "dir": "long",
@@ -101,7 +90,7 @@
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.461
+      "conf": 0.46
     },
     "BCHUSDT": {
       "dir": "short",
@@ -241,7 +230,7 @@
     },
     "BEATUSDT": {
       "dir": "long",
-      "conf": 0.679
+      "conf": 0.676
     },
     "SIRENUSDT": {
       "dir": "short",
@@ -375,10 +364,17 @@
     },
     {
       "t": "2026-06-11",
-      "v": 577.16
+      "v": 566.94
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-11 14:58",
+      "symbol": "BEATUSDT",
+      "side": "Buy",
+      "pnl": -55.14,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-11 14:20",
       "symbol": "BEATUSDT",
@@ -510,13 +506,6 @@
       "symbol": "BEATUSDT",
       "side": "Buy",
       "pnl": -33.38,
-      "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-10 02:40",
-      "symbol": "WLDUSDT",
-      "side": "Sell",
-      "pnl": -12.05,
       "reason": "External Exit"
     }
   ],
