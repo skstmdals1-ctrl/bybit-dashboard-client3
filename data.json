@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-12T06:05:10.751869+09:00",
+  "ts": "2026-06-12T06:06:14.072091+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1517.01,
-  "available": 1168.34,
-  "unrealized": 76.49,
+  "equity": 1525.07,
+  "available": 1175.51,
+  "unrealized": 84.48,
   "daily_pnl": -84.29,
-  "total_pnl": 582.01,
-  "cum_pct": 62.25,
-  "daily_avg_pct": 1.3534,
-  "annual_pct": 13420.34,
+  "total_pnl": 590.07,
+  "cum_pct": 63.11,
+  "daily_avg_pct": 1.3683,
+  "annual_pct": 14165.58,
   "mdd": -12.3,
   "current_dd": -8.19,
-  "seed_used": 348.67,
-  "seed_used_pct": 22.98,
+  "seed_used": 349.57,
+  "seed_used_pct": 22.92,
   "long_count": 2,
   "short_count": 0,
   "positions": [
     {
       "symbol": "BEATUSDT",
       "side": "LONG",
-      "pnl": 51.0,
-      "pnl_pct": 2.88,
-      "margin": 202.62,
+      "pnl": 57.57,
+      "pnl_pct": 3.25,
+      "margin": 203.35,
       "leverage": "9",
       "tier": "2/2",
       "entry": 9.5302,
-      "mark": 9.8044
+      "mark": 9.8397
     },
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": 25.57,
+      "pnl": 25.53,
       "pnl_pct": 3.67,
-      "margin": 144.36,
+      "margin": 144.35,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.9869,
-      "mark": 2.0599
+      "mark": 2.0598
     }
   ],
   "signals": {
@@ -111,7 +111,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.494
+      "conf": 0.495
     },
     "LINKUSDT": {
       "dir": "long",
@@ -224,6 +224,10 @@
     "SIRENUSDT": {
       "dir": "short",
       "conf": 0.573
+    },
+    "VELVETUSDT": {
+      "dir": "long",
+      "conf": 0.55
     }
   },
   "equity_hist": [
@@ -353,7 +357,7 @@
     },
     {
       "t": "2026-06-12",
-      "v": 582.01
+      "v": 590.07
     }
   ],
   "trade_history": [
