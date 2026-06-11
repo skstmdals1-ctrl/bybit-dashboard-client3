@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-12T00:20:09.112336+09:00",
+  "ts": "2026-06-12T00:21:11.964201+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1565.42,
-  "available": 1081.24,
-  "unrealized": 36.93,
-  "daily_pnl": 0,
-  "total_pnl": 630.42,
-  "cum_pct": 67.42,
-  "daily_avg_pct": 1.4418,
-  "annual_pct": 18485.98,
+  "equity": 1571.43,
+  "available": 1306.93,
+  "unrealized": 43.7,
+  "daily_pnl": -0.9,
+  "total_pnl": 636.43,
+  "cum_pct": 68.07,
+  "daily_avg_pct": 1.4527,
+  "annual_pct": 19229.36,
   "mdd": -4.89,
   "current_dd": -4.06,
-  "seed_used": 484.19,
-  "seed_used_pct": 30.93,
-  "long_count": 3,
+  "seed_used": 264.5,
+  "seed_used_pct": 16.83,
+  "long_count": 2,
   "short_count": 0,
   "positions": [
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": 14.84,
-      "pnl_pct": 2.13,
-      "margin": 142.21,
+      "pnl": 17.82,
+      "pnl_pct": 2.56,
+      "margin": 142.81,
       "leverage": "5",
       "tier": "2/2",
       "entry": 1.9869,
-      "mark": 2.0293
+      "mark": 2.0378
     },
     {
       "symbol": "BEATUSDT",
       "side": "LONG",
-      "pnl": 22.9,
-      "pnl_pct": 2.79,
-      "margin": 120.42,
+      "pnl": 25.78,
+      "pnl_pct": 3.14,
+      "margin": 120.83,
       "leverage": "7",
       "tier": "1/2",
       "entry": 9.0117,
-      "mark": 9.2633
-    },
-    {
-      "symbol": "LABUSDT",
-      "side": "LONG",
-      "pnl": -0.77,
-      "pnl_pct": -0.24,
-      "margin": 35.49,
-      "leverage": "9",
-      "tier": "2/2",
-      "entry": 9.416,
-      "mark": 9.3932
+      "mark": 9.295
     }
   ],
   "signals": {
@@ -368,10 +357,17 @@
     },
     {
       "t": "2026-06-12",
-      "v": 630.42
+      "v": 636.43
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-12 00:20",
+      "symbol": "LABUSDT",
+      "side": "Buy",
+      "pnl": -0.9,
+      "reason": "2/2"
+    },
     {
       "ts": "2026-06-11 23:36",
       "symbol": "LABUSDT",
@@ -504,13 +500,6 @@
       "side": "Sell",
       "pnl": 36.86,
       "reason": "L2"
-    },
-    {
-      "ts": "2026-06-11 06:15",
-      "symbol": "WLDUSDT",
-      "side": "Sell",
-      "pnl": 22.67,
-      "reason": "3/3"
     }
   ],
   "num_days": 36
