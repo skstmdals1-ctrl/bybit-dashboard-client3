@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-12T23:53:32.281689+09:00",
+  "ts": "2026-06-12T23:54:35.037710+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1365.12,
-  "available": 1228.77,
-  "unrealized": -12.22,
+  "equity": 1364.82,
+  "available": 1228.38,
+  "unrealized": -12.61,
   "daily_pnl": -152.13,
-  "total_pnl": 430.12,
-  "cum_pct": 46.0,
-  "daily_avg_pct": 1.0568,
-  "annual_pct": 4538.98,
+  "total_pnl": 429.82,
+  "cum_pct": 45.97,
+  "daily_avg_pct": 1.0562,
+  "annual_pct": 4528.94,
   "mdd": -18.06,
   "current_dd": -17.8,
-  "seed_used": 136.35,
-  "seed_used_pct": 9.99,
+  "seed_used": 136.44,
+  "seed_used_pct": 10.0,
   "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": -13.02,
-      "pnl_pct": -1.95,
-      "margin": 136.18,
+      "pnl": -12.62,
+      "pnl_pct": -1.89,
+      "margin": 136.1,
       "leverage": "5",
       "tier": "1/1",
       "entry": 0.1693,
-      "mark": 0.1726
+      "mark": 0.1725
     }
   ],
   "signals": {
@@ -47,8 +47,8 @@
       "conf": 0.456
     },
     "ZECUSDT": {
-      "dir": "long",
-      "conf": 0.479
+      "dir": "short",
+      "conf": 0.498
     },
     "HYPEUSDT": {
       "dir": "long",
@@ -346,7 +346,7 @@
     },
     {
       "t": "2026-06-12",
-      "v": 430.12
+      "v": 429.82
     }
   ],
   "trade_history": [
