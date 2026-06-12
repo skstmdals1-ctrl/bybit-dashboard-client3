@@ -1,54 +1,54 @@
 {
-  "ts": "2026-06-12T22:13:50.931807+09:00",
+  "ts": "2026-06-12T22:14:53.945492+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1531.11,
-  "available": 881.29,
-  "unrealized": 7.87,
+  "equity": 1537.25,
+  "available": 886.18,
+  "unrealized": 14.01,
   "daily_pnl": -4.73,
-  "total_pnl": 596.11,
-  "cum_pct": 63.76,
-  "daily_avg_pct": 1.3795,
-  "annual_pct": 14752.61,
+  "total_pnl": 602.25,
+  "cum_pct": 64.41,
+  "daily_avg_pct": 1.3907,
+  "annual_pct": 15363.73,
   "mdd": -12.58,
   "current_dd": -8.4,
-  "seed_used": 649.82,
-  "seed_used_pct": 42.44,
+  "seed_used": 651.07,
+  "seed_used_pct": 42.35,
   "long_count": 2,
   "short_count": 1,
   "positions": [
     {
       "symbol": "VELVETUSDT",
       "side": "LONG",
-      "pnl": 15.06,
-      "pnl_pct": 0.92,
-      "margin": 332.1,
+      "pnl": 18.72,
+      "pnl_pct": 1.14,
+      "margin": 332.83,
       "leverage": "5",
       "tier": "1/2",
       "entry": 1.6621,
-      "mark": 1.6773
+      "mark": 1.681
     },
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": -3.14,
-      "pnl_pct": -0.25,
-      "margin": 181.73,
+      "pnl": -0.7,
+      "pnl_pct": -0.06,
+      "margin": 182.08,
       "leverage": "7",
       "tier": "2/2",
       "entry": 2.091,
-      "mark": 2.0858
+      "mark": 2.0898
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": -3.55,
-      "pnl_pct": -0.53,
-      "margin": 134.29,
+      "pnl": -3.94,
+      "pnl_pct": -0.59,
+      "margin": 134.37,
       "leverage": "5",
       "tier": "1/1",
       "entry": 0.1693,
-      "mark": 0.1702
+      "mark": 0.1703
     }
   ],
   "signals": {
@@ -122,7 +122,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.545
+      "conf": 0.539
     },
     "LINKUSDT": {
       "dir": "long",
@@ -238,7 +238,7 @@
     },
     "VELVETUSDT": {
       "dir": "long",
-      "conf": 0.908
+      "conf": 0.91
     }
   },
   "equity_hist": [
@@ -368,7 +368,7 @@
     },
     {
       "t": "2026-06-12",
-      "v": 596.11
+      "v": 602.25
     }
   ],
   "trade_history": [
