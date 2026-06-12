@@ -1,22 +1,34 @@
 {
-  "ts": "2026-06-12T15:17:59.003479+09:00",
+  "ts": "2026-06-12T15:19:01.712162+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1488.75,
-  "available": 1488.75,
-  "unrealized": 0.0,
+  "equity": 1496.29,
+  "available": 1090.66,
+  "unrealized": 8.13,
   "daily_pnl": -39.86,
-  "total_pnl": 553.75,
-  "cum_pct": 59.22,
-  "daily_avg_pct": 1.3004,
-  "annual_pct": 11070.52,
+  "total_pnl": 561.29,
+  "cum_pct": 60.03,
+  "daily_avg_pct": 1.3147,
+  "annual_pct": 11661.13,
   "mdd": -0.03,
-  "current_dd": -8.63,
-  "seed_used": 0,
-  "seed_used_pct": 0.0,
-  "long_count": 0,
+  "current_dd": 0.0,
+  "seed_used": 405.63,
+  "seed_used_pct": 27.11,
+  "long_count": 1,
   "short_count": 0,
-  "positions": [],
+  "positions": [
+    {
+      "symbol": "LABUSDT",
+      "side": "LONG",
+      "pnl": 9.62,
+      "pnl_pct": 0.54,
+      "margin": 179.41,
+      "leverage": "10",
+      "tier": "1/2",
+      "entry": 9.859,
+      "mark": 9.9121
+    }
+  ],
   "signals": {
     "AAVEUSDT": {
       "dir": "long",
@@ -36,7 +48,7 @@
     },
     "ZECUSDT": {
       "dir": "neutral",
-      "conf": 0.408
+      "conf": 0.41
     },
     "HYPEUSDT": {
       "dir": "neutral",
@@ -108,7 +120,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.468
+      "conf": 0.459
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -334,7 +346,7 @@
     },
     {
       "t": "2026-06-12",
-      "v": 553.75
+      "v": 561.29
     }
   ],
   "trade_history": [
