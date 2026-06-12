@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-13T00:01:54.391175+09:00",
+  "ts": "2026-06-13T00:02:57.289888+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1361.24,
-  "available": 1224.09,
-  "unrealized": -16.16,
-  "daily_pnl": 0,
-  "total_pnl": 426.24,
-  "cum_pct": 45.59,
-  "daily_avg_pct": 1.0204,
-  "annual_pct": 3967.39,
+  "equity": 1360.24,
+  "available": 1360.24,
+  "unrealized": 0.0,
+  "daily_pnl": -17.41,
+  "total_pnl": 425.24,
+  "cum_pct": 45.48,
+  "daily_avg_pct": 1.0183,
+  "annual_pct": 3936.64,
   "mdd": -18.34,
   "current_dd": -18.34,
-  "seed_used": 137.15,
-  "seed_used_pct": 10.08,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
   "long_count": 0,
-  "short_count": 1,
-  "positions": [
-    {
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "pnl": -16.17,
-      "pnl_pct": -2.42,
-      "margin": 136.81,
-      "leverage": "5",
-      "tier": "1/1",
-      "entry": 0.1693,
-      "mark": 0.1734
-    }
-  ],
+  "short_count": 0,
+  "positions": [],
   "signals": {
     "AAVEUSDT": {
       "dir": "long",
@@ -350,10 +338,17 @@
     },
     {
       "t": "2026-06-13",
-      "v": 426.24
+      "v": 425.24
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-13 00:02",
+      "symbol": "ADAUSDT",
+      "side": "Sell",
+      "pnl": -17.41,
+      "reason": "1/1"
+    },
     {
       "ts": "2026-06-12 23:11",
       "symbol": "XMRUSDT",
@@ -486,13 +481,6 @@
       "side": "Buy",
       "pnl": 26.57,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-12 06:11",
-      "symbol": "NEARUSDT",
-      "side": "Buy",
-      "pnl": 10.31,
-      "reason": "-"
     }
   ],
   "num_days": 37
