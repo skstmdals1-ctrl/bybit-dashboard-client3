@@ -1,32 +1,54 @@
 {
-  "ts": "2026-06-12T15:19:01.712162+09:00",
+  "ts": "2026-06-12T15:20:04.342806+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1496.29,
-  "available": 1090.66,
-  "unrealized": 8.13,
+  "equity": 1488.97,
+  "available": 744.69,
+  "unrealized": 1.59,
   "daily_pnl": -39.86,
-  "total_pnl": 561.29,
-  "cum_pct": 60.03,
-  "daily_avg_pct": 1.3147,
-  "annual_pct": 11661.13,
+  "total_pnl": 553.97,
+  "cum_pct": 59.25,
+  "daily_avg_pct": 1.3009,
+  "annual_pct": 11090.67,
   "mdd": -0.03,
   "current_dd": 0.0,
-  "seed_used": 405.63,
-  "seed_used_pct": 27.11,
-  "long_count": 1,
+  "seed_used": 744.28,
+  "seed_used_pct": 49.99,
+  "long_count": 3,
   "short_count": 0,
   "positions": [
     {
+      "symbol": "NEARUSDT",
+      "side": "LONG",
+      "pnl": -0.44,
+      "pnl_pct": -0.02,
+      "margin": 223.23,
+      "leverage": "8",
+      "tier": "1/1",
+      "entry": 2.0361,
+      "mark": 2.0356
+    },
+    {
+      "symbol": "VELVETUSDT",
+      "side": "LONG",
+      "pnl": -4.15,
+      "pnl_pct": -0.4,
+      "margin": 204.45,
+      "leverage": "5",
+      "tier": "1/2",
+      "entry": 1.532,
+      "mark": 1.5258
+    },
+    {
       "symbol": "LABUSDT",
       "side": "LONG",
-      "pnl": 9.62,
-      "pnl_pct": 0.54,
-      "margin": 179.41,
+      "pnl": 5.45,
+      "pnl_pct": 0.31,
+      "margin": 178.99,
       "leverage": "10",
       "tier": "1/2",
       "entry": 9.859,
-      "mark": 9.9121
+      "mark": 9.8891
     }
   ],
   "signals": {
@@ -346,7 +368,7 @@
     },
     {
       "t": "2026-06-12",
-      "v": 561.29
+      "v": 553.97
     }
   ],
   "trade_history": [
