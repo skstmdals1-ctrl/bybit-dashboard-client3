@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-12T18:17:46.445177+09:00",
+  "ts": "2026-06-12T18:18:49.289783+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1623.62,
-  "available": 883.85,
-  "unrealized": 69.81,
-  "daily_pnl": 26.62,
-  "total_pnl": 688.62,
-  "cum_pct": 73.65,
-  "daily_avg_pct": 1.5448,
-  "annual_pct": 26818.84,
+  "equity": 1585.73,
+  "available": 1077.46,
+  "unrealized": 53.46,
+  "daily_pnl": 4.33,
+  "total_pnl": 650.73,
+  "cum_pct": 69.6,
+  "daily_avg_pct": 1.4782,
+  "annual_pct": 21086.33,
   "mdd": -6.38,
   "current_dd": -2.12,
-  "seed_used": 739.77,
-  "seed_used_pct": 45.56,
-  "long_count": 3,
+  "seed_used": 508.28,
+  "seed_used_pct": 32.05,
+  "long_count": 2,
   "short_count": 1,
   "positions": [
     {
       "symbol": "VELVETUSDT",
       "side": "LONG",
-      "pnl": 49.38,
-      "pnl_pct": 3.89,
-      "margin": 263.99,
+      "pnl": 24.19,
+      "pnl_pct": 1.9,
+      "margin": 258.95,
       "leverage": "5",
       "tier": "1/2",
       "entry": 1.7647,
-      "mark": 1.8333
-    },
-    {
-      "symbol": "LABUSDT",
-      "side": "LONG",
-      "pnl": -11.46,
-      "pnl_pct": -0.56,
-      "margin": 224.38,
-      "leverage": "9",
-      "tier": "2/2",
-      "entry": 9.9554,
-      "mark": 9.8993
+      "mark": 1.7983
     },
     {
       "symbol": "ADAUSDT",
@@ -53,13 +42,13 @@
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": 36.03,
-      "pnl_pct": 4.12,
-      "margin": 113.94,
+      "pnl": 33.15,
+      "pnl_pct": 3.79,
+      "margin": 113.58,
       "leverage": "8",
       "tier": "1/1",
       "entry": 2.0361,
-      "mark": 2.1199
+      "mark": 2.1132
     }
   ],
   "signals": {
@@ -379,10 +368,17 @@
     },
     {
       "t": "2026-06-12",
-      "v": 688.62
+      "v": 650.73
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-12 18:18",
+      "symbol": "LABUSDT",
+      "side": "Buy",
+      "pnl": -22.29,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-12 17:55",
       "symbol": "NEARUSDT",
@@ -515,13 +511,6 @@
       "side": "Buy",
       "pnl": 5.42,
       "reason": "2/2"
-    },
-    {
-      "ts": "2026-06-11 18:52",
-      "symbol": "SOLUSDT",
-      "side": "Sell",
-      "pnl": -29.73,
-      "reason": "External Exit"
     }
   ],
   "num_days": 36
