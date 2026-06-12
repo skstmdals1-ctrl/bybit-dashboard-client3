@@ -1,65 +1,65 @@
 {
-  "ts": "2026-06-12T15:28:27.378262+09:00",
+  "ts": "2026-06-12T15:29:30.242708+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1479.56,
-  "available": 737.67,
-  "unrealized": -7.64,
+  "equity": 1493.26,
+  "available": 748.78,
+  "unrealized": 6.02,
   "daily_pnl": -39.86,
-  "total_pnl": 544.56,
-  "cum_pct": 58.24,
-  "daily_avg_pct": 1.283,
-  "annual_pct": 10391.64,
+  "total_pnl": 558.26,
+  "cum_pct": 59.71,
+  "daily_avg_pct": 1.309,
+  "annual_pct": 11422.07,
   "mdd": -2.22,
   "current_dd": 0.0,
-  "seed_used": 741.88,
-  "seed_used_pct": 50.14,
+  "seed_used": 744.48,
+  "seed_used_pct": 49.86,
   "long_count": 3,
   "short_count": 1,
   "positions": [
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": -1.32,
-      "pnl_pct": -0.07,
-      "margin": 223.12,
+      "pnl": -3.42,
+      "pnl_pct": -0.19,
+      "margin": 222.86,
       "leverage": "8",
       "tier": "1/1",
       "entry": 2.0361,
-      "mark": 2.0346
+      "mark": 2.0322
     },
     {
       "symbol": "VELVETUSDT",
       "side": "LONG",
-      "pnl": -10.93,
-      "pnl_pct": -1.07,
-      "margin": 203.1,
+      "pnl": 1.76,
+      "pnl_pct": 0.17,
+      "margin": 205.64,
       "leverage": "5",
       "tier": "1/2",
       "entry": 1.532,
-      "mark": 1.5156
+      "mark": 1.5346
     },
     {
       "symbol": "LABUSDT",
       "side": "LONG",
-      "pnl": 5.2,
-      "pnl_pct": 0.29,
-      "margin": 178.97,
+      "pnl": 5.04,
+      "pnl_pct": 0.28,
+      "margin": 178.95,
       "leverage": "10",
       "tier": "1/2",
       "entry": 9.859,
-      "mark": 9.8878
+      "mark": 9.8869
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": -0.79,
-      "pnl_pct": -0.12,
-      "margin": 133.74,
+      "pnl": -0.39,
+      "pnl_pct": -0.06,
+      "margin": 133.66,
       "leverage": "5",
       "tier": "1/1",
       "entry": 0.1693,
-      "mark": 0.1695
+      "mark": 0.1694
     }
   ],
   "signals": {
@@ -249,7 +249,7 @@
     },
     "VELVETUSDT": {
       "dir": "long",
-      "conf": 0.502
+      "conf": 0.516
     }
   },
   "equity_hist": [
@@ -379,7 +379,7 @@
     },
     {
       "t": "2026-06-12",
-      "v": 544.56
+      "v": 558.26
     }
   ],
   "trade_history": [
