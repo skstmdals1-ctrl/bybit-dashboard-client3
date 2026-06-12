@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-12T17:11:40.527573+09:00",
+  "ts": "2026-06-12T17:12:43.341119+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1587.34,
-  "available": 882.19,
-  "unrealized": 72.83,
-  "daily_pnl": -13.03,
-  "total_pnl": 652.34,
-  "cum_pct": 69.77,
-  "daily_avg_pct": 1.4811,
-  "annual_pct": 21308.47,
+  "equity": 1562.72,
+  "available": 1198.27,
+  "unrealized": 53.05,
+  "daily_pnl": -18.48,
+  "total_pnl": 627.72,
+  "cum_pct": 67.14,
+  "daily_avg_pct": 1.4371,
+  "annual_pct": 18174.31,
   "mdd": -2.92,
   "current_dd": -2.92,
-  "seed_used": 705.15,
-  "seed_used_pct": 44.42,
-  "long_count": 3,
+  "seed_used": 364.46,
+  "seed_used_pct": 23.32,
+  "long_count": 1,
   "short_count": 1,
   "positions": [
     {
-      "symbol": "WLDUSDT",
-      "side": "LONG",
-      "pnl": -7.16,
-      "pnl_pct": -0.38,
-      "margin": 232.94,
-      "leverage": "8",
-      "tier": "2/2",
-      "entry": 0.4925,
-      "mark": 0.4906
-    },
-    {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": 49.92,
-      "pnl_pct": 2.79,
-      "margin": 229.52,
+      "pnl": 53.34,
+      "pnl_pct": 2.99,
+      "margin": 229.95,
       "leverage": "8",
       "tier": "1/1",
       "entry": 2.0361,
-      "mark": 2.093
+      "mark": 2.0969
     },
     {
       "symbol": "ADAUSDT",
@@ -49,17 +38,6 @@
       "tier": "1/1",
       "entry": 0.1693,
       "mark": 0.1694
-    },
-    {
-      "symbol": "VELVETUSDT",
-      "side": "LONG",
-      "pnl": 31.6,
-      "pnl_pct": 6.25,
-      "margin": 107.43,
-      "leverage": "5",
-      "tier": "1/2",
-      "entry": 1.532,
-      "mark": 1.6277
     }
   ],
   "signals": {
@@ -379,10 +357,24 @@
     },
     {
       "t": "2026-06-12",
-      "v": 652.34
+      "v": 627.72
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-12 17:12",
+      "symbol": "WLDUSDT",
+      "side": "Buy",
+      "pnl": -39.78,
+      "reason": "1/2"
+    },
+    {
+      "ts": "2026-06-12 17:11",
+      "symbol": "VELVETUSDT",
+      "side": "Buy",
+      "pnl": 34.32,
+      "reason": "1/2"
+    },
     {
       "ts": "2026-06-12 16:07",
       "symbol": "LABUSDT",
@@ -508,20 +500,6 @@
       "side": "Buy",
       "pnl": 2.48,
       "reason": "-"
-    },
-    {
-      "ts": "2026-06-11 17:28",
-      "symbol": "BEATUSDT",
-      "side": "Buy",
-      "pnl": 3.31,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-06-11 15:31",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": 9.59,
-      "reason": "External Exit"
     }
   ],
   "num_days": 36
