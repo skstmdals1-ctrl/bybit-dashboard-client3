@@ -1,22 +1,34 @@
 {
-  "ts": "2026-06-13T18:32:22.671507+09:00",
+  "ts": "2026-06-13T18:33:25.628346+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1351.92,
-  "available": 1351.92,
-  "unrealized": 0.0,
+  "equity": 1352.17,
+  "available": 1243.67,
+  "unrealized": 0.44,
   "daily_pnl": -25.9,
-  "total_pnl": 416.92,
-  "cum_pct": 44.59,
-  "daily_avg_pct": 1.0016,
-  "annual_pct": 3700.25,
+  "total_pnl": 417.17,
+  "cum_pct": 44.62,
+  "daily_avg_pct": 1.0021,
+  "annual_pct": 3707.13,
   "mdd": -0.73,
   "current_dd": -0.73,
-  "seed_used": 0,
-  "seed_used_pct": 0.0,
-  "long_count": 0,
+  "seed_used": 108.49,
+  "seed_used_pct": 8.02,
+  "long_count": 1,
   "short_count": 0,
-  "positions": [],
+  "positions": [
+    {
+      "symbol": "HYPEUSDT",
+      "side": "LONG",
+      "pnl": 0.47,
+      "pnl_pct": 0.05,
+      "margin": 108.14,
+      "leverage": "8",
+      "tier": "1/1",
+      "entry": 58.62,
+      "mark": 58.652
+    }
+  ],
   "signals": {
     "AAVEUSDT": {
       "dir": "long",
@@ -40,7 +52,7 @@
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.695
+      "conf": 0.722
     },
     "PENGUUSDT": {
       "dir": "long",
@@ -56,7 +68,7 @@
     },
     "SOLUSDT": {
       "dir": "neutral",
-      "conf": 0.631
+      "conf": 0.625
     },
     "BCHUSDT": {
       "dir": "short",
@@ -88,7 +100,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.553
+      "conf": 0.552
     },
     "LINKUSDT": {
       "dir": "long",
@@ -334,7 +346,7 @@
     },
     {
       "t": "2026-06-13",
-      "v": 416.92
+      "v": 417.17
     }
   ],
   "trade_history": [
