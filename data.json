@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-13T16:04:01.700697+09:00",
+  "ts": "2026-06-13T16:05:04.247643+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1352.88,
-  "available": 1286.5,
-  "unrealized": -7.44,
-  "daily_pnl": -17.41,
-  "total_pnl": 417.88,
-  "cum_pct": 44.69,
-  "daily_avg_pct": 1.0034,
-  "annual_pct": 3725.05,
+  "equity": 1351.97,
+  "available": 1351.97,
+  "unrealized": 0.0,
+  "daily_pnl": -25.9,
+  "total_pnl": 416.97,
+  "cum_pct": 44.6,
+  "daily_avg_pct": 1.0017,
+  "annual_pct": 3701.63,
   "mdd": -0.69,
   "current_dd": -0.65,
-  "seed_used": 66.38,
-  "seed_used_pct": 4.91,
-  "long_count": 1,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
+  "long_count": 0,
   "short_count": 0,
-  "positions": [
-    {
-      "symbol": "XMRUSDT",
-      "side": "LONG",
-      "pnl": -7.44,
-      "pnl_pct": -2.2,
-      "margin": 66.27,
-      "leverage": "5",
-      "tier": "1/1",
-      "entry": 349.25,
-      "mark": 341.58
-    }
-  ],
+  "positions": [],
   "signals": {
     "AAVEUSDT": {
       "dir": "long",
@@ -52,7 +40,7 @@
     },
     "HYPEUSDT": {
       "dir": "short",
-      "conf": 0.556
+      "conf": 0.565
     },
     "PENGUUSDT": {
       "dir": "long",
@@ -140,7 +128,7 @@
     },
     "XMRUSDT": {
       "dir": "long",
-      "conf": 0.476
+      "conf": 0.474
     },
     "LTCUSDT": {
       "dir": "long",
@@ -346,10 +334,17 @@
     },
     {
       "t": "2026-06-13",
-      "v": 417.88
+      "v": 416.97
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-13 16:04",
+      "symbol": "XMRUSDT",
+      "side": "Buy",
+      "pnl": -8.5,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-13 00:02",
       "symbol": "ADAUSDT",
@@ -482,13 +477,6 @@
       "side": "Buy",
       "pnl": 26.24,
       "reason": "2/2"
-    },
-    {
-      "ts": "2026-06-12 06:12",
-      "symbol": "NEARUSDT",
-      "side": "Buy",
-      "pnl": 26.57,
-      "reason": "External Exit"
     }
   ],
   "num_days": 37
