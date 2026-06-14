@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-14T23:59:04.565560+09:00",
+  "ts": "2026-06-15T00:00:07.266942+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1306.45,
-  "available": 1252.46,
-  "unrealized": 10.68,
-  "daily_pnl": -55.97,
-  "total_pnl": 371.45,
-  "cum_pct": 39.73,
-  "daily_avg_pct": 0.8843,
-  "annual_pct": 2386.61,
+  "equity": 1306.13,
+  "available": 1252.1,
+  "unrealized": 10.36,
+  "daily_pnl": 0,
+  "total_pnl": 371.13,
+  "cum_pct": 39.69,
+  "daily_avg_pct": 0.8607,
+  "annual_pct": 2183.08,
   "mdd": -11.39,
   "current_dd": -11.06,
-  "seed_used": 53.99,
-  "seed_used_pct": 4.13,
+  "seed_used": 54.03,
+  "seed_used_pct": 4.14,
   "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 10.69,
-      "pnl_pct": 2.43,
-      "margin": 53.75,
+      "pnl": 10.05,
+      "pnl_pct": 2.28,
+      "margin": 53.83,
       "leverage": "8",
       "tier": "1/1",
       "entry": 68.86,
-      "mark": 67.19
+      "mark": 67.29
     }
   ],
   "signals": {
@@ -347,6 +347,10 @@
     {
       "t": "2026-06-14",
       "v": 371.45
+    },
+    {
+      "t": "2026-06-15",
+      "v": 371.13
     }
   ],
   "trade_history": [
@@ -491,5 +495,5 @@
       "reason": "-"
     }
   ],
-  "num_days": 38
+  "num_days": 39
 }
