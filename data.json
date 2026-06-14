@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-15T00:06:24.211540+09:00",
+  "ts": "2026-06-15T00:07:27.040778+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1305.55,
-  "available": 1251.42,
-  "unrealized": 9.63,
-  "daily_pnl": 0,
-  "total_pnl": 370.55,
-  "cum_pct": 39.63,
-  "daily_avg_pct": 0.8596,
-  "annual_pct": 2174.01,
+  "equity": 1305.65,
+  "available": 1305.65,
+  "unrealized": 0.0,
+  "daily_pnl": 9.61,
+  "total_pnl": 370.65,
+  "cum_pct": 39.64,
+  "daily_avg_pct": 0.8598,
+  "annual_pct": 2175.66,
   "mdd": -11.39,
-  "current_dd": -11.12,
-  "seed_used": 54.13,
-  "seed_used_pct": 4.15,
+  "current_dd": -11.11,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
   "long_count": 0,
-  "short_count": 1,
-  "positions": [
-    {
-      "symbol": "SOLUSDT",
-      "side": "SHORT",
-      "pnl": 9.63,
-      "pnl_pct": 2.19,
-      "margin": 53.88,
-      "leverage": "8",
-      "tier": "1/1",
-      "entry": 68.86,
-      "mark": 67.355
-    }
-  ],
+  "short_count": 0,
+  "positions": [],
   "signals": {
     "AAVEUSDT": {
       "dir": "long",
@@ -48,11 +36,11 @@
     },
     "ZECUSDT": {
       "dir": "long",
-      "conf": 0.477
+      "conf": 0.476
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 1.0
+      "conf": 0.997
     },
     "PENGUUSDT": {
       "dir": "long",
@@ -68,7 +56,7 @@
     },
     "SOLUSDT": {
       "dir": "long",
-      "conf": 0.583
+      "conf": 0.582
     },
     "BCHUSDT": {
       "dir": "short",
@@ -100,7 +88,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.602
+      "conf": 0.603
     },
     "LINKUSDT": {
       "dir": "long",
@@ -208,7 +196,7 @@
     },
     "BEATUSDT": {
       "dir": "long",
-      "conf": 0.579
+      "conf": 0.584
     },
     "SIRENUSDT": {
       "dir": "short",
@@ -350,10 +338,17 @@
     },
     {
       "t": "2026-06-15",
-      "v": 370.55
+      "v": 370.65
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-15 00:07",
+      "symbol": "SOLUSDT",
+      "side": "Sell",
+      "pnl": 9.61,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-14 23:52",
       "symbol": "SOLUSDT",
@@ -486,13 +481,6 @@
       "side": "Buy",
       "pnl": -22.29,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-12 17:55",
-      "symbol": "NEARUSDT",
-      "side": "Buy",
-      "pnl": 18.57,
-      "reason": "-"
     }
   ],
   "num_days": 39
