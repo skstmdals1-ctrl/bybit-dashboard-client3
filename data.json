@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-16T06:12:22.284307+09:00",
+  "ts": "2026-06-16T06:13:25.198703+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1518.1,
-  "available": 1144.99,
-  "unrealized": -5.44,
-  "daily_pnl": 39.61,
-  "total_pnl": 583.1,
-  "cum_pct": 62.36,
-  "daily_avg_pct": 1.219,
-  "annual_pct": 8230.01,
+  "equity": 1514.78,
+  "available": 1266.5,
+  "unrealized": 7.27,
+  "daily_pnl": 23.48,
+  "total_pnl": 579.78,
+  "cum_pct": 62.01,
+  "daily_avg_pct": 1.2135,
+  "annual_pct": 8066.42,
   "mdd": -12.05,
-  "current_dd": -4.93,
-  "seed_used": 373.11,
-  "seed_used_pct": 24.58,
+  "current_dd": -5.11,
+  "seed_used": 248.28,
+  "seed_used_pct": 16.39,
   "long_count": 2,
-  "short_count": 1,
+  "short_count": 0,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 9.84,
-      "pnl_pct": 1.13,
-      "margin": 125.52,
+      "pnl": 10.36,
+      "pnl_pct": 1.19,
+      "margin": 125.59,
       "leverage": "7",
       "tier": "1/1",
       "entry": 66.779,
-      "mark": 67.535
-    },
-    {
-      "symbol": "WLDUSDT",
-      "side": "SHORT",
-      "pnl": -12.57,
-      "pnl_pct": -1.47,
-      "margin": 124.35,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 0.5896,
-      "mark": 0.5982
+      "mark": 67.575
     },
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": -2.7,
-      "pnl_pct": -0.32,
-      "margin": 122.05,
+      "pnl": -3.08,
+      "pnl_pct": -0.36,
+      "margin": 122.0,
       "leverage": "7",
       "tier": "1/1",
       "entry": 75.18,
-      "mark": 74.943
+      "mark": 74.91
     }
   ],
   "signals": {
@@ -69,8 +58,8 @@
       "conf": 0.453
     },
     "ZECUSDT": {
-      "dir": "long",
-      "conf": 0.48
+      "dir": "short",
+      "conf": 0.479
     },
     "HYPEUSDT": {
       "dir": "short",
@@ -90,7 +79,7 @@
     },
     "SOLUSDT": {
       "dir": "long",
-      "conf": 0.451
+      "conf": 0.452
     },
     "BCHUSDT": {
       "dir": "short",
@@ -138,7 +127,7 @@
     },
     "NEARUSDT": {
       "dir": "short",
-      "conf": 0.654
+      "conf": 0.547
     },
     "ETHUSDT": {
       "dir": "neutral",
@@ -242,7 +231,7 @@
     },
     "XLMUSDT": {
       "dir": "short",
-      "conf": 0.597
+      "conf": 0.598
     }
   },
   "equity_hist": [
@@ -376,10 +365,17 @@
     },
     {
       "t": "2026-06-16",
-      "v": 583.1
+      "v": 579.78
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-16 06:13",
+      "symbol": "WLDUSDT",
+      "side": "Sell",
+      "pnl": -16.14,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-16 04:19",
       "symbol": "SOLUSDT",
@@ -511,13 +507,6 @@
       "symbol": "SOLUSDT",
       "side": "Sell",
       "pnl": 9.61,
-      "reason": "1/1"
-    },
-    {
-      "ts": "2026-06-14 23:52",
-      "symbol": "SOLUSDT",
-      "side": "Sell",
-      "pnl": 11.34,
       "reason": "1/1"
     }
   ],
