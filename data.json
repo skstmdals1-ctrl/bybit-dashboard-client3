@@ -1,54 +1,54 @@
 {
-  "ts": "2026-06-16T05:35:40.208462+09:00",
+  "ts": "2026-06-16T05:36:43.401108+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1519.87,
-  "available": 1146.97,
-  "unrealized": -3.57,
+  "equity": 1523.54,
+  "available": 1151.5,
+  "unrealized": 0.15,
   "daily_pnl": 39.61,
-  "total_pnl": 584.87,
-  "cum_pct": 62.55,
-  "daily_avg_pct": 1.2219,
-  "annual_pct": 8317.58,
+  "total_pnl": 588.54,
+  "cum_pct": 62.95,
+  "daily_avg_pct": 1.2282,
+  "annual_pct": 8510.98,
   "mdd": -12.05,
   "current_dd": -4.98,
-  "seed_used": 372.89,
-  "seed_used_pct": 24.53,
+  "seed_used": 372.04,
+  "seed_used_pct": 24.42,
   "long_count": 2,
   "short_count": 1,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 8.77,
-      "pnl_pct": 1.01,
-      "margin": 125.37,
+      "pnl": 8.85,
+      "pnl_pct": 1.02,
+      "margin": 125.38,
       "leverage": "7",
       "tier": "1/1",
       "entry": 66.779,
-      "mark": 67.453
+      "mark": 67.459
     },
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": -10.68,
-      "pnl_pct": -1.25,
-      "margin": 124.08,
+      "pnl": -6.61,
+      "pnl_pct": -0.77,
+      "margin": 123.5,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.5896,
-      "mark": 0.5969
+      "mark": 0.5941
     },
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": -1.37,
-      "pnl_pct": -0.16,
-      "margin": 122.24,
+      "pnl": -2.51,
+      "pnl_pct": -0.29,
+      "margin": 122.08,
       "leverage": "7",
       "tier": "1/1",
       "entry": 75.18,
-      "mark": 75.06
+      "mark": 74.96
     }
   ],
   "signals": {
@@ -74,7 +74,7 @@
     },
     "HYPEUSDT": {
       "dir": "short",
-      "conf": 0.504
+      "conf": 0.502
     },
     "PENGUUSDT": {
       "dir": "long",
@@ -90,7 +90,7 @@
     },
     "SOLUSDT": {
       "dir": "long",
-      "conf": 0.446
+      "conf": 0.444
     },
     "BCHUSDT": {
       "dir": "short",
@@ -110,7 +110,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.432
+      "conf": 0.422
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -376,7 +376,7 @@
     },
     {
       "t": "2026-06-16",
-      "v": 584.87
+      "v": 588.54
     }
   ],
   "trade_history": [
