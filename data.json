@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-15T19:08:41.791540+09:00",
+  "ts": "2026-06-15T19:09:45.260511+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1545.94,
-  "available": 1328.37,
-  "unrealized": 28.82,
-  "daily_pnl": 214.78,
-  "total_pnl": 610.94,
-  "cum_pct": 65.34,
-  "daily_avg_pct": 1.2977,
-  "annual_pct": 10962.38,
+  "equity": 1547.34,
+  "available": 1402.7,
+  "unrealized": 38.13,
+  "daily_pnl": 206.67,
+  "total_pnl": 612.34,
+  "cum_pct": 65.49,
+  "daily_avg_pct": 1.3,
+  "annual_pct": 11054.43,
   "mdd": -12.05,
   "current_dd": 0.0,
-  "seed_used": 217.57,
-  "seed_used_pct": 14.07,
+  "seed_used": 144.63,
+  "seed_used_pct": 9.35,
   "long_count": 2,
-  "short_count": 1,
+  "short_count": 0,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 4.3,
+      "pnl": 4.34,
       "pnl_pct": 0.49,
-      "margin": 98.31,
+      "margin": 98.32,
       "leverage": "9",
       "tier": "1/1",
       "entry": 71.01,
-      "mark": 71.357
-    },
-    {
-      "symbol": "HYPEUSDT",
-      "side": "SHORT",
-      "pnl": -7.58,
-      "pnl_pct": -2.12,
-      "margin": 72.98,
-      "leverage": "5",
-      "tier": "1/1",
-      "entry": 65.205,
-      "mark": 66.589
+      "mark": 71.36
     },
     {
       "symbol": "HUSDT",
       "side": "LONG",
-      "pnl": 32.41,
-      "pnl_pct": 9.74,
-      "margin": 45.63,
+      "pnl": 33.81,
+      "pnl_pct": 10.16,
+      "margin": 45.81,
       "leverage": "8",
       "tier": "1/2",
       "entry": 0.5735,
-      "mark": 0.6294
+      "mark": 0.6318
     }
   ],
   "signals": {
@@ -368,10 +357,17 @@
     },
     {
       "t": "2026-06-15",
-      "v": 610.94
+      "v": 612.34
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-15 19:09",
+      "symbol": "HYPEUSDT",
+      "side": "Sell",
+      "pnl": -8.12,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-15 17:52",
       "symbol": "HUSDT",
@@ -504,13 +500,6 @@
       "side": "Buy",
       "pnl": 3.79,
       "reason": "1/1"
-    },
-    {
-      "ts": "2026-06-13 16:04",
-      "symbol": "XMRUSDT",
-      "side": "Buy",
-      "pnl": -8.5,
-      "reason": "External Exit"
     }
   ],
   "num_days": 39
