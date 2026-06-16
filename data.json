@@ -1,54 +1,43 @@
 {
-  "ts": "2026-06-16T14:03:09.982690+09:00",
+  "ts": "2026-06-16T14:04:12.798196+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1521.85,
-  "available": 1185.95,
-  "unrealized": 33.63,
-  "daily_pnl": 4.38,
-  "total_pnl": 586.85,
-  "cum_pct": 62.76,
-  "daily_avg_pct": 1.2252,
-  "annual_pct": 8418.34,
+  "equity": 1520.74,
+  "available": 1277.15,
+  "unrealized": -4.9,
+  "daily_pnl": 41.74,
+  "total_pnl": 585.74,
+  "cum_pct": 62.65,
+  "daily_avg_pct": 1.2235,
+  "annual_pct": 8366.28,
   "mdd": -12.05,
   "current_dd": -4.64,
-  "seed_used": 335.9,
-  "seed_used_pct": 22.07,
-  "long_count": 1,
+  "seed_used": 243.59,
+  "seed_used_pct": 16.02,
+  "long_count": 0,
   "short_count": 2,
   "positions": [
     {
       "symbol": "XLMUSDT",
       "side": "SHORT",
-      "pnl": -4.14,
-      "pnl_pct": -0.48,
-      "margin": 122.7,
+      "pnl": -5.58,
+      "pnl_pct": -0.65,
+      "margin": 122.9,
       "leverage": "7",
       "tier": "1/1",
       "entry": 0.2128,
-      "mark": 0.2138
+      "mark": 0.2142
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 0.43,
-      "pnl_pct": 0.05,
-      "margin": 119.78,
+      "pnl": 0.68,
+      "pnl_pct": 0.08,
+      "margin": 119.75,
       "leverage": "7",
       "tier": "1/1",
       "entry": 73.59,
-      "mark": 73.552
-    },
-    {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": 37.35,
-      "pnl_pct": 6.14,
-      "margin": 92.24,
-      "leverage": "7",
-      "tier": "1/1",
-      "entry": 66.779,
-      "mark": 70.879
+      "mark": 73.53
     }
   ],
   "signals": {
@@ -372,10 +361,17 @@
     },
     {
       "t": "2026-06-16",
-      "v": 586.85
+      "v": 585.74
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-16 14:03",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
+      "pnl": 37.36,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-16 13:58",
       "symbol": "HYPEUSDT",
@@ -507,13 +503,6 @@
       "symbol": "BEATUSDT",
       "side": "Buy",
       "pnl": -21.51,
-      "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-15 12:53",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": 68.98,
       "reason": "External Exit"
     }
   ],
