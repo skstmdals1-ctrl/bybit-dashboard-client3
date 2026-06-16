@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-17T08:10:06.806228+09:00",
+  "ts": "2026-06-17T08:11:09.685199+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1437.28,
-  "available": 1320.82,
-  "unrealized": 6.51,
+  "equity": 1438.14,
+  "available": 1321.8,
+  "unrealized": 7.36,
   "daily_pnl": -25.71,
-  "total_pnl": 502.28,
-  "cum_pct": 53.72,
-  "daily_avg_pct": 1.0542,
-  "annual_pct": 4495.62,
+  "total_pnl": 503.14,
+  "cum_pct": 53.81,
+  "daily_avg_pct": 1.0556,
+  "annual_pct": 4518.92,
   "mdd": -12.05,
-  "current_dd": -10.03,
-  "seed_used": 116.46,
-  "seed_used_pct": 8.1,
+  "current_dd": -10.05,
+  "seed_used": 116.34,
+  "seed_used_pct": 8.09,
   "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "XLMUSDT",
       "side": "SHORT",
-      "pnl": 6.51,
-      "pnl_pct": 0.8,
-      "margin": 116.06,
+      "pnl": 7.51,
+      "pnl_pct": 0.92,
+      "margin": 115.91,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.2217,
-      "mark": 0.22
+      "mark": 0.2197
     }
   ],
   "signals": {
@@ -39,7 +39,7 @@
       "conf": 0.511
     },
     "WLDUSDT": {
-      "dir": "long",
+      "dir": "short",
       "conf": 0.48
     },
     "1000PEPEUSDT": {
@@ -88,7 +88,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.491
+      "conf": 0.474
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -119,8 +119,8 @@
       "conf": 0.639
     },
     "ETHUSDT": {
-      "dir": "short",
-      "conf": 0.461
+      "dir": "neutral",
+      "conf": 0.445
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -354,7 +354,7 @@
     },
     {
       "t": "2026-06-17",
-      "v": 502.28
+      "v": 503.14
     }
   ],
   "trade_history": [
