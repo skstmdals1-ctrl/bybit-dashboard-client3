@@ -1,17 +1,17 @@
 {
-  "ts": "2026-06-17T10:28:26.540378+09:00",
+  "ts": "2026-06-17T10:29:29.470127+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1436.73,
-  "available": 1320.17,
-  "unrealized": 5.84,
+  "equity": 1436.82,
+  "available": 1320.26,
+  "unrealized": 5.88,
   "daily_pnl": -25.71,
-  "total_pnl": 501.73,
-  "cum_pct": 53.66,
-  "daily_avg_pct": 1.0532,
-  "annual_pct": 4479.05,
+  "total_pnl": 501.82,
+  "cum_pct": 53.67,
+  "daily_avg_pct": 1.0534,
+  "annual_pct": 4482.36,
   "mdd": -12.05,
-  "current_dd": -9.94,
+  "current_dd": -10.15,
   "seed_used": 116.56,
   "seed_used_pct": 8.11,
   "long_count": 0,
@@ -20,13 +20,13 @@
     {
       "symbol": "XLMUSDT",
       "side": "SHORT",
-      "pnl": 6.0,
-      "pnl_pct": 0.73,
-      "margin": 116.13,
+      "pnl": 5.89,
+      "pnl_pct": 0.72,
+      "margin": 116.14,
       "leverage": "7",
       "tier": "2/2",
       "entry": 0.2217,
-      "mark": 0.2201
+      "mark": 0.2202
     }
   ],
   "signals": {
@@ -119,8 +119,8 @@
       "conf": 0.639
     },
     "ETHUSDT": {
-      "dir": "neutral",
-      "conf": 0.398
+      "dir": "long",
+      "conf": 0.419
     },
     "STABLEUSDT": {
       "dir": "short",
@@ -220,7 +220,7 @@
     },
     "XLMUSDT": {
       "dir": "short",
-      "conf": 0.602
+      "conf": 0.601
     }
   },
   "equity_hist": [
@@ -350,7 +350,7 @@
     },
     {
       "t": "2026-06-17",
-      "v": 501.73
+      "v": 501.82
     }
   ],
   "trade_history": [
