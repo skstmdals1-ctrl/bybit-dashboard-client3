@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-17T10:46:15.988056+09:00",
+  "ts": "2026-06-17T10:47:18.742919+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1420.96,
-  "available": 1302.13,
-  "unrealized": -9.99,
-  "daily_pnl": -25.71,
-  "total_pnl": 485.96,
-  "cum_pct": 51.97,
-  "daily_avg_pct": 1.026,
-  "annual_pct": 4050.52,
+  "equity": 1416.6,
+  "available": 1416.6,
+  "unrealized": 0.0,
+  "daily_pnl": -40.17,
+  "total_pnl": 481.6,
+  "cum_pct": 51.51,
+  "daily_avg_pct": 1.0185,
+  "annual_pct": 3939.56,
   "mdd": -12.05,
   "current_dd": -10.83,
-  "seed_used": 118.83,
-  "seed_used_pct": 8.36,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
   "long_count": 0,
-  "short_count": 1,
-  "positions": [
-    {
-      "symbol": "XLMUSDT",
-      "side": "SHORT",
-      "pnl": -9.99,
-      "pnl_pct": -1.22,
-      "margin": 118.41,
-      "leverage": "7",
-      "tier": "2/2",
-      "entry": 0.2217,
-      "mark": 0.2245
-    }
-  ],
+  "short_count": 0,
+  "positions": [],
   "signals": {
     "AAVEUSDT": {
       "dir": "long",
@@ -350,10 +338,17 @@
     },
     {
       "t": "2026-06-17",
-      "v": 485.96
+      "v": 481.6
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-17 10:46",
+      "symbol": "XLMUSDT",
+      "side": "Sell",
+      "pnl": -14.46,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-17 07:11",
       "symbol": "ZECUSDT",
@@ -486,13 +481,6 @@
       "side": "Buy",
       "pnl": -59.66,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-15 20:40",
-      "symbol": "HUSDT",
-      "side": "Buy",
-      "pnl": 10.09,
-      "reason": "2/2"
     }
   ],
   "num_days": 41
