@@ -1,18 +1,18 @@
 {
-  "ts": "2026-06-18T00:35:07.396124+09:00",
+  "ts": "2026-06-18T00:36:10.346724+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1421.92,
-  "available": 1279.83,
-  "unrealized": 8.66,
+  "equity": 1421.97,
+  "available": 1279.88,
+  "unrealized": 8.61,
   "daily_pnl": 0,
-  "total_pnl": 486.92,
+  "total_pnl": 486.97,
   "cum_pct": 52.08,
   "daily_avg_pct": 1.0032,
   "annual_pct": 3722.29,
   "mdd": -0.6,
-  "current_dd": -0.21,
-  "seed_used": 142.09,
+  "current_dd": 0.0,
+  "seed_used": 142.1,
   "seed_used_pct": 9.99,
   "long_count": 1,
   "short_count": 0,
@@ -20,13 +20,13 @@
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 8.66,
+      "pnl": 8.62,
       "pnl_pct": 0.77,
-      "margin": 141.67,
+      "margin": 141.66,
       "leverage": "8",
       "tier": "1/1",
       "entry": 72.56,
-      "mark": 73.119
+      "mark": 73.116
     }
   ],
   "signals": {
@@ -64,7 +64,7 @@
     },
     "ENAUSDT": {
       "dir": "short",
-      "conf": 0.579
+      "conf": 0.58
     },
     "SOLUSDT": {
       "dir": "long",
@@ -115,8 +115,8 @@
       "conf": 0.441
     },
     "NEARUSDT": {
-      "dir": "long",
-      "conf": 0.505
+      "dir": "short",
+      "conf": 0.506
     },
     "ETHUSDT": {
       "dir": "long",
@@ -208,7 +208,7 @@
     },
     "BEATUSDT": {
       "dir": "long",
-      "conf": 0.597
+      "conf": 0.598
     },
     "SIRENUSDT": {
       "dir": "short",
@@ -358,7 +358,7 @@
     },
     {
       "t": "2026-06-18",
-      "v": 486.92
+      "v": 486.97
     }
   ],
   "trade_history": [
