@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-18T04:25:11.952364+09:00",
+  "ts": "2026-06-18T04:26:14.956438+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1412.56,
-  "available": 1341.83,
-  "unrealized": -2.03,
-  "daily_pnl": 0.75,
-  "total_pnl": 477.56,
-  "cum_pct": 51.08,
-  "daily_avg_pct": 0.9873,
-  "annual_pct": 3508.84,
+  "equity": 1412.3,
+  "available": 1412.3,
+  "unrealized": 0.0,
+  "daily_pnl": -1.37,
+  "total_pnl": 477.3,
+  "cum_pct": 51.05,
+  "daily_avg_pct": 0.9868,
+  "annual_pct": 3502.33,
   "mdd": -2.36,
   "current_dd": -2.36,
-  "seed_used": 70.73,
-  "seed_used_pct": 5.01,
-  "long_count": 1,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
+  "long_count": 0,
   "short_count": 0,
-  "positions": [
-    {
-      "symbol": "SOLUSDT",
-      "side": "LONG",
-      "pnl": -2.31,
-      "pnl_pct": -0.41,
-      "margin": 70.46,
-      "leverage": "8",
-      "tier": "1/1",
-      "entry": 72.56,
-      "mark": 72.264
-    }
-  ],
+  "positions": [],
   "signals": {
     "AAVEUSDT": {
       "dir": "long",
@@ -358,10 +346,17 @@
     },
     {
       "t": "2026-06-18",
-      "v": 477.56
+      "v": 477.3
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-18 04:25",
+      "symbol": "SOLUSDT",
+      "side": "Buy",
+      "pnl": -2.12,
+      "reason": "1/1"
+    },
     {
       "ts": "2026-06-18 04:19",
       "symbol": "SOLUSDT",
@@ -493,13 +488,6 @@
       "symbol": "XLMUSDT",
       "side": "Buy",
       "pnl": -2.48,
-      "reason": "1/2"
-    },
-    {
-      "ts": "2026-06-16 01:55",
-      "symbol": "XLMUSDT",
-      "side": "Buy",
-      "pnl": -1.92,
       "reason": "1/2"
     }
   ],
