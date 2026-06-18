@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-18T23:24:13.301210+09:00",
+  "ts": "2026-06-18T23:25:16.226974+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1391.92,
-  "available": 1255.12,
-  "unrealized": 11.68,
-  "daily_pnl": -32.59,
-  "total_pnl": 456.92,
-  "cum_pct": 48.87,
-  "daily_avg_pct": 0.9519,
-  "annual_pct": 3075.35,
+  "equity": 1394.48,
+  "available": 1326.38,
+  "unrealized": 7.96,
+  "daily_pnl": -26.46,
+  "total_pnl": 459.48,
+  "cum_pct": 49.14,
+  "daily_avg_pct": 0.9562,
+  "annual_pct": 3125.1,
   "mdd": -5.12,
-  "current_dd": -3.6,
-  "seed_used": 136.79,
-  "seed_used_pct": 9.83,
+  "current_dd": -3.74,
+  "seed_used": 68.1,
+  "seed_used_pct": 4.88,
   "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "SHORT",
-      "pnl": 11.68,
-      "pnl_pct": 1.21,
-      "margin": 136.35,
+      "pnl": 7.96,
+      "pnl_pct": 1.65,
+      "margin": 67.87,
       "leverage": "7",
       "tier": "1/1",
       "entry": 71.566,
-      "mark": 70.701
+      "mark": 70.386
     }
   ],
   "signals": {
@@ -40,7 +40,7 @@
     },
     "WLDUSDT": {
       "dir": "long",
-      "conf": 0.493
+      "conf": 0.494
     },
     "1000PEPEUSDT": {
       "dir": "short",
@@ -48,11 +48,11 @@
     },
     "ZECUSDT": {
       "dir": "short",
-      "conf": 0.534
+      "conf": 0.533
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.518
+      "conf": 0.575
     },
     "PENGUUSDT": {
       "dir": "long",
@@ -354,10 +354,17 @@
     },
     {
       "t": "2026-06-18",
-      "v": 456.92
+      "v": 459.48
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-18 23:24",
+      "symbol": "HYPEUSDT",
+      "side": "Sell",
+      "pnl": 6.13,
+      "reason": "1/1"
+    },
     {
       "ts": "2026-06-18 08:58",
       "symbol": "BEATUSDT",
@@ -490,13 +497,6 @@
       "side": "Sell",
       "pnl": -16.14,
       "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-16 04:19",
-      "symbol": "SOLUSDT",
-      "side": "Buy",
-      "pnl": 31.01,
-      "reason": "1/1"
     }
   ],
   "num_days": 42
