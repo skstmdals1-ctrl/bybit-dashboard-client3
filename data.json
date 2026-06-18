@@ -1,22 +1,34 @@
 {
-  "ts": "2026-06-19T07:33:07.722115+09:00",
+  "ts": "2026-06-19T07:34:10.371670+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1399.23,
-  "available": 1399.23,
-  "unrealized": 0.0,
+  "equity": 1398.12,
+  "available": 1326.91,
+  "unrealized": -0.99,
   "daily_pnl": 0,
-  "total_pnl": 464.23,
-  "cum_pct": 49.65,
-  "daily_avg_pct": 0.9419,
-  "annual_pct": 2962.59,
+  "total_pnl": 463.12,
+  "cum_pct": 49.53,
+  "daily_avg_pct": 0.94,
+  "annual_pct": 2941.62,
   "mdd": -5.12,
   "current_dd": -3.18,
-  "seed_used": 0,
-  "seed_used_pct": 0.0,
-  "long_count": 0,
+  "seed_used": 71.21,
+  "seed_used_pct": 5.09,
+  "long_count": 1,
   "short_count": 0,
-  "positions": [],
+  "positions": [
+    {
+      "symbol": "LABUSDT",
+      "side": "LONG",
+      "pnl": -0.99,
+      "pnl_pct": -0.2,
+      "margin": 70.81,
+      "leverage": "7",
+      "tier": "1/2",
+      "entry": 17.738,
+      "mark": 17.7028
+    }
+  ],
   "signals": {
     "AAVEUSDT": {
       "dir": "long",
@@ -187,8 +199,8 @@
       "conf": 0.487
     },
     "LABUSDT": {
-      "dir": "short",
-      "conf": 0.456
+      "dir": "long",
+      "conf": 0.459
     },
     "HUSDT": {
       "dir": "long",
@@ -346,7 +358,7 @@
     },
     {
       "t": "2026-06-19",
-      "v": 464.23
+      "v": 463.12
     }
   ],
   "trade_history": [
@@ -425,49 +437,49 @@
       "symbol": "SOLUSDT",
       "side": "Buy",
       "pnl": -6.74,
-      "reason": "1/1"
+      "reason": "-"
     },
     {
       "ts": "2026-06-16 20:52",
       "symbol": "NEARUSDT",
       "side": "Buy",
       "pnl": -11.57,
-      "reason": "External Exit"
+      "reason": "-"
     },
     {
       "ts": "2026-06-16 17:47",
       "symbol": "HYPEUSDT",
       "side": "Sell",
       "pnl": -23.81,
-      "reason": "External Exit"
+      "reason": "-"
     },
     {
       "ts": "2026-06-16 15:47",
       "symbol": "SOLUSDT",
       "side": "Sell",
       "pnl": -3.25,
-      "reason": "1/1"
+      "reason": "-"
     },
     {
       "ts": "2026-06-16 15:30",
       "symbol": "SOLUSDT",
       "side": "Sell",
       "pnl": -2.05,
-      "reason": "1/1"
+      "reason": "-"
     },
     {
       "ts": "2026-06-16 14:50",
       "symbol": "XLMUSDT",
       "side": "Sell",
       "pnl": -21.38,
-      "reason": "External Exit"
+      "reason": "-"
     },
     {
       "ts": "2026-06-16 14:03",
       "symbol": "HYPEUSDT",
       "side": "Buy",
       "pnl": 37.36,
-      "reason": "External Exit"
+      "reason": "-"
     },
     {
       "ts": "2026-06-16 13:58",
@@ -481,14 +493,14 @@
       "symbol": "SOLUSDT",
       "side": "Buy",
       "pnl": -19.32,
-      "reason": "1/1"
+      "reason": "-"
     },
     {
       "ts": "2026-06-16 07:31",
       "symbol": "NEARUSDT",
       "side": "Buy",
       "pnl": -12.72,
-      "reason": "External Exit"
+      "reason": "-"
     }
   ],
   "num_days": 43
