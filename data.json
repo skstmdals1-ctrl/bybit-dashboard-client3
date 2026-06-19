@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-20T01:39:56.378651+09:00",
+  "ts": "2026-06-20T01:40:59.245086+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1468.13,
-  "available": 1273.69,
-  "unrealized": 22.61,
-  "daily_pnl": 3.81,
-  "total_pnl": 533.13,
-  "cum_pct": 57.02,
-  "daily_avg_pct": 1.0307,
-  "annual_pct": 4121.6,
+  "equity": 1468.88,
+  "available": 1381.8,
+  "unrealized": 16.46,
+  "daily_pnl": 10.69,
+  "total_pnl": 533.88,
+  "cum_pct": 57.1,
+  "daily_avg_pct": 1.0319,
+  "annual_pct": 4139.94,
   "mdd": -5.12,
   "current_dd": -0.11,
-  "seed_used": 194.44,
-  "seed_used_pct": 13.24,
+  "seed_used": 87.08,
+  "seed_used_pct": 5.93,
   "long_count": 1,
-  "short_count": 1,
+  "short_count": 0,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 16.58,
-      "pnl_pct": 3.96,
-      "margin": 87.0,
+      "pnl": 16.47,
+      "pnl_pct": 3.94,
+      "margin": 86.98,
       "leverage": "5",
       "tier": "1/1",
       "entry": 67.594,
-      "mark": 70.273
-    },
-    {
-      "symbol": "LABUSDT",
-      "side": "SHORT",
-      "pnl": 6.05,
-      "pnl_pct": 6.52,
-      "margin": 9.63,
-      "leverage": "9",
-      "tier": "2/2",
-      "entry": 15.454,
-      "mark": 14.446
+      "mark": 70.255
     }
   ],
   "signals": {
@@ -369,10 +358,17 @@
     },
     {
       "t": "2026-06-20",
-      "v": 533.13
+      "v": 533.88
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-20 01:40",
+      "symbol": "LABUSDT",
+      "side": "Sell",
+      "pnl": 6.88,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-20 01:13",
       "symbol": "LABUSDT",
@@ -490,28 +486,21 @@
       "symbol": "HUSDT",
       "side": "Buy",
       "pnl": -3.14,
-      "reason": "External Exit"
+      "reason": "-"
     },
     {
       "ts": "2026-06-17 10:46",
       "symbol": "XLMUSDT",
       "side": "Sell",
       "pnl": -14.46,
-      "reason": "External Exit"
+      "reason": "-"
     },
     {
       "ts": "2026-06-17 07:11",
       "symbol": "ZECUSDT",
       "side": "Sell",
       "pnl": -16.29,
-      "reason": "External Exit"
-    },
-    {
-      "ts": "2026-06-17 03:51",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": -5.42,
-      "reason": "1/1"
+      "reason": "-"
     }
   ],
   "num_days": 44
