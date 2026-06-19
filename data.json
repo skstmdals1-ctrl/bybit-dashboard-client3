@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-19T14:49:54.857969+09:00",
+  "ts": "2026-06-19T14:50:57.732546+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1394.1,
-  "available": 1288.32,
-  "unrealized": 0.25,
+  "equity": 1393.44,
+  "available": 1287.58,
+  "unrealized": -0.36,
   "daily_pnl": -5.49,
-  "total_pnl": 459.1,
-  "cum_pct": 49.1,
-  "daily_avg_pct": 0.9333,
-  "annual_pct": 2868.81,
+  "total_pnl": 458.44,
+  "cum_pct": 49.03,
+  "daily_avg_pct": 0.9322,
+  "annual_pct": 2857.02,
   "mdd": -5.12,
-  "current_dd": -3.5,
-  "seed_used": 105.78,
-  "seed_used_pct": 7.59,
+  "current_dd": -3.56,
+  "seed_used": 105.87,
+  "seed_used_pct": 7.6,
   "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "LABUSDT",
       "side": "SHORT",
-      "pnl": 0.38,
-      "pnl_pct": 0.31,
-      "margin": 17.59,
+      "pnl": -0.37,
+      "pnl_pct": -0.3,
+      "margin": 17.7,
       "leverage": "7",
       "tier": "2/2",
       "entry": 15.439,
-      "mark": 15.3918
+      "mark": 15.485
     }
   ],
   "signals": {
@@ -87,8 +87,8 @@
       "conf": 0.557
     },
     "BTCUSDT": {
-      "dir": "long",
-      "conf": 0.42
+      "dir": "short",
+      "conf": 0.37
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -200,7 +200,7 @@
     },
     "LABUSDT": {
       "dir": "short",
-      "conf": 0.435
+      "conf": 0.449
     },
     "HUSDT": {
       "dir": "long",
@@ -354,7 +354,7 @@
     },
     {
       "t": "2026-06-19",
-      "v": 459.1
+      "v": 458.44
     }
   ],
   "trade_history": [
