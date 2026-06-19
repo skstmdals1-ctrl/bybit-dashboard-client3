@@ -1,22 +1,34 @@
 {
-  "ts": "2026-06-19T14:39:26.833164+09:00",
+  "ts": "2026-06-19T14:40:29.540925+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1393.79,
-  "available": 1393.79,
-  "unrealized": 0.0,
+  "equity": 1393.62,
+  "available": 1375.79,
+  "unrealized": -0.27,
   "daily_pnl": -5.49,
-  "total_pnl": 458.79,
-  "cum_pct": 49.07,
-  "daily_avg_pct": 0.9328,
-  "annual_pct": 2863.45,
+  "total_pnl": 458.62,
+  "cum_pct": 49.05,
+  "daily_avg_pct": 0.9325,
+  "annual_pct": 2860.23,
   "mdd": -5.12,
-  "current_dd": -3.55,
-  "seed_used": 0,
-  "seed_used_pct": 0.0,
+  "current_dd": -3.56,
+  "seed_used": 17.82,
+  "seed_used_pct": 1.28,
   "long_count": 0,
-  "short_count": 0,
-  "positions": [],
+  "short_count": 1,
+  "positions": [
+    {
+      "symbol": "LABUSDT",
+      "side": "SHORT",
+      "pnl": -0.25,
+      "pnl_pct": -0.2,
+      "margin": 17.68,
+      "leverage": "7",
+      "tier": "1/2",
+      "entry": 15.439,
+      "mark": 15.47
+    }
+  ],
   "signals": {
     "AAVEUSDT": {
       "dir": "long",
@@ -28,7 +40,7 @@
     },
     "WLDUSDT": {
       "dir": "long",
-      "conf": 0.505
+      "conf": 0.506
     },
     "1000PEPEUSDT": {
       "dir": "short",
@@ -36,11 +48,11 @@
     },
     "ZECUSDT": {
       "dir": "short",
-      "conf": 0.533
+      "conf": 0.532
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.558
+      "conf": 0.556
     },
     "PENGUUSDT": {
       "dir": "long",
@@ -342,7 +354,7 @@
     },
     {
       "t": "2026-06-19",
-      "v": 458.79
+      "v": 458.62
     }
   ],
   "trade_history": [
