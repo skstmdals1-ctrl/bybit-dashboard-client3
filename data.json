@@ -1,43 +1,32 @@
 {
-  "ts": "2026-06-20T03:11:15.387582+09:00",
+  "ts": "2026-06-20T03:12:18.364341+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1476.35,
-  "available": 1297.61,
-  "unrealized": 17.74,
-  "daily_pnl": 16.89,
-  "total_pnl": 541.35,
+  "equity": 1476.39,
+  "available": 1359.1,
+  "unrealized": 2.94,
+  "daily_pnl": 31.66,
+  "total_pnl": 541.39,
   "cum_pct": 57.9,
   "daily_avg_pct": 1.0436,
   "annual_pct": 4322.99,
   "mdd": -5.12,
   "current_dd": -0.23,
-  "seed_used": 178.73,
-  "seed_used_pct": 12.11,
-  "long_count": 1,
+  "seed_used": 117.29,
+  "seed_used_pct": 7.94,
+  "long_count": 0,
   "short_count": 1,
   "positions": [
     {
-      "symbol": "HYPEUSDT",
-      "side": "LONG",
-      "pnl": 13.96,
-      "pnl_pct": 4.76,
-      "margin": 61.46,
-      "leverage": "5",
-      "tier": "1/1",
-      "entry": 67.594,
-      "mark": 70.811
-    },
-    {
       "symbol": "LABUSDT",
       "side": "SHORT",
-      "pnl": 3.79,
-      "pnl_pct": 2.2,
-      "margin": 18.7,
+      "pnl": 2.78,
+      "pnl_pct": 1.61,
+      "margin": 18.81,
       "leverage": "9",
       "tier": "2/2",
       "entry": 14.342,
-      "mark": 14.0258
+      "mark": 14.1105
     }
   ],
   "signals": {
@@ -369,10 +358,24 @@
     },
     {
       "t": "2026-06-20",
-      "v": 541.35
+      "v": 541.39
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-20 03:11",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
+      "pnl": 10.41,
+      "reason": "External Exit"
+    },
+    {
+      "ts": "2026-06-20 03:11",
+      "symbol": "HYPEUSDT",
+      "side": "Buy",
+      "pnl": 4.36,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-06-20 03:04",
       "symbol": "HYPEUSDT",
@@ -498,20 +501,6 @@
       "side": "Buy",
       "pnl": 0.75,
       "reason": "1/1"
-    },
-    {
-      "ts": "2026-06-17 12:23",
-      "symbol": "HUSDT",
-      "side": "Buy",
-      "pnl": -3.14,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-06-17 10:46",
-      "symbol": "XLMUSDT",
-      "side": "Sell",
-      "pnl": -14.46,
-      "reason": "-"
     }
   ],
   "num_days": 44
