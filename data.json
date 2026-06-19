@@ -1,22 +1,34 @@
 {
-  "ts": "2026-06-19T13:04:17.634676+09:00",
+  "ts": "2026-06-19T13:05:20.284430+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1416.15,
-  "available": 1416.15,
-  "unrealized": 0.0,
+  "equity": 1409.91,
+  "available": 1326.58,
+  "unrealized": -6.03,
   "daily_pnl": 16.96,
-  "total_pnl": 481.15,
-  "cum_pct": 51.46,
-  "daily_avg_pct": 0.9701,
-  "annual_pct": 3291.31,
+  "total_pnl": 474.91,
+  "cum_pct": 50.79,
+  "daily_avg_pct": 0.9597,
+  "annual_pct": 3166.17,
   "mdd": -5.12,
   "current_dd": -2.02,
-  "seed_used": 0,
-  "seed_used_pct": 0.0,
-  "long_count": 0,
+  "seed_used": 83.33,
+  "seed_used_pct": 5.91,
+  "long_count": 1,
   "short_count": 0,
-  "positions": [],
+  "positions": [
+    {
+      "symbol": "LABUSDT",
+      "side": "LONG",
+      "pnl": -6.03,
+      "pnl_pct": -0.9,
+      "margin": 82.76,
+      "leverage": "8",
+      "tier": "1/2",
+      "entry": 17.132,
+      "mark": 16.9773
+    }
+  ],
   "signals": {
     "AAVEUSDT": {
       "dir": "long",
@@ -342,7 +354,7 @@
     },
     {
       "t": "2026-06-19",
-      "v": 481.15
+      "v": 474.91
     }
   ],
   "trade_history": [
