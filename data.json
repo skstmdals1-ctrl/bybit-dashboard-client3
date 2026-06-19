@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-19T12:28:45.933569+09:00",
+  "ts": "2026-06-19T12:29:48.744683+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1415.63,
-  "available": 1379.31,
-  "unrealized": 4.55,
-  "daily_pnl": 12.18,
-  "total_pnl": 480.63,
-  "cum_pct": 51.4,
-  "daily_avg_pct": 0.9692,
-  "annual_pct": 3280.29,
+  "equity": 1416.09,
+  "available": 1416.09,
+  "unrealized": 0.0,
+  "daily_pnl": 16.96,
+  "total_pnl": 481.09,
+  "cum_pct": 51.45,
+  "daily_avg_pct": 0.97,
+  "annual_pct": 3290.08,
   "mdd": -5.12,
   "current_dd": -1.93,
-  "seed_used": 36.32,
-  "seed_used_pct": 2.57,
-  "long_count": 1,
+  "seed_used": 0,
+  "seed_used_pct": 0.0,
+  "long_count": 0,
   "short_count": 0,
-  "positions": [
-    {
-      "symbol": "LABUSDT",
-      "side": "LONG",
-      "pnl": 4.66,
-      "pnl_pct": 1.88,
-      "margin": 36.14,
-      "leverage": "7",
-      "tier": "1/2",
-      "entry": 17.738,
-      "mark": 18.0707
-    }
-  ],
+  "positions": [],
   "signals": {
     "AAVEUSDT": {
       "dir": "long",
@@ -354,10 +342,17 @@
     },
     {
       "t": "2026-06-19",
-      "v": 480.63
+      "v": 481.09
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-19 12:28",
+      "symbol": "LABUSDT",
+      "side": "Buy",
+      "pnl": 4.78,
+      "reason": "1/2"
+    },
     {
       "ts": "2026-06-19 11:49",
       "symbol": "LABUSDT",
@@ -489,13 +484,6 @@
       "symbol": "HYPEUSDT",
       "side": "Buy",
       "pnl": 37.36,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-06-16 13:58",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": 12.94,
       "reason": "-"
     }
   ],
