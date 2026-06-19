@@ -1,43 +1,43 @@
 {
-  "ts": "2026-06-19T22:55:17.623733+09:00",
+  "ts": "2026-06-19T22:56:20.457406+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1429.38,
-  "available": 1220.13,
-  "unrealized": 45.62,
-  "daily_pnl": -28.37,
-  "total_pnl": 494.38,
-  "cum_pct": 52.87,
-  "daily_avg_pct": 0.9919,
-  "annual_pct": 3569.34,
+  "equity": 1437.55,
+  "available": 1265.91,
+  "unrealized": 40.37,
+  "daily_pnl": -15.1,
+  "total_pnl": 502.55,
+  "cum_pct": 53.75,
+  "daily_avg_pct": 1.0054,
+  "annual_pct": 3752.8,
   "mdd": -5.12,
   "current_dd": -1.18,
-  "seed_used": 209.25,
-  "seed_used_pct": 14.64,
+  "seed_used": 171.64,
+  "seed_used_pct": 11.94,
   "long_count": 1,
   "short_count": 1,
   "positions": [
     {
       "symbol": "LABUSDT",
       "side": "SHORT",
-      "pnl": 39.9,
-      "pnl_pct": 4.42,
-      "margin": 123.27,
+      "pnl": 33.44,
+      "pnl_pct": 5.28,
+      "margin": 85.73,
       "leverage": "7",
       "tier": "2/2",
       "entry": 15.8384,
-      "mark": 15.1384
+      "mark": 15.0025
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 5.78,
-      "pnl_pct": 1.38,
-      "margin": 84.84,
+      "pnl": 6.86,
+      "pnl_pct": 1.64,
+      "margin": 85.05,
       "leverage": "5",
       "tier": "1/1",
       "entry": 67.594,
-      "mark": 68.528
+      "mark": 68.702
     }
   ],
   "signals": {
@@ -365,10 +365,17 @@
     },
     {
       "t": "2026-06-19",
-      "v": 494.38
+      "v": 502.55
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-19 22:55",
+      "symbol": "LABUSDT",
+      "side": "Sell",
+      "pnl": 13.27,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-19 22:45",
       "symbol": "AVAXUSDT",
@@ -500,13 +507,6 @@
       "symbol": "NEARUSDT",
       "side": "Buy",
       "pnl": -11.57,
-      "reason": "-"
-    },
-    {
-      "ts": "2026-06-16 17:47",
-      "symbol": "HYPEUSDT",
-      "side": "Sell",
-      "pnl": -23.81,
       "reason": "-"
     }
   ],
