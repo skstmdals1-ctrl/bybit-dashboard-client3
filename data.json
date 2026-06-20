@@ -1,22 +1,34 @@
 {
-  "ts": "2026-06-20T17:09:26.349107+09:00",
+  "ts": "2026-06-20T17:10:30.196903+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1471.76,
-  "available": 1447.2,
-  "unrealized": 0.0,
+  "equity": 1472.16,
+  "available": 1447.85,
+  "unrealized": 0.44,
   "daily_pnl": 28.3,
-  "total_pnl": 536.76,
-  "cum_pct": 57.41,
-  "daily_avg_pct": 1.0364,
-  "annual_pct": 4209.43,
+  "total_pnl": 537.16,
+  "cum_pct": 57.45,
+  "daily_avg_pct": 1.037,
+  "annual_pct": 4218.78,
   "mdd": -5.12,
   "current_dd": -2.48,
-  "seed_used": 24.56,
-  "seed_used_pct": 1.67,
+  "seed_used": 24.31,
+  "seed_used_pct": 1.65,
   "long_count": 0,
-  "short_count": 0,
-  "positions": [],
+  "short_count": 1,
+  "positions": [
+    {
+      "symbol": "LABUSDT",
+      "side": "SHORT",
+      "pnl": 0.43,
+      "pnl_pct": 0.26,
+      "margin": 24.12,
+      "leverage": "7",
+      "tier": "1/2",
+      "entry": 12.09,
+      "mark": 12.059
+    }
+  ],
   "signals": {
     "AAVEUSDT": {
       "dir": "long",
@@ -76,7 +88,7 @@
     },
     "BTCUSDT": {
       "dir": "neutral",
-      "conf": 0.505
+      "conf": 0.462
     },
     "BNBUSDT": {
       "dir": "neutral",
@@ -342,7 +354,7 @@
     },
     {
       "t": "2026-06-20",
-      "v": 536.76
+      "v": 537.16
     }
   ],
   "trade_history": [
