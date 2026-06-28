@@ -1,32 +1,32 @@
 {
-  "ts": "2026-06-28T23:59:48.153930+09:00",
+  "ts": "2026-06-29T00:00:51.641670+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1446.82,
-  "available": 1332.27,
-  "unrealized": 20.03,
-  "daily_pnl": -6.1,
-  "total_pnl": 511.82,
-  "cum_pct": 54.74,
-  "daily_avg_pct": 0.8431,
-  "annual_pct": 2042.19,
+  "equity": 1446.28,
+  "available": 1331.53,
+  "unrealized": 19.45,
+  "daily_pnl": 0,
+  "total_pnl": 511.28,
+  "cum_pct": 54.68,
+  "daily_avg_pct": 0.8264,
+  "annual_pct": 1916.53,
   "mdd": 0.0,
   "current_dd": 0.0,
-  "seed_used": 114.55,
-  "seed_used_pct": 7.92,
+  "seed_used": 114.75,
+  "seed_used_pct": 7.93,
   "long_count": 0,
   "short_count": 1,
   "positions": [
     {
       "symbol": "AAVEUSDT",
       "side": "SHORT",
-      "pnl": 20.1,
-      "pnl_pct": 5.53,
-      "margin": 114.42,
+      "pnl": 19.48,
+      "pnl_pct": 5.36,
+      "margin": 114.63,
       "leverage": "3",
       "tier": "1/1",
       "entry": 93.65,
-      "mark": 88.47
+      "mark": 88.63
     }
   ],
   "signals": {},
@@ -158,6 +158,10 @@
     {
       "t": "2026-06-28",
       "v": 511.82
+    },
+    {
+      "t": "2026-06-29",
+      "v": 511.28
     }
   ],
   "trade_history": [
@@ -190,5 +194,5 @@
       "reason": "External Exit"
     }
   ],
-  "num_days": 52
+  "num_days": 53
 }
