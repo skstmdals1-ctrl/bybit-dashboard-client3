@@ -1,34 +1,22 @@
 {
-  "ts": "2026-06-28T09:07:56.579881+09:00",
+  "ts": "2026-06-28T09:09:00.138365+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1427.05,
-  "available": 1287.91,
-  "unrealized": -5.81,
-  "daily_pnl": 0,
-  "total_pnl": 492.05,
-  "cum_pct": 52.63,
-  "daily_avg_pct": 0.8165,
-  "annual_pct": 1845.54,
+  "equity": 1426.96,
+  "available": 1305.52,
+  "unrealized": 0.0,
+  "daily_pnl": -6.1,
+  "total_pnl": 491.96,
+  "cum_pct": 52.62,
+  "daily_avg_pct": 0.8164,
+  "annual_pct": 1844.83,
   "mdd": 0.0,
   "current_dd": 0.0,
-  "seed_used": 139.14,
-  "seed_used_pct": 9.75,
-  "long_count": 1,
+  "seed_used": 121.45,
+  "seed_used_pct": 8.51,
+  "long_count": 0,
   "short_count": 0,
-  "positions": [
-    {
-      "symbol": "INJUSDT",
-      "side": "LONG",
-      "pnl": -5.76,
-      "pnl_pct": -2.03,
-      "margin": 139.29,
-      "leverage": "2",
-      "tier": "1/1",
-      "entry": 4.7707,
-      "mark": 4.674
-    }
-  ],
+  "positions": [],
   "signals": {},
   "equity_hist": [
     {
@@ -161,10 +149,17 @@
     },
     {
       "t": "2026-06-28",
-      "v": 492.05
+      "v": 491.96
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-06-28 09:08",
+      "symbol": "INJUSDT",
+      "side": "Buy",
+      "pnl": -6.1,
+      "reason": "-"
+    },
     {
       "ts": "2026-06-27 09:02",
       "symbol": "INJUSDT",
