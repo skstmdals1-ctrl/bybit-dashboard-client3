@@ -1,18 +1,18 @@
 {
-  "ts": "2026-07-03T20:23:08.701138+09:00",
+  "ts": "2026-07-03T20:24:12.047925+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1525.33,
-  "available": 1031.73,
-  "unrealized": 52.1,
+  "equity": 1524.86,
+  "available": 1031.38,
+  "unrealized": 51.68,
   "daily_pnl": 0,
-  "total_pnl": 590.33,
-  "cum_pct": 63.14,
-  "daily_avg_pct": 0.8624,
-  "annual_pct": 2197.17,
+  "total_pnl": 589.86,
+  "cum_pct": 63.09,
+  "daily_avg_pct": 0.8618,
+  "annual_pct": 2192.19,
   "mdd": -1.15,
   "current_dd": -0.02,
-  "seed_used": 493.6,
+  "seed_used": 493.49,
   "seed_used_pct": 32.36,
   "long_count": 3,
   "short_count": 1,
@@ -20,35 +20,24 @@
     {
       "symbol": "AAVEUSDT",
       "side": "SHORT",
-      "pnl": 11.81,
-      "pnl_pct": 3.41,
-      "margin": 167.46,
+      "pnl": 11.65,
+      "pnl_pct": 3.36,
+      "margin": 167.53,
       "leverage": "2",
       "tier": "1/1",
       "entry": 90.0564,
-      "mark": 86.99
+      "mark": 87.03
     },
     {
       "symbol": "WLDUSDT",
       "side": "LONG",
-      "pnl": 9.17,
-      "pnl_pct": 2.93,
-      "margin": 161.16,
+      "pnl": 9.24,
+      "pnl_pct": 2.95,
+      "margin": 161.2,
       "leverage": "2",
       "tier": "1/1",
       "entry": 0.4119,
-      "mark": 0.424
-    },
-    {
-      "symbol": "ZECUSDT",
-      "side": "LONG",
-      "pnl": 21.99,
-      "pnl_pct": 15.35,
-      "margin": 82.63,
-      "leverage": "2",
-      "tier": "1/1",
-      "entry": 397.9752,
-      "mark": 459.05
+      "mark": 0.4241
     },
     {
       "symbol": "ONDOUSDT",
@@ -60,6 +49,17 @@
       "tier": "1/1",
       "entry": 0.3133,
       "mark": 0.3319
+    },
+    {
+      "symbol": "ZECUSDT",
+      "side": "LONG",
+      "pnl": 21.55,
+      "pnl_pct": 15.04,
+      "margin": 82.41,
+      "leverage": "2",
+      "tier": "1/1",
+      "entry": 397.9752,
+      "mark": 457.83
     }
   ],
   "signals": {},
@@ -194,7 +194,7 @@
     },
     {
       "t": "2026-07-03",
-      "v": 590.33
+      "v": 589.86
     }
   ],
   "trade_history": [
