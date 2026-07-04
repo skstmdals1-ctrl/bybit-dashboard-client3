@@ -1,43 +1,54 @@
 {
-  "ts": "2026-07-05T08:49:05.326881+09:00",
+  "ts": "2026-07-05T08:50:08.579184+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 1524.14,
-  "available": 1025.09,
-  "unrealized": 50.36,
+  "equity": 1524.51,
+  "available": 1025.05,
+  "unrealized": 50.7,
   "daily_pnl": 0,
-  "total_pnl": 589.14,
-  "cum_pct": 63.01,
-  "daily_avg_pct": 0.8316,
-  "annual_pct": 1954.85,
+  "total_pnl": 589.51,
+  "cum_pct": 63.05,
+  "daily_avg_pct": 0.8321,
+  "annual_pct": 1958.57,
   "mdd": -1.55,
   "current_dd": -1.14,
-  "seed_used": 499.05,
-  "seed_used_pct": 32.74,
+  "seed_used": 499.46,
+  "seed_used_pct": 32.76,
   "long_count": 3,
   "short_count": 1,
   "positions": [
     {
       "symbol": "AAVEUSDT",
       "side": "SHORT",
-      "pnl": 5.65,
-      "pnl_pct": 1.63,
-      "margin": 170.54,
+      "pnl": 5.45,
+      "pnl_pct": 1.57,
+      "margin": 170.63,
       "leverage": "2",
       "tier": "1/1",
       "entry": 90.0564,
-      "mark": 88.59
+      "mark": 88.64
     },
     {
       "symbol": "WLDUSDT",
       "side": "LONG",
-      "pnl": 9.32,
-      "pnl_pct": 2.98,
-      "margin": 161.24,
+      "pnl": 9.62,
+      "pnl_pct": 3.07,
+      "margin": 161.39,
       "leverage": "2",
       "tier": "1/1",
       "entry": 0.4119,
-      "mark": 0.4242
+      "mark": 0.4246
+    },
+    {
+      "symbol": "ZECUSDT",
+      "side": "LONG",
+      "pnl": 24.12,
+      "pnl_pct": 16.83,
+      "margin": 83.69,
+      "leverage": "2",
+      "tier": "1/1",
+      "entry": 397.9752,
+      "mark": 464.97
     },
     {
       "symbol": "ONDOUSDT",
@@ -49,17 +60,6 @@
       "tier": "1/1",
       "entry": 0.3133,
       "mark": 0.3366
-    },
-    {
-      "symbol": "ZECUSDT",
-      "side": "LONG",
-      "pnl": 23.85,
-      "pnl_pct": 16.65,
-      "margin": 83.56,
-      "leverage": "2",
-      "tier": "1/1",
-      "entry": 397.9752,
-      "mark": 464.23
     }
   ],
   "signals": {},
@@ -194,7 +194,7 @@
     },
     {
       "t": "2026-07-05",
-      "v": 589.14
+      "v": 589.51
     }
   ],
   "trade_history": [
