@@ -1,19 +1,19 @@
 {
-  "ts": "2026-07-10T23:59:23.369811+09:00",
+  "ts": "2026-07-11T00:00:25.109576+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 2155.13,
-  "available": 1167.32,
-  "unrealized": 58.25,
+  "equity": 2155.6,
+  "available": 1167.93,
+  "unrealized": 58.72,
   "daily_pnl": 0,
-  "total_pnl": 620.13,
-  "cum_pct": 40.4,
-  "daily_avg_pct": 0.5316,
-  "annual_pct": 592.54,
+  "total_pnl": 620.6,
+  "cum_pct": 40.43,
+  "daily_avg_pct": 0.5237,
+  "annual_pct": 572.96,
   "mdd": -3.58,
-  "current_dd": -0.41,
-  "seed_used": 987.81,
-  "seed_used_pct": 45.84,
+  "current_dd": -0.42,
+  "seed_used": 987.67,
+  "seed_used_pct": 45.82,
   "long_count": 3,
   "short_count": 4,
   "positions": [
@@ -42,24 +42,24 @@
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 22.61,
-      "pnl_pct": 4.54,
-      "margin": 158.36,
+      "pnl": 23.06,
+      "pnl_pct": 4.63,
+      "margin": 158.21,
       "leverage": "3",
       "tier": "1/1",
       "entry": 81.59,
-      "mark": 77.884
+      "mark": 77.81
     },
     {
       "symbol": "WLDUSDT",
       "side": "LONG",
-      "pnl": -22.38,
-      "pnl_pct": -7.15,
-      "margin": 145.39,
+      "pnl": -22.31,
+      "pnl_pct": -7.12,
+      "margin": 145.43,
       "leverage": "2",
       "tier": "1/1",
       "entry": 0.4119,
-      "mark": 0.3825
+      "mark": 0.3826
     },
     {
       "symbol": "ADAUSDT",
@@ -75,24 +75,24 @@
     {
       "symbol": "ONDOUSDT",
       "side": "LONG",
-      "pnl": 6.32,
-      "pnl_pct": 4.06,
-      "margin": 81.01,
+      "pnl": 6.36,
+      "pnl_pct": 4.09,
+      "margin": 81.04,
       "leverage": "2",
       "tier": "1/1",
       "entry": 0.3133,
-      "mark": 0.326
+      "mark": 0.3261
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": 19.13,
-      "pnl_pct": 26.7,
-      "margin": 45.38,
+      "pnl": 19.02,
+      "pnl_pct": 26.56,
+      "margin": 45.33,
       "leverage": "2",
       "tier": "1/1",
       "entry": 397.9752,
-      "mark": 504.25
+      "mark": 503.66
     }
   ],
   "signals": {},
@@ -224,6 +224,10 @@
     {
       "t": "2026-07-10",
       "v": 620.13
+    },
+    {
+      "t": "2026-07-11",
+      "v": 620.6
     }
   ],
   "trade_history": [
@@ -368,5 +372,5 @@
       "reason": "External Exit"
     }
   ],
-  "num_days": 64
+  "num_days": 65
 }
