@@ -1,32 +1,32 @@
 {
-  "ts": "2026-08-03T09:02:00.064745+09:00",
+  "ts": "2026-08-03T09:03:01.396983+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 2075.23,
-  "available": 1687.59,
-  "unrealized": 68.72,
+  "equity": 2075.51,
+  "available": 1662.46,
+  "unrealized": 69.07,
   "daily_pnl": 0,
-  "total_pnl": 540.23,
-  "cum_pct": 35.19,
-  "daily_avg_pct": 0.3432,
-  "annual_pct": 249.22,
+  "total_pnl": 540.51,
+  "cum_pct": 35.21,
+  "daily_avg_pct": 0.3434,
+  "annual_pct": 249.48,
   "mdd": -11.04,
   "current_dd": -6.73,
-  "seed_used": 387.64,
-  "seed_used_pct": 18.68,
-  "long_count": 0,
+  "seed_used": 413.06,
+  "seed_used_pct": 19.9,
+  "long_count": 1,
   "short_count": 6,
   "positions": [
     {
       "symbol": "ARBUSDT",
       "side": "SHORT",
-      "pnl": 32.87,
-      "pnl_pct": 11.84,
+      "pnl": 33.2,
+      "pnl_pct": 11.96,
       "margin": 92.51,
       "leverage": "3",
       "tier": "1/1",
       "entry": 0.0927,
-      "mark": 0.0817
+      "mark": 0.0816
     },
     {
       "symbol": "SOLUSDT",
@@ -42,13 +42,13 @@
     {
       "symbol": "LINKUSDT",
       "side": "SHORT",
-      "pnl": -0.51,
-      "pnl_pct": -0.22,
+      "pnl": -0.48,
+      "pnl_pct": -0.2,
       "margin": 59.15,
       "leverage": "4",
       "tier": "1/2",
       "entry": 8.36,
-      "mark": 8.378
+      "mark": 8.377
     },
     {
       "symbol": "LTCUSDT",
@@ -65,12 +65,12 @@
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "pnl": 1.07,
-      "pnl_pct": 0.43,
+      "pnl_pct": 0.44,
       "margin": 49.16,
       "leverage": "5",
       "tier": "1/2",
       "entry": 1890.96,
-      "mark": 1882.74
+      "mark": 1882.7
     },
     {
       "symbol": "ENAUSDT",
@@ -82,6 +82,17 @@
       "tier": "1/2",
       "entry": 0.0888,
       "mark": 0.0894
+    },
+    {
+      "symbol": "HYPEUSDT",
+      "side": "LONG",
+      "pnl": -0.0,
+      "pnl_pct": -0.0,
+      "margin": 24.9,
+      "leverage": "3",
+      "tier": "1/1",
+      "entry": 52.603,
+      "mark": 52.601
     }
   ],
   "signals": {},
@@ -212,7 +223,7 @@
     },
     {
       "t": "2026-08-03",
-      "v": 540.23
+      "v": 540.51
     }
   ],
   "trade_history": [
