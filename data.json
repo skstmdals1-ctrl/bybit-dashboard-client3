@@ -1,27 +1,27 @@
 {
-  "ts": "2026-08-08T09:01:30.270292+09:00",
+  "ts": "2026-08-08T09:02:31.857706+09:00",
   "start_date": "2026-05-08",
   "status": "running",
-  "equity": 2055.7,
-  "available": 1629.1,
-  "unrealized": 71.28,
+  "equity": 2055.83,
+  "available": 1629.36,
+  "unrealized": 71.44,
   "daily_pnl": 0,
-  "total_pnl": 520.7,
-  "cum_pct": 33.92,
+  "total_pnl": 520.83,
+  "cum_pct": 33.93,
   "daily_avg_pct": 0.3146,
   "annual_pct": 214.71,
   "mdd": -11.04,
   "current_dd": -7.63,
-  "seed_used": 426.6,
-  "seed_used_pct": 20.75,
+  "seed_used": 426.48,
+  "seed_used_pct": 20.74,
   "long_count": 2,
-  "short_count": 5,
+  "short_count": 6,
   "positions": [
     {
       "symbol": "ARBUSDT",
       "side": "SHORT",
-      "pnl": 41.1,
-      "pnl_pct": 14.81,
+      "pnl": 41.16,
+      "pnl_pct": 14.83,
       "margin": 92.51,
       "leverage": "3",
       "tier": "1/1",
@@ -40,15 +40,26 @@
       "mark": 73.6
     },
     {
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "pnl": 0.0,
+      "pnl_pct": -0.0,
+      "margin": 65.73,
+      "leverage": "3",
+      "tier": "1/2",
+      "entry": 0.2006,
+      "mark": 0.2006
+    },
+    {
       "symbol": "LINKUSDT",
       "side": "SHORT",
-      "pnl": 5.07,
-      "pnl_pct": 2.14,
+      "pnl": 5.09,
+      "pnl_pct": 2.15,
       "margin": 59.15,
       "leverage": "4",
       "tier": "1/2",
       "entry": 8.36,
-      "mark": 8.181
+      "mark": 8.18
     },
     {
       "symbol": "LTCUSDT",
@@ -64,35 +75,35 @@
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -2.8,
-      "pnl_pct": -1.14,
+      "pnl": -2.77,
+      "pnl_pct": -1.12,
       "margin": 49.16,
       "leverage": "5",
       "tier": "1/2",
       "entry": 1890.96,
-      "mark": 1912.48
+      "mark": 1912.23
     },
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": -5.8,
-      "pnl_pct": -7.57,
+      "pnl": -5.75,
+      "pnl_pct": -7.51,
       "margin": 25.53,
       "leverage": "3",
       "tier": "1/1",
       "entry": 1.7176,
-      "mark": 1.5875
+      "mark": 1.5886
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 2.08,
-      "pnl_pct": 2.79,
+      "pnl": 2.07,
+      "pnl_pct": 2.77,
       "margin": 24.9,
       "leverage": "3",
       "tier": "1/1",
       "entry": 52.603,
-      "mark": 54.068
+      "mark": 54.059
     }
   ],
   "signals": {},
@@ -223,7 +234,7 @@
     },
     {
       "t": "2026-08-08",
-      "v": 520.7
+      "v": 520.83
     }
   ],
   "trade_history": [
